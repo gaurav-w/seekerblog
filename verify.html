@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>पाठ शोधन · Verify</title>
+<meta name="description" content="Compare and verify chant text against your booklet using our side-by-side text verification tool.">
+<meta property="og:title" content="पाठ शोधन · Verification Tool | Seekerblog">
+<meta property="og:description" content="Compare and verify chant text against your booklet using our side-by-side text verification tool.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://seekerblog.gauravw.com/verify.html">
+<meta property="og:image" content="https://seekerblog.gauravw.com/og-image.png">
+<link rel="canonical" href="https://seekerblog.gauravw.com/verify.html">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>ॐ</text></svg>">
+<link rel="stylesheet" href="./seekerblog-theme.css">
 <style>
 :root{
   --night:#0D1826; --night-2:#0A1220; --night-3:#101B2C;
@@ -225,5 +234,102 @@ $("copy").addEventListener("click",()=>{
   if(navigator.clipboard) navigator.clipboard.writeText(t).then(()=>stat.textContent="Report copied.");
 });
 </script>
+
+
+<!-- Floating Reader Toolbar -->
+<div class="reader-toolbar" id="readerToolbar">
+  <div class="toolbar-group">
+    <a href="./index.html" class="toolbar-btn" title="Back to Library Index">
+      <span class="toolbar-btn-icon">←</span> <span class="toolbar-btn-text-full">Index</span>
+    </a>
+  </div>
+  <div class="toolbar-divider"></div>
+  <div class="toolbar-group">
+    <button class="toolbar-btn" id="btnFontDec" title="Decrease Font Size">A-</button>
+    <button class="toolbar-btn" id="btnFontInc" title="Increase Font Size">A+</button>
+  </div>
+  <div class="toolbar-divider"></div>
+  <div class="toolbar-group">
+    <button class="toolbar-btn" id="btnAutoScroll" title="Toggle Auto Scroll Pacer">
+      <span class="toolbar-btn-icon">▶</span> <span id="scrollLabel">Scroll</span>
+    </button>
+  </div>
+</div>
+
+<script>
+(function() {
+  var currentFontSize = 100;
+  var isAutoScrolling = false;
+  var scrollInterval = null;
+
+  var btnFontDec = document.getElementById("btnFontDec");
+  var btnFontInc = document.getElementById("btnFontInc");
+  var btnAutoScroll = document.getElementById("btnAutoScroll");
+  var scrollLabel = document.getElementById("scrollLabel");
+
+  // Get scroll container (main element or window)
+  function getScrollTarget() {
+    var mainEl = document.querySelector("main");
+    if(mainEl && (mainEl.scrollHeight > mainEl.clientHeight)) {
+      return mainEl;
+    }
+    return window;
+  }
+
+  if(btnFontDec && btnFontInc) {
+    btnFontDec.addEventListener("click", function(e) {
+      e.stopPropagation();
+      if(currentFontSize > 70) {
+        currentFontSize -= 10;
+        document.documentElement.style.fontSize = currentFontSize + "%";
+      }
+    });
+    btnFontInc.addEventListener("click", function(e) {
+      e.stopPropagation();
+      if(currentFontSize < 160) {
+        currentFontSize += 10;
+        document.documentElement.style.fontSize = currentFontSize + "%";
+      }
+    });
+  }
+
+  if(btnAutoScroll && scrollLabel) {
+    btnAutoScroll.addEventListener("click", function(e) {
+      e.stopPropagation();
+      isAutoScrolling = !isAutoScrolling;
+      var target = getScrollTarget();
+
+      if(isAutoScrolling) {
+        scrollLabel.textContent = "Pause";
+        btnAutoScroll.classList.add("active");
+        
+        scrollInterval = setInterval(function() {
+          if(target === window) {
+            window.scrollBy({ top: 3, behavior: "smooth" });
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 10) {
+              stopScroll();
+            }
+          } else {
+            target.scrollTop += 3;
+            if (target.scrollTop + target.clientHeight >= target.scrollHeight - 5) {
+              stopScroll();
+            }
+          }
+        }, 40);
+      } else {
+        stopScroll();
+      }
+    });
+  }
+
+  function stopScroll() {
+    clearInterval(scrollInterval);
+    isAutoScrolling = false;
+    if(scrollLabel) scrollLabel.textContent = "Scroll";
+    if(btnAutoScroll) btnAutoScroll.classList.remove("active");
+  }
+})();
+</script>
+
 </body>
 </html>
