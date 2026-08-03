@@ -359,3 +359,98 @@ footer .footer-links a:hover {
     animation: none !important;
   }
 }
+
+/* ── Landscape reading mode (verse readers) ──────────────────────
+   Activated by seekerblog-landscape.js, which toggles data-ls on
+   <html> via matchMedia rather than a bare @media query, so JS
+   paging logic and this CSS never disagree about whether it's on. */
+html[data-ls="1"] body {
+  padding: 0 !important;
+}
+html[data-ls="1"] header,
+html[data-ls="1"] footer,
+html[data-ls="1"] .reader-toolbar,
+html[data-ls="1"] .iast,
+html[data-ls="1"] .gloss {
+  display: none !important;
+}
+html[data-ls="1"] main {
+  justify-content: center !important;
+  overflow: hidden !important;
+  padding: .5rem max(.75rem, env(safe-area-inset-right)) .5rem max(.75rem, env(safe-area-inset-left)) !important;
+}
+html[data-ls="1"] .stage {
+  max-width: none !important;
+}
+html[data-ls="1"] {
+  --verse: clamp(1.15rem, 4.6svh, 2.1rem) !important;
+}
+html[data-ls="1"] .deva {
+  line-height: 1.5 !important;
+}
+html[data-ls="1"] .marker {
+  position: absolute;
+  top: .4rem;
+  left: .6rem;
+  margin-bottom: 0 !important;
+}
+html[data-ls="1"] .deva[data-paged="1"] .vline {
+  display: none;
+}
+html[data-ls="1"] .deva[data-paged="1"] .vline.ls-on {
+  display: block;
+}
+
+.ls-bar {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(11, 19, 43, 0.94);
+  border: 1px solid var(--line-bright);
+  border-radius: 999px;
+  padding: 6px 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.65), 0 0 20px var(--lamp-glow);
+  z-index: 30;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+.ls-bar.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.ls-btn {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+  cursor: pointer;
+}
+.ls-btn:hover {
+  background: var(--lamp-glow);
+  color: var(--lamp-bright);
+}
+.ls-btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+#lsPlay svg {
+  fill: currentColor;
+  stroke: none;
+}
+.ls-pageind {
+  opacity: .75;
+}

@@ -45,7 +45,7 @@ html[data-theme="leaf"]{
 html,body{height:100%}
 body{
   background:var(--bg); color:var(--fg); font-family:var(--sans);
-  overflow:hidden; overscroll-behavior:none;
+  overflow:hidden; overscroll-behavior:none; padding:0;
   display:flex; flex-direction:column;
   transition:background .5s ease,color .5s ease;
 }
@@ -54,11 +54,11 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 
 /* ─── header ─── */
 header{
-  display:flex;align-items:center;gap:.75rem;
+  display:flex;align-items:center;gap:.75rem;margin:0;
   padding:max(.7rem,env(safe-area-inset-top)) 1rem .55rem;
   border-bottom:1px solid var(--line); flex:none;
 }
-.brand{flex:1;min-width:0}
+.brand{flex:1;min-width:0;margin:0}
 .brand h1{font-family:var(--deva);font-size:.95rem;font-weight:400;letter-spacing:.01em;line-height:1.25}
 .brand p{
   font-size:.66rem;letter-spacing:.13em;text-transform:uppercase;
@@ -75,17 +75,17 @@ header{
 /* ─── stage ─── */
 main{
   flex:1;min-height:0;display:flex;flex-direction:column;
-  align-items:center;
-  padding:1.1rem 1.15rem;overflow-y:auto;cursor:pointer;
+  align-items:center;justify-content:flex-start;
+  padding:1.2rem 1.15rem 1.1rem;overflow-y:auto;cursor:pointer;
   text-align:center;
 }
-.stage{max-width:44rem;width:100%;margin:auto 0}
+.stage{max-width:44rem;width:100%;margin:0 auto}
 .stage.turning{opacity:0;transform:translateY(6px)}
 .stage{transition:opacity .28s ease,transform .28s ease}
 
 .marker{
   font-family:var(--latin);font-size:.8rem;letter-spacing:.3em;
-  color:var(--accent);margin-bottom:1.4rem;font-variant-numeric:lining-nums;
+  color:var(--accent);margin-bottom:.6rem;font-variant-numeric:lining-nums;
 }
 .marker .lbl{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.22em;
   text-transform:uppercase;color:var(--fg2);margin-bottom:.4rem}
@@ -149,14 +149,14 @@ html[data-face="sans"]  .deva[data-script="deva"],html[data-face="sans"]  .gloss
 .gloss>div.hidden{display:none}
 
 /* ─── controls ─── */
-footer{flex:none;border-top:1px solid var(--line);background:var(--bg2)}
-.transport{display:flex;align-items:center;justify-content:center;gap:1.6rem;padding:.7rem 1rem .5rem}
+footer{flex:none;border-top:1px solid var(--line);background:var(--bg2);margin:0;padding:0;display:block}
+.transport{display:flex;align-items:center;justify-content:center;gap:1.15rem;padding:.7rem 1rem .5rem}
 .transport button{
   display:grid;place-items:center;border-radius:50%;color:var(--fg2);
-  width:2.9rem;height:2.9rem;
+  width:1.9rem;height:1.9rem;
 }
 .transport button:hover{color:var(--fg)}
-.transport svg{width:1.35rem;height:1.35rem;fill:currentColor}
+.transport svg{width:.9rem;height:.9rem;fill:currentColor}
 #play{
   width:3.5rem;height:3.5rem;background:var(--accent);color:var(--bg);
 }
@@ -231,7 +231,7 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
   *{transition-duration:.01ms !important;animation-duration:.01ms !important}
 }
 @media (min-width:760px){
-  .marker{margin-bottom:2rem}
+  .marker{margin-bottom:1rem}
   .gloss{flex-direction:row;gap:2.5rem}
   .gloss>div{flex:1}
 }
@@ -1056,6 +1056,8 @@ $("speedVal").textContent=paceLabel();
 buildList();
 paint(false);
 </script>
+<script src="./seekerblog-continuous.js"></script>
+<script src="./seekerblog-landscape.js"></script>
 
 
 <!-- Floating Reader Toolbar -->

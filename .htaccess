@@ -19,3 +19,17 @@
   AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
+
+# Cache policy
+# The server default is "Cache-Control: max-age=2592000" (30 days) on
+# everything, including the HTML pages. Because this site is deployed by
+# hand over FTP and the pages carry their CSS/JS/fonts inline, that
+# default means a returning visitor keeps seeing the old page for up to a
+# month after a deploy — the change looks like it silently did nothing.
+# Force the documents and the two shared assets to revalidate instead.
+# (Revalidation is cheap: unchanged files still answer 304 Not Modified.)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|css|js)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
