@@ -52,6 +52,12 @@
       }, 120);
     });
   }
+  document.addEventListener("sb:textsize", function(){
+    if(window.sbTextSize) sbTextSize.sync();
+    if(document.documentElement.dataset.ls === "1"){
+      requestAnimationFrame(layoutPages);
+    }
+  });
 
   /* ── paging ──────────────────────────────────────────── */
   function clearPaging(){
@@ -191,6 +197,10 @@
         '<svg viewBox="0 0 24 24"><path id="lsPlayIcon" d="M7 4l13 8-13 8z"/></svg></button>' +
       '<button class="ls-btn" id="lsNext" aria-label="Next verse">' +
         '<svg viewBox="0 0 24 24"><path d="M14 5h2v14h-2zM5 5l9 7-9 7z"/></svg></button>' +
+      '<span class="ls-div"></span>' +
+      '<button class="ls-btn ls-btn-txt" id="lsFontDec" aria-label="Decrease text size">A−</button>' +
+      '<button class="ls-btn ls-btn-txt" id="lsFontInc" aria-label="Increase text size">A+</button>' +
+      '<span class="ls-div"></span>' +
       '<button class="ls-btn" id="lsSettings" aria-label="Settings">' +
         '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 9 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 4.6 9a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H9a1.6 1.6 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V9a1.6 1.6 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg></button>';
     document.body.appendChild(bar);
@@ -211,6 +221,14 @@
       var b = document.getElementById("setBtn"); if(b) b.click();
       showBar();
     });
+    document.getElementById("lsFontDec").addEventListener("click", function(){
+      if(window.sbTextSize) sbTextSize.step(-1);
+      showBar();
+    });
+    document.getElementById("lsFontInc").addEventListener("click", function(){
+      if(window.sbTextSize) sbTextSize.step(1);
+      showBar();
+    });
 
     /* keep the play icon in sync with the real button's icon */
     var origPlayIcon = document.getElementById("playIcon");
@@ -222,14 +240,16 @@
       mo.observe(origPlayIcon, { attributes: true, attributeFilter: ["d"] });
     }
 
-    /* while the settings sheet is open, keep the bar visible and pause
-       the auto-hide timer; resume the timer once it closes */
+    /* the settings sheet sits above the bar in z-index but below it in
+       source order of concerns — while it's open, hide the bar entirely
+       so it doesn't float over the sheet's bottom rows; restore it once
+       the sheet closes */
     var sheet = document.getElementById("sheet");
     if(sheet){
       var sheetMO = new MutationObserver(function(){
         if(sheet.classList.contains("open")){
           clearTimeout(hideTO);
-          bar.classList.add("show");
+          bar.classList.remove("show");
         } else {
           showBar();
         }
@@ -246,9 +266,9 @@
   function showBar(){
     var bar = document.getElementById("lsBar");
     if(!bar) return;
+    if(sheetIsOpen()) return;
     bar.classList.add("show");
     clearTimeout(hideTO);
-    if(sheetIsOpen()) return;
     hideTO = setTimeout(function(){
       if(sheetIsOpen()) return;
       bar.classList.remove("show");

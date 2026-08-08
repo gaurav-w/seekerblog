@@ -218,9 +218,10 @@ header {
 }
 
 /* Floating Reader Toolbar - Ultra Responsive */
-/* Sizing below is intentionally in px, not rem: the toolbar's own
-   A+/A- control changes the document root font-size, and rem-based
-   sizing here would make the toolbar itself balloon and overflow. */
+/* Sizing below is intentionally in px, not rem: it keeps the toolbar's
+   own footprint fixed regardless of any rem-based scaling elsewhere on
+   the page (the A+/A- control here drives --scale, not root font-size,
+   but pinning this chrome to px is what guarantees it never balloons). */
 .reader-toolbar {
   position: fixed;
   bottom: 1.2rem;
@@ -438,6 +439,10 @@ html[data-ls="1"] .deva[data-paged="1"] .vline.ls-on {
   background: var(--lamp-glow);
   color: var(--lamp-bright);
 }
+.ls-btn:disabled {
+  opacity: .35;
+  pointer-events: none;
+}
 .ls-btn svg {
   width: 1.15rem;
   height: 1.15rem;
@@ -450,6 +455,20 @@ html[data-ls="1"] .deva[data-paged="1"] .vline.ls-on {
 #lsPlay svg {
   fill: currentColor;
   stroke: none;
+}
+.ls-btn-txt {
+  width: auto;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-ui);
+}
+.ls-div {
+  width: 1px;
+  height: 18px;
+  background: var(--line);
+  margin: 0 2px;
+  flex-shrink: 0;
 }
 .ls-pageind {
   opacity: .75;

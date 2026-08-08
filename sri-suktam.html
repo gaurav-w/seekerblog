@@ -891,6 +891,7 @@ $("speedVal").textContent=paceLabel();
 buildList();
 paint(false);
 </script>
+<script src="./seekerblog-textsize.js"></script>
 <script src="./seekerblog-continuous.js"></script>
 <script src="./seekerblog-landscape.js"></script>
 
@@ -917,12 +918,9 @@ paint(false);
 
 <script>
 (function() {
-  var currentFontSize = 100;
   var isChantOnlyMode = false;
   var prevRoman = null, prevGloss = null;
 
-  var btnFontDec = document.getElementById("btnFontDec");
-  var btnFontInc = document.getElementById("btnFontInc");
   var btnToggleMode = document.getElementById("btnToggleMode");
   var modeLabel = document.getElementById("modeLabel");
   var segRoman = document.getElementById("segRoman");
@@ -932,23 +930,8 @@ paint(false);
   // in this file). Clicking those same buttons, instead of setting our
   // own inline style, keeps both controls reading one shared state.
   var hasSettingsEngine = typeof S !== "undefined" && segRoman && segGloss;
-
-  if(btnFontDec && btnFontInc) {
-    btnFontDec.addEventListener("click", function(e) {
-      e.stopPropagation();
-      if(currentFontSize > 70) {
-        currentFontSize -= 10;
-        document.documentElement.style.fontSize = currentFontSize + "%";
-      }
-    });
-    btnFontInc.addEventListener("click", function(e) {
-      e.stopPropagation();
-      if(currentFontSize < 160) {
-        currentFontSize += 10;
-        document.documentElement.style.fontSize = currentFontSize + "%";
-      }
-    });
-  }
+  // A-/A+ text size is wired by seekerblog-textsize.js (drives --scale,
+  // shared with the settings sheet slider and the landscape bar).
 
   if(btnToggleMode && modeLabel) {
     btnToggleMode.addEventListener("click", function(e) {
