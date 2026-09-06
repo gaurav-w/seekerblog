@@ -162,7 +162,7 @@ body { padding-bottom: 4rem; }
     <div class="watch-card">
       <div class="language-switch" aria-label="Choose video language">
         <button type="button" data-video="en" aria-pressed="true">English video</button>
-        <button type="button" data-video="hi" aria-pressed="false">हिंदी वीडियो</button>
+        <button type="button" data-video="hi" lang="hi" aria-pressed="false">हिंदी वीडियो</button>
       </div>
       <div class="video-frame">
         <iframe id="verseVideo" src="https://www.youtube.com/embed/WfV5qhlYmPU?rel=0" title="Vishnu Sahasranama Verse 22 in English" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -178,7 +178,7 @@ body { padding-bottom: 4rem; }
   <section class="section" aria-labelledby="meaning-title">
     <h2 class="section-title" id="meaning-title">What Verse 22 is showing us</h2>
     <div class="reflection">
-      <strong>One devotional arc:</strong> Lord Vishnu is the deathless, timeless reality untouched by mortality (<em>Amrityuh</em>), watching the entire universe as the all-seeing cosmic witness (<em>Sarvadrik</em>). He rises with lion-hearted valor to defend innocence (<em>Simhah</em>), harmonizing actions with their destined fruits (<em>Sandhata</em>), and remaining ever united with His devotees in unbroken love (<em>Sandhiman</em>). Standing as the unshakeable rock of truth amidst changing ages (<em>Sthirah</em>), He is unborn and eternal (<em>Ajah</em>), invincible against every shadow of darkness (<em>Durmarshanah</em>). As the supreme lawgiver and compassionate teacher of dharma (<em>Shasta</em>), His boundless glory is sung across all realms (<em>Vishrutatma</em>), dispelling divine obstacles and bringing enduring peace (<em>Surariha</em>).
+      <strong>One devotional arc:</strong> Lord Vishnu is the deathless, timeless reality untouched by mortality (<em>Amrityuh</em>), watching the entire universe as the all-seeing cosmic witness (<em>Sarvadrik</em>). He rises with lion-hearted valor to defend innocence (<em>Simhah</em>), harmonizing actions with their destined fruits (<em>Sandhata</em>), and remaining ever united with His devotees in unbroken love (<em>Sandhiman</em>). Standing as the unshakeable rock of truth amidst changing ages (<em>Sthirah</em>), He is unborn and eternal (<em>Ajah</em>), invincible against every shadow of darkness (<em>Durmarshanah</em>). As the supreme lawgiver and compassionate teacher of dharma (<em>Shasta</em>), His boundless glory is praised throughout all sacred scriptures (<em>Vishrutatma</em>) as the ultimate redeemer who vanquishes every foe of righteousness (<em>Surarihah</em>).
     </div>
   </section>
 
@@ -205,9 +205,9 @@ body { padding-bottom: 4rem; }
     <div class="path-grid">
       <a class="path-card" href="../vishnu-sahasranamam.html"><strong>Read and chant</strong><span>Use the full chanting companion with Sanskrit, transliteration, meanings, pace, and repeat controls.</span></a>
       <a class="path-card" data-yt-link="channel" href="https://www.youtube.com/@seekerblog" target="_blank" rel="noopener noreferrer"><strong>More verse videos</strong><span>Follow the unfolding Vishnu Sahasranama series on YouTube.</span></a>
-      <a class="path-card" href="https://www.instagram.com/reel/Dc3mkQsFD4j/" target="_blank" rel="noopener noreferrer"><strong>Visual summaries on Instagram</strong><span>See reels and carousel posts; this page will link individual Verse 22 carousels when they are published.</span></a>
+      <a class="path-card" href="https://www.instagram.com/reel/Dc3mkQsFD4j/" target="_blank" rel="noopener noreferrer"><strong>Visual summaries on Instagram</strong><span>See reels and carousel posts; the published Verse 22 visual summary is linked directly.</span></a>
     </div>
-    <p class="disclosure">The Instagram profile is linked rather than embedding an unrelated post. When a Verse 22 carousel is published, add its exact post URL here so the visual summary and the verse stay meaningfully connected.</p>
+    <p class="disclosure">The published Verse 22 visual reel is linked directly above so you can explore the companion art and reflections on Instagram.</p>
   </section>
 
   <section class="section" aria-label="Verse Navigation">
@@ -235,6 +235,7 @@ body { padding-bottom: 4rem; }
   switches.forEach(function (button) {
     button.addEventListener('click', function () {
       var video = videos[button.dataset.video];
+      if (!frame || !watchLink || !video) return;
       frame.src = 'https://www.youtube.com/embed/' + video.id + '?rel=0';
       frame.title = video.label;
       watchLink.href = video.url;

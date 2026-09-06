@@ -163,7 +163,7 @@ body { padding-bottom: 4rem; }
     <div class="watch-card">
       <div class="language-switch" aria-label="Choose video language">
         <button type="button" data-video="en" aria-pressed="true">English video</button>
-        <button type="button" data-video="hi" aria-pressed="false">हिंदी वीडियो</button>
+        <button type="button" data-video="hi" lang="hi" aria-pressed="false">हिंदी वीडियो</button>
       </div>
       <div class="video-frame">
         <iframe id="verseVideo" src="https://www.youtube.com/embed/b2aaU7ICbXY?rel=0" title="Vishnu Sahasranama Verse 21 in English" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -204,9 +204,9 @@ body { padding-bottom: 4rem; }
     <div class="path-grid">
       <a class="path-card" href="../vishnu-sahasranamam.html"><strong>Read and chant</strong><span>Use the full chanting companion with Sanskrit, transliteration, meanings, pace, and repeat controls.</span></a>
       <a class="path-card" data-yt-link="channel" href="https://www.youtube.com/@seekerblog" target="_blank" rel="noopener noreferrer"><strong>More verse videos</strong><span>Follow the unfolding Vishnu Sahasranama series on YouTube.</span></a>
-      <a class="path-card" href="https://www.instagram.com/reel/DctP39YCNtM/" target="_blank" rel="noopener noreferrer"><strong>Visual summaries on Instagram</strong><span>See reels and carousel posts; this page will link individual Verse 21 carousels when they are published.</span></a>
+      <a class="path-card" href="https://www.instagram.com/reel/DctP39YCNtM/" target="_blank" rel="noopener noreferrer"><strong>Visual summaries on Instagram</strong><span>See reels and carousel posts; the published Verse 21 visual summary is linked directly.</span></a>
     </div>
-    <p class="disclosure">The Instagram profile is linked rather than embedding an unrelated post. When a Verse 21 carousel is published, add its exact post URL here so the visual summary and the verse stay meaningfully connected.</p>
+    <p class="disclosure">The published Verse 21 visual reel is linked directly above so you can explore the companion art and reflections on Instagram.</p>
   </section>
 
   <section class="section" aria-label="Verse Navigation">
@@ -234,6 +234,7 @@ body { padding-bottom: 4rem; }
   switches.forEach(function (button) {
     button.addEventListener('click', function () {
       var video = videos[button.dataset.video];
+      if (!frame || !watchLink || !video) return;
       frame.src = 'https://www.youtube.com/embed/' + video.id + '?rel=0';
       frame.title = video.label;
       watchLink.href = video.url;
