@@ -53,6 +53,7 @@ h1 { color:var(--ink-bright); font:400 clamp(2.25rem,6vw,4.1rem)/1.05 var(--font
 .link:hover { background:var(--lamp-glow); border-color:var(--lamp); }
 .link.primary { background:var(--lamp); color:var(--bg-main); border-color:var(--lamp-bright); }
 .empty { display:none; padding:2.4rem; text-align:center; color:var(--ink-muted); border:1px dashed var(--line); border-radius:var(--radius-md); }
+.visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 @media (max-width:560px) { body { padding-left:1rem; padding-right:1rem; }.nav { padding-top:.3rem; }.lede { font-size:1.05rem; } }
 </style>
 </head>
@@ -70,11 +71,11 @@ h1 { color:var(--ink-bright); font:400 clamp(2.25rem,6vw,4.1rem)/1.05 var(--font
   </header>
   <div class="tools">
     <label for="verseSearch" class="visually-hidden">Find a verse</label>
-    <input class="search" id="verseSearch" type="search" inputmode="numeric" placeholder="Find a verse number or name, for example 12 or Narasimha" autocomplete="off">
-    <span class="count" id="count"></span>
+    <input class="search" id="verseSearch" type="search" placeholder="Find a verse number or theme, for example 12 or Govardhana" autocomplete="off">
+    <span class="count" id="count" role="status" aria-live="polite">22 of 22 published verses</span>
   </div>
   <section class="grid" id="videoGrid" aria-label="Published Vishnu Sahasranama video guides"></section>
-  <p class="empty" id="empty">That verse is not published in the video guide yet.</p>
+  <p class="empty" id="empty" role="status" aria-live="polite">No matching verses found.</p>
 </main>
 <script>
 const VERSE_VIDEOS = [
@@ -125,10 +126,12 @@ const VERSE_VIDEOS = [
     var items = VERSE_VIDEOS.filter(function (item) {
       return !query ||
         String(item.verse).indexOf(query) !== -1 ||
+        ('verse ' + item.verse).indexOf(query) !== -1 ||
+        ('v' + item.verse).indexOf(query) !== -1 ||
         (item.summary && item.summary.toLowerCase().indexOf(query) !== -1);
     });
     grid.innerHTML = items.map(card).join('');
-    count.textContent = items.length + ' of ' + VERSE_VIDEOS.length + ' published verses';
+    count.textContent = items.length + ' of ' + VERSE_VIDEOS.length + (items.length === 1 ? ' published verse' : ' published verses');
     empty.style.display = items.length ? 'none' : 'block';
   }
   search.addEventListener('input', render);
