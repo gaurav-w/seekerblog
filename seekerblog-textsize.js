@@ -9,7 +9,7 @@
 
   if(typeof S === "undefined" || typeof store === "undefined" || typeof applySize !== "function") return;
 
-  var MIN = 70, MAX = 165, STEP = 10;
+  var MIN = 70, MAX = 190, STEP = 10;
 
   function get(){ return S.size; }
 
@@ -28,6 +28,53 @@
 
   function step(dir){ set(get() + dir * STEP); }
 
+  function addSettingsShortcut(){
+    var toolbar = document.getElementById("readerToolbar");
+    var settings = document.getElementById("setBtn");
+    if(!toolbar || !settings || document.getElementById("btnReaderSettings")) return;
+
+    var divider = document.createElement("div");
+    divider.className = "toolbar-divider";
+    divider.setAttribute("aria-hidden", "true");
+
+    var group = document.createElement("div");
+    group.className = "toolbar-group";
+
+    var button = document.createElement("button");
+    button.type = "button";
+    button.className = "toolbar-btn";
+    button.id = "btnReaderSettings";
+    button.title = "Reading settings";
+    button.setAttribute("aria-label", "Open reading settings");
+    button.innerHTML = '<span class="toolbar-btn-icon" aria-hidden="true">⚙</span><span class="toolbar-btn-text-full">Settings</span>';
+    button.addEventListener("click", function(e){
+      e.stopPropagation();
+      settings.click();
+    });
+
+    group.appendChild(button);
+    toolbar.appendChild(divider);
+    toolbar.appendChild(group);
+  }
+
+  function labelWarmIvoryTheme(){
+    var leafTheme = document.querySelector('#segTheme [data-v="leaf"]');
+    if(!leafTheme) return;
+    leafTheme.textContent = "Warm ivory";
+    leafTheme.title = "Warm ivory reading theme";
+  }
+
+  function addEditionNote(){
+    var sheet = document.getElementById("sheet");
+    if(!sheet || document.getElementById("readerEditionNote")) return;
+
+    var row = document.createElement("div");
+    row.className = "row reader-edition-note";
+    row.id = "readerEditionNote";
+    row.innerHTML = '<span class="rowhead">Text &amp; edition</span><p class="note">This library presents a digital reading edition of the traditional text for chanting and study. It is not tied to one printed edition; script renderings, transliteration, meanings, spelling, punctuation, and verse divisions are editorial aids and may differ from a regional or print edition.</p>';
+    sheet.appendChild(row);
+  }
+
   function sync(){
     var v = get();
     var atMin = v <= MIN, atMax = v >= MAX;
@@ -44,6 +91,9 @@
   window.sbTextSize = { MIN: MIN, MAX: MAX, STEP: STEP, get: get, set: set, step: step, sync: sync };
 
   function wire(){
+    labelWarmIvoryTheme();
+    addEditionNote();
+    addSettingsShortcut();
     var dec = document.getElementById("btnFontDec");
     var inc = document.getElementById("btnFontInc");
     if(dec) dec.addEventListener("click", function(e){ e.stopPropagation(); step(-1); });

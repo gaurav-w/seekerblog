@@ -245,6 +245,27 @@ header {
   box-sizing: border-box;
 }
 
+/* The chant readers call their light palette "leaf" in storage. This warmer
+   ivory surface keeps the reading field bright without turning it stark. */
+html[data-theme="leaf"] {
+  --bg: #f8f1e1 !important;
+  --bg2: #f1e5cb !important;
+  --line: #cbb88e !important;
+  --fg: #2f2619 !important;
+  --fg2: #6c5b40 !important;
+  --accent: #87551c !important;
+  --gloss: #49644f !important;
+}
+
+html[data-theme="leaf"] .reader-toolbar {
+  background: rgba(248, 241, 225, 0.96);
+  border-color: #cbb88e;
+  box-shadow: 0 12px 34px rgba(65, 48, 23, 0.18);
+}
+
+html[data-theme="leaf"] .toolbar-btn { color: #2f2619; }
+html[data-theme="leaf"] .toolbar-btn:hover { background: rgba(135, 85, 28, 0.12); color: #664014; border-color: #b89155; }
+
 .toolbar-group {
   display: flex;
   align-items: center;
@@ -472,4 +493,84 @@ html[data-ls="1"] .deva[data-paged="1"] .vline.ls-on {
 }
 .ls-pageind {
   opacity: .75;
+}
+
+/* ── Hands-free gesture control (seekerblog-gesture.js) ───────────
+   Markup for the hidden camera element and the status pill is injected
+   by seekerblog-gesture.js; only the "Gesture" toolbar button reuses the
+   existing .toolbar-btn family untouched. Colours below intentionally
+   use the page's own inline theme vars (--bg2/--line/--fg2/--accent),
+   not this sheet's --lamp/--ink globals, so the pill follows whichever
+   of Night/Leaf the reader has chosen for that page. */
+.sbg-cam {
+  /* Not display:none -- iOS Safari stops delivering decoded frames to a
+     video element that's removed from layout. */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.sbg-status {
+  position: fixed;
+  left: 50%;
+  bottom: 4.4rem; /* clears .reader-toolbar */
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  white-space: nowrap;
+  z-index: 18; /* below the page's .scrim (19) / .sheet (20) */
+  background: var(--bg2);
+  border: 1px solid var(--line);
+  color: var(--fg2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .35);
+  transition: opacity var(--transition-fast);
+}
+.sbg-status[hidden] {
+  display: none;
+}
+
+.sbg-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--fg2);
+  flex-shrink: 0;
+}
+.sbg-status[data-s="live"] .sbg-dot,
+.sbg-status[data-s="hold"] .sbg-dot,
+.sbg-status[data-s="fired"] .sbg-dot {
+  background: var(--accent);
+}
+.sbg-status[data-s="live"] .sbg-dot {
+  animation: sbgPulse 2.4s ease-in-out infinite;
+}
+@keyframes sbgPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .35; }
+}
+.sbg-status[data-s="denied"],
+.sbg-status[data-s="error"] {
+  border-color: var(--accent);
+  color: var(--fg);
+}
+
+.toolbar-btn.sbg-hint {
+  border-color: var(--lamp-dim);
+  border-style: dashed;
+}
+
+html[data-ls="1"] .sbg-status {
+  bottom: .8rem;
 }

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seekerblog.gauravw.com/sitemap.xml

@@ -3,16 +3,45 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>पाठ · Chanting Library | seekerblog.gauravw.com</title>
-<meta name="description" content="A serene, elegant digital library of sacred Sanskrit chants, stotras, and Vedāntic texts for daily pāṭh and recitation.">
-<meta property="og:title" content="पाठ · Chanting Library | Seekerblog">
-<meta property="og:description" content="Digital sanctuary of sacred Sanskrit chants, stotras, and Vedāntic texts.">
+<title>पाठ · Sanskrit Chanting Library & Daily Stotras | Seekerblog</title>
+<meta name="description" content="A serene, elegant digital library of sacred Sanskrit chants, stotras, and Vedantic texts for daily path and recitation.">
+<meta property="og:title" content="पाठ · Sanskrit Chanting Library & Daily Stotras | Seekerblog">
+<meta property="og:description" content="A serene, elegant digital library of sacred Sanskrit chants, stotras, and Vedantic texts for daily path and recitation.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://seekerblog.gauravw.com">
+<meta property="og:url" content="https://seekerblog.gauravw.com/">
 <meta property="og:image" content="https://seekerblog.gauravw.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="पाठ · Sanskrit Chanting Library & Daily Stotras | Seekerblog">
+<meta name="twitter:description" content="A serene, elegant digital library of sacred Sanskrit chants, stotras, and Vedantic texts for daily path and recitation.">
+<meta name="twitter:image" content="https://seekerblog.gauravw.com/og-image.png">
 <link rel="canonical" href="https://seekerblog.gauravw.com/">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>ॐ</text></svg>">
 <link rel="stylesheet" href="./seekerblog-theme.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://seekerblog.gauravw.com/#website",
+      "name": "Seekerblog",
+      "url": "https://seekerblog.gauravw.com/",
+      "description": "A serene, elegant digital library of sacred Sanskrit chants, stotras, and Vedantic texts for daily path and recitation.",
+      "inLanguage": ["sa", "en", "hi"]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://seekerblog.gauravw.com/#collectionpage",
+      "url": "https://seekerblog.gauravw.com/",
+      "name": "पाठ · Sanskrit Chanting Library & Daily Stotras | Seekerblog",
+      "description": "A serene, elegant digital library of sacred Sanskrit chants, stotras, and Vedantic texts for daily path and recitation.",
+      "isPartOf": {
+        "@id": "https://seekerblog.gauravw.com/#website"
+      }
+    }
+  ]
+}
+</script>
 <style>
 :root {
   --bg-main: #0B132B;
@@ -40,7 +69,7 @@ body {
   color: var(--ink);
   font-family: var(--sans);
   min-height: 100vh;
-  padding: max(2rem, env(safe-area-inset-top)) 1.2rem 4rem;
+  padding: max(1.25rem, env(safe-area-inset-top)) 1.2rem 4rem;
   -webkit-font-smoothing: antialiased;
   position: relative;
   overflow-x: hidden;
@@ -70,16 +99,16 @@ body::before {
 
 /* Header & Top Bar */
 header {
-  padding-bottom: 2rem;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--line);
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .top-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .domain-pill {
@@ -127,7 +156,7 @@ header {
 
 .brand h1 {
   font-family: var(--deva);
-  font-size: clamp(2.5rem, 7vw, 3.6rem);
+  font-size: clamp(2.2rem, 6vw, 3.1rem);
   font-weight: 400;
   line-height: 1.1;
   color: var(--ink);
@@ -136,22 +165,22 @@ header {
 }
 
 .brand p {
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--lamp);
-  margin-top: 0.6rem;
+  margin-top: 0.4rem;
   font-weight: 700;
 }
 
 .brand .subtitle {
   font-family: var(--latin);
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   color: var(--ink-muted);
   text-transform: none;
   letter-spacing: normal;
-  margin-top: 0.45rem;
+  margin-top: 0.3rem;
 }
 
 /* Quote Banner */
@@ -159,8 +188,8 @@ header {
   background: linear-gradient(135deg, rgba(227,178,90,0.1) 0%, rgba(15,28,54,0.6) 100%);
   border: 1px solid var(--line-bright);
   border-radius: 16px;
-  padding: 1.1rem 1.4rem;
-  margin-bottom: 2rem;
+  padding: 0.9rem 1.1rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   gap: 1.2rem;
@@ -169,7 +198,7 @@ header {
 
 .quote-banner .om-symbol {
   font-family: var(--deva);
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   color: var(--lamp);
   line-height: 1;
   flex-shrink: 0;
@@ -178,14 +207,14 @@ header {
 .quote-banner .quote-text {
   font-family: var(--latin);
   font-style: italic;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   color: var(--ink);
   line-height: 1.5;
 }
 
 /* Search Bar */
 .search-container {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.1rem;
   position: relative;
 }
 
@@ -195,7 +224,7 @@ header {
 
 .search-input-wrap input {
   width: 100%;
-  padding: 0.95rem 1.2rem 0.95rem 2.9rem;
+  padding: 0.95rem 4.8rem 0.95rem 2.9rem;
   background: var(--bg-card);
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -231,7 +260,7 @@ header {
 
 .kbd-hint {
   position: absolute;
-  right: 1.1rem;
+  right: 1rem;
   top: 50%;
   transform: translateY(-50%);
   font-size: 0.7rem;
@@ -244,13 +273,56 @@ header {
   font-family: monospace;
 }
 
+.search-clear {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  background: transparent;
+  color: var(--lamp);
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.search-clear:hover, .search-clear:focus-visible {
+  color: var(--lamp-bright);
+  outline: none;
+  text-decoration: underline;
+}
+
 /* Filter Pills */
+.filter-controls {
+  margin-bottom: 1.55rem;
+}
+
+.filter-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-row:last-child { margin-bottom: 0; }
+
+.filter-label {
+  width: 3.8rem;
+  flex-shrink: 0;
+  color: var(--ink-muted);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .filter-pills {
   display: flex;
   gap: 0.55rem;
   overflow-x: auto;
-  padding-bottom: 0.6rem;
-  margin-bottom: 2.2rem;
+  padding: 0.15rem 0 0.45rem;
+  min-width: 0;
   scrollbar-width: none;
 }
 
@@ -282,8 +354,49 @@ header {
 }
 
 /* Sections & Cards */
+.continue-section {
+  margin: 0.1rem 0 1.35rem;
+}
+
+.continue-section[hidden] { display: none; }
+
+.resume-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  color: var(--ink);
+  text-decoration: none;
+  background: linear-gradient(110deg, rgba(143, 179, 155, 0.16), rgba(15, 28, 54, 0.78));
+  border: 1px solid var(--tulsi);
+  border-radius: 12px;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.resume-card:hover, .resume-card:focus-visible {
+  background: linear-gradient(110deg, rgba(143, 179, 155, 0.24), rgba(22, 40, 75, 0.92));
+  border-color: var(--ink);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.resume-label {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--tulsi);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.resume-card .dv { display: block; font-family: var(--deva); font-size: 1.18rem; line-height: 1.35; }
+.resume-card .rm { display: block; margin-top: 0.16rem; color: var(--ink-muted); font-size: 0.84rem; }
+.continue-cta { color: var(--tulsi); font-size: 0.8rem; font-weight: 700; white-space: nowrap; }
+
 .section-group {
-  margin-bottom: 2.4rem;
+  margin-bottom: 2rem;
 }
 
 .section-title {
@@ -309,16 +422,14 @@ a.card {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.2rem;
+  gap: 1rem;
   text-decoration: none;
   color: inherit;
-  padding: 1.15rem 1.3rem;
-  margin-bottom: 0.7rem;
-  background: var(--bg-card);
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.55rem;
+  background: rgba(15, 28, 54, 0.68);
   border: 1px solid var(--line);
-  border-radius: 14px;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
   transition: all 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
   position: relative;
 }
@@ -326,8 +437,8 @@ a.card {
 a.card:hover, a.card:focus-visible {
   border-color: var(--lamp);
   background: var(--bg-card-hover);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.35), 0 0 18px var(--lamp-glow);
-  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.28);
+  transform: translateY(-1px);
   outline: none;
 }
 
@@ -339,16 +450,16 @@ a.card:active {
 
 .t .dv {
   font-family: var(--deva);
-  font-size: 1.24rem;
-  line-height: 1.5;
+  font-size: 1.18rem;
+  line-height: 1.4;
   color: var(--ink);
   font-weight: 400;
 }
 
 .t .rm {
-  font-family: var(--latin);
-  font-style: italic;
-  font-size: 0.86rem;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.82rem;
   color: var(--ink-muted);
   margin-top: 0.2rem;
 }
@@ -376,10 +487,12 @@ a.card:active {
 }
 
 .n {
-  font-family: var(--latin);
-  font-size: 0.8rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
   color: var(--lamp-dim);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  text-transform: uppercase;
   white-space: nowrap;
   text-align: right;
 }
@@ -395,18 +508,6 @@ a.card:hover .arrow-icon {
   color: var(--lamp);
   opacity: 1;
   transform: translateX(4px);
-}
-
-.last {
-  border-color: var(--tulsi) !important;
-  background: var(--tulsi-bg) !important;
-}
-
-.last .n::after {
-  content: " · last read";
-  color: var(--tulsi);
-  font-size: 0.72rem;
-  font-weight: 600;
 }
 
 .no-results {
@@ -459,6 +560,8 @@ footer .footer-links a:hover {
   .t .rm { font-size: 0.82rem; }
   a.card { padding: 1rem 1.1rem; }
   .kbd-hint { display: none; }
+  .filter-row { align-items: flex-start; flex-direction: column; gap: 0.15rem; }
+  .filter-label { width: auto; }
   .stats-strip { display: none; }
 }
 
@@ -480,71 +583,89 @@ footer .footer-links a:hover {
     <div class="brand">
       <h1>पाठ</h1>
       <p>Chanting Library</p>
-      <div class="subtitle">Sacred Sanskrit chants, daily pāṭh & Vedāntic contemplations</div>
+      <div class="subtitle">Sacred Sanskrit chants, daily path & Vedantic contemplations</div>
     </div>
   </header>
 
-  <div class="quote-banner">
-    <div class="om-symbol">ॐ</div>
-    <div class="quote-text">
-      "Regular chanting purifies speech, stabilizes the mind, and connects the practitioner with eternal peace."
-    </div>
-  </div>
+  <section class="continue-section" id="continueSection" hidden aria-labelledby="continueHeading">
+    <div class="section-title" id="continueHeading">Continue reading</div>
+    <a class="resume-card" id="continueReading" href="#">
+      <span>
+        <span class="resume-label">Your last text</span>
+        <span class="dv" id="continueTitle"></span>
+        <span class="rm" id="continueSubtitle"></span>
+      </span>
+      <span class="continue-cta">Resume <span aria-hidden="true">→</span></span>
+    </a>
+  </section>
 
   <div class="search-container">
     <div class="search-input-wrap">
       <span class="search-icon">🔍</span>
       <input type="text" id="searchInput" placeholder="Search stotrams or texts (e.g. Hanuman, Shiva, सूक्तम्)..." aria-label="Search stotrams">
-      <span class="kbd-hint">/</span>
+      <button class="search-clear" id="clearSearch" type="button" hidden aria-label="Clear search">Clear</button>
+      <span class="kbd-hint" id="searchShortcut">/</span>
     </div>
   </div>
 
-  <div class="filter-pills" id="filterPills">
-    <button class="filter-pill active" data-cat="all">All Texts</button>
-    <button class="filter-pill" data-cat="daily">Daily Pāṭh</button>
-    <button class="filter-pill" data-cat="longer">Longer Pāṭh</button>
-    <button class="filter-pill" data-cat="shiva">Śiva</button>
-    <button class="filter-pill" data-cat="vedanta">Vedānta</button>
-    <button class="filter-pill" data-cat="tools">Utilities</button>
+  <div class="filter-controls">
+    <div class="filter-row">
+      <span class="filter-label">Browse</span>
+      <div class="filter-pills" id="categoryFilters" aria-label="Browse texts by format">
+        <button class="filter-pill active" data-category="all">All Texts</button>
+        <button class="filter-pill" data-category="daily">Daily Path</button>
+        <button class="filter-pill" data-category="longer">Longer Path</button>
+        <button class="filter-pill" data-category="guides">Guides &amp; Tools</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">Focus</span>
+      <div class="filter-pills" id="topicFilters" aria-label="Filter texts by focus">
+        <button class="filter-pill active" data-topic="all">All</button>
+        <button class="filter-pill" data-topic="shiva">Shiva</button>
+        <button class="filter-pill" data-topic="vedanta">Vedanta</button>
+        <button class="filter-pill" data-topic="vishnu">Vishnu</button>
+      </div>
+    </div>
   </div>
 
   <div id="contentList">
     <div class="section-group" data-cat="daily">
-      <div class="section-title">Daily Pāṭh</div>
-      <a class="card" href="./hanuman-chalisa.html" data-k="hanuman-chalisa">
+      <div class="section-title">Daily Path</div>
+      <a class="card" href="./hanuman-chalisa.html" data-k="hanuman-chalisa" data-category="daily" data-topic="hanuman" data-search="hanuman chalisa chālīsā">
         <span class="t">
           <span class="dv">श्री हनुमान चालीसा</span>
-          <span class="rm">Hanumān Chālīsā · 40 Chaupaīs</span>
+          <span class="rm">Hanuman Chalisa · 40 Chaupais</span>
         </span>
         <div class="meta">
           <span class="n">43 verses</span>
           <span class="arrow-icon">→</span>
         </div>
       </a>
-      <a class="card" href="./aditya-hridayam.html" data-k="aditya-hridayam">
+      <a class="card" href="./aditya-hridayam.html" data-k="aditya-hridayam" data-category="daily" data-topic="solar" data-search="aditya hridayam aditya hrdayam surya">
         <span class="t">
           <span class="dv">आदित्यहृदयम्</span>
-          <span class="rm">Āditya Hṛdayam · At sunrise</span>
+          <span class="rm">Aditya Hridayam · At sunrise</span>
         </span>
         <div class="meta">
           <span class="n">31 verses</span>
           <span class="arrow-icon">→</span>
         </div>
       </a>
-      <a class="card" href="./sri-suktam.html" data-k="sri-suktam">
+      <a class="card" href="./sri-suktam.html" data-k="sri-suktam" data-category="daily" data-topic="lakshmi" data-search="sri suktam sooktam shri lakshmi rigveda rigvedic">
         <span class="t">
           <span class="dv">श्री सूक्तम्</span>
-          <span class="rm">Śrī Sūktam · Rigvedic Hymn</span>
+          <span class="rm">Sri Suktam · Rigvedic Hymn</span>
         </span>
         <div class="meta">
           <span class="n">21 verses</span>
           <span class="arrow-icon">→</span>
         </div>
       </a>
-      <a class="card" href="./bajrang-baan.html" data-k="bajrang-baan">
+      <a class="card" href="./bajrang-baan.html" data-k="bajrang-baan" data-category="daily" data-topic="hanuman" data-search="bajrang baan hanuman tulsidas">
         <span class="t">
           <span class="dv">श्री बजरंग बाण</span>
-          <span class="rm">Bajraṅg Bāṇ · Tulsīdās</span>
+          <span class="rm">Bajrang Baan · Tulsidas</span>
         </span>
         <div class="meta">
           <span class="n">37 verses</span>
@@ -554,21 +675,31 @@ footer .footer-links a:hover {
     </div>
 
     <div class="section-group" data-cat="longer">
-      <div class="section-title">Longer Pāṭh</div>
-      <a class="card" href="./vishnu-sahasranamam.html" data-k="vishnu-sahasranamam">
+      <div class="section-title">Longer Path</div>
+      <a class="card" href="./vishnu-sahasranamam.html" data-k="vishnu-sahasranamam" data-category="longer" data-topic="vishnu" data-search="vishnu sahasranama sahasranamam sahasranam thousand names">
         <span class="t">
           <span class="dv">श्री विष्णु सहस्रनाम स्तोत्रम्</span>
-          <span class="rm">Viṣṇu Sahasranāma · 1000 Names</span>
+          <span class="rm">Vishnu Sahasranama · 1000 Names</span>
         </span>
         <div class="meta">
           <span class="n">180 verses</span>
           <span class="arrow-icon">→</span>
         </div>
       </a>
-      <a class="card" href="./ganapati-atharvashirsha.html" data-k="ganapati-atharvashirsha">
+      <a class="card" href="./vishnu-sahasranama-videos.html" data-k="vishnu-sahasranama-videos" data-category="guides" data-topic="vishnu" data-search="vishnu sahasranama sahasranamam sahasranam video guide hindi english">
+        <span class="t">
+          <span class="dv">विष्णु सहस्रनाम · वीडियो मार्गदर्शिका</span>
+          <span class="rm">Verse-wise Video Guides · English & Hindi</span>
+        </span>
+        <div class="meta">
+          <span class="badge badge-tool">Videos</span>
+          <span class="arrow-icon">→</span>
+        </div>
+      </a>
+      <a class="card" href="./ganapati-atharvashirsha.html" data-k="ganapati-atharvashirsha" data-category="longer" data-topic="ganesha" data-search="ganapati atharvashirsha atharva shirsha ganesh">
         <span class="t">
           <span class="dv">श्री गणपत्यथर्वशीर्षम्</span>
-          <span class="rm">Gaṇapati Atharvaśīrṣa</span>
+          <span class="rm">Ganapati Atharvashirsha</span>
         </span>
         <div class="meta">
           <span class="n">17 verses</span>
@@ -578,21 +709,21 @@ footer .footer-links a:hover {
     </div>
 
     <div class="section-group" data-cat="shiva">
-      <div class="section-title">Śiva</div>
-      <a class="card" href="./rudrashtakam.html" data-k="rudrashtakam">
+      <div class="section-title">Shiva</div>
+      <a class="card" href="./rudrashtakam.html" data-k="rudrashtakam" data-category="daily" data-topic="shiva" data-search="rudrashtakam rudrashtak shiva tulsidas">
         <span class="t">
           <span class="dv">श्री रुद्राष्टकम्</span>
-          <span class="rm">Rudrāṣṭakam · Tulsīdās</span>
+          <span class="rm">Rudrashtakam · Tulsidas</span>
         </span>
         <div class="meta">
           <span class="n">9 verses</span>
           <span class="arrow-icon">→</span>
         </div>
       </a>
-      <a class="card" href="./shiva-tandava-stotram.html" data-k="shiva-tandava-stotram">
+      <a class="card" href="./shiva-tandava-stotram.html" data-k="shiva-tandava-stotram" data-category="daily" data-topic="shiva" data-search="shiva tandava stotram shiv tandav ravana">
         <span class="t">
           <span class="dv">शिव ताण्डव स्तोत्रम्</span>
-          <span class="rm">Śiva Tāṇḍava Stotram · Rāvaṇa</span>
+          <span class="rm">Shiva Tandava Stotram · Ravana</span>
         </span>
         <div class="meta">
           <span class="n">15 verses</span>
@@ -602,21 +733,21 @@ footer .footer-links a:hover {
     </div>
 
     <div class="section-group" data-cat="vedanta">
-      <div class="section-title">Vedānta</div>
-      <a class="card" href="./nirvana-shatkam.html" data-k="nirvana-shatkam">
+      <div class="section-title">Vedanta</div>
+      <a class="card" href="./nirvana-shatkam.html" data-k="nirvana-shatkam" data-category="daily" data-topic="vedanta" data-search="nirvana shatkam shatakam adishankara adi shankara vedanta">
         <span class="t">
           <span class="dv">निर्वाण षट्कम्</span>
-          <span class="rm">Nirvāṇa Ṣaṭkam · Ādi Śaṅkara</span>
+          <span class="rm">Nirvana Shatkam · Adi Shankara</span>
         </span>
         <div class="meta">
           <span class="n">6 verses</span>
           <span class="arrow-icon">→</span>
         </div>
       </a>
-      <a class="card" href="./bhaja-govindam.html" data-k="bhaja-govindam">
+      <a class="card" href="./bhaja-govindam.html" data-k="bhaja-govindam" data-category="daily" data-topic="vedanta" data-search="bhaja govindam adishankara adi shankara vedanta">
         <span class="t">
           <span class="dv">भज गोविन्दम्</span>
-          <span class="rm">Bhaja Govindam · Ādi Śaṅkara</span>
+          <span class="rm">Bhaja Govindam · Adi Shankara</span>
         </span>
         <div class="meta">
           <span class="n">31 verses</span>
@@ -627,7 +758,7 @@ footer .footer-links a:hover {
 
     <div class="section-group" data-cat="tools">
       <div class="section-title">Utilities</div>
-      <a class="card" href="./verify.html" data-k="verify">
+      <a class="card" href="./verify.html" data-k="verify" data-category="guides" data-topic="tool" data-search="verify verification compare booklet chant text">
         <span class="t">
           <span class="dv">पाठ शोधन · Verification Tool</span>
           <span class="rm">Compare and verify chant text against your booklet</span>
@@ -644,10 +775,14 @@ footer .footer-links a:hover {
     No matching stotram or text found.
   </div>
 
-  <footer>
-    <div>
-      Keep these files together in your web directory. Each text preserves its own reading position, verse settings, and pace in your browser storage.
+  <div class="quote-banner">
+    <div class="om-symbol">ॐ</div>
+    <div class="quote-text">
+      "Regular chanting purifies speech, stabilizes the mind, and connects the practitioner with eternal peace."
     </div>
+  </div>
+
+  <footer>
     <div class="footer-links">
       <a href="https://seekerblog.gauravw.com">seekerblog.gauravw.com</a>
       <span>·</span>
@@ -663,48 +798,80 @@ footer .footer-links a:hover {
   function set(v){ try{ localStorage.setItem(K, v) }catch(e){} }
   
   var last = get();
-  var cards = document.querySelectorAll("a.card");
+  var cards = document.querySelectorAll("#contentList a.card");
+  var continueSection = document.getElementById("continueSection");
+  var continueReading = document.getElementById("continueReading");
+  var continueTitle = document.getElementById("continueTitle");
+  var continueSubtitle = document.getElementById("continueSubtitle");
+
+  function showContinueReading(){
+    var source = null;
+    for(var j = 0; j < cards.length; j++){
+      if(cards[j].dataset.k === last){ source = cards[j]; break; }
+    }
+    if(!source){ return; }
+
+    continueTitle.textContent = source.querySelector(".dv").textContent;
+    continueSubtitle.textContent = source.querySelector(".rm").textContent;
+    continueReading.href = source.href;
+    continueSection.hidden = false;
+  }
   
   for(var i = 0; i < cards.length; i++){
     (function(c){
-      if(last && c.dataset.k === last){
-        c.classList.add("last");
-      }
       c.addEventListener("click", function(){
         set(c.dataset.k);
       });
     })(cards[i]);
   }
 
+  showContinueReading();
+
   var searchInput = document.getElementById("searchInput");
-  var filterPills = document.querySelectorAll(".filter-pill");
+  var clearSearch = document.getElementById("clearSearch");
+  var searchShortcut = document.getElementById("searchShortcut");
+  var categoryPills = document.querySelectorAll("#categoryFilters .filter-pill");
+  var topicPills = document.querySelectorAll("#topicFilters .filter-pill");
   var sectionGroups = document.querySelectorAll(".section-group");
   var noResults = document.getElementById("noResults");
   var currentCategory = "all";
+  var currentTopic = "all";
+
+  function normaliseSearch(value){
+    return value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/sooktam/g, "suktam")
+      .replace(/sahasranamam/g, "sahasranama")
+      .replace(/sahasranam/g, "sahasranama")
+      .replace(/atharva\s+shirsha/g, "atharvashirsha");
+  }
+
+  function updateSearchAction(){
+    var hasQuery = searchInput && searchInput.value.length > 0;
+    clearSearch.hidden = !hasQuery;
+    searchShortcut.hidden = hasQuery;
+  }
 
   function filterContent(){
-    var q = searchInput ? searchInput.value.toLowerCase().trim() : "";
+    var q = searchInput ? normaliseSearch(searchInput.value.trim()) : "";
+    var searchTerms = q ? q.split(/\s+/) : [];
     var visibleTotal = 0;
 
     sectionGroups.forEach(function(group){
-      var groupCat = group.dataset.cat;
-      var matchesCategory = (currentCategory === "all" || currentCategory === groupCat);
       var groupCards = group.querySelectorAll("a.card");
       var visibleInGroup = 0;
 
-      if(matchesCategory){
-        groupCards.forEach(function(card){
-          var text = card.textContent.toLowerCase();
-          if(!q || text.indexOf(q) !== -1){
-            card.style.display = "flex";
-            visibleInGroup++;
-          } else {
-            card.style.display = "none";
-          }
-        });
-      } else {
-        groupCards.forEach(function(card){ card.style.display = "none"; });
-      }
+      groupCards.forEach(function(card){
+        var text = normaliseSearch(card.textContent + " " + (card.dataset.search || ""));
+        var matchesSearch = searchTerms.every(function(term){ return text.indexOf(term) !== -1; });
+        var matchesCategory = currentCategory === "all" || currentCategory === card.dataset.category;
+        var matchesTopic = currentTopic === "all" || currentTopic === card.dataset.topic;
+        if(matchesSearch && matchesCategory && matchesTopic){
+          card.style.display = "flex";
+          visibleInGroup++;
+        } else {
+          card.style.display = "none";
+        }
+      });
 
       if(visibleInGroup > 0){
         group.style.display = "block";
@@ -722,7 +889,13 @@ footer .footer-links a:hover {
   }
 
   if(searchInput){
-    searchInput.addEventListener("input", filterContent);
+    searchInput.addEventListener("input", function(){ filterContent(); updateSearchAction(); });
+    clearSearch.addEventListener("click", function(){
+      searchInput.value = "";
+      filterContent();
+      updateSearchAction();
+      searchInput.focus();
+    });
     document.addEventListener("keydown", function(e){
       if(e.key === "/" && document.activeElement !== searchInput){
         e.preventDefault();
@@ -731,16 +904,26 @@ footer .footer-links a:hover {
       if(e.key === "Escape" && document.activeElement === searchInput){
         searchInput.value = "";
         filterContent();
+        updateSearchAction();
         searchInput.blur();
       }
     });
   }
 
-  filterPills.forEach(function(pill){
+  categoryPills.forEach(function(pill){
     pill.addEventListener("click", function(){
-      filterPills.forEach(function(p){ p.classList.remove("active"); });
+      categoryPills.forEach(function(p){ p.classList.remove("active"); });
       pill.classList.add("active");
-      currentCategory = pill.dataset.cat;
+      currentCategory = pill.dataset.category;
+      filterContent();
+    });
+  });
+
+  topicPills.forEach(function(pill){
+    pill.addEventListener("click", function(){
+      topicPills.forEach(function(p){ p.classList.remove("active"); });
+      pill.classList.add("active");
+      currentTopic = pill.dataset.topic;
       filterContent();
     });
   });
