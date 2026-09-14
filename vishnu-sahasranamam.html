@@ -203,12 +203,29 @@ html[data-face="sans"]  .deva[data-script="deva"],html[data-face="sans"]  .gloss
 .gloss>div.hidden{display:none}
 
 /* ─── controls ─── */
-footer{flex:none;border-top:1px solid var(--line);background:var(--bg2);margin:0;padding:0;display:block}
-.transport{display:flex;align-items:center;justify-content:center;gap:1.15rem;padding:.7rem 1rem .5rem}
+.chant-pace{position:absolute;bottom:100%;left:0;right:0;background:var(--bg2);border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(0,0,0,.18);padding:.5rem max(1rem,env(safe-area-inset-right)) .5rem max(1rem,env(safe-area-inset-left));z-index:2}
+.chant-pace[hidden]{display:none}
+.chant-pace-inner{max-width:30rem;margin:auto;display:flex;align-items:center;gap:.75rem}
+.chant-pace label{flex:none;font-size:.72rem;color:var(--fg2)}
+.chant-pace output{display:block;color:var(--accent);font-variant-numeric:tabular-nums;min-width:8rem;font-size:.75rem}
+.chant-pace-range{flex:1;min-width:0}
+.chant-pace input[type=range]{display:block;height:2rem;margin:0;cursor:pointer}
+.chant-pace-hints{display:flex;justify-content:space-between;font-size:.6rem;color:var(--fg2)}
+html[data-ls="1"] #chantControls{display:block !important}
+footer{position:relative;flex:none;border-top:1px solid var(--line);background:var(--bg2);margin:0;padding:0;display:block}
+.transport{display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.55rem max(.6rem,env(safe-area-inset-right)) .4rem max(.6rem,env(safe-area-inset-left))}
 .transport button{
   display:grid;place-items:center;border-radius:50%;color:var(--fg2);
-  width:1.9rem;height:1.9rem;
+  width:2.75rem;height:2.75rem;flex:none;
 }
+.transport #paceBtn{width:auto;min-width:5.5rem;padding:0 .6rem;border:1px solid var(--line);border-radius:12px;font-size:.75rem;color:var(--accent);font-variant-numeric:tabular-nums}
+.transport #paceBtn[aria-expanded="true"]{background:var(--bg);border-color:var(--accent)}
+.transport #setBtn svg{width:1.2rem;height:1.2rem;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.settings-tools{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+.settings-tools .toolbar-btn-text-full{display:inline}
+.settings-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem}
+.settings-heading h2{font-size:1rem;font-weight:500}
+.settings-heading button{padding:.7rem;color:var(--accent)}
 .transport button:hover{color:var(--fg)}
 .transport svg{width:.9rem;height:.9rem;fill:currentColor}
 #play{
@@ -301,9 +318,7 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
   <button class="iconbtn" id="fsBtn" aria-label="Toggle fullscreen">
     <svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
   </button>
-  <button class="iconbtn" id="setBtn" aria-label="Settings" aria-expanded="false">
-    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 9 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 4.6 9a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H9a1.6 1.6 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V9a1.6 1.6 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg>
-  </button>
+
 </header>
 
 <main id="stageWrap">
@@ -318,11 +333,25 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
   </div>
 </main>
 
-<footer>
+<footer id="chantControls" data-unified-controls>
+<div class="chant-pace" id="pacePanel" hidden>
+  <div class="chant-pace-inner">
+    <label for="chantSpeed">Pace <output id="chantSpeedVal" for="chantSpeed"></output></label>
+    <div class="chant-pace-range">
+      <input type="range" id="chantSpeed" min="0" max="100" value="50" aria-label="Chanting pace">
+      <div class="chant-pace-hints" aria-hidden="true"><span>Slower</span><span>Faster</span></div>
+    </div>
+  </div>
+</div>
+
   <div class="transport">
     <button id="prev" aria-label="Previous verse"><svg viewBox="0 0 24 24"><path d="M8 5h2v14H8zM19 5v14l-9-7z"/></svg></button>
     <button id="play" aria-label="Start auto-advance"><svg viewBox="0 0 24 24"><path id="playIcon" d="M7 4l13 8-13 8z"/></svg></button>
     <button id="next" aria-label="Next verse"><svg viewBox="0 0 24 24"><path d="M14 5h2v14h-2zM5 5l9 7-9 7z"/></svg></button>
+    <button id="paceBtn" aria-expanded="false" aria-controls="pacePanel">Pace: <span id="paceBtnVal"></span></button>
+  <button class="iconbtn" id="setBtn" aria-label="Settings" aria-expanded="false">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 9 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 4.6 9a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H9a1.6 1.6 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V9a1.6 1.6 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg>
+  </button>
   </div>
   <div class="mala" id="mala" role="slider" aria-label="Verse position" tabindex="0"></div>
 </footer>
@@ -333,6 +362,29 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
 
 <div class="scrim" id="scrim"></div>
 <div class="sheet" id="sheet" role="dialog" aria-label="Settings">
+  <div class="settings-heading"><h2>Settings</h2><button id="closeSettings">Done</button></div>
+  <div class="row">
+    <span class="rowhead">Reading tools</span>
+
+<div class="settings-tools" id="readerToolbar">
+  <div class="toolbar-group">
+    <a href="./index.html" class="toolbar-btn" title="Back to Library Index">
+      <span class="toolbar-btn-icon">←</span> <span class="toolbar-btn-text-full">Index</span>
+    </a>
+  </div>
+  <div class="toolbar-divider"></div>
+  <div class="toolbar-group">
+    <button class="toolbar-btn" id="btnFontDec" title="Decrease Font Size">A-</button>
+    <button class="toolbar-btn" id="btnFontInc" title="Increase Font Size">A+</button>
+  </div>
+  <div class="toolbar-divider"></div>
+  <div class="toolbar-group">
+    <button class="toolbar-btn" id="btnToggleMode" title="Toggle Recitation Mode vs Full View">
+      <span class="toolbar-btn-icon">👁️</span> <span id="modeLabel">Chant</span>
+    </button>
+  </div>
+</div>
+  </div>
   <div class="row">
     <span class="rowhead">Section</span>
     <div class="seg" id="segSection">
@@ -847,22 +899,45 @@ function paceLabel(){
     ? "≈ "+Math.round(32*secPerSyllable())+"s per śloka"
     : fixedSeconds()+"s per verse";
 }
+function syncPaceControls(){
+  const label=paceLabel();
+  ["speed","chantSpeed"].forEach(id=>{
+    $(id).value=S.speed;
+    $(id).setAttribute("aria-valuetext",label);
+  });
+  $("speedVal").textContent=label;
+  $("chantSpeedVal").textContent=label;
+  $("paceBtnVal").textContent=(S.timing==="scaled" ? "≈ " : "")+(S.timing==="scaled" ? Math.round(32*secPerSyllable()) : fixedSeconds())+"s";
+  $("paceBtn").setAttribute("aria-label","Pace: "+label);
+}
+function setPace(value){
+  // Keep the current word and verse progress while changing the remaining time.
+  const now=Date.now();
+  const progress=playing ? Math.min(1,Math.max(0,(now-verseT0)/duration())) : 0;
+  S.speed=Math.min(100,Math.max(0,Number(value)));
+  store.set("speed",S.speed);
+  syncPaceControls();
+  if(playing){
+    verseT0=now-progress*duration();
+    schedule(false);
+  }
+}
 
 /* Verse 108 carries a fixed liturgical repeat that overrides the user's
    preference — its śloka is recited three times before the closing line. */
 const repsFor=()=>(list[S.i]&&list[S.i].rep)||S.repeat;
 
 /* ── transport ─────────────────────────────────────── */
-function schedule(){
+function schedule(reset=true){
   clearTimeout(timer);
   if(!playing) return;
-  verseT0=Date.now();
+  if(reset) verseT0=Date.now();
   syncWalker();
   timer=setTimeout(()=>{
     rep++;
     if(rep<repsFor()){ paint(true); schedule(); }
     else { rep=0; step(1,true); }
-  }, duration());
+  }, Math.max(0,duration()-(Date.now()-verseT0)));
 }
 function step(dir,auto){
   const fixed=list[S.i]&&list[S.i].rep;
@@ -908,7 +983,7 @@ seg("segSection","section",()=>{S.i=0;rep=0;buildList();paint(true);if(playing)s
 seg("segScript","script",()=>paint(false));
 seg("segRoman","roman",()=>paint(false));
 seg("segGloss","gloss",()=>paint(false));
-seg("segTiming","timing",()=>{$("speedVal").textContent=paceLabel();if(playing)schedule()});
+seg("segTiming","timing",()=>{syncPaceControls();if(playing)schedule()});
 seg("segRepeat","repeat",()=>{rep=0;paint(false);if(playing)schedule()});
 seg("segTheme","theme",applyTheme);
 seg("segFace","face",applyFace);
@@ -927,13 +1002,9 @@ function applySize(){
   $("sizeVal").textContent=S.size+"%";
 }
 
-$("speed").value=S.speed;
-$("speed").addEventListener("input",e=>{
-  S.speed=Number(e.target.value); store.set("speed",S.speed);
-  $("speedVal").textContent=paceLabel();
-  if(playing) syncWalker();
+["speed","chantSpeed"].forEach(id=>{
+  $(id).addEventListener("input",e=>setPace(e.target.value));
 });
-$("speed").addEventListener("change",()=>{ if(playing) schedule(); else syncWalker() });
 
 $("size").value=S.size;
 $("size").addEventListener("input",e=>{
@@ -995,7 +1066,17 @@ el.mala.addEventListener("click",e=>{
   rep=0; paint(true); if(playing) schedule();
 });
 
-function openSheet(){ el.sheet.classList.add("open"); el.scrim.classList.add("open"); $("setBtn").setAttribute("aria-expanded","true") }
+function closePace(){ $("pacePanel").hidden=true; $("paceBtn").setAttribute("aria-expanded","false") }
+$("paceBtn").addEventListener("click",()=>{
+  const open=$("pacePanel").hidden;
+  $("pacePanel").hidden=!open;
+  $("paceBtn").setAttribute("aria-expanded",String(open));
+});
+document.addEventListener("pointerdown",e=>{
+  if(!e.target.closest("#pacePanel, #paceBtn")) closePace();
+});
+$("closeSettings").addEventListener("click",()=>{closeSheet();$("setBtn").focus()});
+function openSheet(){ closePace(); el.sheet.classList.add("open"); el.scrim.classList.add("open"); $("setBtn").setAttribute("aria-expanded","true"); $("closeSettings").focus() }
 function closeSheet(){ el.sheet.classList.remove("open"); el.scrim.classList.remove("open"); $("setBtn").setAttribute("aria-expanded","false") }
 $("setBtn").addEventListener("click",()=> el.sheet.classList.contains("open")?closeSheet():openSheet());
 el.scrim.addEventListener("click",closeSheet);
@@ -1006,11 +1087,16 @@ $("fsBtn").addEventListener("click",()=>{
 });
 
 addEventListener("keydown",e=>{
+  if(e.key==="Escape"){
+    if(!$("pacePanel").hidden){closePace();$("paceBtn").focus()}
+    else if(el.sheet.classList.contains("open")){closeSheet();$("setBtn").focus()}
+    return;
+  }
   if(e.target.tagName==="INPUT") return;
+  if(e.target.closest("button, a") && (e.code==="Space" || e.key==="Enter")) return;
   if(e.code==="Space"){ e.preventDefault(); toggle() }
   else if(e.key==="ArrowRight") step(1);
   else if(e.key==="ArrowLeft") step(-1);
-  else if(e.key==="Escape") closeSheet();
 });
 
 /* ── tap tempo ─────────────────────────────────────── */
@@ -1037,11 +1123,7 @@ $("tapPad").addEventListener("click",()=>{
 function setPaceFromSeconds(sps){
   const raw = S.timing==="scaled" ? (1.10-sps)/(1.10-0.094)*100
                                   : (40-sps*32)/37*100;
-  S.speed=Math.round(Math.min(100,Math.max(0,raw)));
-  store.set("speed",S.speed);
-  $("speed").value=S.speed;
-  $("speedVal").textContent=paceLabel();
-  if(playing) schedule();
+  setPace(Math.round(raw));
 }
 
 /* ── śruti drone ───────────────────────────────────── */
@@ -1106,7 +1188,7 @@ $("droneVol").addEventListener("input",e=>{
 applyTheme(); applyFace(); applySize();
 $("pitchVal").textContent=NOTES[S.pitch];
 $("volVal").textContent=S.dvol+"%";
-$("speedVal").textContent=paceLabel();
+syncPaceControls();
 buildList();
 paint(false);
 </script>
@@ -1116,25 +1198,7 @@ paint(false);
 <script src="./seekerblog-gesture.js"></script>
 
 
-<!-- Floating Reader Toolbar -->
-<div class="reader-toolbar" id="readerToolbar">
-  <div class="toolbar-group">
-    <a href="./index.html" class="toolbar-btn" title="Back to Library Index">
-      <span class="toolbar-btn-icon">←</span> <span class="toolbar-btn-text-full">Index</span>
-    </a>
-  </div>
-  <div class="toolbar-divider"></div>
-  <div class="toolbar-group">
-    <button class="toolbar-btn" id="btnFontDec" title="Decrease Font Size">A-</button>
-    <button class="toolbar-btn" id="btnFontInc" title="Increase Font Size">A+</button>
-  </div>
-  <div class="toolbar-divider"></div>
-  <div class="toolbar-group">
-    <button class="toolbar-btn" id="btnToggleMode" title="Toggle Recitation Mode vs Full View">
-      <span class="toolbar-btn-icon">👁️</span> <span id="modeLabel">Chant</span>
-    </button>
-  </div>
-</div>
+
 
 <script>
 (function() {

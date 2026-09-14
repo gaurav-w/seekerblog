@@ -31,7 +31,7 @@
   function addSettingsShortcut(){
     var toolbar = document.getElementById("readerToolbar");
     var settings = document.getElementById("setBtn");
-    if(!toolbar || !settings || document.getElementById("btnReaderSettings")) return;
+    if(!toolbar || !settings || toolbar.closest("#sheet") || document.getElementById("btnReaderSettings")) return;
 
     var divider = document.createElement("div");
     divider.className = "toolbar-divider";

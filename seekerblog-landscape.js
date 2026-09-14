@@ -185,6 +185,8 @@
 
   /* ── overlay control bar ─────────────────────────────── */
   function buildOverlay(){
+    // Some readers keep their own transport visible in every orientation.
+    if(document.querySelector("[data-unified-controls]")) return;
     if(barBuilt) return;
     barBuilt = true;
     var bar = document.createElement("div");
