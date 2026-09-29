@@ -1,0 +1,35 @@
+{
+  "sections": [
+    {
+      "id": "short",
+      "title": "Short recitation",
+      "works": [
+        {"id": "hanuman-chalisa", "topic": "hanuman", "url": "/stotra/hanuman-chalisa/"},
+        {"id": "aditya-hridayam", "topic": "surya", "url": "/stotra/aditya-hridayam/"},
+        {"id": "sri-suktam", "topic": "lakshmi", "url": "/stotra/sri-suktam/"},
+        {"id": "bajrang-baan", "topic": "hanuman", "url": "/stotra/bajrang-baan/"},
+        {"id": "divine-names", "topic": "names", "url": "/stotra/divine-names/"},
+        {"id": "rudrashtakam", "topic": "shiva", "url": "/stotra/rudrashtakam/"},
+        {"id": "shiva-tandava-stotram", "topic": "shiva", "url": "/stotra/shiva-tandava-stotram/"},
+        {"id": "nirvana-shatkam", "topic": "vedanta", "url": "/stotra/nirvana-shatkam/"},
+        {"id": "bhaja-govindam", "topic": "vedanta", "url": "/stotra/bhaja-govindam/"},
+        {"id": "ganapati-atharvashirsha", "topic": "ganesha", "url": "/stotra/ganapati-atharvashirsha/"}
+      ]
+    },
+    {
+      "id": "long",
+      "title": "Long works",
+      "works": [
+        {"id": "bhagavad-gita", "topic": "vedanta", "url": "/gita/", "chapters": ["/gita/1/", "/gita/2/", "/gita/3/"]},
+        {"id": "vishnu-sahasranama", "topic": "vishnu", "url": "/vishnu-sahasranama/", "guide": "/vishnu-sahasranama/guide/", "verses": "/vishnu-sahasranama/verse/1/"}
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Tools",
+      "works": [
+        {"id": "verify", "topic": "tool", "url": "/tools/verify/"}
+      ]
+    }
+  ]
+}

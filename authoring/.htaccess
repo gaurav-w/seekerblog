@@ -1,0 +1,7 @@
+# Build scripts, notes, and master recordings are not part of the public library.
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Deny from all
+</IfModule>

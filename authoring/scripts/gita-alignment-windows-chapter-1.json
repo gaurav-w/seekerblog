@@ -1,0 +1,14 @@
+{
+  "14": [
+    {"start": 240.72, "end": 249.2, "reason": "Verse 13's final cue overlapped the next verse by 0.03 s; narrow the following line window before re-alignment."},
+    {"start": 248.65, "end": 258.86, "reason": "Keep the original transcription-derived second-line window."}
+  ],
+  "17": [
+    {"start": 288.91, "end": 296.54, "reason": "The two independently aligned lines overlapped at the hand-off; end the first line before the next recited word."},
+    {"start": 296.55, "end": 305.75, "reason": "Start after the preceding line's final word to keep cue intervals ordered."}
+  ],
+  "20": [
+    {"start": 338.82, "end": 346.0, "reason": "Verse 19's final syllable touched the following verse; begin the next line after that boundary."},
+    {"start": 345.2, "end": 354.2, "reason": "Preserve the transcription-derived second-line region."}
+  ]
+}

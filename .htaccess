@@ -33,3 +33,30 @@
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
 </IfModule>
+
+# Old flat URLs, kept so bookmarks and search results still land on the work.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^hanuman-chalisa\.html$ /stotra/hanuman-chalisa/ [R=301,L]
+  RewriteRule ^aditya-hridayam\.html$ /stotra/aditya-hridayam/ [R=301,L]
+  RewriteRule ^sri-suktam\.html$ /stotra/sri-suktam/ [R=301,L]
+  RewriteRule ^bajrang-baan\.html$ /stotra/bajrang-baan/ [R=301,L]
+  RewriteRule ^divine-names\.html$ /stotra/divine-names/ [R=301,L]
+  RewriteRule ^ganapati-atharvashirsha\.html$ /stotra/ganapati-atharvashirsha/ [R=301,L]
+  RewriteRule ^rudrashtakam\.html$ /stotra/rudrashtakam/ [R=301,L]
+  RewriteRule ^shiva-tandava-stotram\.html$ /stotra/shiva-tandava-stotram/ [R=301,L]
+  RewriteRule ^nirvana-shatkam\.html$ /stotra/nirvana-shatkam/ [R=301,L]
+  RewriteRule ^bhaja-govindam\.html$ /stotra/bhaja-govindam/ [R=301,L]
+  RewriteRule ^bhagavad-gita-chapter-([123])\.html$ /gita/$1/ [R=301,L]
+  RewriteRule ^vishnu-sahasranamam\.html$ /vishnu-sahasranama/ [R=301,L]
+  RewriteRule ^vishnu-sahasranama-videos\.html$ /vishnu-sahasranama/guide/ [R=301,L]
+  RewriteRule ^vishnu-sahasranam-verses/verse-([0-9]+)\.html$ /vishnu-sahasranama/verse/$1/ [R=301,L]
+  RewriteRule ^verify\.html$ /tools/verify/ [R=301,L]
+  RewriteRule ^seekerblog-theme\.css$ /assets/css/theme.css [R=301,L]
+  RewriteRule ^gita-reader\.css$ /assets/css/gita-reader.css [R=301,L]
+  RewriteRule ^gita-reader\.js$ /assets/js/gita-reader.js [R=301,L]
+  RewriteRule ^seekerblog-(textsize|continuous|landscape|gesture)\.js$ /assets/js/seekerblog-$1.js [R=301,L]
+  RewriteRule ^assets/audio/gita-chapter-([123])/([0-9]+)\.mp3$ /gita/$1/audio/$2.mp3 [R=301,L]
+  RewriteRule ^assets/data/gita-chapter-([123])\.js$ /gita/$1/data.js [R=301,L]
+  RewriteRule ^assets/data/gita-chapter-([123])-timings\.js$ /gita/$1/timings.js [R=301,L]
+</IfModule>

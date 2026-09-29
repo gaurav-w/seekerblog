@@ -6,178 +6,208 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranamam.html</loc>
+    <loc>https://seekerblog.gauravw.com/gita/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama-videos.html</loc>
+    <loc>https://seekerblog.gauravw.com/gita/1/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/hanuman-chalisa.html</loc>
+    <loc>https://seekerblog.gauravw.com/gita/2/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/aditya-hridayam.html</loc>
+    <loc>https://seekerblog.gauravw.com/gita/3/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/guide/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/stotra/hanuman-chalisa/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/1/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/2/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/3/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/4/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/5/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/6/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/7/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/8/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/9/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/10/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/11/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/12/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/13/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/14/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/15/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/16/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/17/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/18/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/19/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/20/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/21/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/22/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/23/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/verse/24/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/stotra/aditya-hridayam/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/sri-suktam.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/sri-suktam/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/bajrang-baan.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/bajrang-baan/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/ganapati-atharvashirsha.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/divine-names/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/rudrashtakam.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/ganapati-atharvashirsha/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/shiva-tandava-stotram.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/rudrashtakam/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/nirvana-shatkam.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/shiva-tandava-stotram/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/bhaja-govindam.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/nirvana-shatkam/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://seekerblog.gauravw.com/verify.html</loc>
+    <loc>https://seekerblog.gauravw.com/stotra/bhaja-govindam/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/tools/verify/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-3.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-4.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-5.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-6.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-7.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-8.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-9.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-10.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-11.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-12.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-13.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-14.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-15.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-16.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-17.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-18.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-19.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-20.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-21.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-22.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://seekerblog.gauravw.com/vishnu-sahasranam-verses/verse-23.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
