@@ -49,13 +49,6 @@ def english_from_hindi(value: str) -> str:
     return html.unescape(result) if result else value
 
 
-def english_gloss(token: str, commentary: str) -> str:
-    match = re.search(re.escape(token) + r"\s+([^?।]+)\?", commentary)
-    if match:
-        return match.group(1).strip(" .;:")
-    return "this word"
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("chapter", type=int, choices=sorted(COUNTS))
@@ -88,13 +81,10 @@ def main() -> None:
             english_file.write_text(english, encoding="utf-8")
             time.sleep(.25)
         sanskrit = clean_sanskrit(record["slok"])
-        tokens = [token for token in sanskrit.split() if re.search(r"[\u0900-\u0963]", token)]
-        commentary = record.get("siva", {}).get("ec", "")
-        meanings = {
-            token: {"hi": token.strip("।॥"), "en": english_gloss(token.strip("।॥"), commentary)}
-            for token in dict.fromkeys(tokens)
-        }
-        verses.append({"sanskrit": sanskrit, "hi": hindi, "en": english, "wordMeanings": meanings})
+        # Do not manufacture word glosses from the displayed Sanskrit or a
+        # commentary regex.  A chapter can still provide its full Hindi and
+        # English verse meanings without claiming word-by-word translations.
+        verses.append({"sanskrit": sanskrit, "hi": hindi, "en": english})
         print(f"Prepared {args.chapter}.{number}", flush=True)
     payload = json.dumps(verses, ensure_ascii=False, indent=2)
     output = ROOT / "gita" / str(args.chapter) / "data.js"

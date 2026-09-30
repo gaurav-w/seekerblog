@@ -39,16 +39,31 @@ try {
     for (const field of ['sanskrit', 'hi', 'en']) {
       assert(typeof verse[field] === 'string' && verse[field].trim(), `${label}: missing ${field}`);
     }
-    const tokens = verse.sanskrit.trim().split(/\s+/).filter(word => /[\u0900-\u0963]/.test(word));
-    assert(tokens.length, `${label}: no Sanskrit words`);
-    assert(verse.wordMeanings && typeof verse.wordMeanings === 'object', `${label}: missing glosses`);
-    for (const token of tokens) {
-      for (const lang of ['hi','en']) {
-        assert(typeof verse.wordMeanings[token]?.[lang] === 'string' && verse.wordMeanings[token][lang].trim(),
-          `${label}: missing ${lang} meaning for ${token}`);
+    if (verse.wordMeaning !== undefined) {
+      for (const lang of ['hi', 'en']) {
+        assert(typeof verse.wordMeaning?.[lang] === 'string' && verse.wordMeaning[lang].trim(),
+          `${label}: missing sourced ${lang} word meaning`);
+        assert(!/^this word$/i.test(verse.wordMeaning[lang].trim()),
+          `${label}: placeholder sourced ${lang} word meaning`);
       }
     }
-    for (const token of Object.keys(verse.wordMeanings)) assert(tokens.includes(token), `${label}: unused gloss ${token}`);
+    const tokens = verse.sanskrit.trim().split(/\s+/).filter(word => /[\u0900-\u0963]/.test(word));
+    assert(tokens.length, `${label}: no Sanskrit words`);
+    if (verse.wordMeanings !== undefined) {
+      assert(verse.wordMeanings && typeof verse.wordMeanings === 'object', `${label}: invalid glosses`);
+      for (const token of tokens) {
+        for (const lang of ['hi','en']) {
+          assert(typeof verse.wordMeanings[token]?.[lang] === 'string' && verse.wordMeanings[token][lang].trim(),
+            `${label}: missing ${lang} meaning for ${token}`);
+        }
+        assert(!/^this word$/i.test(verse.wordMeanings[token].en.trim()),
+          `${label}: placeholder English meaning for ${token}`);
+      }
+      for (const token of Object.keys(verse.wordMeanings)) assert(tokens.includes(token), `${label}: unused gloss ${token}`);
+      const repeatedHindi = tokens.filter(token => verse.wordMeanings[token].hi.trim() === token.trim()).length;
+      assert(repeatedHindi < tokens.length / 2,
+        `${label}: most Hindi word meanings repeat the Sanskrit token`);
+    }
     const cue = timings.verses[index];
     assert.equal(cue.verse, index + 1, `${label}: verse order`);
     assert.deepEqual(cue.words.map(word => word.text), tokens, `${label}: spoken/displayed token order differs`);
@@ -75,7 +90,7 @@ try {
     });
     wordCount += tokens.length;
   });
-  console.log(`PASS chapter ${chapter}: ${expected} verses, ${wordCount} word occurrences, bilingual glosses, source hash, clip files, token order, cue bounds, and matching JS/JSON.`);
+  console.log(`PASS chapter ${chapter}: ${expected} verses, ${wordCount} word occurrences, source hash, clip files, token order, cue bounds, matching JS/JSON, and quality-checked word meanings when supplied.`);
 } catch (error) {
   console.error(`FAIL: ${error.message}`);
   process.exitCode = 1;

@@ -5,44 +5,44 @@ window.GITA_CHAPTER_1 = [
     "en": "Dhritarashtra said, \"Oh Sanjay! What did me and Pandu's sons, who had gathered at Dharmabhumi Kurukshetra with the desire to fight, do?",
     "wordMeanings": {
       "धृतराष्ट्र": {
-        "hi": "धृतराष्ट्र",
-        "en": "this word"
+        "hi": "धृतराष्ट्र ने",
+        "en": "Dhritarashtra"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "कहा",
+        "en": "said"
       },
       "धर्मक्षेत्रे": {
-        "hi": "धर्मक्षेत्रे",
-        "en": "on the holy plain"
+        "hi": "धर्मभूमि में",
+        "en": "in the place of pilgrimage"
       },
       "कुरुक्षेत्रे": {
-        "hi": "कुरुक्षेत्रे",
-        "en": "in Kurukshetra"
+        "hi": "कुरुक्षेत्र में",
+        "en": "in the place named Kurukshetra"
       },
       "समवेता": {
-        "hi": "समवेता",
-        "en": "this word"
+        "hi": "एकत्रित हुए",
+        "en": "assembled"
       },
       "युयुत्सवः": {
-        "hi": "युयुत्सवः",
-        "en": "desirous to fight"
+        "hi": "युद्ध की इच्छा वाले",
+        "en": "desiring to fight"
       },
       "मामकाः": {
-        "hi": "मामकाः",
-        "en": "my people"
+        "hi": "मेरे पुत्रों ने",
+        "en": "my party (sons)"
       },
       "पाण्डवाश्चैव": {
-        "hi": "पाण्डवाश्चैव",
-        "en": "this word"
+        "hi": "पाण्डु के पुत्रों ने · और · ही",
+        "en": "the sons of Pandu · and · certainly"
       },
       "किमकुर्वत": {
-        "hi": "किमकुर्वत",
-        "en": "this word"
+        "hi": "क्या · किया",
+        "en": "what · did they do"
       },
       "सञ्जय": {
-        "hi": "सञ्जय",
-        "en": "O Sanjaya.Commentary Dharmakshetra -- that place which protects Dharma is Dharmakshetra. Because it was in the land of the Kurus"
+        "hi": "हे संजय",
+        "en": "O Sanjaya"
       }
     }
   },
@@ -52,44 +52,44 @@ window.GITA_CHAPTER_1 = [
     "en": "Sanjay said - Seeing the Pandava army standing at that time, King Duryodhana went to Dronacharya and spoke this word.",
     "wordMeanings": {
       "सञ्जय": {
-        "hi": "सञ्जय",
-        "en": "this word"
+        "hi": "सञ्जय ने",
+        "en": "Sanjaya"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "कहा",
+        "en": "said"
       },
       "दृष्ट्वा": {
-        "hi": "दृष्ट्वा",
+        "hi": "देखकर",
         "en": "having seen"
       },
       "तु": {
-        "hi": "तु",
-        "en": "indeed"
+        "hi": "तो",
+        "en": "but"
       },
       "पाण्डवानीकं": {
-        "hi": "पाण्डवानीकं",
-        "en": "this word"
+        "hi": "पाण्डवों की सेना को",
+        "en": "the army of the Pandavas"
       },
       "व्यूढं": {
-        "hi": "व्यूढं",
-        "en": "this word"
+        "hi": "व्यूह रचना में",
+        "en": "arranged in a military formation"
       },
       "दुर्योधनस्तदा": {
-        "hi": "दुर्योधनस्तदा",
-        "en": "this word"
+        "hi": "दुर्योधन ने · उस समय",
+        "en": "Duryodhana · at that time"
       },
       "आचार्यमुपसंगम्य": {
-        "hi": "आचार्यमुपसंगम्य",
-        "en": "this word"
+        "hi": "आचार्य (द्रोण) के · पास जाकर",
+        "en": "the teacher · having approached"
       },
       "राजा": {
         "hi": "राजा",
         "en": "the king"
       },
       "वचनमब्रवीत्": {
-        "hi": "वचनमब्रवीत्",
-        "en": "this word"
+        "hi": "वचन · कहा",
+        "en": "words · spoke"
       }
     }
   },
@@ -99,40 +99,40 @@ window.GITA_CHAPTER_1 = [
     "en": "Hey Acharya! Look at this huge army of Pandavas raised by your wise disciple Drupad Putra Dhrishtadyumna from Vyuharna",
     "wordMeanings": {
       "पश्यैतां": {
-        "hi": "पश्यैतां",
-        "en": "this word"
+        "hi": "देखें · इस",
+        "en": "behold · this"
       },
       "पाण्डुपुत्राणामाचार्य": {
-        "hi": "पाण्डुपुत्राणामाचार्य",
-        "en": "this word"
+        "hi": "पाण्डु के पुत्रों की · हे गुरुदेव",
+        "en": "of the sons of Pandu · O teacher"
       },
       "महतीं": {
-        "hi": "महतीं",
-        "en": "this word"
+        "hi": "विशाल",
+        "en": "great"
       },
       "चमूम्": {
-        "hi": "चमूम्",
+        "hi": "सेना को",
         "en": "army"
       },
       "व्यूढां": {
-        "hi": "व्यूढां",
-        "en": "this word"
+        "hi": "व्यूह रचना में व्यवस्थित",
+        "en": "arrayed"
       },
       "द्रुपदपुत्रेण": {
-        "hi": "द्रुपदपुत्रेण",
-        "en": "son of Drupada"
+        "hi": "द्रुपद के पुत्र द्वारा",
+        "en": "by the son of Drupada"
       },
       "तव": {
-        "hi": "तव",
-        "en": "शिष्येण by your disciple"
+        "hi": "आपके",
+        "en": "your"
       },
       "शिष्येण": {
-        "hi": "शिष्येण",
-        "en": "by your disciple"
+        "hi": "शिष्य द्वारा",
+        "en": "by the disciple"
       },
       "धीमता": {
-        "hi": "धीमता",
-        "en": "this word"
+        "hi": "बुद्धिमान",
+        "en": "intelligent"
       }
     }
   },
@@ -142,40 +142,40 @@ window.GITA_CHAPTER_1 = [
     "en": ". 1.4--1.6. Here (in the Pandavas' army) there are big heroes, who have huge bows and who are similar to Bhima and Arjuna in war. Among them are Yuyudhana (Satyaki), King Virat and Maharathi Drupad. There are also Dhrishtketu and Chekitan and the mighty Kashiraj. Kunti Bhoj and Purujitare the best of both brothers and human beings. There are also Mighty Yudhamanyu and Mighty Uttamauja. Subhadra is the son of Abhimanyu and Draupadi. These areall Maharathis.",
     "wordMeanings": {
       "अत्र": {
-        "hi": "अत्र",
+        "hi": "यहाँ (इस सेना में)",
         "en": "here"
       },
       "शूरा": {
-        "hi": "शूरा",
-        "en": "this word"
+        "hi": "शूरवीर",
+        "en": "heroes"
       },
       "महेष्वासा": {
-        "hi": "महेष्वासा",
-        "en": "this word"
+        "hi": "महान धनुर्धर",
+        "en": "mighty bowmen"
       },
       "भीमार्जुनसमा": {
-        "hi": "भीमार्जुनसमा",
-        "en": "this word"
+        "hi": "भीम और अर्जुन के समान",
+        "en": "equal to Bhima and Arjuna"
       },
       "युधि": {
-        "hi": "युधि",
+        "hi": "युद्ध में",
         "en": "in battle"
       },
       "युयुधानो": {
-        "hi": "युयुधानो",
-        "en": "this word"
+        "hi": "युयुधान (सात्यकि)",
+        "en": "Yuyudhana (Satyaki)"
       },
       "विराटश्च": {
-        "hi": "विराटश्च",
-        "en": "this word"
+        "hi": "विराट · और",
+        "en": "Virata · and"
       },
       "द्रुपदश्च": {
-        "hi": "द्रुपदश्च",
-        "en": "this word"
+        "hi": "द्रुपद · तथा",
+        "en": "Drupada · and"
       },
       "महारथः": {
-        "hi": "महारथः",
-        "en": "of the great car.Commentary Technically"
+        "hi": "महारथी",
+        "en": "great chariot warrior"
       }
     }
   },
@@ -185,28 +185,28 @@ window.GITA_CHAPTER_1 = [
     "en": ". 1.4--1.6. Here (in the Pandavas' army) there are big heroes, who have huge bows and who are similar to Bhima and Arjuna in war. Among them are Yuyudhana (Satyaki), King Virat and Maharathi Drupad. There are also Dhrishtketu and Chekitan and the mighty Kashiraj. Kunti Bhoj and Purujitare the best of both brothers and human beings. There are also Mighty Yudhamanyu and Mighty Uttamauja. Subhadra is the son of Abhimanyu and Draupadi. These areall Maharathis.",
     "wordMeanings": {
       "धृष्टकेतुश्चेकितानः": {
-        "hi": "धृष्टकेतुश्चेकितानः",
-        "en": "this word"
+        "hi": "धृष्टकेतु · चेकितान",
+        "en": "Dhrishtaketu · Chekitana"
       },
       "काशिराजश्च": {
-        "hi": "काशिराजश्च",
-        "en": "this word"
+        "hi": "काशी के राजा · और",
+        "en": "the King of Kashi · and"
       },
       "वीर्यवान्": {
-        "hi": "वीर्यवान्",
+        "hi": "बलवान",
         "en": "valiant"
       },
       "पुरुजित्कुन्तिभोजश्च": {
-        "hi": "पुरुजित्कुन्तिभोजश्च",
-        "en": "this word"
+        "hi": "पुरुजित · कुन्तिभोज · और",
+        "en": "Purujit · Kuntibhoja · and"
       },
       "शैब्यश्च": {
-        "hi": "शैब्यश्च",
-        "en": "this word"
+        "hi": "शैब्य · और",
+        "en": "Shaibya · and"
       },
       "नरपुंगवः": {
-        "hi": "नरपुंगवः",
-        "en": "this word"
+        "hi": "मनुष्यों में श्रेष्ठ",
+        "en": "the best among men"
       }
     }
   },
@@ -216,40 +216,40 @@ window.GITA_CHAPTER_1 = [
     "en": ". 1.4--1.6. Here (in the Pandavas' army) there are big heroes, who have huge bows and who are similar to Bhima and Arjuna in war. Among them are Yuyudhana (Satyaki), King Virat and Maharathi Drupad. There are also Dhrishtketu and Chekitan and the mighty Kashiraj. Kunti Bhoj and Purujitare the best of both brothers and human beings. There are also Mighty Yudhamanyu and Mighty Uttamauja. Subhadra is the son of Abhimanyu and Draupadi. These areall Maharathis.",
     "wordMeanings": {
       "युधामन्युश्च": {
-        "hi": "युधामन्युश्च",
-        "en": "this word"
+        "hi": "युधामन्यु · और",
+        "en": "Yudhamanyu · and"
       },
       "विक्रान्त": {
-        "hi": "विक्रान्त",
-        "en": "this word"
+        "hi": "पराक्रमी",
+        "en": "valiant"
       },
       "उत्तमौजाश्च": {
-        "hi": "उत्तमौजाश्च",
-        "en": "this word"
+        "hi": "उत्तमौजा · तथा",
+        "en": "Uttamauja · and"
       },
       "वीर्यवान्": {
-        "hi": "वीर्यवान्",
-        "en": "the brave"
+        "hi": "बलवान",
+        "en": "powerful"
       },
       "सौभद्रो": {
-        "hi": "सौभद्रो",
-        "en": "this word"
+        "hi": "सुभद्रा के पुत्र (अभिमन्यु)",
+        "en": "the son of Subhadra (Abhimanyu)"
       },
       "द्रौपदेयाश्च": {
-        "hi": "द्रौपदेयाश्च",
-        "en": "this word"
+        "hi": "द्रौपदी के पुत्र · और",
+        "en": "the sons of Draupadi · and"
       },
       "सर्व": {
-        "hi": "सर्व",
-        "en": "this word"
+        "hi": "सभी",
+        "en": "all"
       },
       "एव": {
-        "hi": "एव",
-        "en": "even"
+        "hi": "ही",
+        "en": "indeed"
       },
       "महारथाः": {
-        "hi": "महारथाः",
-        "en": "this word"
+        "hi": "महारथी",
+        "en": "great chariot-warriors"
       }
     }
   },
@@ -259,52 +259,52 @@ window.GITA_CHAPTER_1 = [
     "en": "Hey Dwijottam! Pay attention to what is important in our favor as well. I tell the heroes of my army to remind you.",
     "wordMeanings": {
       "अस्माकं": {
-        "hi": "अस्माकं",
-        "en": "this word"
+        "hi": "हमारे",
+        "en": "our"
       },
       "तु": {
-        "hi": "तु",
-        "en": "also"
+        "hi": "किन्तु",
+        "en": "but"
       },
       "विशिष्टा": {
-        "hi": "विशिष्टा",
-        "en": "this word"
+        "hi": "प्रमुख",
+        "en": "principal"
       },
       "ये": {
-        "hi": "ये",
-        "en": "who (those)"
+        "hi": "जो",
+        "en": "who"
       },
       "तान्निबोध": {
-        "hi": "तान्निबोध",
-        "en": "this word"
+        "hi": "उनको · जान लीजिए",
+        "en": "them · know"
       },
       "द्विजोत्तम": {
-        "hi": "द्विजोत्तम",
-        "en": "(O) best among the twicorn ones"
+        "hi": "हे ब्राह्मण श्रेष्ठ",
+        "en": "O best of Brahmanas"
       },
       "नायका": {
-        "hi": "नायका",
-        "en": "this word"
+        "hi": "सेनापति",
+        "en": "commanders"
       },
       "मम": {
-        "hi": "मम",
+        "hi": "मेरी",
         "en": "my"
       },
       "सैन्यस्य": {
-        "hi": "सैन्यस्य",
+        "hi": "सेना के",
         "en": "of the army"
       },
       "संज्ञार्थं": {
-        "hi": "संज्ञार्थं",
-        "en": "this word"
+        "hi": "जानकारी के लिए",
+        "en": "for information"
       },
       "तान्ब्रवीमि": {
-        "hi": "तान्ब्रवीमि",
-        "en": "this word"
+        "hi": "उन्हें · बताता हूँ",
+        "en": "them · I tell"
       },
       "ते": {
-        "hi": "ते",
-        "en": "this word"
+        "hi": "आपको",
+        "en": "to you"
       }
     }
   },
@@ -314,35 +314,35 @@ window.GITA_CHAPTER_1 = [
     "en": "You (Dronacharya) and Pitamah Bhishma and Karna and Sangramvijaya Kripacharya and likewise Bhurishrava, son of Ashwatthama, Vikran and Somadatta.",
     "wordMeanings": {
       "भवान्भीष्मश्च": {
-        "hi": "भवान्भीष्मश्च",
-        "en": "this word"
+        "hi": "आप · भीष्म · और",
+        "en": "you · Bhishma · and"
       },
       "कर्णश्च": {
-        "hi": "कर्णश्च",
-        "en": "this word"
+        "hi": "कर्ण · और",
+        "en": "Karna · and"
       },
       "कृपश्च": {
-        "hi": "कृपश्च",
-        "en": "this word"
+        "hi": "कृपाचार्य · और",
+        "en": "Kripa · and"
       },
       "समितिञ्जयः": {
-        "hi": "समितिञ्जयः",
-        "en": "victorious in war"
+        "hi": "युद्ध में विजयी",
+        "en": "victorious in battle"
       },
       "अश्वत्थामा": {
         "hi": "अश्वत्थामा",
-        "en": "Asvatthama"
+        "en": "Ashvatthama"
       },
       "विकर्णश्च": {
-        "hi": "विकर्णश्च",
-        "en": "this word"
+        "hi": "विकर्ण · और",
+        "en": "Vikarna · and"
       },
       "सौमदत्तिस्तथैव": {
-        "hi": "सौमदत्तिस्तथैव",
-        "en": "this word"
+        "hi": "सोमदत्त के पुत्र भूरिश्रवा · तथा · ही",
+        "en": "the son of Somadatta · as well as · certainly"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       }
     }
@@ -353,40 +353,40 @@ window.GITA_CHAPTER_1 = [
     "en": "Apart from these, there are many mighty men who have forsaken their desire to live for Me and who carry many kinds of weapons and are all very clever in warfare.",
     "wordMeanings": {
       "अन्ये": {
-        "hi": "अन्ये",
-        "en": "others"
+        "hi": "अन्य",
+        "en": "other"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "बहवः": {
-        "hi": "बहवः",
+        "hi": "बहुत से",
         "en": "many"
       },
       "शूरा": {
-        "hi": "शूरा",
-        "en": "this word"
+        "hi": "शूरवीर",
+        "en": "heroes"
       },
       "मदर्थे": {
-        "hi": "मदर्थे",
+        "hi": "मेरे लिए",
         "en": "for my sake"
       },
       "त्यक्तजीविताः": {
-        "hi": "त्यक्तजीविताः",
-        "en": "who are ready to give up their lives"
+        "hi": "प्राणों की आशा त्यागने वाले",
+        "en": "ready to give up their lives"
       },
       "नानाशस्त्रप्रहरणाः": {
-        "hi": "नानाशस्त्रप्रहरणाः",
-        "en": "armed with various weapons and missiles"
+        "hi": "अनेक प्रकार के अस्त्र-शस्त्रों से सुसज्जित",
+        "en": "equipped with various weapons and missiles"
       },
       "सर्वे": {
-        "hi": "सर्वे",
+        "hi": "सभी",
         "en": "all"
       },
       "युद्धविशारदाः": {
-        "hi": "युद्धविशारदाः",
-        "en": "this word"
+        "hi": "युद्ध-विद्या में निपुण",
+        "en": "skilled in warfare"
       }
     }
   },
@@ -396,32 +396,32 @@ window.GITA_CHAPTER_1 = [
     "en": "He is inadequate, incapable of conquering our army the Pandavas; for his patron (bipartisan) is Bhishma. But the army of these Pandavas is sufficient, capable of conquering us; for its patron is Bhimsen.",
     "wordMeanings": {
       "अपर्याप्तं": {
-        "hi": "अपर्याप्तं",
-        "en": "this word"
+        "hi": "अपार / असीमित",
+        "en": "immeasurable / unlimited"
       },
       "तदस्माकं": {
-        "hi": "तदस्माकं",
-        "en": "this word"
+        "hi": "वह · हमारी",
+        "en": "that · our"
       },
       "बलं": {
-        "hi": "बलं",
-        "en": "this word"
+        "hi": "सेना",
+        "en": "army"
       },
       "भीष्माभिरक्षितम्": {
-        "hi": "भीष्माभिरक्षितम्",
-        "en": "marshalled by Bhishma"
+        "hi": "भीष्म द्वारा · भली-भाँति रक्षित",
+        "en": "by Bhishma · perfectly protected"
       },
       "पर्याप्तं": {
-        "hi": "पर्याप्तं",
-        "en": "this word"
+        "hi": "सीमित",
+        "en": "limited"
       },
       "त्विदमेतेषां": {
-        "hi": "त्विदमेतेषां",
-        "en": "this word"
+        "hi": "परन्तु · यह · इनकी",
+        "en": "but · this · their"
       },
       "भीमाभिरक्षितम्": {
-        "hi": "भीमाभिरक्षितम्",
-        "en": "this word"
+        "hi": "भीम द्वारा · भली-भाँति रक्षित",
+        "en": "by Bhima · perfectly protected"
       }
     }
   },
@@ -431,40 +431,40 @@ window.GITA_CHAPTER_1 = [
     "en": "May all of you protect Pitamah Bhishma from all sides while remaining firm in your place on all fronts.",
     "wordMeanings": {
       "अयनेषु": {
-        "hi": "अयनेषु",
-        "en": "in the arrays (of the army)"
+        "hi": "मोर्चों पर",
+        "en": "at the strategic points"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "सर्वेषु": {
-        "hi": "सर्वेषु",
-        "en": "in all"
+        "hi": "सभी",
+        "en": "all"
       },
       "यथाभागमवस्थिताः": {
-        "hi": "यथाभागमवस्थिताः",
-        "en": "this word"
+        "hi": "अपने-अपने मोर्चों के अनुसार · स्थित रहते हुए",
+        "en": "according to respective positions · situated"
       },
       "भीष्ममेवाभिरक्षन्तु": {
-        "hi": "भीष्ममेवाभिरक्षन्तु",
-        "en": "this word"
+        "hi": "भीष्म की · ही · रक्षा करें",
+        "en": "Bhishma · only · must protect"
       },
       "भवन्तः": {
-        "hi": "भवन्तः",
-        "en": "ye"
+        "hi": "आप",
+        "en": "you"
       },
       "सर्व": {
-        "hi": "सर्व",
-        "en": "this word"
+        "hi": "सभी",
+        "en": "all"
       },
       "एव": {
-        "hi": "एव",
-        "en": "alone"
+        "hi": "ही",
+        "en": "certainly"
       },
       "हि": {
-        "hi": "हि",
-        "en": "this word"
+        "hi": "निश्चय ही",
+        "en": "indeed"
       }
     }
   },
@@ -474,40 +474,40 @@ window.GITA_CHAPTER_1 = [
     "en": "Creating joy in the heart of Duryodhana, Kuruveda's influential grandfather Bhishma roared like a lion and played the conch.",
     "wordMeanings": {
       "तस्य": {
-        "hi": "तस्य",
-        "en": "his (Duryodhanas)"
+        "hi": "उसके (दुर्योधन के)",
+        "en": "his (Duryodhana&rsquo;s)"
       },
       "सञ्जनयन्हर्षं": {
-        "hi": "सञ्जनयन्हर्षं",
-        "en": "this word"
+        "hi": "उत्पन्न करते हुए · हर्ष",
+        "en": "generating · joy"
       },
       "कुरुवृद्धः": {
-        "hi": "कुरुवृद्धः",
-        "en": "oldest of the Kurus"
+        "hi": "कुरुवंश के वयोवृद्ध",
+        "en": "the oldest of the Kurus"
       },
       "पितामहः": {
-        "hi": "पितामहः",
-        "en": "grandfather"
+        "hi": "पितामह (भीष्म)",
+        "en": "the grandfather (Bhishma)"
       },
       "सिंहनादं": {
-        "hi": "सिंहनादं",
-        "en": "this word"
+        "hi": "सिंह की गर्जना",
+        "en": "lion&rsquo;s roar"
       },
       "विनद्योच्चैः": {
-        "hi": "विनद्योच्चैः",
-        "en": "this word"
+        "hi": "गरज कर · जोर से",
+        "en": "roaring · loudly"
       },
       "शङ्खं": {
-        "hi": "शङ्खं",
-        "en": "this word"
+        "hi": "शंख",
+        "en": "conch shell"
       },
       "दध्मौ": {
-        "hi": "दध्मौ",
+        "hi": "बजाया",
         "en": "blew"
       },
       "प्रतापवान्": {
-        "hi": "प्रतापवान्",
-        "en": "this word"
+        "hi": "प्रतापी",
+        "en": "the valiant"
       }
     }
   },
@@ -517,32 +517,32 @@ window.GITA_CHAPTER_1 = [
     "en": "It was followed by conch, bheri (nagade), dhol, mridanga and narsinghe baaz. His word became fierce.",
     "wordMeanings": {
       "ततः": {
-        "hi": "ततः",
-        "en": "then शङ्खाः conches"
+        "hi": "उसके बाद",
+        "en": "then"
       },
       "शङ्खाश्च": {
-        "hi": "शङ्खाश्च",
-        "en": "this word"
+        "hi": "शंख · और",
+        "en": "conches · and"
       },
       "भेर्यश्च": {
-        "hi": "भेर्यश्च",
-        "en": "this word"
+        "hi": "नगाड़े · और",
+        "en": "kettledrums · and"
       },
       "पणवानकगोमुखाः": {
-        "hi": "पणवानकगोमुखाः",
-        "en": "tabors"
+        "hi": "ढोल · मृदंग · नरसिंघे",
+        "en": "tabors · drums · cow-horn trumpets"
       },
       "सहसैवाभ्यहन्यन्त": {
-        "hi": "सहसैवाभ्यहन्यन्त",
-        "en": "this word"
+        "hi": "अचानक · ही · बज उठे",
+        "en": "suddenly · indeed · were sounded"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "that"
       },
       "शब्दस्तुमुलोऽभवत्": {
-        "hi": "शब्दस्तुमुलोऽभवत्",
-        "en": "this word"
+        "hi": "ध्वनि · भयंकर · हुआ",
+        "en": "sound · tumultuous · became"
       }
     }
   },
@@ -552,44 +552,44 @@ window.GITA_CHAPTER_1 = [
     "en": "After that, sitting on the great chariot with white horses, Lakshmipati Lord Krishna and Panduputra Arjuna played the divine conchs very loudly.",
     "wordMeanings": {
       "ततः": {
-        "hi": "ततः",
+        "hi": "तदनन्तर",
         "en": "then"
       },
       "श्वेतैर्हयैर्युक्ते": {
-        "hi": "श्वेतैर्हयैर्युक्ते",
-        "en": "this word"
+        "hi": "सफेद · घोड़ों से · जुते हुए",
+        "en": "with white · horses · yoked"
       },
       "महति": {
-        "hi": "महति",
+        "hi": "विशाल",
         "en": "magnificent"
       },
       "स्यन्दने": {
-        "hi": "स्यन्दने",
+        "hi": "रथ पर",
         "en": "in the chariot"
       },
       "स्थितौ": {
-        "hi": "स्थितौ",
+        "hi": "बैठे हुए",
         "en": "seated"
       },
       "माधवः": {
-        "hi": "माधवः",
-        "en": "Madhava"
+        "hi": "माधव (श्रीकृष्ण)",
+        "en": "Krishna"
       },
       "पाण्डवश्चैव": {
-        "hi": "पाण्डवश्चैव",
-        "en": "this word"
+        "hi": "पाण्डव (अर्जुन) · और · निश्चय ही",
+        "en": "Arjuna · and · certainly"
       },
       "दिव्यौ": {
-        "hi": "दिव्यौ",
+        "hi": "दिव्य",
         "en": "divine"
       },
       "शङ्खौ": {
-        "hi": "शङ्खौ",
+        "hi": "शंखों को",
         "en": "conches"
       },
       "प्रदध्मतुः": {
-        "hi": "प्रदध्मतुः",
-        "en": "this word"
+        "hi": "बजाया",
+        "en": "blew"
       }
     }
   },
@@ -599,40 +599,40 @@ window.GITA_CHAPTER_1 = [
     "en": "Antaryami Lord Krishna played the conch named Panchajanya and Dhananjay Arjun played the conch named Devadutta; and Vrikodar Bhima, who performed the terrible deed, played the big conch named Pondra.",
     "wordMeanings": {
       "पाञ्चजन्यं": {
-        "hi": "पाञ्चजन्यं",
-        "en": "this word"
+        "hi": "पाञ्चजन्य नामक शंख को",
+        "en": "the conch named Panchajanya"
       },
       "हृषीकेशो": {
-        "hi": "हृषीकेशो",
-        "en": "this word"
+        "hi": "श्रीकृष्ण ने",
+        "en": "Lord Krishna"
       },
       "देवदत्तं": {
-        "hi": "देवदत्तं",
-        "en": "this word"
+        "hi": "देवदत्त नामक शंख को",
+        "en": "the conch named Devadatta"
       },
       "धनञ्जयः": {
-        "hi": "धनञ्जयः",
-        "en": "(the victor of wealth) Arjuna"
+        "hi": "अर्जुन ने",
+        "en": "Arjuna"
       },
       "पौण्ड्रं": {
-        "hi": "पौण्ड्रं",
-        "en": "this word"
+        "hi": "पौण्ड्र नामक",
+        "en": "the conch named Paundra"
       },
       "दध्मौ": {
-        "hi": "दध्मौ",
+        "hi": "बजाया",
         "en": "blew"
       },
       "महाशङ्खं": {
-        "hi": "महाशङ्खं",
-        "en": "this word"
+        "hi": "महाशंख को",
+        "en": "the great conch"
       },
       "भीमकर्मा": {
-        "hi": "भीमकर्मा",
-        "en": "doer of terrible dees"
+        "hi": "भयानक कर्म करने वाले",
+        "en": "performer of terrible deeds"
       },
       "वृकोदरः": {
-        "hi": "वृकोदरः",
-        "en": "this word"
+        "hi": "भीम ने",
+        "en": "Bhima"
       }
     }
   },
@@ -642,32 +642,32 @@ window.GITA_CHAPTER_1 = [
     "en": "Kuntiputra King Yudhishthira played a conch named Anantavijaya and Nakul and Sahadeva played a conch named Sughosh and Manipushpaka.",
     "wordMeanings": {
       "अनन्तविजयं": {
-        "hi": "अनन्तविजयं",
-        "en": "this word"
+        "hi": "अनन्तविजय नामक शंख को",
+        "en": "the conch named Anantavijaya"
       },
       "राजा": {
         "hi": "राजा",
         "en": "the king"
       },
       "कुन्तीपुत्रो": {
-        "hi": "कुन्तीपुत्रो",
-        "en": "this word"
+        "hi": "कुन्ती के पुत्र",
+        "en": "the son of Kunti"
       },
       "युधिष्ठिरः": {
-        "hi": "युधिष्ठिरः",
+        "hi": "युधिष्ठिर ने",
         "en": "Yudhishthira"
       },
       "नकुलः": {
-        "hi": "नकुलः",
+        "hi": "नकुल ने",
         "en": "Nakula"
       },
       "सहदेवश्च": {
-        "hi": "सहदेवश्च",
-        "en": "this word"
+        "hi": "सहदेव ने · और",
+        "en": "Sahadeva · and"
       },
       "सुघोषमणिपुष्पकौ": {
-        "hi": "सुघोषमणिपुष्पकौ",
-        "en": "this word"
+        "hi": "सुघोष और मणिपुष्पक नामक शंखों को",
+        "en": "the conches named Sughosha and Manipushpaka"
       }
     }
   },
@@ -677,36 +677,36 @@ window.GITA_CHAPTER_1 = [
     "en": "1.17 -- 1.18.. O king! The best bowed Kashiraj and Maharathi Shikhandi and Dhrishtadyumna and King Virata and the invincible Satyaki, the five sons of King Drupada and Draupadi and the long-sleeved Subhadra-son Abhimanyu - all of them played (their respective) conch shells separately on all sides.",
     "wordMeanings": {
       "काश्यश्च": {
-        "hi": "काश्यश्च",
-        "en": "this word"
+        "hi": "काशीराज · और",
+        "en": "the King of Kashi · and"
       },
       "परमेष्वासः": {
-        "hi": "परमेष्वासः",
-        "en": "an excellent archer"
+        "hi": "महान धनुर्धर",
+        "en": "the great archer"
       },
       "शिखण्डी": {
         "hi": "शिखण्डी",
-        "en": "Sikhandi"
+        "en": "Shikhandi"
       },
       "च": {
-        "hi": "च",
+        "hi": "तथा",
         "en": "and"
       },
       "महारथः": {
-        "hi": "महारथः",
-        "en": "mighty carwarrior"
+        "hi": "महारथी",
+        "en": "the great warrior"
       },
       "धृष्टद्युम्नो": {
-        "hi": "धृष्टद्युम्नो",
-        "en": "this word"
+        "hi": "धृष्टद्युम्न",
+        "en": "Dhrishtadyumna"
       },
       "विराटश्च": {
-        "hi": "विराटश्च",
-        "en": "this word"
+        "hi": "विराट · और",
+        "en": "Virata · and"
       },
       "सात्यकिश्चापराजितः": {
-        "hi": "सात्यकिश्चापराजितः",
-        "en": "this word"
+        "hi": "सात्यकि · तथा · अजेय",
+        "en": "Satyaki · and · invincible"
       }
     }
   },
@@ -716,36 +716,36 @@ window.GITA_CHAPTER_1 = [
     "en": "1.17 -- 1.18.. O king! The best bowed Kashiraj and Maharathi Shikhandi and Dhrishtadyumna and King Virata and the invincible Satyaki, the five sons of King Drupada and Draupadi and the long-sleeved Subhadra-son Abhimanyu - all of them played (their respective) conch shells separately on all sides.",
     "wordMeanings": {
       "द्रुपदो": {
-        "hi": "द्रुपदो",
-        "en": "this word"
+        "hi": "राजा द्रुपद",
+        "en": "King Drupada"
       },
       "द्रौपदेयाश्च": {
-        "hi": "द्रौपदेयाश्च",
-        "en": "this word"
+        "hi": "द्रौपदी के पुत्र · और",
+        "en": "the sons of Draupadi · and"
       },
       "सर्वशः": {
-        "hi": "सर्वशः",
-        "en": "all"
+        "hi": "सब ओर से",
+        "en": "from all sides"
       },
       "पृथिवीपते": {
-        "hi": "पृथिवीपते",
+        "hi": "हे पृथ्वी के स्वामी",
         "en": "O Lord of the earth"
       },
       "सौभद्रश्च": {
-        "hi": "सौभद्रश्च",
-        "en": "this word"
+        "hi": "सुभद्रा के पुत्र (अभिमन्यु) · तथा",
+        "en": "the son of Subhadra (Abhimanyu) · and"
       },
       "महाबाहुः": {
-        "hi": "महाबाहुः",
-        "en": "the mightyarmed"
+        "hi": "विशाल भुजाओं वाले",
+        "en": "the mighty-armed"
       },
       "शङ्खान्दध्मुः": {
-        "hi": "शङ्खान्दध्मुः",
-        "en": "this word"
+        "hi": "शंखों को · बजाया",
+        "en": "conches · blew"
       },
       "पृथक्पृथक्": {
-        "hi": "पृथक्पृथक्",
-        "en": "this word"
+        "hi": "अलग · अलग",
+        "en": "separately · separately"
       }
     }
   },
@@ -755,40 +755,40 @@ window.GITA_CHAPTER_1 = [
     "en": "That fierce word of the Pandava army's conchs swept the sky and the earth and shattered the hearts of Duryodhana, etc., who had unjustly usurped the kingdom.",
     "wordMeanings": {
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "that"
       },
       "घोषो": {
-        "hi": "घोषो",
-        "en": "this word"
+        "hi": "शब्द",
+        "en": "sound"
       },
       "धार्तराष्ट्राणां": {
-        "hi": "धार्तराष्ट्राणां",
-        "en": "this word"
+        "hi": "धृतराष्ट्र के पुत्रों के",
+        "en": "of Dhritarashtra&rsquo;s sons"
       },
       "हृदयानि": {
-        "hi": "हृदयानि",
+        "hi": "हृदयों को",
         "en": "hearts"
       },
       "व्यदारयत्": {
-        "hi": "व्यदारयत्",
-        "en": "rent"
+        "hi": "विदीर्ण कर दिया",
+        "en": "shattered"
       },
       "नभश्च": {
-        "hi": "नभश्च",
-        "en": "this word"
+        "hi": "आकाश को · और",
+        "en": "the sky · and"
       },
       "पृथिवीं": {
-        "hi": "पृथिवीं",
-        "en": "this word"
+        "hi": "पृथ्वी को",
+        "en": "the earth"
       },
       "चैव": {
-        "hi": "चैव",
-        "en": "this word"
+        "hi": "और · ही",
+        "en": "and · also"
       },
       "तुमुलोऽभ्यनुनादयन्": {
-        "hi": "तुमुलोऽभ्यनुनादयन्",
-        "en": "this word"
+        "hi": "भयंकर · गुंजाते हुए",
+        "en": "tumultuous · resounding"
       }
     }
   },
@@ -798,52 +798,52 @@ window.GITA_CHAPTER_1 = [
     "en": "Oh Mahipate! Dhritarashtra! Now the arms were preparing to move, that seeing the kings and their companions who were unjustly wearing the kingdom at that time standing in front of the system, Kapidhwaja Pandu son Arjun picked up his Gandiva bow and spoke these words to the antaryami Lord Krishna.",
     "wordMeanings": {
       "अथ": {
-        "hi": "अथ",
-        "en": "now"
+        "hi": "इसके बाद",
+        "en": "then"
       },
       "व्यवस्थितान्दृष्ट्वा": {
-        "hi": "व्यवस्थितान्दृष्ट्वा",
-        "en": "this word"
+        "hi": "व्यवस्थित (खड़े हुए) · देखकर",
+        "en": "arrayed · having seen"
       },
       "धार्तराष्ट्रान्": {
-        "hi": "धार्तराष्ट्रान्",
-        "en": "Dhritarashtras party"
+        "hi": "धृतराष्ट्र के पुत्रों को",
+        "en": "the sons of Dhritarashtra"
       },
       "कपिध्वजः": {
-        "hi": "कपिध्वजः",
-        "en": "monkeyensigned"
+        "hi": "हनुमान के चिह्न वाली ध्वजा वाले",
+        "en": "he whose banner bears the emblem of Hanuman"
       },
       "प्रवृत्ते": {
-        "hi": "प्रवृत्ते",
-        "en": "about to begin"
+        "hi": "शुरू होने ही वाले",
+        "en": "being about to begin"
       },
       "शस्त्रसम्पाते": {
-        "hi": "शस्त्रसम्पाते",
-        "en": "this word"
+        "hi": "शस्त्रों के प्रहार (के समय)",
+        "en": "the clash of weapons"
       },
       "धनुरुद्यम्य": {
-        "hi": "धनुरुद्यम्य",
-        "en": "this word"
+        "hi": "धनुष को · उठाकर",
+        "en": "bow · having taken up"
       },
       "पाण्डवः": {
-        "hi": "पाण्डवः",
-        "en": "the son of Pandu"
+        "hi": "पाण्डु पुत्र (अर्जुन)",
+        "en": "the son of Pandu (Arjuna)"
       },
       "हृषीकेशं": {
-        "hi": "हृषीकेशं",
-        "en": "this word"
+        "hi": "हृषीकेश से",
+        "en": "unto Hrishikesha"
       },
       "तदा": {
-        "hi": "तदा",
+        "hi": "तब",
         "en": "then"
       },
       "वाक्यमिदमाह": {
-        "hi": "वाक्यमिदमाह",
-        "en": "this word"
+        "hi": "यह वचन कहा",
+        "en": "spoke these words"
       },
       "महीपते": {
-        "hi": "महीपते",
-        "en": "this word"
+        "hi": "हे राजन्",
+        "en": "O King"
       }
     }
   },
@@ -853,28 +853,28 @@ window.GITA_CHAPTER_1 = [
     "en": "... 1.21 -- 1.22... Arjun said - Hey Achyut! Place my chariot in the middle of the two armies until I stand on the battlefield and see who I deserve to fight in this warlike industry.",
     "wordMeanings": {
       "अर्जुन": {
-        "hi": "अर्जुन",
-        "en": "this word"
+        "hi": "अर्जुन ने",
+        "en": "Arjuna"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "कहा",
+        "en": "said"
       },
       "सेनयोरुभयोर्मध्ये": {
-        "hi": "सेनयोरुभयोर्मध्ये",
-        "en": "this word"
+        "hi": "हृषीकेश (श्रीकृष्ण) से · तब · वचन · यह · कहा · हे पृथ्वीपति (धृतराष्ट्र) · सेनाओं के · दोनों · बीच में",
+        "en": "unto Hrishikesha (Krishna) · then · words · this · spoke · O Lord of the earth (Dhritarashtra) · of the armies · of both · in the middle"
       },
       "रथं": {
-        "hi": "रथं",
-        "en": "this word"
+        "hi": "रथ को",
+        "en": "chariot"
       },
       "स्थापय": {
-        "hi": "स्थापय",
-        "en": "place"
+        "hi": "खड़ा करें",
+        "en": "please place"
       },
       "मेऽच्युत": {
-        "hi": "मेऽच्युत",
-        "en": "this word"
+        "hi": "मेरे · हे अच्युत (श्रीकृष्ण)",
+        "en": "my · O Infallible One (Krishna)"
       }
     }
   },
@@ -884,28 +884,28 @@ window.GITA_CHAPTER_1 = [
     "en": "... 1.21 -- 1.22... Arjun said - Hey Achyut! Place my chariot in the middle of the two armies until I stand on the battlefield and see who I deserve to fight in this warlike industry.",
     "wordMeanings": {
       "यावदेतान्निरीक्षेऽहं": {
-        "hi": "यावदेतान्निरीक्षेऽहं",
-        "en": "this word"
+        "hi": "जिससे कि · इन · देख सकूँ · मैं",
+        "en": "so that · these · I may observe · I"
       },
       "योद्धुकामानवस्थितान्": {
-        "hi": "योद्धुकामानवस्थितान्",
-        "en": "this word"
+        "hi": "युद्ध की इच्छा वाले · खड़े हुओं को",
+        "en": "desirous of battle · standing"
       },
       "कैर्मया": {
-        "hi": "कैर्मया",
-        "en": "this word"
+        "hi": "किनके · मेरे द्वारा (मुझे)",
+        "en": "with whom · by me"
       },
       "सह": {
-        "hi": "सह",
+        "hi": "साथ",
         "en": "together"
       },
       "योद्धव्यमस्मिन्": {
-        "hi": "योद्धव्यमस्मिन्",
-        "en": "this word"
+        "hi": "युद्ध करना चाहिए · इस",
+        "en": "must be fought · in this"
       },
       "रणसमुद्यमे": {
-        "hi": "रणसमुद्यमे",
-        "en": "this word"
+        "hi": "युद्ध के व्यापार में",
+        "en": "enterprise of war"
       }
     }
   },
@@ -915,32 +915,32 @@ window.GITA_CHAPTER_1 = [
     "en": "May I see all those who are eager to love the evil intellect Duryodhana in the war, who have come in this army, eager to fight.",
     "wordMeanings": {
       "योत्स्यमानानवेक्षेऽहं": {
-        "hi": "योत्स्यमानानवेक्षेऽहं",
-        "en": "this word"
+        "hi": "युद्ध करने की इच्छा वालों को · देखूँ · मैं",
+        "en": "those wishing to fight · let me see · I"
       },
       "य": {
-        "hi": "य",
-        "en": "of the son of Dhritarashtra"
+        "hi": "जो",
+        "en": "who"
       },
       "एतेऽत्र": {
-        "hi": "एतेऽत्र",
-        "en": "this word"
+        "hi": "ये · यहाँ",
+        "en": "these · here"
       },
       "समागताः": {
-        "hi": "समागताः",
+        "hi": "इकट्ठे हुए हैं",
         "en": "assembled"
       },
       "धार्तराष्ट्रस्य": {
-        "hi": "धार्तराष्ट्रस्य",
+        "hi": "धृतराष्ट्र के पुत्र के",
         "en": "of the son of Dhritarashtra"
       },
       "दुर्बुद्धेर्युद्धे": {
-        "hi": "दुर्बुद्धेर्युद्धे",
-        "en": "this word"
+        "hi": "दुर्बुद्धि के · युद्ध में",
+        "en": "of the evil-minded · in the battle"
       },
       "प्रियचिकीर्षवः": {
-        "hi": "प्रियचिकीर्षवः",
-        "en": "this word"
+        "hi": "भला चाहने वाले",
+        "en": "wishing to please"
       }
     }
   },
@@ -950,40 +950,40 @@ window.GITA_CHAPTER_1 = [
     "en": "1.24 - 1.25... Sanjay said - O Bharatvanshi Raja! When Arjuna, the sleepwalker, spoke in this way, Lord Krishna, the antaryami, stood in the middle of the two armies in front of Pitamaha Bhishma and Acharya Drona and in front of the entire kings and said in this way, 'Oh Partha! Look at these gathered Kurus'.",
     "wordMeanings": {
       "सञ्जय": {
-        "hi": "सञ्जय",
-        "en": "this word"
+        "hi": "संजय",
+        "en": "Sanjaya"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "ने कहा",
+        "en": "said"
       },
       "एवमुक्तो": {
-        "hi": "एवमुक्तो",
-        "en": "this word"
+        "hi": "इस प्रकार · कहे जाने पर",
+        "en": "thus · addressed"
       },
       "हृषीकेशो": {
-        "hi": "हृषीकेशो",
-        "en": "this word"
+        "hi": "श्रीकृष्ण ने",
+        "en": "Lord Krishna (master of the senses)"
       },
       "गुडाकेशेन": {
-        "hi": "गुडाकेशेन",
-        "en": "by Gudakesha (the coneror of sleep"
+        "hi": "अर्जुन द्वारा",
+        "en": "by Arjuna (conqueror of sleep)"
       },
       "भारत": {
-        "hi": "भारत",
-        "en": "O Bharata (descendant of king Bharata"
+        "hi": "हे भरतवंशी (धृतराष्ट्र)",
+        "en": "O descendant of Bharata (Dhritarashtra)"
       },
       "सेनयोरुभयोर्मध्ये": {
-        "hi": "सेनयोरुभयोर्मध्ये",
-        "en": "this word"
+        "hi": "सेनाओं के · दोनों · बीच में",
+        "en": "of the armies · of both · in the middle"
       },
       "स्थापयित्वा": {
-        "hi": "स्थापयित्वा",
+        "hi": "खड़ा करके",
         "en": "having stationed"
       },
       "रथोत्तमम्": {
-        "hi": "रथोत्तमम्",
-        "en": "this word"
+        "hi": "उत्तम रथ को",
+        "en": "the excellent chariot"
       }
     }
   },
@@ -993,32 +993,32 @@ window.GITA_CHAPTER_1 = [
     "en": "1.24 - 1.25... Sanjay said - O Bharatvanshi Raja! When Arjuna, the sleepwalker, spoke in this way, Lord Krishna, the antaryami, stood in the middle of the two armies in front of Pitamaha Bhishma and Acharya Drona and in front of the entire kings and said in this way, 'Oh Partha! Look at these gathered Kurus'.",
     "wordMeanings": {
       "भीष्मद्रोणप्रमुखतः": {
-        "hi": "भीष्मद्रोणप्रमुखतः",
-        "en": "in front of Bhishma and Drona"
+        "hi": "भीष्म · द्रोण · के सामने",
+        "en": "Bhishma · Drona · in front of"
       },
       "सर्वेषां": {
-        "hi": "सर्वेषां",
-        "en": "this word"
+        "hi": "सभी",
+        "en": "all"
       },
       "च": {
-        "hi": "च",
+        "hi": "तथा",
         "en": "and"
       },
       "महीक्षिताम्": {
-        "hi": "महीक्षिताम्",
-        "en": "rulers of the earth"
+        "hi": "राजाओं के",
+        "en": "of the kings of the earth"
       },
       "उवाच": {
-        "hi": "उवाच",
+        "hi": "कहा",
         "en": "said"
       },
       "पार्थ": {
-        "hi": "पार्थ",
+        "hi": "हे पार्थ",
         "en": "O Partha"
       },
       "पश्यैतान्समवेतान्कुरूनिति": {
-        "hi": "पश्यैतान्समवेतान्कुरूनिति",
-        "en": "this word"
+        "hi": "देखो · इन · एकत्र हुए · कुरुओं को · इस प्रकार",
+        "en": "behold · these · assembled · Kurus · thus"
       }
     }
   },
@@ -1028,20 +1028,20 @@ window.GITA_CHAPTER_1 = [
     "en": "After that Prithvanandan Arjun also saw the fathers, fathers, acharyas, maternal uncles, brothers, sons, grandsons and friends, father-in-laws and well-wishers in both the armies.",
     "wordMeanings": {
       "तत्रापश्यत्स्थितान्पार्थः": {
-        "hi": "तत्रापश्यत्स्थितान्पार्थः",
-        "en": "this word"
+        "hi": "वहाँ · देखा · खड़े हुए · पृथापुत्र अर्जुन ने",
+        "en": "there · saw · stationed · Arjuna (son of Pṛthā)"
       },
       "पितॄनथ": {
-        "hi": "पितॄनथ",
-        "en": "this word"
+        "hi": "पिताओं (चाचा-ताऊओं) को · और",
+        "en": "fathers (paternal uncles) · and"
       },
       "पितामहान्": {
-        "hi": "पितामहान्",
-        "en": "this word"
+        "hi": "दादाओं को",
+        "en": "grandfathers"
       },
       "आचार्यान्मातुलान्भ्रातॄन्पुत्रान्पौत्रान्सखींस्तथा": {
-        "hi": "आचार्यान्मातुलान्भ्रातॄन्पुत्रान्पौत्रान्सखींस्तथा",
-        "en": "this word"
+        "hi": "गुरुओं को · मामाओं को · भाइयों को · पुत्रों को · पौत्रों को · मित्रों को · तथा (भी)",
+        "en": "teachers · maternal uncles · brothers · sons · grandsons · friends · as well"
       }
     }
   },
@@ -1051,28 +1051,28 @@ window.GITA_CHAPTER_1 = [
     "en": "Seeing all those dams in their respective places, Kuntinandan Arjun spoke these words with great cowardice and sorrow.",
     "wordMeanings": {
       "श्वशुरान्सुहृदश्चैव": {
-        "hi": "श्वशुरान्सुहृदश्चैव",
-        "en": "this word"
+        "hi": "ससुरों को · मित्रों को · और · भी",
+        "en": "fathers-in-law · well-wishers · and · also"
       },
       "सेनयोरुभयोरपि": {
-        "hi": "सेनयोरुभयोरपि",
-        "en": "this word"
+        "hi": "सेनाओं में · दोनों · भी",
+        "en": "in the armies · in both · also"
       },
       "तान्समीक्ष्य": {
-        "hi": "तान्समीक्ष्य",
-        "en": "this word"
+        "hi": "उन · देखकर",
+        "en": "them · having seen"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       },
       "कौन्तेयः": {
-        "hi": "कौन्तेयः",
-        "en": "Kaunteya"
+        "hi": "कुन्तीपुत्र (अर्जुन)",
+        "en": "son of Kunti (Arjuna)"
       },
       "सर्वान्बन्धूनवस्थितान्": {
-        "hi": "सर्वान्बन्धूनवस्थितान्",
-        "en": "this word"
+        "hi": "सभी · बन्धु-बान्धवों को · उपस्थित",
+        "en": "all · relatives · situated"
       }
     }
   },
@@ -1082,44 +1082,44 @@ window.GITA_CHAPTER_1 = [
     "en": "...1.28 -- 1.30.. Arjuna said- Oh Krishna! Seeing this warlike family in front of me, my limbs are relaxing and my face is drying up and my body is trembling and balding. The gandiva bow is falling from the hand and the skin is also burning. My mind is confused and I am unable to stand.",
     "wordMeanings": {
       "कृपया": {
-        "hi": "कृपया",
-        "en": "this word"
+        "hi": "अर्जुन · ने कहा · करुणा से",
+        "en": "Arjuna · said · by compassion"
       },
       "परयाविष्टो": {
-        "hi": "परयाविष्टो",
-        "en": "this word"
+        "hi": "अत्यंत · आविष्ट / युक्त होकर",
+        "en": "great · overwhelmed"
       },
       "विषीदन्निदमब्रवीत्": {
-        "hi": "विषीदन्निदमब्रवीत्",
-        "en": "this word"
+        "hi": "शोक करते हुए",
+        "en": "sorrowing"
       },
       "अर्जुन": {
-        "hi": "अर्जुन",
-        "en": "this word"
+        "hi": "यह",
+        "en": "this"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "कहा",
+        "en": "spoke"
       },
       "दृष्ट्वेमं": {
-        "hi": "दृष्ट्वेमं",
-        "en": "this word"
+        "hi": "देखकर · इन",
+        "en": "having seen · these"
       },
       "स्वजनं": {
-        "hi": "स्वजनं",
-        "en": "this word"
+        "hi": "स्वजनों को",
+        "en": "kinsmen"
       },
       "कृष्ण": {
-        "hi": "कृष्ण",
-        "en": "O Krishna (the dark one"
+        "hi": "हे कृष्ण",
+        "en": "O Krishna"
       },
       "युयुत्सुं": {
-        "hi": "युयुत्सुं",
-        "en": "this word"
+        "hi": "युद्ध की इच्छा वाले",
+        "en": "desiring to fight"
       },
       "समुपस्थितम्": {
-        "hi": "समुपस्थितम्",
-        "en": "this word"
+        "hi": "उपस्थित",
+        "en": "present"
       }
     }
   },
@@ -1129,48 +1129,48 @@ window.GITA_CHAPTER_1 = [
     "en": "...1.28 -- 1.30.. Arjuna said- Oh Krishna! Seeing this warlike family in front of me, my limbs are relaxing and my face is drying up and my body is trembling and balding. The gandiva bow is falling from the hand and the skin is also burning. My mind is confused and I am unable to stand.",
     "wordMeanings": {
       "सीदन्ति": {
-        "hi": "सीदन्ति",
-        "en": "fail"
+        "hi": "शिथिल हो रहे हैं",
+        "en": "are failing"
       },
       "मम": {
-        "hi": "मम",
+        "hi": "मेरे",
         "en": "my"
       },
       "गात्राणि": {
-        "hi": "गात्राणि",
+        "hi": "अंग",
         "en": "limbs"
       },
       "मुखं": {
-        "hi": "मुखं",
-        "en": "this word"
+        "hi": "मुख",
+        "en": "mouth"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "परिशुष्यति": {
-        "hi": "परिशुष्यति",
-        "en": "is parching"
+        "hi": "सूख रहा है",
+        "en": "is drying up"
       },
       "वेपथुश्च": {
-        "hi": "वेपथुश्च",
-        "en": "this word"
+        "hi": "कंपन · और",
+        "en": "trembling · and"
       },
       "शरीरे": {
-        "hi": "शरीरे",
+        "hi": "शरीर में",
         "en": "in body"
       },
       "मे": {
-        "hi": "मे",
+        "hi": "मेरे",
         "en": "my"
       },
       "रोमहर्षश्च": {
-        "hi": "रोमहर्षश्च",
-        "en": "this word"
+        "hi": "रोंगटे खड़े होना · और",
+        "en": "standing of hair on end · and"
       },
       "जायते": {
-        "hi": "जायते",
-        "en": "this word"
+        "hi": "हो रहा है",
+        "en": "is arising"
       }
     }
   },
@@ -1180,44 +1180,44 @@ window.GITA_CHAPTER_1 = [
     "en": "...1.28 -- 1.30.. Arjuna said- Oh Krishna! Seeing this warlike family in front of me, my limbs are relaxing and my face is drying up and my body is trembling and balding. The gandiva bow is falling from the hand and the skin is also burning. My mind is confused and I am unable to stand.",
     "wordMeanings": {
       "गाण्डीवं": {
-        "hi": "गाण्डीवं",
-        "en": "this word"
+        "hi": "गाण्डीव धनुष",
+        "en": "the Gandiva bow"
       },
       "स्रंसते": {
-        "hi": "स्रंसते",
-        "en": "slips"
+        "hi": "गिर रहा है",
+        "en": "is slipping"
       },
       "हस्तात्त्वक्चैव": {
-        "hi": "हस्तात्त्वक्चैव",
-        "en": "this word"
+        "hi": "हाथ से · त्वचा · और · निश्चय ही",
+        "en": "from the hand · skin · and · certainly"
       },
       "परिदह्यते": {
-        "hi": "परिदह्यते",
-        "en": "burns all over"
+        "hi": "जल रही है",
+        "en": "is burning"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "शक्नोम्यवस्थातुं": {
-        "hi": "शक्नोम्यवस्थातुं",
-        "en": "this word"
+        "hi": "समर्थ हूँ · खड़ा रहने में",
+        "en": "am I able · to stand"
       },
       "भ्रमतीव": {
-        "hi": "भ्रमतीव",
-        "en": "this word"
+        "hi": "भ्रमित हो रहा है · मानो",
+        "en": "is whirling · as if"
       },
       "मे": {
-        "hi": "मे",
+        "hi": "मेरा",
         "en": "my"
       },
       "मनः": {
-        "hi": "मनः",
-        "en": "this word"
+        "hi": "मन",
+        "en": "mind"
       }
     }
   },
@@ -1227,40 +1227,40 @@ window.GITA_CHAPTER_1 = [
     "en": "O Keshav! I am also seeing the opposite of the symptoms - (omens) and not seeing the credit (benefit) of killing one's self in battle.",
     "wordMeanings": {
       "निमित्तानि": {
-        "hi": "निमित्तानि",
+        "hi": "शकुनों को",
         "en": "omens"
       },
       "च": {
-        "hi": "च",
+        "hi": "तथा",
         "en": "and"
       },
       "पश्यामि": {
-        "hi": "पश्यामि",
+        "hi": "मैं देख रहा हूँ",
         "en": "I see"
       },
       "विपरीतानि": {
-        "hi": "विपरीतानि",
+        "hi": "विपरीत/अशुभ",
         "en": "adverse"
       },
       "केशव": {
-        "hi": "केशव",
-        "en": "O Kesava"
+        "hi": "हे कृष्ण",
+        "en": "O Keshava"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "श्रेयोऽनुपश्यामि": {
-        "hi": "श्रेयोऽनुपश्यामि",
-        "en": "this word"
+        "hi": "कल्याण · मैं देखता हूँ",
+        "en": "good · I foresee"
       },
       "हत्वा": {
-        "hi": "हत्वा",
-        "en": "killing"
+        "hi": "मारकर",
+        "en": "having killed"
       },
       "स्वजनमाहवे": {
-        "hi": "स्वजनमाहवे",
-        "en": "this word"
+        "hi": "अपने परिजनों को · युद्ध में",
+        "en": "own kinsmen · in battle"
       }
     }
   },
@@ -1271,55 +1271,55 @@ window.GITA_CHAPTER_1 = [
     "wordMeanings": {
       "न": {
         "hi": "न",
-        "en": "not"
+        "en": "nor"
       },
       "काङ्क्षे": {
-        "hi": "काङ्क्षे",
-        "en": "(I) desire"
+        "hi": "चाहता हूँ",
+        "en": "do I desire"
       },
       "विजयं": {
-        "hi": "विजयं",
-        "en": "this word"
+        "hi": "विजय",
+        "en": "victory"
       },
       "कृष्ण": {
-        "hi": "कृष्ण",
+        "hi": "हे कृष्ण",
         "en": "O Krishna"
       },
       "च": {
-        "hi": "च",
-        "en": "and"
+        "hi": "तथा",
+        "en": "also"
       },
       "राज्यं": {
-        "hi": "राज्यं",
-        "en": "this word"
+        "hi": "राज्य",
+        "en": "kingdom"
       },
       "सुखानि": {
-        "hi": "सुखानि",
+        "hi": "सुखों को",
         "en": "pleasures"
       },
       "किं": {
-        "hi": "किं",
-        "en": "this word"
+        "hi": "क्या लाभ",
+        "en": "what"
       },
       "नो": {
-        "hi": "नो",
-        "en": "this word"
+        "hi": "हमें",
+        "en": "to us"
       },
       "राज्येन": {
-        "hi": "राज्येन",
-        "en": "by kindom"
+        "hi": "राज्य से",
+        "en": "with kingdom"
       },
       "गोविन्द": {
-        "hi": "गोविन्द",
+        "hi": "हे गोविन्द",
         "en": "O Govinda"
       },
       "भोगैर्जीवितेन": {
-        "hi": "भोगैर्जीवितेन",
-        "en": "this word"
+        "hi": "भोगों से · जीवन से",
+        "en": "with pleasures · with life"
       },
       "वा": {
-        "hi": "वा",
-        "en": "this word"
+        "hi": "अथवा",
+        "en": "or"
       }
     }
   },
@@ -1329,51 +1329,51 @@ window.GITA_CHAPTER_1 = [
     "en": "Those for whom our kingdom, enjoyment, and desire of happiness are all standing in battle, renouncing the hope of their lives and riches.",
     "wordMeanings": {
       "येषामर्थे": {
-        "hi": "येषामर्थे",
-        "en": "this word"
+        "hi": "जिनके · लिए",
+        "en": "for whose · sake"
       },
       "काङ्क्षितं": {
-        "hi": "काङ्क्षितं",
-        "en": "this word"
+        "hi": "कामना की गई है",
+        "en": "is desired"
       },
       "नो": {
-        "hi": "नो",
-        "en": "this word"
+        "hi": "हमारे द्वारा",
+        "en": "by us"
       },
       "राज्यं": {
-        "hi": "राज्यं",
-        "en": "this word"
+        "hi": "राज्य",
+        "en": "kingdom"
       },
       "भोगाः": {
-        "hi": "भोगाः",
-        "en": "enjoyment"
+        "hi": "भोग",
+        "en": "enjoyments"
       },
       "सुखानि": {
-        "hi": "सुखानि",
+        "hi": "सुख",
         "en": "pleasures"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "त": {
-        "hi": "त",
-        "en": "this word"
+        "hi": "वे",
+        "en": "they"
       },
       "इमेऽवस्थिता": {
-        "hi": "इमेऽवस्थिता",
-        "en": "this word"
+        "hi": "ये · खड़े हैं",
+        "en": "these · are standing"
       },
       "युद्धे": {
-        "hi": "युद्धे",
+        "hi": "युद्ध में",
         "en": "in battle"
       },
       "प्राणांस्त्यक्त्वा": {
-        "hi": "प्राणांस्त्यक्त्वा",
-        "en": "this word"
+        "hi": "प्राणों को · त्याग कर",
+        "en": "lives · giving up"
       },
       "धनानि": {
-        "hi": "धनानि",
+        "hi": "धन को",
         "en": "wealth"
       }
     }
@@ -1384,44 +1384,44 @@ window.GITA_CHAPTER_1 = [
     "en": ".1.34 -- 1.35. Acharya, father, son and similarly father, maternal uncle, father-in-law, grandson, brother-in-law and all other relatives, I do not want to kill them even if they hit me, and O Madhusudan! Even if I get the kingdom of Triloki, I do not want to kill them, then what (should I kill them) for the earth?",
     "wordMeanings": {
       "आचार्याः": {
-        "hi": "आचार्याः",
+        "hi": "गुरुजन",
         "en": "teachers"
       },
       "पितरः": {
-        "hi": "पितरः",
+        "hi": "पिता",
         "en": "fathers"
       },
       "पुत्रास्तथैव": {
-        "hi": "पुत्रास्तथैव",
-        "en": "this word"
+        "hi": "पुत्र · तथा · ही",
+        "en": "sons · as well as · indeed"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "पितामहाः": {
-        "hi": "पितामहाः",
+        "hi": "दादा",
         "en": "grandfathers"
       },
       "मातुलाः": {
-        "hi": "मातुलाः",
+        "hi": "मामा",
         "en": "maternal uncles"
       },
       "श्वशुराः": {
-        "hi": "श्वशुराः",
-        "en": "fathersinlaw"
+        "hi": "ससुर",
+        "en": "fathers-in-law"
       },
       "पौत्राः": {
-        "hi": "पौत्राः",
+        "hi": "पोते",
         "en": "grandsons"
       },
       "श्यालाः": {
-        "hi": "श्यालाः",
-        "en": "brothersinlaw"
+        "hi": "साले",
+        "en": "brothers-in-law"
       },
       "सम्बन्धिनस्तथा": {
-        "hi": "सम्बन्धिनस्तथा",
-        "en": "this word"
+        "hi": "सम्बन्धी · तथा",
+        "en": "relatives · as well as"
       }
     }
   },
@@ -1431,44 +1431,44 @@ window.GITA_CHAPTER_1 = [
     "en": ".1.34 -- 1.35. Acharya, father, son and similarly father, maternal uncle, father-in-law, grandson, brother-in-law and all other relatives, I do not want to kill them even if they hit me, and O Madhusudan! Even if I get the kingdom of Triloki, I do not want to kill them, what then (should I kill them) for the sake of the earth?",
     "wordMeanings": {
       "एतान्न": {
-        "hi": "एतान्न",
-        "en": "this word"
+        "hi": "इन्हें · नहीं",
+        "en": "these · not"
       },
       "हन्तुमिच्छामि": {
-        "hi": "हन्तुमिच्छामि",
-        "en": "this word"
+        "hi": "मारना · मैं चाहता हूँ",
+        "en": "to kill · I wish"
       },
       "घ्नतोऽपि": {
-        "hi": "घ्नतोऽपि",
-        "en": "this word"
+        "hi": "मारते हुए (मुझे मारने पर) · भी",
+        "en": "killing (me) · even"
       },
       "मधुसूदन": {
-        "hi": "मधुसूदन",
-        "en": "O Madhusudana (the slayer of Madhu"
+        "hi": "हे मधुसूदन",
+        "en": "O Madhusudana"
       },
       "अपि": {
-        "hi": "अपि",
-        "en": "even if they kill me"
+        "hi": "भी",
+        "en": "even"
       },
       "त्रैलोक्यराज्यस्य": {
-        "hi": "त्रैलोक्यराज्यस्य",
-        "en": "dominion over the three worlds"
+        "hi": "तीनों लोकों के · राज्य के",
+        "en": "of the three worlds · of the kingdom"
       },
       "हेतोः": {
-        "hi": "हेतोः",
+        "hi": "लिए",
         "en": "for the sake of"
       },
       "किं": {
-        "hi": "किं",
-        "en": "this word"
+        "hi": "क्या",
+        "en": "what"
       },
       "नु": {
-        "hi": "नु",
+        "hi": "फिर",
         "en": "then"
       },
       "महीकृते": {
-        "hi": "महीकृते",
-        "en": "this word"
+        "hi": "पृथ्वी के लिए",
+        "en": "for the sake of the earth"
       }
     }
   },
@@ -1478,28 +1478,28 @@ window.GITA_CHAPTER_1 = [
     "en": "Hey Janardhana! How would it please us to kill these Dhritarashtra-relatives? Killing these oppressors will only lead us to sin.",
     "wordMeanings": {
       "निहत्य": {
-        "hi": "निहत्य",
-        "en": "having slain"
+        "hi": "मारकर",
+        "en": "having killed"
       },
       "धार्तराष्ट्रान्नः": {
-        "hi": "धार्तराष्ट्रान्नः",
-        "en": "this word"
+        "hi": "धृतराष्ट्र के पुत्रों को · हमें",
+        "en": "the sons of Dhritarashtra · to us"
       },
       "का": {
-        "hi": "का",
+        "hi": "क्या",
         "en": "what"
       },
       "प्रीतिः": {
-        "hi": "प्रीतिः",
+        "hi": "प्रसन्नता",
         "en": "pleasure"
       },
       "स्याज्जनार्दन": {
-        "hi": "स्याज्जनार्दन",
-        "en": "this word"
+        "hi": "होगी · हे जनार्दन",
+        "en": "would be · O Janardana"
       },
       "पापमेवाश्रयेदस्मान्हत्वैतानाततायिनः": {
-        "hi": "पापमेवाश्रयेदस्मान्हत्वैतानाततायिनः",
-        "en": "this word"
+        "hi": "पाप · ही · लगेगा · हमें · मारकर · इन · आततायियों को",
+        "en": "sin · only · would take hold of · us · by killing · these · aggressors"
       }
     }
   },
@@ -1509,48 +1509,48 @@ window.GITA_CHAPTER_1 = [
     "en": "Therefore, we are not qualified to kill these Dhritarashtra-relatives of our bondmen; for, O Madhava! How will we be happy by killing our families?",
     "wordMeanings": {
       "तस्मान्नार्हा": {
-        "hi": "तस्मान्नार्हा",
-        "en": "this word"
+        "hi": "इसलिए · नहीं · योग्य (उचित)",
+        "en": "therefore · not · justified"
       },
       "वयं": {
-        "hi": "वयं",
-        "en": "this word"
+        "hi": "हम",
+        "en": "we"
       },
       "हन्तुं": {
-        "hi": "हन्तुं",
-        "en": "this word"
+        "hi": "मारने के लिए",
+        "en": "to kill"
       },
       "धार्तराष्ट्रान्स्वबान्धवान्": {
-        "hi": "धार्तराष्ट्रान्स्वबान्धवान्",
-        "en": "this word"
+        "hi": "धृतराष्ट्र के पुत्रों को · अपने सगे-संबंधियों को",
+        "en": "the sons of Dhritarashtra · our own relatives"
       },
       "स्वजनं": {
-        "hi": "स्वजनं",
-        "en": "this word"
+        "hi": "अपने परिजनों को",
+        "en": "own kinsmen"
       },
       "हि": {
-        "hi": "हि",
+        "hi": "निश्चय ही",
         "en": "indeed"
       },
       "कथं": {
-        "hi": "कथं",
-        "en": "this word"
+        "hi": "कैसे",
+        "en": "how"
       },
       "हत्वा": {
-        "hi": "हत्वा",
+        "hi": "मारकर",
         "en": "having killed"
       },
       "सुखिनः": {
-        "hi": "सुखिनः",
+        "hi": "सुखी",
         "en": "happy"
       },
       "स्याम": {
-        "hi": "स्याम",
-        "en": "may (we) be"
+        "hi": "हम हो सकते हैं",
+        "en": "shall we become"
       },
       "माधव": {
-        "hi": "माधव",
-        "en": "this word"
+        "hi": "हे माधव (कृष्ण)",
+        "en": "O Madhava"
       }
     }
   },
@@ -1560,40 +1560,40 @@ window.GITA_CHAPTER_1 = [
     "en": ".1.38 -- 1.39. Although by greed whose reasoning has been lost, they (Duryodhana etc.) do not see the guilt of destroying the clan and the sin of hating friends, (yet) O Janardhana! Why should we not consider retiring from this sin, knowing precisely the guilt of destroying the clan?",
     "wordMeanings": {
       "यद्यप्येते": {
-        "hi": "यद्यप्येते",
-        "en": "this word"
+        "hi": "यदि · भी · ये",
+        "en": "if · even · these"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "पश्यन्ति": {
-        "hi": "पश्यन्ति",
+        "hi": "देखते हैं",
         "en": "see"
       },
       "लोभोपहतचेतसः": {
-        "hi": "लोभोपहतचेतसः",
-        "en": "with intelligence overpowered by greed"
+        "hi": "लोभ से · भ्रष्ट · चित्त वाले",
+        "en": "by greed · overpowered · minds"
       },
       "कुलक्षयकृतं": {
-        "hi": "कुलक्षयकृतं",
-        "en": "this word"
+        "hi": "कुल के · नाश से · उत्पन्न",
+        "en": "of the family · destruction · caused by"
       },
       "दोषं": {
-        "hi": "दोषं",
-        "en": "this word"
+        "hi": "दोष को",
+        "en": "fault"
       },
       "मित्रद्रोहे": {
-        "hi": "मित्रद्रोहे",
-        "en": "in hostility to friends"
+        "hi": "मित्रों के साथ · द्रोह करने में",
+        "en": "to friends · in treachery"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "पातकम्": {
-        "hi": "पातकम्",
-        "en": "this word"
+        "hi": "पाप को",
+        "en": "sin"
       }
     }
   },
@@ -1603,32 +1603,32 @@ window.GITA_CHAPTER_1 = [
     "en": ".1.38 -- 1.39. Although by greed whose reasoning has been lost, they (Duryodhana etc.) do not see the guilt of destroying the clan and the sin of hating friends, (yet) O Janardhana! Why should we not consider retiring from this sin, knowing precisely the guilt of destroying the clan?",
     "wordMeanings": {
       "कथं": {
-        "hi": "कथं",
-        "en": "this word"
+        "hi": "कैसे",
+        "en": "why"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "ज्ञेयमस्माभिः": {
-        "hi": "ज्ञेयमस्माभिः",
-        "en": "this word"
+        "hi": "जानना चाहिए · हमारे द्वारा",
+        "en": "should be known · by us"
       },
       "पापादस्मान्निवर्तितुम्": {
-        "hi": "पापादस्मान्निवर्तितुम्",
-        "en": "this word"
+        "hi": "पाप से · इस · निवृत्त होने के लिए",
+        "en": "from sin · this · to turn away"
       },
       "कुलक्षयकृतं": {
-        "hi": "कुलक्षयकृतं",
-        "en": "this word"
+        "hi": "कुल के नाश से होने वाले",
+        "en": "caused by the destruction of the family"
       },
       "दोषं": {
-        "hi": "दोषं",
-        "en": "this word"
+        "hi": "दोष को",
+        "en": "the evil"
       },
       "प्रपश्यद्भिर्जनार्दन": {
-        "hi": "प्रपश्यद्भिर्जनार्दन",
-        "en": "this word"
+        "hi": "स्पष्ट देखने वालों के द्वारा · हे जनार्दन (कृष्ण)",
+        "en": "by those who see clearly · O Janardana (Krishna)"
       }
     }
   },
@@ -1638,36 +1638,36 @@ window.GITA_CHAPTER_1 = [
     "en": "When the clan is destroyed, the everlasting clans are destroyed, and when the religion is destroyed (the remnant), the entire clan is suppressed by iniquity.",
     "wordMeanings": {
       "कुलक्षये": {
-        "hi": "कुलक्षये",
-        "en": "in the destruction of a family"
+        "hi": "कुल के नाश होने पर",
+        "en": "in the destruction of the family"
       },
       "प्रणश्यन्ति": {
-        "hi": "प्रणश्यन्ति",
-        "en": "perish"
+        "hi": "नष्ट हो जाते हैं",
+        "en": "are destroyed"
       },
       "कुलधर्माः": {
-        "hi": "कुलधर्माः",
-        "en": "family religious rites"
+        "hi": "कुल के धर्म",
+        "en": "family traditions"
       },
       "सनातनाः": {
-        "hi": "सनातनाः",
-        "en": "immemorial"
+        "hi": "सनातन",
+        "en": "eternal"
       },
       "धर्मे": {
-        "hi": "धर्मे",
-        "en": "spirituality"
+        "hi": "धर्म के",
+        "en": "when religion"
       },
       "नष्टे": {
-        "hi": "नष्टे",
-        "en": "being destroyed"
+        "hi": "नष्ट होने पर",
+        "en": "is destroyed"
       },
       "कुलं": {
-        "hi": "कुलं",
-        "en": "this word"
+        "hi": "कुल को",
+        "en": "the family"
       },
       "कृत्स्नमधर्मोऽभिभवत्युत": {
-        "hi": "कृत्स्नमधर्मोऽभिभवत्युत",
-        "en": "this word"
+        "hi": "सम्पूर्ण · अधर्म · दबा लेता है · भी",
+        "en": "entire · irreligion · overcomes · also"
       }
     }
   },
@@ -1677,36 +1677,36 @@ window.GITA_CHAPTER_1 = [
     "en": "O Krishna! The women of the clan are polluted by the excess of iniquity; (and) O Varshnay! Chromosomes are produced when women are contaminated.",
     "wordMeanings": {
       "अधर्माभिभवात्कृष्ण": {
-        "hi": "अधर्माभिभवात्कृष्ण",
-        "en": "this word"
+        "hi": "अधर्म के · हावी होने से · हे कृष्ण",
+        "en": "of irreligion · due to the predominance · O Krishna"
       },
       "प्रदुष्यन्ति": {
-        "hi": "प्रदुष्यन्ति",
+        "hi": "दूषित हो जाती हैं",
         "en": "become corrupt"
       },
       "कुलस्त्रियः": {
-        "hi": "कुलस्त्रियः",
-        "en": "the women of the family"
+        "hi": "कुल की · स्त्रियाँ",
+        "en": "of the family · women"
       },
       "स्त्रीषु": {
-        "hi": "स्त्रीषु",
-        "en": "in women"
+        "hi": "स्त्रियों के",
+        "en": "when women"
       },
       "दुष्टासु": {
-        "hi": "दुष्टासु",
-        "en": "(being) corrupt"
+        "hi": "दूषित हो जाने पर",
+        "en": "become corrupted"
       },
       "वार्ष्णेय": {
-        "hi": "वार्ष्णेय",
-        "en": "O Varshneya"
+        "hi": "हे वृष्णिवंशी",
+        "en": "O descendant of Vrishni"
       },
       "जायते": {
-        "hi": "जायते",
-        "en": "arises"
+        "hi": "उत्पन्न होता है",
+        "en": "is born"
       },
       "वर्णसङ्करः": {
-        "hi": "वर्णसङ्करः",
-        "en": "this word"
+        "hi": "वर्णों का · अवांछित मिश्रण (संकर)",
+        "en": "of castes · unwanted mixing"
       }
     }
   },
@@ -1716,40 +1716,40 @@ window.GITA_CHAPTER_1 = [
     "en": "The chromosomal is the one who leads the agnostics and the clan into hell. The fathers of these- (Kulghatis-) also fall from their places due to lack of Shraddha and Tarpan.",
     "wordMeanings": {
       "सङ्करो": {
-        "hi": "सङ्करो",
-        "en": "this word"
+        "hi": "वर्णसंकर",
+        "en": "unwanted progeny"
       },
       "नरकायैव": {
-        "hi": "नरकायैव",
-        "en": "this word"
+        "hi": "नरक के लिए · ही",
+        "en": "for hell · certainly"
       },
       "कुलघ्नानां": {
-        "hi": "कुलघ्नानां",
-        "en": "this word"
+        "hi": "कुल का नाश करने वालों के",
+        "en": "of the destroyers of the family"
       },
       "कुलस्य": {
-        "hi": "कुलस्य",
+        "hi": "कुल के",
         "en": "of the family"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "पतन्ति": {
-        "hi": "पतन्ति",
+        "hi": "गिर जाते हैं",
         "en": "fall"
       },
       "पितरो": {
-        "hi": "पितरो",
-        "en": "this word"
+        "hi": "पूर्वज",
+        "en": "ancestors"
       },
       "ह्येषां": {
-        "hi": "ह्येषां",
-        "en": "this word"
+        "hi": "निश्चय ही · इनके",
+        "en": "certainly · of them"
       },
       "लुप्तपिण्डोदकक्रियाः": {
-        "hi": "लुप्तपिण्डोदकक्रियाः",
-        "en": "this word"
+        "hi": "लुप्त हो जाने से · पिण्ड · और जल की · क्रियाएं",
+        "en": "deprived of · offerings of food · water · performances"
       }
     }
   },
@@ -1759,32 +1759,32 @@ window.GITA_CHAPTER_1 = [
     "en": "The perpetual kuladharma and caste dharma of the Kuladhagatis are destroyed by these varna hybrids.",
     "wordMeanings": {
       "दोषैरेतैः": {
-        "hi": "दोषैरेतैः",
-        "en": "this word"
+        "hi": "दोषों से · इन",
+        "en": "by evil deeds · by these"
       },
       "कुलघ्नानां": {
-        "hi": "कुलघ्नानां",
-        "en": "this word"
+        "hi": "कुलघातियों के",
+        "en": "of the destroyers of the family"
       },
       "वर्णसङ्करकारकैः": {
-        "hi": "वर्णसङ्करकारकैः",
-        "en": "causing intermingling of castes"
+        "hi": "वर्णसंकर पैदा करने वाले",
+        "en": "causing the mixture of castes"
       },
       "उत्साद्यन्ते": {
-        "hi": "उत्साद्यन्ते",
+        "hi": "नष्ट हो जाते हैं",
         "en": "are destroyed"
       },
       "जातिधर्माः": {
-        "hi": "जातिधर्माः",
-        "en": "religious rites of the caste"
+        "hi": "जाति-धर्म",
+        "en": "community duties"
       },
       "कुलधर्माश्च": {
-        "hi": "कुलधर्माश्च",
-        "en": "this word"
+        "hi": "कुल-धर्म · और",
+        "en": "family traditions · and"
       },
       "शाश्वताः": {
-        "hi": "शाश्वताः",
-        "en": "this word"
+        "hi": "सनातन",
+        "en": "eternal"
       }
     }
   },
@@ -1794,32 +1794,32 @@ window.GITA_CHAPTER_1 = [
     "en": "We have been hearing for a long time, Janardan, that men whose religion is destroyed are returned to hell.",
     "wordMeanings": {
       "उत्सन्नकुलधर्माणां": {
-        "hi": "उत्सन्नकुलधर्माणां",
-        "en": "this word"
+        "hi": "नष्ट हुए कुल-धर्म वाले",
+        "en": "of those whose family traditions are destroyed"
       },
       "मनुष्याणां": {
-        "hi": "मनुष्याणां",
-        "en": "this word"
+        "hi": "मनुष्यों का",
+        "en": "of men"
       },
       "जनार्दन": {
-        "hi": "जनार्दन",
+        "hi": "हे जनार्दन",
         "en": "O Janardana"
       },
       "नरके": {
-        "hi": "नरके",
+        "hi": "नरक में",
         "en": "in hell"
       },
       "नियतं": {
-        "hi": "नियतं",
-        "en": "for unknown period"
+        "hi": "अनिश्चित काल तक",
+        "en": "indefinitely"
       },
       "वासो": {
-        "hi": "वासो",
-        "en": "this word"
+        "hi": "निवास",
+        "en": "residence"
       },
       "भवतीत्यनुशुश्रुम": {
-        "hi": "भवतीत्यनुशुश्रुम",
-        "en": "this word"
+        "hi": "होता है · ऐसा · हमने सुना है",
+        "en": "is · thus · we have heard"
       }
     }
   },
@@ -1830,39 +1830,39 @@ window.GITA_CHAPTER_1 = [
     "wordMeanings": {
       "अहो": {
         "hi": "अहो",
-        "en": "बत alas"
-      },
-      "बत": {
-        "hi": "बत",
         "en": "alas"
       },
+      "बत": {
+        "hi": "खेद है",
+        "en": "how strange"
+      },
       "महत्पापं": {
-        "hi": "महत्पापं",
-        "en": "this word"
+        "hi": "भारी · पाप",
+        "en": "great · sin"
       },
       "कर्तुं": {
-        "hi": "कर्तुं",
-        "en": "this word"
+        "hi": "करने के लिए",
+        "en": "to commit"
       },
       "व्यवसिता": {
-        "hi": "व्यवसिता",
-        "en": "this word"
+        "hi": "निश्चय किया है",
+        "en": "have resolved"
       },
       "वयम्": {
-        "hi": "वयम्",
+        "hi": "हम लोगों ने",
         "en": "we"
       },
       "यद्राज्यसुखलोभेन": {
-        "hi": "यद्राज्यसुखलोभेन",
-        "en": "this word"
+        "hi": "कि · राज्य · सुख के · लोभ से",
+        "en": "that · kingdom · happiness · by greed"
       },
       "हन्तुं": {
-        "hi": "हन्तुं",
-        "en": "this word"
+        "hi": "मारने के लिए",
+        "en": "to kill"
       },
       "स्वजनमुद्यताः": {
-        "hi": "स्वजनमुद्यताः",
-        "en": "this word"
+        "hi": "अपने · लोगों को · तैयार हुए हैं",
+        "en": "own · people · prepared"
       }
     }
   },
@@ -1876,32 +1876,32 @@ window.GITA_CHAPTER_1 = [
         "en": "if"
       },
       "मामप्रतीकारमशस्त्रं": {
-        "hi": "मामप्रतीकारमशस्त्रं",
-        "en": "this word"
+        "hi": "मुझ · प्रतिकार न करने वाले को · शस्त्ररहित को",
+        "en": "me · unresisting · unarmed"
       },
       "शस्त्रपाणयः": {
-        "hi": "शस्त्रपाणयः",
+        "hi": "हाथ में शस्त्र लिए हुए",
         "en": "with weapons in hand"
       },
       "धार्तराष्ट्रा": {
-        "hi": "धार्तराष्ट्रा",
-        "en": "this word"
+        "hi": "धृतराष्ट्र के पुत्र",
+        "en": "the sons of Dhritarashtra"
       },
       "रणे": {
-        "hi": "रणे",
-        "en": "in the battle हन्युः should slay"
+        "hi": "युद्ध में",
+        "en": "in battle"
       },
       "हन्युस्तन्मे": {
-        "hi": "हन्युस्तन्मे",
-        "en": "this word"
+        "hi": "मार डालें · वह · मेरे लिए",
+        "en": "should kill · that · for me"
       },
       "क्षेमतरं": {
-        "hi": "क्षेमतरं",
-        "en": "this word"
+        "hi": "अधिक कल्याणकारी",
+        "en": "better"
       },
       "भवेत्": {
-        "hi": "भवेत्",
-        "en": "this word"
+        "hi": "होगा",
+        "en": "would be"
       }
     }
   },
@@ -1911,44 +1911,44 @@ window.GITA_CHAPTER_1 = [
     "en": "Sanjay said - By saying this, Arjun, who was mourning, abandoned the bow with the arrow and sat in the middle of the chariot on the battlefield.",
     "wordMeanings": {
       "सञ्जय": {
-        "hi": "सञ्जय",
-        "en": "this word"
+        "hi": "संजय",
+        "en": "Sanjaya"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "ने कहा",
+        "en": "said"
       },
       "एवमुक्त्वार्जुनः": {
-        "hi": "एवमुक्त्वार्जुनः",
-        "en": "this word"
+        "hi": "इस प्रकार · कहकर · अर्जुन",
+        "en": "thus · having spoken · Arjuna"
       },
       "सङ्ख्ये": {
-        "hi": "सङ्ख्ये",
-        "en": "this word"
+        "hi": "युद्धभूमि में",
+        "en": "in the battlefield"
       },
       "रथोपस्थ": {
-        "hi": "रथोपस्थ",
-        "en": "this word"
+        "hi": "रथ के आसन पर",
+        "en": "on the seat of the chariot"
       },
       "उपाविशत्": {
-        "hi": "उपाविशत्",
+        "hi": "बैठ गए",
         "en": "sat down"
       },
       "विसृज्य": {
-        "hi": "विसृज्य",
-        "en": "having cast away"
+        "hi": "त्यागकर",
+        "en": "casting aside"
       },
       "सशरं": {
-        "hi": "सशरं",
-        "en": "this word"
+        "hi": "बाणों सहित",
+        "en": "along with arrows"
       },
       "चापं": {
-        "hi": "चापं",
-        "en": "this word"
+        "hi": "धनुष को",
+        "en": "the bow"
       },
       "शोकसंविग्नमानसः": {
-        "hi": "शोकसंविग्नमानसः",
-        "en": "with a mind distressed with sorrow.Thus in the Upanishads of the glorious Bhagavad Gita"
+        "hi": "शोक से उद्विग्न मन वाले",
+        "en": "with a mind overwhelmed by grief"
       }
     }
   }

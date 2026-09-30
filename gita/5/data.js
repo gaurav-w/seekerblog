@@ -6,55 +6,55 @@ window.GITA_CHAPTER_5 = [
     "wordMeanings": {
       "अर्जुन": {
         "hi": "अर्जुन",
-        "en": "this word"
+        "en": "Arjuna"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "ने कहा",
+        "en": "said"
       },
       "संन्यासं": {
-        "hi": "संन्यासं",
-        "en": "this word"
+        "hi": "संन्यास की",
+        "en": "renunciation"
       },
       "कर्मणां": {
-        "hi": "कर्मणां",
-        "en": "this word"
+        "hi": "कर्मों के",
+        "en": "of actions"
       },
       "कृष्ण": {
-        "hi": "कृष्ण",
+        "hi": "हे कृष्ण",
         "en": "O Krishna"
       },
       "पुनर्योगं": {
-        "hi": "पुनर्योगं",
-        "en": "this word"
+        "hi": "फिर · कर्मयोग की",
+        "en": "again · yoga (performance of action)"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "शंससि": {
-        "hi": "शंससि",
-        "en": "(Thou) praisest"
+        "hi": "आप प्रशंसा करते हैं",
+        "en": "You praise"
       },
       "यच्छ्रेय": {
-        "hi": "यच्छ्रेय",
-        "en": "this word"
+        "hi": "जो · अधिक कल्याणकारी",
+        "en": "which · better"
       },
       "एतयोरेकं": {
-        "hi": "एतयोरेकं",
-        "en": "this word"
+        "hi": "इन दोनों में से · एक",
+        "en": "of these two · one"
       },
       "तन्मे": {
-        "hi": "तन्मे",
-        "en": "this word"
+        "hi": "वह · मुझे",
+        "en": "that · to me"
       },
       "ब्रूहि": {
-        "hi": "ब्रूहि",
+        "hi": "बताएँ",
         "en": "tell"
       },
       "सुनिश्चितम्": {
-        "hi": "सुनिश्चितम्",
-        "en": "this word"
+        "hi": "निश्चित रूप से",
+        "en": "definitively"
       }
     }
   },
@@ -64,32 +64,32 @@ window.GITA_CHAPTER_5 = [
     "en": "The Lord said: Both renunciation, which is Sankhya Yoga, and Karma Yoga lead to welfare. Of the two, Karma Yoga is better than the renunciation of action, which is Sankhya Yoga.",
     "wordMeanings": {
       "श्रीभगवानुवाच": {
-        "hi": "श्रीभगवानुवाच",
-        "en": "this word"
+        "hi": "श्री भगवान · ने कहा",
+        "en": "the Supreme Lord · said"
       },
       "संन्यासः": {
-        "hi": "संन्यासः",
-        "en": "renunciation"
+        "hi": "कर्मों का त्याग",
+        "en": "renunciation of action"
       },
       "कर्मयोगश्च": {
-        "hi": "कर्मयोगश्च",
-        "en": "this word"
+        "hi": "कर्मयोग · और",
+        "en": "the yoga of action · and"
       },
       "निःश्रेयसकरावुभौ": {
-        "hi": "निःश्रेयसकरावुभौ",
-        "en": "this word"
+        "hi": "परम कल्याण करने वाले · दोनों",
+        "en": "leading to the highest good · both"
       },
       "तयोस्तु": {
-        "hi": "तयोस्तु",
-        "en": "this word"
+        "hi": "उन दोनों में से · परन्तु",
+        "en": "of the two · but"
       },
       "कर्मसंन्यासात्कर्मयोगो": {
-        "hi": "कर्मसंन्यासात्कर्मयोगो",
-        "en": "this word"
+        "hi": "कर्मसंन्यास की अपेक्षा · कर्मयोग",
+        "en": "than the renunciation of action · the yoga of action"
       },
       "विशिष्यते": {
-        "hi": "विशिष्यते",
-        "en": "is superior.Commentary Sannyasa (renunciation of action) and Karma Yoga (performance of action) both lead to Moksha or liberation or the highest bliss. Though both lead to Moksha"
+        "hi": "श्रेष्ठ है",
+        "en": "is superior"
       }
     }
   },
@@ -99,52 +99,52 @@ window.GITA_CHAPTER_5 = [
     "en": "O mighty-armed one, the person who neither hates anyone nor longs for anyone should always be understood as a renunciate, for one free of the pairs of opposites is easily released from the bondage of the world.",
     "wordMeanings": {
       "ज्ञेयः": {
-        "hi": "ज्ञेयः",
+        "hi": "जानना चाहिए",
         "en": "should be known"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       },
       "नित्यसंन्यासी": {
-        "hi": "नित्यसंन्यासी",
-        "en": "perpetual ascetic"
+        "hi": "नित्य संन्यासी",
+        "en": "as a perpetual renouncer"
       },
       "यो": {
-        "hi": "यो",
-        "en": "this word"
+        "hi": "जो",
+        "en": "who"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "द्वेष्टि": {
-        "hi": "द्वेष्टि",
+        "hi": "द्वेष करता है",
         "en": "hates"
       },
       "काङ्क्षति": {
-        "hi": "काङ्क्षति",
+        "hi": "इच्छा करता है",
         "en": "desires"
       },
       "निर्द्वन्द्वो": {
-        "hi": "निर्द्वन्द्वो",
-        "en": "this word"
+        "hi": "द्वन्द्वों से रहित",
+        "en": "free from dualities"
       },
       "हि": {
-        "hi": "हि",
-        "en": "verily"
+        "hi": "क्योंकि",
+        "en": "certainly"
       },
       "महाबाहो": {
-        "hi": "महाबाहो",
-        "en": "O mightyarmed"
+        "hi": "हे महाबाहु",
+        "en": "O mighty-armed one"
       },
       "सुखं": {
-        "hi": "सुखं",
-        "en": "this word"
+        "hi": "सुखपूर्वक",
+        "en": "easily"
       },
       "बन्धात्प्रमुच्यते": {
-        "hi": "बन्धात्प्रमुच्यते",
-        "en": "this word"
+        "hi": "बन्धन से · मुक्त हो जाता है",
+        "en": "from bondage · is liberated"
       }
     }
   },
@@ -154,36 +154,36 @@ window.GITA_CHAPTER_5 = [
     "en": "The undiscerning say that Sankhya Yoga and Karma Yoga have different fruits; the learned do not. A person well established in even one of these two means attains the Lord, who is the fruit of both.",
     "wordMeanings": {
       "साङ्ख्ययोगौ": {
-        "hi": "साङ्ख्ययोगौ",
-        "en": "this word"
+        "hi": "सांख्य (ज्ञान योग) और कर्म योग को",
+        "en": "Sankhya (the path of knowledge) and Karma Yoga (the path of action)"
       },
       "पृथग्बालाः": {
-        "hi": "पृथग्बालाः",
-        "en": "this word"
+        "hi": "अलग-अलग · अज्ञानी",
+        "en": "different · the ignorant"
       },
       "प्रवदन्ति": {
-        "hi": "प्रवदन्ति",
-        "en": "speak"
+        "hi": "कहते हैं",
+        "en": "say"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "पण्डिताः": {
-        "hi": "पण्डिताः",
+        "hi": "ज्ञानी जन",
         "en": "the wise"
       },
       "एकमप्यास्थितः": {
-        "hi": "एकमप्यास्थितः",
-        "en": "this word"
+        "hi": "एक में · भी · स्थित हुआ",
+        "en": "in one · even · situated"
       },
       "सम्यगुभयोर्विन्दते": {
-        "hi": "सम्यगुभयोर्विन्दते",
-        "en": "this word"
+        "hi": "भली-भाँति · दोनों के · प्राप्त करता है",
+        "en": "properly · of both · attains"
       },
       "फलम्": {
-        "hi": "फलम्",
-        "en": "fruit.Commentary Children the ignorant people who have no knowledge of the Self"
+        "hi": "फल को",
+        "en": "the result"
       }
     }
   },
@@ -193,52 +193,52 @@ window.GITA_CHAPTER_5 = [
     "en": "The truth attained by the yogis of Sankhya is the same truth attained by the yogis of action. One who sees Sankhya Yoga and Karma Yoga as one in their fruit sees rightly.",
     "wordMeanings": {
       "यत्साङ्ख्यैः": {
-        "hi": "यत्साङ्ख्यैः",
-        "en": "this word"
+        "hi": "जो · ज्ञान योगियों द्वारा",
+        "en": "which · by the followers of Sankhya"
       },
       "प्राप्यते": {
-        "hi": "प्राप्यते",
-        "en": "is reached"
+        "hi": "प्राप्त किया जाता है",
+        "en": "is attained"
       },
       "स्थानं": {
-        "hi": "स्थानं",
-        "en": "this word"
+        "hi": "स्थान",
+        "en": "place"
       },
       "तद्योगैरपि": {
-        "hi": "तद्योगैरपि",
-        "en": "this word"
+        "hi": "वह · कर्म योगियों द्वारा · भी",
+        "en": "that · by the followers of Yoga · also"
       },
       "गम्यते": {
-        "hi": "गम्यते",
+        "hi": "प्राप्त किया जाता है",
         "en": "is reached"
       },
       "एकं": {
-        "hi": "एकं",
-        "en": "this word"
+        "hi": "एक",
+        "en": "one"
       },
       "साङ्ख्यं": {
-        "hi": "साङ्ख्यं",
-        "en": "this word"
+        "hi": "ज्ञान योग को",
+        "en": "Sankhya"
       },
       "च": {
-        "hi": "च",
+        "hi": "तथा",
         "en": "and"
       },
       "योगं": {
-        "hi": "योगं",
-        "en": "this word"
+        "hi": "कर्म योग को",
+        "en": "Yoga"
       },
       "यः": {
-        "hi": "यः",
+        "hi": "जो",
         "en": "who"
       },
       "पश्यति": {
-        "hi": "पश्यति",
-        "en": "sees"
+        "hi": "यथार्थ देखता है",
+        "en": "sees truly"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       }
     }
   },
@@ -248,28 +248,28 @@ window.GITA_CHAPTER_5 = [
     "en": "O mighty-armed one, renunciation is hard to accomplish without Karma Yoga. The reflective yogi of action soon attains Brahman.",
     "wordMeanings": {
       "संन्यासस्तु": {
-        "hi": "संन्यासस्तु",
-        "en": "this word"
+        "hi": "संन्यास · परन्तु",
+        "en": "renunciation · but"
       },
       "महाबाहो": {
-        "hi": "महाबाहो",
-        "en": "O mightyarmed"
+        "hi": "हे महाबाहु",
+        "en": "O mighty-armed one"
       },
       "दुःखमाप्तुमयोगतः": {
-        "hi": "दुःखमाप्तुमयोगतः",
-        "en": "this word"
+        "hi": "दुःखदायी · प्राप्त करने के लिए · कर्मयोग के बिना",
+        "en": "distress · to attain · without yoga"
       },
       "योगयुक्तो": {
-        "hi": "योगयुक्तो",
-        "en": "this word"
+        "hi": "कर्मयोग से युक्त",
+        "en": "one engaged in yoga"
       },
       "मुनिर्ब्रह्म": {
-        "hi": "मुनिर्ब्रह्म",
-        "en": "this word"
+        "hi": "मुनि · परब्रह्म को",
+        "en": "a sage · Brahman"
       },
       "नचिरेणाधिगच्छति": {
-        "hi": "नचिरेणाधिगच्छति",
-        "en": "this word"
+        "hi": "शीघ्र ही · प्राप्त कर लेता है",
+        "en": "without delay · attains"
       }
     }
   },
@@ -279,36 +279,36 @@ window.GITA_CHAPTER_5 = [
     "en": "The yogi of action whose senses are under control, whose inner instrument is pure, whose body is mastered, and whose self is the self of all beings, is not tainted even while acting.",
     "wordMeanings": {
       "योगयुक्तो": {
-        "hi": "योगयुक्तो",
-        "en": "this word"
+        "hi": "कर्मयोग में लगा हुआ",
+        "en": "engaged in karma yoga"
       },
       "विशुद्धात्मा": {
-        "hi": "विशुद्धात्मा",
-        "en": "a man of purified mind"
+        "hi": "शुद्ध अंतःकरण वाला",
+        "en": "one with a purified mind"
       },
       "विजितात्मा": {
-        "hi": "विजितात्मा",
-        "en": "one who has conered the self"
+        "hi": "जिसने मन को जीत लिया है",
+        "en": "one who has controlled the mind"
       },
       "जितेन्द्रियः": {
-        "hi": "जितेन्द्रियः",
-        "en": "one who has subdued his senses"
+        "hi": "जिसने इन्द्रियों को जीत लिया है",
+        "en": "one who has conquered the senses"
       },
       "सर्वभूतात्मभूतात्मा": {
-        "hi": "सर्वभूतात्मभूतात्मा",
-        "en": "one who realises his Self as the Self in all beings"
+        "hi": "जो सभी प्राणियों का आत्मा बन गया है",
+        "en": "one whose self has become the self of all beings"
       },
       "कुर्वन्नपि": {
-        "hi": "कुर्वन्नपि",
-        "en": "this word"
+        "hi": "कर्म करते हुए · भी",
+        "en": "performing actions · even"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "लिप्यते": {
-        "hi": "लिप्यते",
-        "en": "is tainted.Commentary He who is harmonised by Yoga"
+        "hi": "लिप्त होता है",
+        "en": "is tainted"
       }
     }
   },
@@ -318,28 +318,28 @@ window.GITA_CHAPTER_5 = [
     "en": "Verses 5.8–5.9. The Sankhya yogi who knows the truth should hold, “I myself do nothing,” understanding that, while seeing, hearing, touching, smelling, eating, walking, taking, speaking, releasing waste, sleeping, breathing, and opening or closing the eyes, the senses are only dealing with their objects.",
     "wordMeanings": {
       "नैव": {
-        "hi": "नैव",
-        "en": "this word"
+        "hi": "नहीं · ही",
+        "en": "not · certainly"
       },
       "किञ्चित्करोमीति": {
-        "hi": "किञ्चित्करोमीति",
-        "en": "this word"
+        "hi": "कुछ भी · करता हूँ · ऐसा",
+        "en": "anything · I do · thus"
       },
       "युक्तो": {
-        "hi": "युक्तो",
-        "en": "this word"
+        "hi": "योग में स्थित (योगी)",
+        "en": "the yogi"
       },
       "मन्येत": {
-        "hi": "मन्येत",
+        "hi": "मानना चाहिए",
         "en": "should think"
       },
       "तत्त्ववित्": {
-        "hi": "तत्त्ववित्",
-        "en": "the knower of Truth"
+        "hi": "तत्त्व को जानने वाला",
+        "en": "the knower of the truth"
       },
       "पश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन्": {
-        "hi": "पश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन्",
-        "en": "this word"
+        "hi": "देखता हुआ · सुनता हुआ · स्पर्श करता हुआ · सूँघता हुआ · खाता हुआ · चलता हुआ · सोता हुआ · श्वास लेता हुआ",
+        "en": "seeing · hearing · touching · smelling · eating · walking · sleeping · breathing"
       }
     }
   },
@@ -349,24 +349,24 @@ window.GITA_CHAPTER_5 = [
     "en": "Verses 5.8–5.9. The Sankhya yogi who knows the truth should hold, “I myself do nothing,” understanding that, while seeing, hearing, touching, smelling, eating, walking, taking, speaking, releasing waste, sleeping, breathing, and opening or closing the eyes, the senses are only dealing with their objects.",
     "wordMeanings": {
       "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि": {
-        "hi": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि",
-        "en": "this word"
+        "hi": "बोलते हुए · त्यागते हुए · ग्रहण करते हुए · आँखें खोलते हुए · आँखें बंद करते हुए · भी",
+        "en": "speaking · letting go · grasping · opening the eyes · closing the eyes · also"
       },
       "इन्द्रियाणीन्द्रियार्थेषु": {
-        "hi": "इन्द्रियाणीन्द्रियार्थेषु",
-        "en": "this word"
+        "hi": "इन्द्रियाँ · इन्द्रियों के विषयों में",
+        "en": "the senses · in the sense objects"
       },
       "वर्तन्त": {
-        "hi": "वर्तन्त",
-        "en": "this word"
+        "hi": "बरत रही हैं (कार्यरत हैं)",
+        "en": "are engaged"
       },
       "इति": {
-        "hi": "इति",
+        "hi": "ऐसा",
         "en": "thus"
       },
       "धारयन्": {
-        "hi": "धारयन्",
-        "en": "being convinced.Commentary The liberated sage or a Jnani always remains as a witness of the activities of the senses as he identifies himself with the Self or Brahman. He thinks and says"
+        "hi": "धारण करते हुए (मानते हुए)",
+        "en": "holding the conviction"
       }
     }
   },
@@ -376,48 +376,48 @@ window.GITA_CHAPTER_5 = [
     "en": "One who acts after offering all actions to the Lord and giving up attachment is not tainted by sin, as a lotus leaf is not tainted by water.",
     "wordMeanings": {
       "ब्रह्मण्याधाय": {
-        "hi": "ब्रह्मण्याधाय",
-        "en": "this word"
+        "hi": "परब्रह्म में · समर्पित करके",
+        "en": "unto Brahman · having dedicated"
       },
       "कर्माणि": {
-        "hi": "कर्माणि",
+        "hi": "कर्मों को",
         "en": "actions"
       },
       "सङ्गं": {
-        "hi": "सङ्गं",
-        "en": "this word"
+        "hi": "आसक्ति को",
+        "en": "attachment"
       },
       "त्यक्त्वा": {
-        "hi": "त्यक्त्वा",
+        "hi": "त्यागकर",
         "en": "having abandoned"
       },
       "करोति": {
-        "hi": "करोति",
-        "en": "acts"
+        "hi": "करता है",
+        "en": "performs"
       },
       "यः": {
-        "hi": "यः",
+        "hi": "जो",
         "en": "who"
       },
       "लिप्यते": {
-        "hi": "लिप्यते",
+        "hi": "लिप्त होता है",
         "en": "is tainted"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       },
       "पापेन": {
-        "hi": "पापेन",
+        "hi": "पाप से",
         "en": "by sin"
       },
       "पद्मपत्रमिवाम्भसा": {
-        "hi": "पद्मपत्रमिवाम्भसा",
-        "en": "this word"
+        "hi": "कमल का पत्ता · के समान · जल से",
+        "en": "lotus leaf · like · by water"
       }
     }
   },
@@ -427,40 +427,40 @@ window.GITA_CHAPTER_5 = [
     "en": "Giving up attachment, yogis of action act only for the purification of the inner instrument, and only through the senses, body, mind, and intellect, without the sense of “mine.”",
     "wordMeanings": {
       "कायेन": {
-        "hi": "कायेन",
+        "hi": "शरीर से",
         "en": "by the body"
       },
       "मनसा": {
-        "hi": "मनसा",
+        "hi": "मन से",
         "en": "by the mind"
       },
       "बुद्ध्या": {
-        "hi": "बुद्ध्या",
+        "hi": "बुद्धि से",
         "en": "by the intellect"
       },
       "केवलैरिन्द्रियैरपि": {
-        "hi": "केवलैरिन्द्रियैरपि",
-        "en": "this word"
+        "hi": "केवल (आसक्ति रहित) · इन्द्रियों द्वारा · भी",
+        "en": "only (purified) · by the senses · even"
       },
       "योगिनः": {
-        "hi": "योगिनः",
-        "en": "Yogis"
+        "hi": "योगी जन",
+        "en": "the yogis"
       },
       "कर्म": {
         "hi": "कर्म",
         "en": "action"
       },
       "कुर्वन्ति": {
-        "hi": "कुर्वन्ति",
+        "hi": "करते हैं",
         "en": "perform"
       },
       "सङ्गं": {
-        "hi": "सङ्गं",
-        "en": "this word"
+        "hi": "आसक्ति को",
+        "en": "attachment"
       },
       "त्यक्त्वात्मशुद्धये": {
-        "hi": "त्यक्त्वात्मशुद्धये",
-        "en": "this word"
+        "hi": "त्यागकर · आत्म-शुद्धि के लिए",
+        "en": "having abandoned · for self-purification"
       }
     }
   },
@@ -470,44 +470,44 @@ window.GITA_CHAPTER_5 = [
     "en": "The yogi of action attains lasting peace by giving up the fruit of action. The person who acts from desire is bound, attached to the fruit because of that desire.",
     "wordMeanings": {
       "युक्तः": {
-        "hi": "युक्तः",
-        "en": "the united one (the well poised)"
+        "hi": "युक्त (कर्मयोगी)",
+        "en": "the united one (yogi)"
       },
       "कर्मफलं": {
-        "hi": "कर्मफलं",
-        "en": "this word"
+        "hi": "कर्म के फल को",
+        "en": "the fruit of action"
       },
       "त्यक्त्वा": {
-        "hi": "त्यक्त्वा",
+        "hi": "त्यागकर",
         "en": "having abandoned"
       },
       "शान्तिमाप्नोति": {
-        "hi": "शान्तिमाप्नोति",
-        "en": "this word"
+        "hi": "शान्ति को · प्राप्त करता है",
+        "en": "peace · attains"
       },
       "नैष्ठिकीम्": {
-        "hi": "नैष्ठिकीम्",
-        "en": "final"
+        "hi": "नैष्ठिक (परम)",
+        "en": "steadfast (ultimate)"
       },
       "अयुक्तः": {
-        "hi": "अयुक्तः",
-        "en": "the nonunited one"
+        "hi": "अयुक्त (सकाम पुरुष)",
+        "en": "the un-united one"
       },
       "कामकारेण": {
-        "hi": "कामकारेण",
+        "hi": "कामना की प्रेरणा से",
         "en": "impelled by desire"
       },
       "फले": {
-        "hi": "फले",
-        "en": "in the fruit (of action)"
+        "hi": "फल में",
+        "en": "in the fruit"
       },
       "सक्तो": {
-        "hi": "सक्तो",
-        "en": "this word"
+        "hi": "आसक्त होकर",
+        "en": "attached"
       },
       "निबध्यते": {
-        "hi": "निबध्यते",
-        "en": "is bound.Commentary Santim naishthikim is interpreted as peace born of devotion of steadfastness. The harmonious man who does actions for the sake of the Lord without expectation of the fruit and who says"
+        "hi": "बँध जाता है",
+        "en": "becomes bound"
       }
     }
   },
@@ -517,48 +517,48 @@ window.GITA_CHAPTER_5 = [
     "en": "The embodied person whose senses and mind are mastered, having wisely given up all actions with the mind, neither doing nor causing them, surely rests happily in the Self, in the body-city of nine gates.",
     "wordMeanings": {
       "सर्वकर्माणि": {
-        "hi": "सर्वकर्माणि",
+        "hi": "सभी कर्मों को",
         "en": "all actions"
       },
       "मनसा": {
-        "hi": "मनसा",
+        "hi": "मन से",
         "en": "by the mind"
       },
       "संन्यस्यास्ते": {
-        "hi": "संन्यस्यास्ते",
-        "en": "this word"
+        "hi": "त्याग करके · रहता है",
+        "en": "having renounced · resides"
       },
       "सुखं": {
-        "hi": "सुखं",
-        "en": "this word"
+        "hi": "सुखपूर्वक",
+        "en": "happily"
       },
       "वशी": {
-        "hi": "वशी",
-        "en": "the selfcontrolled"
+        "hi": "वश में करने वाला (जितेन्द्रिय)",
+        "en": "one who has controlled (the senses)"
       },
       "नवद्वारे": {
-        "hi": "नवद्वारे",
-        "en": "in the ninegated"
+        "hi": "नौ द्वारों वाले",
+        "en": "in the nine-gated"
       },
       "पुरे": {
-        "hi": "पुरे",
+        "hi": "नगर में",
         "en": "in the city"
       },
       "देही": {
-        "hi": "देही",
-        "en": "the embodied"
+        "hi": "देहधारी (आत्मा)",
+        "en": "the embodied soul"
       },
       "नैव": {
-        "hi": "नैव",
-        "en": "this word"
+        "hi": "नहीं · निश्चय ही",
+        "en": "not · certainly"
       },
       "कुर्वन्न": {
-        "hi": "कुर्वन्न",
-        "en": "this word"
+        "hi": "करता हुआ · न",
+        "en": "doing · nor"
       },
       "कारयन्": {
-        "hi": "कारयन्",
-        "en": "causing to act.Commentary All actions -- (1) Nitya Karmas These are obligatory duties. Their performance does not produce any merit but their nonperformance produces demerit. Sandhyavandana"
+        "hi": "करवाता हुआ",
+        "en": "causing to be done"
       }
     }
   },
@@ -568,40 +568,40 @@ window.GITA_CHAPTER_5 = [
     "en": "The Lord does not create agency in people, nor actions, nor the connection with the fruit of action. Nature itself is what acts.",
     "wordMeanings": {
       "न": {
-        "hi": "न",
-        "en": "not"
+        "hi": "न ही",
+        "en": "nor"
       },
       "कर्तृत्वं": {
-        "hi": "कर्तृत्वं",
-        "en": "this word"
+        "hi": "कर्तापन को",
+        "en": "doership"
       },
       "कर्माणि": {
-        "hi": "कर्माणि",
+        "hi": "कर्मों को",
         "en": "actions"
       },
       "लोकस्य": {
-        "hi": "लोकस्य",
-        "en": "for this world"
+        "hi": "लोगों के",
+        "en": "of the people"
       },
       "सृजति": {
-        "hi": "सृजति",
+        "hi": "रचता है",
         "en": "creates"
       },
       "प्रभुः": {
-        "hi": "प्रभुः",
+        "hi": "परमेश्वर",
         "en": "the Lord"
       },
       "कर्मफलसंयोगं": {
-        "hi": "कर्मफलसंयोगं",
-        "en": "this word"
+        "hi": "कर्मफलों के संयोग को",
+        "en": "connection with the fruits of actions"
       },
       "स्वभावस्तु": {
-        "hi": "स्वभावस्तु",
-        "en": "this word"
+        "hi": "स्वभाव (प्रकृति) · तो (बल्कि)",
+        "en": "nature · but"
       },
       "प्रवर्तते": {
-        "hi": "प्रवर्तते",
-        "en": "leads to action.Commentary The Lord does not create agency or doership. He does not press anyone to do actions. He never tells anyone"
+        "hi": "कार्य करता है",
+        "en": "acts"
       }
     }
   },
@@ -611,48 +611,48 @@ window.GITA_CHAPTER_5 = [
     "en": "The all-pervading Lord takes neither anyone’s sin nor anyone’s good action. Knowledge is covered by ignorance, and because of that all beings are deluded.",
     "wordMeanings": {
       "नादत्ते": {
-        "hi": "नादत्ते",
-        "en": "this word"
+        "hi": "नहीं · ग्रहण करते हैं",
+        "en": "not · accepts"
       },
       "कस्यचित्पापं": {
-        "hi": "कस्यचित्पापं",
-        "en": "this word"
+        "hi": "किसी के · पाप को",
+        "en": "anyone&rsquo;s · sin"
       },
       "न": {
         "hi": "न",
-        "en": "not"
+        "en": "nor"
       },
       "चैव": {
-        "hi": "चैव",
-        "en": "this word"
+        "hi": "और · ही",
+        "en": "and · certainly"
       },
       "सुकृतं": {
-        "hi": "सुकृतं",
-        "en": "this word"
+        "hi": "पुण्य को",
+        "en": "pious deed"
       },
       "विभुः": {
-        "hi": "विभुः",
-        "en": "the Lord"
+        "hi": "सर्वव्यापी परमेश्वर",
+        "en": "the Supreme Lord"
       },
       "अज्ञानेनावृतं": {
-        "hi": "अज्ञानेनावृतं",
-        "en": "this word"
+        "hi": "अज्ञान के द्वारा · ढका हुआ",
+        "en": "by ignorance · covered"
       },
       "ज्ञानं": {
-        "hi": "ज्ञानं",
-        "en": "this word"
+        "hi": "ज्ञान",
+        "en": "knowledge"
       },
       "तेन": {
-        "hi": "तेन",
+        "hi": "उससे",
         "en": "by that"
       },
       "मुह्यन्ति": {
-        "hi": "मुह्यन्ति",
-        "en": "are deluded"
+        "hi": "मोहित होते हैं",
+        "en": "are bewildered"
       },
       "जन्तवः": {
-        "hi": "जन्तवः",
-        "en": "beings.Commentary Knowledge is enveloped by ignorance. Conseently man is deluded. He thinks"
+        "hi": "जीव",
+        "en": "the living entities"
       }
     }
   },
@@ -662,36 +662,36 @@ window.GITA_CHAPTER_5 = [
     "en": "But for those who have destroyed that ignorance by their knowledge, which is discrimination, that knowledge reveals the supreme truth, the Lord, as the sun does.",
     "wordMeanings": {
       "ज्ञानेन": {
-        "hi": "ज्ञानेन",
-        "en": "by wisdom"
+        "hi": "ज्ञान के द्वारा",
+        "en": "by knowledge"
       },
       "तु": {
-        "hi": "तु",
+        "hi": "परन्तु",
         "en": "but"
       },
       "तदज्ञानं": {
-        "hi": "तदज्ञानं",
-        "en": "this word"
+        "hi": "वह · अज्ञान",
+        "en": "that · ignorance"
       },
       "येषां": {
-        "hi": "येषां",
-        "en": "this word"
+        "hi": "जिनका",
+        "en": "whose"
       },
       "नाशितमात्मनः": {
-        "hi": "नाशितमात्मनः",
-        "en": "this word"
+        "hi": "नष्ट कर दिया गया है · आत्मा का",
+        "en": "is destroyed · of the self"
       },
       "तेषामादित्यवज्ज्ञानं": {
-        "hi": "तेषामादित्यवज्ज्ञानं",
-        "en": "this word"
+        "hi": "उनका · सूर्य के समान · ज्ञान",
+        "en": "their · like the sun · knowledge"
       },
       "प्रकाशयति": {
-        "hi": "प्रकाशयति",
-        "en": "reveals"
+        "hi": "प्रकाशित करता है",
+        "en": "illuminates"
       },
       "तत्परम्": {
-        "hi": "तत्परम्",
-        "en": "that Highest.Commentary When ignorance"
+        "hi": "उस · परम (तत्त्व) को",
+        "en": "that · Supreme Reality"
       }
     }
   },
@@ -701,16 +701,16 @@ window.GITA_CHAPTER_5 = [
     "en": "Those whose intellect has taken the form of That, whose mind has taken the form of That, and who are established in the supreme Self, become free of sin through knowledge and attain the state from which there is no return.",
     "wordMeanings": {
       "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः": {
-        "hi": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः",
-        "en": "this word"
+        "hi": "उस (परमात्मा) में · बुद्धि वाले · उस (परमात्मा) में · मन वाले · उस (परमात्मा) में · निष्ठा वाले · उस (परमात्मा) के · आश्रित",
+        "en": "in That (Supreme) · whose intelligence · in That (Supreme) · whose mind · in That (Supreme) · whose steady faith · in That (Supreme) · who have as their supreme goal"
       },
       "गच्छन्त्यपुनरावृत्तिं": {
-        "hi": "गच्छन्त्यपुनरावृत्तिं",
-        "en": "this word"
+        "hi": "प्राप्त होते हैं · मोक्ष को (जहाँ से लौटना नहीं पड़ता)",
+        "en": "they go · to non-return (liberation)"
       },
       "ज्ञाननिर्धूतकल्मषाः": {
-        "hi": "ज्ञाननिर्धूतकल्मषाः",
-        "en": "this word"
+        "hi": "ज्ञान द्वारा · धुल गए हैं · जिनके पाप",
+        "en": "by knowledge · washed away · whose sins"
       }
     }
   },
@@ -720,44 +720,44 @@ window.GITA_CHAPTER_5 = [
     "en": "The wise see the same Lord in a learned and humble brahmin and in a chandala, and also in a cow, an elephant, and a dog.",
     "wordMeanings": {
       "विद्याविनयसम्पन्ने": {
-        "hi": "विद्याविनयसम्पन्ने",
-        "en": "this word"
+        "hi": "विद्या · विनय · से युक्त",
+        "en": "knowledge · humility · endowed with"
       },
       "ब्राह्मणे": {
-        "hi": "ब्राह्मणे",
-        "en": "on a Brahmana"
+        "hi": "ब्राह्मण में",
+        "en": "in a brahmana"
       },
       "गवि": {
-        "hi": "गवि",
-        "en": "on a cow"
+        "hi": "गाय में",
+        "en": "in a cow"
       },
       "हस्तिनि": {
-        "hi": "हस्तिनि",
-        "en": "on an elephant"
+        "hi": "हाथी में",
+        "en": "in an elephant"
       },
       "शुनि": {
-        "hi": "शुनि",
-        "en": "on a dog"
+        "hi": "कुत्ते में",
+        "en": "in a dog"
       },
       "चैव": {
-        "hi": "चैव",
-        "en": "this word"
+        "hi": "और · ही",
+        "en": "and · certainly"
       },
       "श्वपाके": {
-        "hi": "श्वपाके",
-        "en": "on an outcaste"
+        "hi": "चाण्डाल में",
+        "en": "in a dog-eater (outcaste)"
       },
       "च": {
-        "hi": "च",
+        "hi": "तथा",
         "en": "and"
       },
       "पण्डिताः": {
-        "hi": "पण्डिताः",
-        "en": "sages"
+        "hi": "ज्ञानी जन",
+        "en": "the wise"
       },
       "समदर्शिनः": {
-        "hi": "समदर्शिनः",
-        "en": "eal seeing.Commentary The liberated sage or Jivanmukta or a Brahmana has eal vision as he beholds the Self only everywhere. This magnificent vision of a Jnani is beyond description. Atman or Brahman is not at all affected by the Upadhis or limiting adjuncts as He is extremely subtle"
+        "hi": "समान · देखने वाले",
+        "en": "equal · seers"
       }
     }
   },
@@ -767,64 +767,64 @@ window.GITA_CHAPTER_5 = [
     "en": "Those whose inner instrument rests in evenness have conquered the whole world even while living. Brahman is flawless and even, so they are established in Brahman.",
     "wordMeanings": {
       "इहैव": {
-        "hi": "इहैव",
-        "en": "this word"
+        "hi": "यहाँ (इसी जीवन में) · ही",
+        "en": "here (in this life) · certainly"
       },
       "तैर्जितः": {
-        "hi": "तैर्जितः",
-        "en": "this word"
+        "hi": "उनके द्वारा · जीत लिया गया है",
+        "en": "by them · conquered"
       },
       "सर्गो": {
-        "hi": "सर्गो",
-        "en": "this word"
+        "hi": "संसार (जन्म-मरण का चक्र)",
+        "en": "creation (cycle of birth and death)"
       },
       "येषां": {
-        "hi": "येषां",
-        "en": "this word"
+        "hi": "जिनका",
+        "en": "whose"
       },
       "साम्ये": {
-        "hi": "साम्ये",
-        "en": "in eality"
+        "hi": "समभाव में",
+        "en": "in equanimity"
       },
       "स्थितं": {
-        "hi": "स्थितं",
-        "en": "this word"
+        "hi": "स्थित है",
+        "en": "situated"
       },
       "मनः": {
-        "hi": "मनः",
+        "hi": "मन",
         "en": "mind"
       },
       "निर्दोषं": {
-        "hi": "निर्दोषं",
-        "en": "this word"
+        "hi": "निर्दोष",
+        "en": "flawless"
       },
       "हि": {
-        "hi": "हि",
-        "en": "indeed"
+        "hi": "क्योंकि (निश्चय ही)",
+        "en": "certainly"
       },
       "समं": {
-        "hi": "समं",
-        "en": "this word"
+        "hi": "सम",
+        "en": "equal"
       },
       "ब्रह्म": {
         "hi": "ब्रह्म",
-        "en": "Brahman"
+        "en": "the Supreme"
       },
       "तस्माद्": {
-        "hi": "तस्माद्",
-        "en": "this word"
+        "hi": "इसलिए",
+        "en": "therefore"
       },
       "ब्रह्मणि": {
-        "hi": "ब्रह्मणि",
-        "en": "in Brahman"
+        "hi": "ब्रह्म में",
+        "en": "in the Supreme"
       },
       "ते": {
-        "hi": "ते",
+        "hi": "वे",
         "en": "they"
       },
       "स्थिताः": {
-        "hi": "स्थिताः",
-        "en": "are established.Commentary When the mind gets rooted in eanimity or evenness or eality"
+        "hi": "स्थित हैं",
+        "en": "are situated"
       }
     }
   },
@@ -834,40 +834,40 @@ window.GITA_CHAPTER_5 = [
     "en": "One who is not delighted on gaining the pleasant, and not agitated on gaining the unpleasant, has a steady intellect, is free of delusion, knows Brahman, and is established in Brahman.",
     "wordMeanings": {
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "प्रहृष्येत्प्रियं": {
-        "hi": "प्रहृष्येत्प्रियं",
-        "en": "this word"
+        "hi": "हर्षित हो · प्रिय को",
+        "en": "should rejoice · the pleasant"
       },
       "प्राप्य": {
-        "hi": "प्राप्य",
+        "hi": "प्राप्त करके",
         "en": "having obtained"
       },
       "नोद्विजेत्प्राप्य": {
-        "hi": "नोद्विजेत्प्राप्य",
-        "en": "this word"
+        "hi": "नहीं · उद्विग्न हो · प्राप्त करके",
+        "en": "not · should be agitated · having obtained"
       },
       "चाप्रियम्": {
-        "hi": "चाप्रियम्",
-        "en": "this word"
+        "hi": "और · अप्रिय को",
+        "en": "and · the unpleasant"
       },
       "स्थिरबुद्धिरसम्मूढो": {
-        "hi": "स्थिरबुद्धिरसम्मूढो",
-        "en": "this word"
+        "hi": "स्थिर बुद्धि वाला · मोहरहित",
+        "en": "one with steady intelligence · unbewildered"
       },
       "ब्रह्मविद्": {
-        "hi": "ब्रह्मविद्",
-        "en": "this word"
+        "hi": "ब्रह्म को जानने वाला",
+        "en": "knower of Brahman"
       },
       "ब्रह्मणि": {
-        "hi": "ब्रह्मणि",
+        "hi": "ब्रह्म में",
         "en": "in Brahman"
       },
       "स्थितः": {
-        "hi": "स्थितः",
-        "en": "established.Commentary This is the state of a Jivanmukta or a liberated sage or a Brahmana who identifies himself with the Self or Atman. He always has a balanced mind. He is never deluded. He has abandoned all actions as he rests in Brahman. He who has an unbalanced mind"
+        "hi": "स्थित",
+        "en": "situated"
       }
     }
   },
@@ -877,28 +877,28 @@ window.GITA_CHAPTER_5 = [
     "en": "The seeker whose inner instrument is unattached to outer contact attains the happiness that is in the Self. Then, established in Brahman without a sense of difference, that person experiences undecaying happiness.",
     "wordMeanings": {
       "बाह्यस्पर्शेष्वसक्तात्मा": {
-        "hi": "बाह्यस्पर्शेष्वसक्तात्मा",
-        "en": "this word"
+        "hi": "बाहरी विषयों के संपर्क में · अनासक्त मन वाला",
+        "en": "in external sense contacts · whose mind is unattached"
       },
       "विन्दत्यात्मनि": {
-        "hi": "विन्दत्यात्मनि",
-        "en": "this word"
+        "hi": "प्राप्त करता है · आत्मा में",
+        "en": "finds · in the Self"
       },
       "यत्सुखम्": {
-        "hi": "यत्सुखम्",
-        "en": "this word"
+        "hi": "जो · सुख",
+        "en": "which · happiness"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       },
       "ब्रह्मयोगयुक्तात्मा": {
-        "hi": "ब्रह्मयोगयुक्तात्मा",
-        "en": "with the self engaged in the meditation of Brahman"
+        "hi": "ब्रह्म के साथ योग में स्थित अंतःकरण वाला",
+        "en": "whose mind is united with Brahman through yoga"
       },
       "सुखमक्षयमश्नुते": {
-        "hi": "सुखमक्षयमश्नुते",
-        "en": "this word"
+        "hi": "सुख को · अविनाशी · भोगता है",
+        "en": "happiness · imperishable · enjoys"
       }
     }
   },
@@ -908,56 +908,56 @@ window.GITA_CHAPTER_5 = [
     "en": "O son of Kunti, the enjoyments born of contact between the senses and their objects have a beginning and an end, and are only a cause of sorrow. A discerning person does not delight in them.",
     "wordMeanings": {
       "ये": {
-        "hi": "ये",
+        "hi": "जो",
         "en": "which"
       },
       "हि": {
-        "hi": "हि",
-        "en": "verily"
+        "hi": "निश्चय ही",
+        "en": "indeed"
       },
       "संस्पर्शजा": {
-        "hi": "संस्पर्शजा",
-        "en": "this word"
+        "hi": "इन्द्रिय-स्पर्श से उत्पन्न",
+        "en": "born of contact with the senses"
       },
       "भोगा": {
-        "hi": "भोगा",
-        "en": "this word"
+        "hi": "भोग",
+        "en": "pleasures"
       },
       "दुःखयोनय": {
-        "hi": "दुःखयोनय",
-        "en": "this word"
+        "hi": "दुःख के कारण",
+        "en": "sources of misery"
       },
       "एव": {
-        "hi": "एव",
+        "hi": "ही",
         "en": "only"
       },
       "ते": {
-        "hi": "ते",
+        "hi": "वे",
         "en": "they"
       },
       "आद्यन्तवन्तः": {
-        "hi": "आद्यन्तवन्तः",
-        "en": "having beginning and end"
+        "hi": "आदि और अन्त वाले",
+        "en": "having a beginning and an end"
       },
       "कौन्तेय": {
-        "hi": "कौन्तेय",
-        "en": "O Kaunteya"
+        "hi": "हे कुन्तीपुत्र",
+        "en": "O son of Kunti"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "तेषु": {
-        "hi": "तेषु",
-        "en": "in those"
+        "hi": "उनमें",
+        "en": "in them"
       },
       "रमते": {
-        "hi": "रमते",
+        "hi": "रमण करता है",
         "en": "rejoices"
       },
       "बुधः": {
-        "hi": "बुधः",
-        "en": "the wise.Commentary Man goes in est of joy and searches in the external perishable objects for his happiness. He fails to get it but instead he carries a load of sorrow on his head.You should withdraw the senses from the senseobjects as there is no trace of happiness in them and fix the min on the immortal"
+        "hi": "बुद्धिमान मनुष्य",
+        "en": "the wise person"
       }
     }
   },
@@ -967,44 +967,44 @@ window.GITA_CHAPTER_5 = [
     "en": "In this human body, whoever can bear the urge born of desire and anger before the body falls away is a yogi among people, and that person alone is happy.",
     "wordMeanings": {
       "शक्नोतीहैव": {
-        "hi": "शक्नोतीहैव",
-        "en": "this word"
+        "hi": "समर्थ होता है · यहाँ (इस जीवन में) · ही",
+        "en": "is able · here (in this life) · indeed"
       },
       "यः": {
-        "hi": "यः",
+        "hi": "जो",
         "en": "who"
       },
       "सोढुं": {
-        "hi": "सोढुं",
-        "en": "this word"
+        "hi": "सहन करने में",
+        "en": "to tolerate"
       },
       "प्राक्शरीरविमोक्षणात्": {
-        "hi": "प्राक्शरीरविमोक्षणात्",
-        "en": "this word"
+        "hi": "पहले · शरीर त्यागने से",
+        "en": "before · liberation from the body"
       },
       "कामक्रोधोद्भवं": {
-        "hi": "कामक्रोधोद्भवं",
-        "en": "this word"
+        "hi": "काम और क्रोध से उत्पन्न",
+        "en": "arising from desire and anger"
       },
       "वेगं": {
-        "hi": "वेगं",
-        "en": "this word"
+        "hi": "वेग को",
+        "en": "the impulse"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       },
       "युक्तः": {
-        "hi": "युक्तः",
-        "en": "united"
+        "hi": "योगी",
+        "en": "united (yogi)"
       },
       "सुखी": {
         "hi": "सुखी",
         "en": "happy"
       },
       "नरः": {
-        "hi": "नरः",
-        "en": "man.Commentary Yukta means harmonised or steadfast in Yoga or selfabiding.Desire and anger are powerful enemies of peace. It is very difficult to annihilate them. You will have to make very strong efforts to destroy these enemies.When the word Kama (desire) is used in a general sense it includes all sorts of desires. It means lust in a special sense.While still here means while yet living. The impulse of desire is the agitation of the mind which is indicated by hairs standing on end and cheerful face. The impulse of anger is agitation of the mind which is indicated by fiery eyes"
+        "hi": "मनुष्य",
+        "en": "man"
       }
     }
   },
@@ -1014,28 +1014,28 @@ window.GITA_CHAPTER_5 = [
     "en": "One whose happiness is in the Lord alone, who delights in the Lord alone, and whose knowledge is of the Lord alone, the Sankhya yogi who experiences his own state in Brahman, attains the Brahman of nirvana.",
     "wordMeanings": {
       "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव": {
-        "hi": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव",
-        "en": "this word"
+        "hi": "जो · भीतर ही सुख वाला है · भीतर ही रमण करने वाला है · और · भीतर ही ज्ञान की ज्योति वाला है · ही",
+        "en": "who · happy within · rejoicing within · and · illuminated within · only"
       },
       "यः": {
-        "hi": "यः",
+        "hi": "जो",
         "en": "who"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "that"
       },
       "योगी": {
         "hi": "योगी",
-        "en": "Yogi"
+        "en": "yogi"
       },
       "ब्रह्मनिर्वाणं": {
-        "hi": "ब्रह्मनिर्वाणं",
-        "en": "this word"
+        "hi": "ब्रह्म-निर्वाण (परम शांति) को",
+        "en": "liberation in Brahman"
       },
       "ब्रह्मभूतोऽधिगच्छति": {
-        "hi": "ब्रह्मभूतोऽधिगच्छति",
-        "en": "this word"
+        "hi": "ब्रह्मरूप हुआ · प्राप्त होता है",
+        "en": "having become Brahman · attains"
       }
     }
   },
@@ -1045,32 +1045,32 @@ window.GITA_CHAPTER_5 = [
     "en": "Discerning seekers whose body, together with mind, intellect, and senses, is mastered, who are devoted to the welfare of all beings, whose doubts have gone, and whose impurities have been destroyed, attain the Brahman of nirvana.",
     "wordMeanings": {
       "लभन्ते": {
-        "hi": "लभन्ते",
-        "en": "obtain"
+        "hi": "प्राप्त करते हैं",
+        "en": "attain"
       },
       "ब्रह्मनिर्वाणमृषयः": {
-        "hi": "ब्रह्मनिर्वाणमृषयः",
-        "en": "this word"
+        "hi": "ब्रह्म-निर्वाण (परम शान्ति) · ऋषिगण (सत्यद्रष्टा)",
+        "en": "liberation in Brahman · the seers"
       },
       "क्षीणकल्मषाः": {
-        "hi": "क्षीणकल्मषाः",
-        "en": "those whose sins are destroyed"
+        "hi": "जिनके पाप नष्ट हो गए हैं",
+        "en": "whose sins are destroyed"
       },
       "छिन्नद्वैधा": {
-        "hi": "छिन्नद्वैधा",
-        "en": "this word"
+        "hi": "जिनके संशय छिन्न-भिन्न हो गए हैं",
+        "en": "whose doubts are dispelled"
       },
       "यतात्मानः": {
-        "hi": "यतात्मानः",
-        "en": "those who are selfcontrolled"
+        "hi": "जो मन और इन्द्रियों को वश में किए हुए हैं",
+        "en": "who are self-controlled"
       },
       "सर्वभूतहिते": {
-        "hi": "सर्वभूतहिते",
+        "hi": "समस्त प्राणियों के कल्याण में",
         "en": "in the welfare of all beings"
       },
       "रताः": {
-        "hi": "रताः",
-        "en": "rejoicing.Commentary Sins are destroyed by the performance of Agnihotra (a daily obligatoyr ritual) and other Yajnas (vide notes on verse III. 13) without expectation of their fruits and by other selfless services. The duties vanish by constant meditation on the nondual Brahman. He never hurts others in thought"
+        "hi": "लगे हुए",
+        "en": "actively engaged"
       }
     }
   },
@@ -1080,32 +1080,32 @@ window.GITA_CHAPTER_5 = [
     "en": "For Sankhya yogis who are entirely free of desire and anger, whose minds are conquered, and who have directly realized the Self, the Brahman of nirvana is complete on both sides: while the body remains, and after it is left.",
     "wordMeanings": {
       "कामक्रोधवियुक्तानां": {
-        "hi": "कामक्रोधवियुक्तानां",
-        "en": "this word"
+        "hi": "काम और क्रोध से सर्वथा मुक्त",
+        "en": "of those who are free from desire and anger"
       },
       "यतीनां": {
-        "hi": "यतीनां",
-        "en": "this word"
+        "hi": "प्रयत्नशील संन्यासियों के लिए",
+        "en": "of the self-controlled ascetics"
       },
       "यतचेतसाम्": {
-        "hi": "यतचेतसाम्",
-        "en": "of those who have controlled their thoughts"
+        "hi": "वश में किए हुए चित्त वाले",
+        "en": "of those who have controlled their minds"
       },
       "अभितो": {
-        "hi": "अभितो",
-        "en": "this word"
+        "hi": "सब ओर से / दोनों ओर (जीवित और मृत अवस्था में)",
+        "en": "everywhere / on all sides"
       },
       "ब्रह्मनिर्वाणं": {
-        "hi": "ब्रह्मनिर्वाणं",
-        "en": "this word"
+        "hi": "परम शांति रूप ब्रह्मनिर्वाण",
+        "en": "liberation in Brahman / supreme peace"
       },
       "वर्तते": {
-        "hi": "वर्तते",
-        "en": "exists"
+        "hi": "विद्यमान रहता है",
+        "en": "exists / is present"
       },
       "विदितात्मनाम्": {
-        "hi": "विदितात्मनाम्",
-        "en": "of those who have realised the Self.Commentary Those who renounce all actions and practise Sravana (hearing of the scriptures)"
+        "hi": "आत्मज्ञानी पुरुषों के लिए",
+        "en": "of those who have realized the Self"
       }
     }
   },
@@ -1115,32 +1115,32 @@ window.GITA_CHAPTER_5 = [
     "en": "Verses 5.27–5.28. Shutting out outer objects, fixing the gaze between the eyebrows, and balancing the prana and apana moving in the nostrils, the sage whose senses, mind, and intellect are mastered, who is intent on liberation, and who is entirely free of desire, fear, and anger, is always liberated.",
     "wordMeanings": {
       "स्पर्शान्कृत्वा": {
-        "hi": "स्पर्शान्कृत्वा",
-        "en": "this word"
+        "hi": "बाहरी स्पर्शों (विषयों) को · करके",
+        "en": "external sense objects · making / keeping"
       },
       "बहिर्बाह्यांश्चक्षुश्चैवान्तरे": {
-        "hi": "बहिर्बाह्यांश्चक्षुश्चैवान्तरे",
-        "en": "this word"
+        "hi": "बाहर · बाहरी · नेत्रों को · और · ही · बीच में",
+        "en": "outside · external · the eyes · and · indeed · between"
       },
       "भ्रुवोः": {
-        "hi": "भ्रुवोः",
-        "en": "of the (two) eyrows"
+        "hi": "दोनों भौंहों के",
+        "en": "the two eyebrows"
       },
       "प्राणापानौ": {
-        "hi": "प्राणापानौ",
-        "en": "the outgoing and incoming breaths"
+        "hi": "प्राण और अपान वायु को",
+        "en": "the incoming and outgoing breaths"
       },
       "समौ": {
-        "hi": "समौ",
-        "en": "eal"
+        "hi": "समान",
+        "en": "equal"
       },
       "कृत्वा": {
-        "hi": "कृत्वा",
-        "en": "बहिः shutting out"
+        "hi": "करके",
+        "en": "making"
       },
       "नासाभ्यन्तरचारिणौ": {
-        "hi": "नासाभ्यन्तरचारिणौ",
-        "en": "moving inside the nostrils.Commentary The verses 27 and 28 deal with the Yoga of meditation (Dhyana). External objects or contacts are the sound and the other senseobjects. If the mind does not think of the external objects they are shut out from the mind. The senses are the doors or avenues through which sound and the other senseobjects enter the mind.If you fix the gaze between the eyrows the eyalls remain fixed and steady. Rhythmical breathing is described here. You will have to make the breath rhythmical. The mind becomes steady when the breath becomes rhythmical. When the breath becomes rhythmical there is perfect harmony in the mind and the whole system. (Cf.VI.10"
+        "hi": "नासिका के भीतर विचरने वाले",
+        "en": "moving within the nostrils"
       }
     }
   },
@@ -1150,32 +1150,32 @@ window.GITA_CHAPTER_5 = [
     "en": "Verses 5.27–5.28. Shutting out outer objects, fixing the gaze between the eyebrows, and balancing the prana and apana moving in the nostrils, the sage whose senses, mind, and intellect are mastered, who is intent on liberation, and who is entirely free of desire, fear, and anger, is always liberated.",
     "wordMeanings": {
       "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः": {
-        "hi": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः",
-        "en": "this word"
+        "hi": "वश में की हुई · इन्द्रियाँ · मन · और बुद्धि वाला · मननशील संन्यासी (मुनि) · मोक्ष के · परायण (परम लक्ष्य मानने वाला)",
+        "en": "controlled · senses · mind · and intellect · the sage · liberation · having as the supreme goal"
       },
       "विगतेच्छाभयक्रोधो": {
-        "hi": "विगतेच्छाभयक्रोधो",
-        "en": "this word"
+        "hi": "रहित हो गए हैं · इच्छा · भय · और क्रोध जिसके",
+        "en": "gone away / freed from · desire · fear · and anger"
       },
       "यः": {
-        "hi": "यः",
+        "hi": "जो",
         "en": "who"
       },
       "सदा": {
-        "hi": "सदा",
-        "en": "for ever"
+        "hi": "सदैव",
+        "en": "always"
       },
       "मुक्त": {
         "hi": "मुक्त",
-        "en": "this word"
+        "en": "liberated"
       },
       "एव": {
-        "hi": "एव",
-        "en": "verily"
+        "hi": "ही",
+        "en": "indeed"
       },
       "सः": {
-        "hi": "सः",
-        "en": "he.Commentary If one is free from desire"
+        "hi": "वह है",
+        "en": "he (is)"
       }
     }
   },
@@ -1185,36 +1185,36 @@ window.GITA_CHAPTER_5 = [
     "en": "Knowing Me as the enjoyer of all sacrifices and austerities, the great Lord of all worlds, and the friend of all beings, without selfishness, kind and loving, the devotee attains peace.",
     "wordMeanings": {
       "भोक्तारं": {
-        "hi": "भोक्तारं",
-        "en": "this word"
+        "hi": "भोगने वाले को",
+        "en": "the enjoyer"
       },
       "यज्ञतपसां": {
-        "hi": "यज्ञतपसां",
-        "en": "this word"
+        "hi": "यज्ञों · और तपस्याओं के",
+        "en": "of sacrifices · and austerities"
       },
       "सर्वलोकमहेश्वरम्": {
-        "hi": "सर्वलोकमहेश्वरम्",
-        "en": "the great Lord of all worlds"
+        "hi": "समस्त · लोकों के · महान ईश्वर को",
+        "en": "all · worlds · the great Lord"
       },
       "सुहृदं": {
-        "hi": "सुहृदं",
-        "en": "this word"
+        "hi": "परम मित्र को",
+        "en": "the benefactor / friend"
       },
       "सर्वभूतानां": {
-        "hi": "सर्वभूतानां",
-        "en": "this word"
+        "hi": "सभी · प्राणियों के",
+        "en": "all · of living beings"
       },
       "ज्ञात्वा": {
-        "hi": "ज्ञात्वा",
+        "hi": "जानकर",
         "en": "having known"
       },
       "मां": {
-        "hi": "मां",
-        "en": "this word"
+        "hi": "मुझको",
+        "en": "Me"
       },
       "शान्तिमृच्छति": {
-        "hi": "शान्तिमृच्छति",
-        "en": "this word"
+        "hi": "शान्ति को · प्राप्त करता है",
+        "en": "peace · attains"
       }
     }
   }

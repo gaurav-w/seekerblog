@@ -79,6 +79,38 @@ Prefer a small explicit chapter configuration and parameterized tooling when doi
 7. Verify spelling, negation, pronouns, grammatical role, vocatives, and repeated tokens in context. A per-verse dictionary maps identical displayed tokens to the same gloss; if two occurrences need different meanings, change the data/rendering contract deliberately and test it.
 8. Record source URLs and editorial decisions in documentation. Keep only compact credits in the UI.
 
+### Inline word-meaning workflow
+
+The reader's **Word meanings** switch is a required feature. When it is on,
+each displayed Sanskrit token must have a compact Hindi or English gloss directly
+under it. Do not replace this with a verse-wide word-meaning paragraph, tooltip,
+or a list elsewhere on the page.
+
+1. Keep each `sanskrit` string's existing spaces and joined compounds. They are
+   the reader's display and audio-alignment tokens. Punctuation is not a token.
+2. Add a `wordMeanings` object to every verse. Its keys must exactly match the
+   displayed tokens and every key must contain non-empty `hi` and `en` values.
+   Use ` · ` when a joined token contains multiple source words.
+3. For the Ramsukhdas Hindi edition, use the bilingual word tables at
+   `https://bhagwadgita.info/chapter-N/sutra-V/` when available. They match the
+   Hindi verse translation used here. Keep the source's English word meanings
+   separate from the site's full English verse translation.
+4. Run `node authoring/scripts/import-gita-word-meanings.cjs N` after the
+   chapter's Sanskrit, Hindi, and English verse fields are complete. The importer
+   groups source table rows to the reader's joined display tokens and removes the
+   obsolete verse-wide `wordMeaning` field.
+5. Review the importer's worst-alignment report and inspect every unusually
+   joined, omitted, or doctrinally sensitive term. If the source table omits a
+   displayed word, add a small, explicit, reviewed supplement to the importer;
+   never fill a gloss with the Sanskrit token itself or a placeholder such as
+   `this word`.
+6. Run the chapter validator. It rejects missing token glosses, English
+   placeholders, unused map keys, and the old failure mode where Hindi meanings
+   simply repeated the Sanskrit.
+
+See [WORD-MEANINGS-SOURCE.md](WORD-MEANINGS-SOURCE.md) for the current source
+and refresh command.
+
 ### Text contract
 
 ```js
@@ -203,7 +235,9 @@ The plain Python `http.server` did not support byte-range seeking in this setup:
 # Generic data validation: supply the actual verified verse count.
 node scripts\validate-gita-chapter.cjs 3 43
 
-# Existing Chapter 3 browser regression suite.
+# Reader browser regression suite. It checks Chapter 3 in depth and every
+# configured chapter's inline word-meaning toggle. Update its chapter list when
+# adding a chapter.
 $env:PLAYWRIGHT_PACKAGE = 'C:\Users\gaura\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\driver\package'
 node scripts\test-gita-reader.cjs http://127.0.0.1:43128/gita/3/
 
@@ -214,5 +248,10 @@ node scripts\test-gita-reader.cjs file:///E:/gauravw.com/seekerblog/gita/3/
 `PLAYWRIGHT_PACKAGE` is only needed for that machine's existing installation; omit it if `playwright` resolves normally. Browser binaries were already installed. A new machine may need a different setup. Do not hardcode these personal paths into website runtime code.
 
 Apply the full [test matrix](TEST-CASES.md), recording PASS/FAIL/NOT RUN honestly. Existing tests for Chapter 3 are not automatically valid for another chapter until adapted. Run Chapter 3 regression tests if shared assets change. Do not rebuild audio for a pure caption/style change when tokens and timing indices remain identical.
+
+For a new chapter, also confirm in the local preview that the Word meanings
+switch is initially available, hides every inline gloss when off, and restores a
+meaning directly beneath every displayed Sanskrit token when on. Check at least
+the first, a middle, and the final verse in both Hindi and English.
 
 Finish by opening the local preview, writing the chapter report, and reporting the completed files, tests, source decisions, and remaining listening-review limitations. Publishing/deployment is a separate action unless the user requested it.

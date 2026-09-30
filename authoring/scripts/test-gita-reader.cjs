@@ -19,6 +19,15 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
 
     await page.getByRole('button', {name:'English',exact:true}).click();
     assert.equal(await page.locator('#meaningText').getAttribute('lang'), 'en');
+    const fullscreen = page.getByRole('button', {name:'Enter full screen', exact:true});
+    assert.equal(await fullscreen.count(), 1, 'Fullscreen control is available');
+    await fullscreen.click();
+    await page.waitForFunction(() => document.fullscreenElement === document.documentElement && document.documentElement.classList.contains('gita-fullscreen'));
+    assert.equal(await fullscreen.getAttribute('aria-pressed'), 'true');
+    assert.equal(await fullscreen.getAttribute('aria-label'), 'Exit full screen');
+    await page.keyboard.press('Escape');
+    await page.waitForFunction(() => !document.fullscreenElement && !document.documentElement.classList.contains('gita-fullscreen'));
+    assert.equal(await fullscreen.getAttribute('aria-pressed'), 'false');
     assert(await page.getByRole('switch', {name:'Word meanings'}).isChecked());
     assert.equal(await page.locator('.word-meaning:visible').count(), 12, 'First verse has a gloss under every displayed word');
     assert.equal(await page.locator('.word-meaning').first().textContent(), 'Arjuna');
@@ -97,6 +106,23 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
       assert(verse.words.every((w,i) => w.start >= 0 && w.end >= w.start && w.end <= verse.duration + .01 && (!i || w.start >= verse.words[i-1].end - .05)));
     }
     assert.deepEqual(errors, []);
-    console.log('PASS: no eager audio download, playback, pause/resume, language persistence, word highlighting, repeat, auto-next, final-verse stop, deep links, 43 cue/clip records, bilingual word meanings, and 344 responsive verse layouts.');
+    for (const chapter of [1, 2, 4, 5]) {
+      await page.goto(new URL(`../${chapter}/`, url).href);
+      await page.waitForFunction(() => document.querySelectorAll('.word').length > 0);
+      assert.equal(await page.locator('#wordTools').isVisible(), true,
+        `Chapter ${chapter} exposes sourced word meanings`);
+      const verseCount = await page.locator('#verseSelect option').count();
+      for (let index = 0; index < verseCount; index++) {
+        await page.locator('#verseSelect').selectOption(String(index));
+        assert.equal(await page.locator('.word-meaning:visible').count(), await page.locator('.word').count(),
+          `Chapter ${chapter}, verse ${index + 1} renders a meaning beneath every Sanskrit word`);
+      }
+      await page.getByRole('switch', {name:'Word meanings'}).uncheck();
+      assert.equal(await page.locator('.word-meaning:visible').count(), 0,
+        `Chapter ${chapter} hides inline meanings without changing the verse`);
+      await page.getByRole('switch', {name:'Word meanings'}).check();
+    }
+    assert.deepEqual(errors, []);
+    console.log('PASS: no eager audio download, fullscreen enter/exit state, playback, pause/resume, language persistence, word highlighting, repeat, auto-next, final-verse stop, deep links, 43 cue/clip records, verified bilingual word meanings, unavailable-gloss controls hidden, and 344 responsive verse layouts.');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exitCode=1; });

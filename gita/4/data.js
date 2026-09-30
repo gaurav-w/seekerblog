@@ -5,36 +5,36 @@ window.GITA_CHAPTER_4 = [
     "en": "The Lord said: I taught this imperishable yoga to the Sun. The Sun taught it to his son Vaivasvata Manu, and Manu taught it to his son, King Ikshvaku.",
     "wordMeanings": {
       "श्रीभगवानुवाच": {
-        "hi": "श्रीभगवानुवाच",
-        "en": "this word"
+        "hi": "श्री · भगवान · ने कहा",
+        "en": "Sri / venerable · the Supreme Lord · said"
       },
       "इमं": {
-        "hi": "इमं",
-        "en": "this word"
+        "hi": "इस",
+        "en": "this"
       },
       "विवस्वते": {
-        "hi": "विवस्वते",
-        "en": "to Vivasvan"
+        "hi": "विवस्वान को",
+        "en": "unto Vivasvan"
       },
       "योगं": {
-        "hi": "योगं",
-        "en": "this word"
+        "hi": "योग को",
+        "en": "science of yoga"
       },
       "प्रोक्तवानहमव्ययम्": {
-        "hi": "प्रोक्तवानहमव्ययम्",
-        "en": "this word"
+        "hi": "कहा था · मैंने · अविनाशी",
+        "en": "instructed · I · imperishable"
       },
       "विवस्वान्मनवे": {
-        "hi": "विवस्वान्मनवे",
-        "en": "this word"
+        "hi": "विवस्वान ने · मनु से",
+        "en": "Vivasvan · unto Manu"
       },
       "प्राह": {
-        "hi": "प्राह",
-        "en": "taught"
+        "hi": "कहा",
+        "en": "told"
       },
       "मनुरिक्ष्वाकवेऽब्रवीत्": {
-        "hi": "मनुरिक्ष्वाकवेऽब्रवीत्",
-        "en": "this word"
+        "hi": "मनु ने · इक्ष्वाकु से · कहा",
+        "en": "Manu · unto Ikshvaku · said"
       }
     }
   },
@@ -44,44 +44,44 @@ window.GITA_CHAPTER_4 = [
     "en": "O scorcher of foes, the royal sages came to know this Karma Yoga as it was handed down in that line. After a long time, that yoga nearly disappeared from this human world.",
     "wordMeanings": {
       "एवं": {
-        "hi": "एवं",
-        "en": "this word"
+        "hi": "इस प्रकार",
+        "en": "thus"
       },
       "परम्पराप्राप्तमिमं": {
-        "hi": "परम्पराप्राप्तमिमं",
-        "en": "this word"
+        "hi": "परम्परा से प्राप्त · इस",
+        "en": "received through disciplic succession · this"
       },
       "राजर्षयो": {
-        "hi": "राजर्षयो",
-        "en": "this word"
+        "hi": "राजर्षियों ने",
+        "en": "the saintly kings"
       },
       "विदुः": {
-        "hi": "विदुः",
-        "en": "knew"
+        "hi": "जाना",
+        "en": "understood"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "that"
       },
       "कालेनेह": {
-        "hi": "कालेनेह",
-        "en": "this word"
+        "hi": "समय के प्रभाव से · इस संसार में",
+        "en": "by the course of time · in this world"
       },
       "महता": {
-        "hi": "महता",
-        "en": "by long"
+        "hi": "महान (लम्बे)",
+        "en": "great"
       },
       "योगो": {
-        "hi": "योगो",
-        "en": "this word"
+        "hi": "योग",
+        "en": "yoga"
       },
       "नष्टः": {
-        "hi": "नष्टः",
-        "en": "destroyed"
+        "hi": "लुप्त हो गया",
+        "en": "lost"
       },
       "परन्तप": {
-        "hi": "परन्तप",
-        "en": "O Parantapa.Commentary The royal sages Men who were kings and at the same time sages also"
+        "hi": "हे शत्रुओं को तपाने वाले",
+        "en": "O subduer of enemies"
       }
     }
   },
@@ -91,56 +91,56 @@ window.GITA_CHAPTER_4 = [
     "en": "You are My devotee and dear friend, so today I have taught you that same ancient yoga. It is a great secret.",
     "wordMeanings": {
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "that"
       },
       "एवायं": {
-        "hi": "एवायं",
-        "en": "this word"
+        "hi": "ही · यह",
+        "en": "certainly · this"
       },
       "मया": {
-        "hi": "मया",
+        "hi": "मेरे द्वारा",
         "en": "by Me"
       },
       "तेऽद्य": {
-        "hi": "तेऽद्य",
-        "en": "this word"
+        "hi": "तुमसे · आज",
+        "en": "to you · today"
       },
       "योगः": {
-        "hi": "योगः",
-        "en": "Yoga"
+        "hi": "योग",
+        "en": "yoga"
       },
       "प्रोक्तः": {
-        "hi": "प्रोक्तः",
-        "en": "has been taught"
+        "hi": "कहा गया है",
+        "en": "declared"
       },
       "पुरातनः": {
-        "hi": "पुरातनः",
+        "hi": "प्राचीन",
         "en": "ancient"
       },
       "भक्तोऽसि": {
-        "hi": "भक्तोऽसि",
-        "en": "this word"
+        "hi": "भक्त · हो",
+        "en": "devotee · you are"
       },
       "मे": {
-        "hi": "मे",
+        "hi": "मेरे",
         "en": "My"
       },
       "सखा": {
-        "hi": "सखा",
+        "hi": "मित्र",
         "en": "friend"
       },
       "चेति": {
-        "hi": "चेति",
-        "en": "this word"
+        "hi": "और · इसलिए",
+        "en": "and · thus"
       },
       "रहस्यं": {
-        "hi": "रहस्यं",
-        "en": "this word"
+        "hi": "रहस्य",
+        "en": "secret"
       },
       "ह्येतदुत्तमम्": {
-        "hi": "ह्येतदुत्तमम्",
-        "en": "this word"
+        "hi": "निश्चय ही · यह · उत्तम",
+        "en": "certainly · this · supreme"
       }
     }
   },
@@ -151,43 +151,43 @@ window.GITA_CHAPTER_4 = [
     "wordMeanings": {
       "अर्जुन": {
         "hi": "अर्जुन",
-        "en": "this word"
+        "en": "Arjuna"
       },
       "उवाच": {
-        "hi": "उवाच",
-        "en": "this word"
+        "hi": "ने कहा",
+        "en": "said"
       },
       "अपरं": {
-        "hi": "अपरं",
-        "en": "this word"
+        "hi": "बाद का (अर्वाचीन)",
+        "en": "recent"
       },
       "भवतो": {
-        "hi": "भवतो",
-        "en": "this word"
+        "hi": "आपका",
+        "en": "Your"
       },
       "जन्म": {
         "hi": "जन्म",
         "en": "birth"
       },
       "परं": {
-        "hi": "परं",
-        "en": "this word"
+        "hi": "पहले का (प्राचीन)",
+        "en": "ancient"
       },
       "विवस्वतः": {
-        "hi": "विवस्वतः",
-        "en": "of Vivasvan"
+        "hi": "सूर्यदेव का",
+        "en": "of Vivasvan (the sun god)"
       },
       "कथमेतद्विजानीयां": {
-        "hi": "कथमेतद्विजानीयां",
-        "en": "this word"
+        "hi": "कैसे · यह · मैं समझूँ",
+        "en": "how · this · am I to understand"
       },
       "त्वमादौ": {
-        "hi": "त्वमादौ",
-        "en": "this word"
+        "hi": "आपने · आदि में",
+        "en": "You · in the beginning"
       },
       "प्रोक्तवानिति": {
-        "hi": "प्रोक्तवानिति",
-        "en": "this word"
+        "hi": "कहा था · ऐसा",
+        "en": "instructed · thus"
       }
     }
   },
@@ -197,60 +197,60 @@ window.GITA_CHAPTER_4 = [
     "en": "The Lord said: O Arjuna, scorcher of foes, you and I have passed through many births. I know them all; you do not.",
     "wordMeanings": {
       "श्रीभगवानुवाच": {
-        "hi": "श्रीभगवानुवाच",
-        "en": "this word"
+        "hi": "श्री भगवान · ने कहा",
+        "en": "the Supreme Lord · said"
       },
       "बहूनि": {
-        "hi": "बहूनि",
-        "en": "may"
+        "hi": "बहुत से",
+        "en": "many"
       },
       "मे": {
-        "hi": "मे",
+        "hi": "मेरे",
         "en": "My"
       },
       "व्यतीतानि": {
-        "hi": "व्यतीतानि",
-        "en": "have passed away"
+        "hi": "व्यतीत हो चुके हैं",
+        "en": "have passed"
       },
       "जन्मानि": {
-        "hi": "जन्मानि",
+        "hi": "जन्म",
         "en": "births"
       },
       "तव": {
-        "hi": "तव",
-        "en": "thy"
+        "hi": "तुम्हारे",
+        "en": "your"
       },
       "चार्जुन": {
-        "hi": "चार्जुन",
-        "en": "this word"
+        "hi": "और · हे अर्जुन",
+        "en": "and · O Arjuna"
       },
       "तान्यहं": {
-        "hi": "तान्यहं",
-        "en": "this word"
+        "hi": "उन · मैं",
+        "en": "them · I"
       },
       "वेद": {
-        "hi": "वेद",
+        "hi": "जानता हूँ",
         "en": "know"
       },
       "सर्वाणि": {
-        "hi": "सर्वाणि",
+        "hi": "सभी को",
         "en": "all"
       },
       "न": {
-        "hi": "न",
-        "en": "O Arjuna"
+        "hi": "नहीं",
+        "en": "not"
       },
       "त्वं": {
-        "hi": "त्वं",
-        "en": "this word"
+        "hi": "तुम",
+        "en": "you"
       },
       "वेत्थ": {
-        "hi": "वेत्थ",
-        "en": "knowest"
+        "hi": "जानते हो",
+        "en": "know"
       },
       "परन्तप": {
-        "hi": "परन्तप",
-        "en": "this word"
+        "hi": "हे शत्रुओं को तपाने वाले",
+        "en": "O scorcher of foes"
       }
     }
   },
@@ -260,32 +260,32 @@ window.GITA_CHAPTER_4 = [
     "en": "Though I am unborn and imperishable, and the Lord of all beings, I appear by My yoga-maya, bringing My own nature under My control.",
     "wordMeanings": {
       "अजोऽपि": {
-        "hi": "अजोऽपि",
-        "en": "this word"
+        "hi": "अजन्मा · भी",
+        "en": "unborn · although"
       },
       "सन्नव्ययात्मा": {
-        "hi": "सन्नव्ययात्मा",
-        "en": "this word"
+        "hi": "होते हुए · अविनाशी स्वरूप वाला",
+        "en": "being · of imperishable nature"
       },
       "भूतानामीश्वरोऽपि": {
-        "hi": "भूतानामीश्वरोऽपि",
-        "en": "this word"
+        "hi": "सब प्राणियों का · ईश्वर · भी",
+        "en": "of all beings · the Lord · although"
       },
       "सन्": {
-        "hi": "सन्",
+        "hi": "होते हुए",
         "en": "being"
       },
       "प्रकृतिं": {
-        "hi": "प्रकृतिं",
-        "en": "this word"
+        "hi": "प्रकृति को",
+        "en": "nature"
       },
       "स्वामधिष्ठाय": {
-        "hi": "स्वामधिष्ठाय",
-        "en": "this word"
+        "hi": "अपनी · अधीन करके",
+        "en": "My own · controlling"
       },
       "सम्भवाम्यात्ममायया": {
-        "hi": "सम्भवाम्यात्ममायया",
-        "en": "this word"
+        "hi": "प्रकट होता हूँ · अपनी योगमाया से",
+        "en": "I manifest · by My own internal potency"
       }
     }
   },
@@ -295,36 +295,36 @@ window.GITA_CHAPTER_4 = [
     "en": "O Arjuna of the Bharata line, whenever dharma declines and adharma grows, I manifest Myself in a visible form.",
     "wordMeanings": {
       "यदा": {
-        "hi": "यदा",
-        "en": "यदा whenever"
+        "hi": "जब",
+        "en": "whenever"
       },
       "हि": {
-        "hi": "हि",
-        "en": "surely"
+        "hi": "निश्चय ही",
+        "en": "certainly"
       },
       "धर्मस्य": {
-        "hi": "धर्मस्य",
+        "hi": "धर्म की",
         "en": "of righteousness"
       },
       "ग्लानिर्भवति": {
-        "hi": "ग्लानिर्भवति",
-        "en": "this word"
+        "hi": "हानि · होती है",
+        "en": "decline · is"
       },
       "भारत": {
-        "hi": "भारत",
-        "en": "O Bharata"
+        "hi": "हे भारत (अर्जुन)",
+        "en": "O descendant of Bharata"
       },
       "अभ्युत्थानमधर्मस्य": {
-        "hi": "अभ्युत्थानमधर्मस्य",
-        "en": "this word"
+        "hi": "वृद्धि · अधर्म की",
+        "en": "uprising · of unrighteousness"
       },
       "तदात्मानं": {
-        "hi": "तदात्मानं",
-        "en": "this word"
+        "hi": "तब · अपने आप को",
+        "en": "then · myself"
       },
       "सृजाम्यहम्": {
-        "hi": "सृजाम्यहम्",
-        "en": "this word"
+        "hi": "प्रकट करता हूँ · मैं",
+        "en": "manifest · I"
       }
     }
   },
@@ -334,36 +334,36 @@ window.GITA_CHAPTER_4 = [
     "en": "I appear age after age to protect the virtuous devotees, to destroy those who do sinful acts, and to establish dharma firmly.",
     "wordMeanings": {
       "परित्राणाय": {
-        "hi": "परित्राणाय",
+        "hi": "रक्षा के लिए",
         "en": "for the protection"
       },
       "साधूनां": {
-        "hi": "साधूनां",
-        "en": "this word"
+        "hi": "सज्जनों की",
+        "en": "of the righteous"
       },
       "विनाशाय": {
-        "hi": "विनाशाय",
+        "hi": "विनाश के लिए",
         "en": "for the destruction"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "दुष्कृताम्": {
-        "hi": "दुष्कृताम्",
+        "hi": "दुष्टों के",
         "en": "of the wicked"
       },
       "धर्मसंस्थापनार्थाय": {
-        "hi": "धर्मसंस्थापनार्थाय",
+        "hi": "धर्म की स्थापना करने के लिए",
         "en": "for the establishment of righteousness"
       },
       "सम्भवामि": {
-        "hi": "सम्भवामि",
-        "en": "this word"
+        "hi": "मैं प्रकट होता हूँ",
+        "en": "I manifest"
       },
       "युगे": {
-        "hi": "युगे",
-        "en": "युगे in every age.Commentary Sadhunam The good who lead a life of righteousness"
+        "hi": "युग में",
+        "en": "after age"
       }
     }
   },
@@ -378,55 +378,55 @@ window.GITA_CHAPTER_4 = [
       },
       "कर्म": {
         "hi": "कर्म",
-        "en": "action"
+        "en": "activities"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "मे": {
-        "hi": "मे",
+        "hi": "मेरे",
         "en": "My"
       },
       "दिव्यमेवं": {
-        "hi": "दिव्यमेवं",
-        "en": "this word"
+        "hi": "दिव्य · इस प्रकार",
+        "en": "divine · thus"
       },
       "यो": {
-        "hi": "यो",
-        "en": "this word"
+        "hi": "जो",
+        "en": "who"
       },
       "वेत्ति": {
-        "hi": "वेत्ति",
+        "hi": "जानता है",
         "en": "knows"
       },
       "तत्त्वतः": {
-        "hi": "तत्त्वतः",
-        "en": "in true light"
+        "hi": "तत्त्व से",
+        "en": "in truth"
       },
       "त्यक्त्वा": {
-        "hi": "त्यक्त्वा",
-        "en": "having abandoned"
+        "hi": "त्याग कर",
+        "en": "having left"
       },
       "देहं": {
-        "hi": "देहं",
-        "en": "this word"
+        "hi": "शरीर को",
+        "en": "the body"
       },
       "पुनर्जन्म": {
-        "hi": "पुनर्जन्म",
-        "en": "this word"
+        "hi": "फिर से · जन्म",
+        "en": "again · birth"
       },
       "नैति": {
-        "hi": "नैति",
-        "en": "this word"
+        "hi": "नहीं · प्राप्त होता है",
+        "en": "not · takes"
       },
       "मामेति": {
-        "hi": "मामेति",
-        "en": "this word"
+        "hi": "मुझे · प्राप्त होता है",
+        "en": "to Me · comes"
       },
       "सोऽर्जुन": {
-        "hi": "सोऽर्जुन",
-        "en": "this word"
+        "hi": "वह · हे अर्जुन",
+        "en": "he · O Arjuna"
       }
     }
   },
@@ -436,32 +436,32 @@ window.GITA_CHAPTER_4 = [
     "en": "Freed from attachment, fear, and anger, absorbed in Me, taking refuge in Me, and made pure by the austerity of knowledge, many devotees have attained My own being.",
     "wordMeanings": {
       "वीतरागभयक्रोधा": {
-        "hi": "वीतरागभयक्रोधा",
-        "en": "this word"
+        "hi": "आसक्ति, भय और क्रोध से मुक्त",
+        "en": "freed from attachment, fear, and anger"
       },
       "मन्मया": {
-        "hi": "मन्मया",
-        "en": "this word"
+        "hi": "मुझमें तल्लीन",
+        "en": "fully absorbed in Me"
       },
       "मामुपाश्रिताः": {
-        "hi": "मामुपाश्रिताः",
-        "en": "this word"
+        "hi": "मेरी · शरण में आए हुए",
+        "en": "Me · taking refuge"
       },
       "बहवो": {
-        "hi": "बहवो",
-        "en": "this word"
+        "hi": "बहुत से",
+        "en": "many"
       },
       "ज्ञानतपसा": {
-        "hi": "ज्ञानतपसा",
-        "en": "by the fire of knowledge"
+        "hi": "ज्ञान रूपी तपस्या से",
+        "en": "by the penance of knowledge"
       },
       "पूता": {
-        "hi": "पूता",
-        "en": "this word"
+        "hi": "पवित्र होकर",
+        "en": "purified"
       },
       "मद्भावमागताः": {
-        "hi": "मद्भावमागताः",
-        "en": "this word"
+        "hi": "मेरे दिव्य भाव को · प्राप्त हुए हैं",
+        "en": "My transcendental nature · have attained"
       }
     }
   },
@@ -471,48 +471,48 @@ window.GITA_CHAPTER_4 = [
     "en": "O son of Pritha, in whatever way devotees take refuge in Me, I shelter them in that same way, for all people follow My path in every manner.",
     "wordMeanings": {
       "ये": {
-        "hi": "ये",
+        "hi": "जो",
         "en": "who"
       },
       "यथा": {
-        "hi": "यथा",
+        "hi": "जिस प्रकार",
         "en": "in whatever way"
       },
       "मां": {
-        "hi": "मां",
-        "en": "this word"
+        "hi": "मेरी",
+        "en": "me"
       },
       "प्रपद्यन्ते": {
-        "hi": "प्रपद्यन्ते",
-        "en": "approach"
+        "hi": "शरण लेते हैं",
+        "en": "surrender"
       },
       "तांस्तथैव": {
-        "hi": "तांस्तथैव",
-        "en": "this word"
+        "hi": "उनको · उसी प्रकार · ही",
+        "en": "them · in that way · certainly"
       },
       "भजाम्यहम्": {
-        "hi": "भजाम्यहम्",
-        "en": "this word"
+        "hi": "भजता हूँ · मैं",
+        "en": "reward · I"
       },
       "मम": {
-        "hi": "मम",
-        "en": "My"
+        "hi": "मेरे",
+        "en": "my"
       },
       "वर्त्मानुवर्तन्ते": {
-        "hi": "वर्त्मानुवर्तन्ते",
-        "en": "this word"
+        "hi": "मार्ग का · अनुसरण करते हैं",
+        "en": "path · follow"
       },
       "मनुष्याः": {
-        "hi": "मनुष्याः",
-        "en": "men"
+        "hi": "मनुष्य",
+        "en": "human beings"
       },
       "पार्थ": {
-        "hi": "पार्थ",
+        "hi": "हे पार्थ",
         "en": "O Partha"
       },
       "सर्वशः": {
-        "hi": "सर्वशः",
-        "en": "in all ways.Commentary I reward men by bestowing on them the objects they desire in accordance with their ways and the motives with which they seek Me. If anyone worships Me with selfish motives I grant him the objects he desires. If he worships Me unselfishly for attaining knowledge of the Self"
+        "hi": "सब प्रकार से",
+        "en": "in all respects"
       }
     }
   },
@@ -522,52 +522,52 @@ window.GITA_CHAPTER_4 = [
     "en": "People who want the fruit of action worship the gods, because in this human world the success born of action is quickly obtained.",
     "wordMeanings": {
       "काङ्क्षन्तः": {
-        "hi": "काङ्क्षन्तः",
-        "en": "those who long for"
+        "hi": "चाहने वाले",
+        "en": "desiring"
       },
       "कर्मणां": {
-        "hi": "कर्मणां",
-        "en": "this word"
+        "hi": "कर्मों की",
+        "en": "of actions"
       },
       "सिद्धिं": {
-        "hi": "सिद्धिं",
-        "en": "this word"
+        "hi": "सफलता को",
+        "en": "success"
       },
       "यजन्त": {
-        "hi": "यजन्त",
-        "en": "this word"
+        "hi": "पूजा करते हैं",
+        "en": "worship"
       },
       "इह": {
-        "hi": "इह",
-        "en": "in this world"
+        "hi": "यहाँ (इस संसार में)",
+        "en": "here (in this world)"
       },
       "देवताः": {
-        "hi": "देवताः",
-        "en": "gods"
+        "hi": "देवताओं की",
+        "en": "the demigods"
       },
       "क्षिप्रं": {
-        "hi": "क्षिप्रं",
-        "en": "this word"
+        "hi": "शीघ्र",
+        "en": "quickly"
       },
       "हि": {
-        "hi": "हि",
-        "en": "because"
+        "hi": "निश्चित रूप से",
+        "en": "certainly"
       },
       "मानुषे": {
-        "hi": "मानुषे",
-        "en": "in the human"
+        "hi": "मनुष्य",
+        "en": "in human"
       },
       "लोके": {
-        "hi": "लोके",
-        "en": "(in the) world"
+        "hi": "लोक में",
+        "en": "world"
       },
       "सिद्धिर्भवति": {
-        "hi": "सिद्धिर्भवति",
-        "en": "this word"
+        "hi": "सफलता · होती है",
+        "en": "success · comes"
       },
       "कर्मजा": {
-        "hi": "कर्मजा",
-        "en": "born of action.Commentary It is very difficult to attain to the knowledge of the Self or Selfrealisation. It demans perfect renunciation. The aspirnat should possess the four means and many other virtues"
+        "hi": "कर्म से उत्पन्न",
+        "en": "born of action"
       }
     }
   },
@@ -577,36 +577,36 @@ window.GITA_CHAPTER_4 = [
     "en": "Verses 4.13–4.14. I arranged the four varnas according to qualities and actions. Though I am the doer of that creation, know Me, the imperishable Lord, as the non-doer. I have no desire for the fruit of action, so actions do not taint Me. One who knows Me as I truly am is likewise not bound by action.",
     "wordMeanings": {
       "चातुर्वर्ण्यं": {
-        "hi": "चातुर्वर्ण्यं",
-        "en": "this word"
+        "hi": "चारों वर्णों की व्यवस्था",
+        "en": "the fourfold system of varnas"
       },
       "मया": {
-        "hi": "मया",
-        "en": "be Me"
+        "hi": "मेरे द्वारा",
+        "en": "by Me"
       },
       "सृष्टं": {
-        "hi": "सृष्टं",
-        "en": "this word"
+        "hi": "रची गई",
+        "en": "created"
       },
       "गुणकर्मविभागशः": {
-        "hi": "गुणकर्मविभागशः",
-        "en": "according to the differentiation of Guna and Karma"
+        "hi": "गुणों और कर्मों के विभाग के अनुसार",
+        "en": "according to the division of qualities and actions"
       },
       "तस्य": {
-        "hi": "तस्य",
-        "en": "thereof"
+        "hi": "उसका",
+        "en": "of that"
       },
       "कर्तारमपि": {
-        "hi": "कर्तारमपि",
-        "en": "this word"
+        "hi": "कर्ता · भी",
+        "en": "the creator · although"
       },
       "मां": {
-        "hi": "मां",
-        "en": "this word"
+        "hi": "मुझे",
+        "en": "Me"
       },
       "विद्ध्यकर्तारमव्ययम्": {
-        "hi": "विद्ध्यकर्तारमव्ययम्",
-        "en": "this word"
+        "hi": "जानो · अकर्ता · अविनाशी",
+        "en": "know · non-doer · imperishable"
       }
     }
   },
@@ -616,52 +616,52 @@ window.GITA_CHAPTER_4 = [
     "en": "Verses 4.13–4.14. I arranged the four varnas according to qualities and actions. Though I am the doer of that creation, know Me, the imperishable Lord, as the non-doer. I have no desire for the fruit of action, so actions do not taint Me. One who knows Me as I truly am is likewise not bound by action.",
     "wordMeanings": {
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "मां": {
-        "hi": "मां",
-        "en": "this word"
+        "hi": "मुझे",
+        "en": "me"
       },
       "कर्माणि": {
-        "hi": "कर्माणि",
+        "hi": "कर्म",
         "en": "actions"
       },
       "लिम्पन्ति": {
-        "hi": "लिम्पन्ति",
+        "hi": "लिप्त करते हैं",
         "en": "taint"
       },
       "मे": {
-        "hi": "मे",
-        "en": "to Me"
+        "hi": "मेरी",
+        "en": "my"
       },
       "कर्मफले": {
-        "hi": "कर्मफले",
-        "en": "in the fruit of actions"
+        "hi": "कर्म के फल में",
+        "en": "in the fruit of action"
       },
       "स्पृहा": {
-        "hi": "स्पृहा",
+        "hi": "इच्छा",
         "en": "desire"
       },
       "इति": {
-        "hi": "इति",
+        "hi": "इस प्रकार",
         "en": "thus"
       },
       "योऽभिजानाति": {
-        "hi": "योऽभिजानाति",
-        "en": "this word"
+        "hi": "जो · भली-भांति जानता है",
+        "en": "who · knows"
       },
       "कर्मभिर्न": {
-        "hi": "कर्मभिर्न",
-        "en": "this word"
+        "hi": "कर्मों के द्वारा · नहीं",
+        "en": "by actions · not"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       },
       "बध्यते": {
-        "hi": "बध्यते",
-        "en": "is bound.Commentary As I have neither egoism nor desire for fruits"
+        "hi": "बंधता है",
+        "en": "is bound"
       }
     }
   },
@@ -671,52 +671,52 @@ window.GITA_CHAPTER_4 = [
     "en": "Seekers of liberation in earlier times also acted after knowing this. Therefore you too should do the actions that the ancestors have always done, in the same way.",
     "wordMeanings": {
       "एवं": {
-        "hi": "एवं",
+        "hi": "इस प्रकार",
         "en": "thus"
       },
       "ज्ञात्वा": {
-        "hi": "ज्ञात्वा",
-        "en": "having known"
+        "hi": "जानकर",
+        "en": "knowing"
       },
       "कृतं": {
-        "hi": "कृतं",
-        "en": "this word"
+        "hi": "किया गया",
+        "en": "was performed"
       },
       "कर्म": {
         "hi": "कर्म",
         "en": "action"
       },
       "पूर्वैरपि": {
-        "hi": "पूर्वैरपि",
-        "en": "this word"
+        "hi": "पूर्वजों द्वारा · भी",
+        "en": "by the ancients · even"
       },
       "मुमुक्षुभिः": {
-        "hi": "मुमुक्षुभिः",
-        "en": "seekers after freedom"
+        "hi": "मोक्ष की इच्छा रखने वालों द्वारा",
+        "en": "by seekers of liberation"
       },
       "कुरु": {
-        "hi": "कुरु",
+        "hi": "करो",
         "en": "perform"
       },
       "कर्मैव": {
-        "hi": "कर्मैव",
-        "en": "this word"
+        "hi": "कर्म · ही",
+        "en": "action · certainly"
       },
       "तस्मात्त्वं": {
-        "hi": "तस्मात्त्वं",
-        "en": "this word"
+        "hi": "इसलिए · तुम",
+        "en": "therefore · you"
       },
       "पूर्वैः": {
-        "hi": "पूर्वैः",
-        "en": "by ancients"
+        "hi": "पूर्वजों द्वारा",
+        "en": "by the ancients"
       },
       "पूर्वतरं": {
-        "hi": "पूर्वतरं",
-        "en": "this word"
+        "hi": "प्राचीन काल से",
+        "en": "in ancient times"
       },
       "कृतम्": {
-        "hi": "कृतम्",
-        "en": "(was) done"
+        "hi": "किया गया",
+        "en": "performed"
       }
     }
   },
@@ -726,40 +726,40 @@ window.GITA_CHAPTER_4 = [
     "en": "Even the learned become confused about what action is and what inaction is. I shall explain the truth of action to you clearly. Knowing it, you will be freed from what is inauspicious, the bondage of the world.",
     "wordMeanings": {
       "किं": {
-        "hi": "किं",
-        "en": "this word"
+        "hi": "क्या",
+        "en": "what"
       },
       "कर्म": {
         "hi": "कर्म",
         "en": "action"
       },
       "किमकर्मेति": {
-        "hi": "किमकर्मेति",
-        "en": "this word"
+        "hi": "क्या · अकर्म · इस प्रकार",
+        "en": "what · inaction · thus"
       },
       "कवयोऽप्यत्र": {
-        "hi": "कवयोऽप्यत्र",
-        "en": "this word"
+        "hi": "बुद्धिमान लोग · भी · इस विषय में",
+        "en": "the wise · even · in this matter"
       },
       "मोहिताः": {
-        "hi": "मोहिताः",
-        "en": "(are) deluded"
+        "hi": "मोहित हैं",
+        "en": "are deluded"
       },
       "तत्ते": {
-        "hi": "तत्ते",
-        "en": "this word"
+        "hi": "वह · तुम्हें",
+        "en": "that · to you"
       },
       "प्रवक्ष्यामि": {
-        "hi": "प्रवक्ष्यामि",
-        "en": "(I) shall teach"
+        "hi": "मैं भलीभाँति कहूँगा",
+        "en": "I shall explain"
       },
       "यज्ज्ञात्वा": {
-        "hi": "यज्ज्ञात्वा",
-        "en": "this word"
+        "hi": "जिसे · जानकर",
+        "en": "which · having known"
       },
       "मोक्ष्यसेऽशुभात्": {
-        "hi": "मोक्ष्यसेऽशुभात्",
-        "en": "this word"
+        "hi": "तुम मुक्त हो जाओगे · अशुभ से",
+        "en": "you will be liberated · from evil"
       }
     }
   },
@@ -769,36 +769,36 @@ window.GITA_CHAPTER_4 = [
     "en": "One should know the truth of action, the truth of inaction, and the truth of wrong action, for the way of action is deep.",
     "wordMeanings": {
       "कर्मणो": {
-        "hi": "कर्मणो",
-        "en": "this word"
+        "hi": "कर्म की",
+        "en": "of action"
       },
       "ह्यपि": {
-        "hi": "ह्यपि",
-        "en": "this word"
+        "hi": "निश्चित रूप से · भी",
+        "en": "certainly · also"
       },
       "बोद्धव्यं": {
-        "hi": "बोद्धव्यं",
-        "en": "this word"
+        "hi": "जानना चाहिए",
+        "en": "should be known"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "विकर्मणः": {
-        "hi": "विकर्मणः",
-        "en": "of the forbidden action"
+        "hi": "विकर्म (निषिद्ध कर्म) का",
+        "en": "of forbidden action"
       },
       "अकर्मणश्च": {
-        "hi": "अकर्मणश्च",
-        "en": "this word"
+        "hi": "अकर्म का · और",
+        "en": "of inaction · and"
       },
       "गहना": {
-        "hi": "गहना",
-        "en": "deep"
+        "hi": "गहन (समझने में कठिन)",
+        "en": "profound"
       },
       "गतिः": {
-        "hi": "गतिः",
-        "en": "this word"
+        "hi": "गति (रहस्य)",
+        "en": "path"
       }
     }
   },
@@ -808,40 +808,40 @@ window.GITA_CHAPTER_4 = [
     "en": "One who sees inaction in action, and action in inaction, is wise among people, a yogi, and one who has done all actions.",
     "wordMeanings": {
       "कर्मण्यकर्म": {
-        "hi": "कर्मण्यकर्म",
-        "en": "this word"
+        "hi": "कर्म में · अकर्म को",
+        "en": "in action · inaction"
       },
       "यः": {
-        "hi": "यः",
+        "hi": "जो",
         "en": "who"
       },
       "पश्येदकर्मणि": {
-        "hi": "पश्येदकर्मणि",
-        "en": "this word"
+        "hi": "देखता है · अकर्म में",
+        "en": "sees · in inaction"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "कर्म": {
-        "hi": "कर्म",
-        "en": "inaction"
+        "hi": "कर्म को",
+        "en": "action"
       },
       "स": {
-        "hi": "स",
-        "en": "this word"
+        "hi": "वह",
+        "en": "he"
       },
       "बुद्धिमान्मनुष्येषु": {
-        "hi": "बुद्धिमान्मनुष्येषु",
-        "en": "this word"
+        "hi": "बुद्धिमान है · मनुष्यों में",
+        "en": "wise · among men"
       },
       "युक्तः": {
-        "hi": "युक्तः",
-        "en": "Yogi"
+        "hi": "योगी है",
+        "en": "yogi"
       },
       "कृत्स्नकर्मकृत्": {
-        "hi": "कृत्स्नकर्मकृत्",
-        "en": "performer of all actions.Commentary In common parlance action means movement of the body"
+        "hi": "सम्पूर्ण कर्मों को करने वाला है",
+        "en": "performer of all actions"
       }
     }
   },
@@ -851,36 +851,36 @@ window.GITA_CHAPTER_4 = [
     "en": "The wise also call that person learned whose every action begins without resolve or desire, and whose actions have all been burned by the fire of knowledge.",
     "wordMeanings": {
       "यस्य": {
-        "hi": "यस्य",
+        "hi": "जिसके",
         "en": "whose"
       },
       "सर्वे": {
-        "hi": "सर्वे",
+        "hi": "सम्पूर्ण",
         "en": "all"
       },
       "समारम्भाः": {
-        "hi": "समारम्भाः",
+        "hi": "कार्य",
         "en": "undertakings"
       },
       "कामसङ्कल्पवर्जिताः": {
-        "hi": "कामसङ्कल्पवर्जिताः",
-        "en": "devoid of desires and purposes"
+        "hi": "कामना · संकल्प · रहित हैं",
+        "en": "desire · resolve · are devoid of"
       },
       "ज्ञानाग्निदग्धकर्माणं": {
-        "hi": "ज्ञानाग्निदग्धकर्माणं",
-        "en": "this word"
+        "hi": "ज्ञान की · अग्नि में · भस्म हो गए हैं · जिसके कर्म",
+        "en": "of knowledge · in the fire · burned up · whose actions"
       },
       "तमाहुः": {
-        "hi": "तमाहुः",
-        "en": "this word"
+        "hi": "उसे · कहते हैं",
+        "en": "him · call"
       },
       "पण्डितं": {
-        "hi": "पण्डितं",
-        "en": "this word"
+        "hi": "पण्डित",
+        "en": "a sage"
       },
       "बुधाः": {
-        "hi": "बुधाः",
-        "en": "the wise.Commentary A sage performs actions only with a view to set an example to the masses. Though he works"
+        "hi": "ज्ञानी जन",
+        "en": "the wise"
       }
     }
   },
@@ -890,36 +890,36 @@ window.GITA_CHAPTER_4 = [
     "en": "One who has given up attachment to action and its fruit, who depends on nothing and is always content, does nothing at all in truth, even while thoroughly engaged in action.",
     "wordMeanings": {
       "त्यक्त्वा": {
-        "hi": "त्यक्त्वा",
+        "hi": "त्याग कर",
         "en": "having abandoned"
       },
       "कर्मफलासङ्गं": {
-        "hi": "कर्मफलासङ्गं",
-        "en": "this word"
+        "hi": "कर्म के फलों की आसक्ति को",
+        "en": "attachment to the fruits of action"
       },
       "नित्यतृप्तो": {
-        "hi": "नित्यतृप्तो",
-        "en": "this word"
+        "hi": "हमेशा संतुष्ट",
+        "en": "always satisfied"
       },
       "निराश्रयः": {
-        "hi": "निराश्रयः",
-        "en": "depending on nothing"
+        "hi": "आश्रय रहित",
+        "en": "without dependence"
       },
       "कर्मण्यभिप्रवृत्तोऽपि": {
-        "hi": "कर्मण्यभिप्रवृत्तोऽपि",
-        "en": "this word"
+        "hi": "कर्म में · पूरी तरह लगा हुआ · भी",
+        "en": "in action · fully engaged · even though"
       },
       "नैव": {
-        "hi": "नैव",
-        "en": "this word"
+        "hi": "नहीं · निश्चय ही",
+        "en": "not · certainly"
       },
       "किञ्चित्करोति": {
-        "hi": "किञ्चित्करोति",
-        "en": "this word"
+        "hi": "कुछ भी · करता है",
+        "en": "anything · does"
       },
       "सः": {
-        "hi": "सः",
-        "en": "he.Commentary The same idea of inaction in action is repeated here to produce a deep impression on the minds of the aspirants. He who works for the wellbeing of the world and he who performs actions without egoism and attachment for the fruits"
+        "hi": "वह",
+        "en": "he"
       }
     }
   },
@@ -929,32 +929,32 @@ window.GITA_CHAPTER_4 = [
     "en": "A yogi of action who has mastered body and inner instrument, who has given up every kind of hoarding, and who is free of expectation, does not incur sin even while doing only the actions that belong to the body.",
     "wordMeanings": {
       "निराशीर्यतचित्तात्मा": {
-        "hi": "निराशीर्यतचित्तात्मा",
-        "en": "this word"
+        "hi": "आशारहित · वश में किए हुए · मन · और अंतःकरण वाला",
+        "en": "free from desires · controlled · mind · and self"
       },
       "त्यक्तसर्वपरिग्रहः": {
-        "hi": "त्यक्तसर्वपरिग्रहः",
-        "en": "having abandoned all covetousness"
+        "hi": "त्याग दिए हैं · सभी · संग्रह जिसने",
+        "en": "having abandoned · all · possessions"
       },
       "शारीरं": {
-        "hi": "शारीरं",
-        "en": "this word"
+        "hi": "शरीर संबंधी",
+        "en": "bodily"
       },
       "केवलं": {
-        "hi": "केवलं",
-        "en": "this word"
+        "hi": "केवल",
+        "en": "only"
       },
       "कर्म": {
         "hi": "कर्म",
         "en": "action"
       },
       "कुर्वन्नाप्नोति": {
-        "hi": "कुर्वन्नाप्नोति",
-        "en": "this word"
+        "hi": "करता हुआ · नहीं · प्राप्त होता है",
+        "en": "performing · not · incurs"
       },
       "किल्बिषम्": {
-        "hi": "किल्बिषम्",
-        "en": "sin.Commentary The liberated sage renounces all actions except what is necessary for the bare maintenance of the body. He has abandoned all possessions. He incurs no sin which will cause evil effects. For a man who thirsts for liberation (Mumukshu) even righteous activity (Dharma) is a sin as it causes bondage to Samsara. Dharma is a golden fetter for him. A golden fetter is also a fetter. A sage is liberated from both Dharma and Adharma"
+        "hi": "पाप को",
+        "en": "sin"
       }
     }
   },
@@ -964,40 +964,40 @@ window.GITA_CHAPTER_4 = [
     "en": "The yogi of action who is content with whatever comes of itself, without wanting the fruit, who is free of envy, beyond the pairs of opposites, and even in success and failure, is not bound even while acting.",
     "wordMeanings": {
       "यदृच्छालाभसन्तुष्टो": {
-        "hi": "यदृच्छालाभसन्तुष्टो",
-        "en": "this word"
+        "hi": "अपने आप प्राप्त होने वाले लाभ से संतुष्ट",
+        "en": "satisfied with gain coming of its own accord"
       },
       "द्वन्द्वातीतो": {
-        "hi": "द्वन्द्वातीतो",
-        "en": "this word"
+        "hi": "द्वंद्वों से मुक्त",
+        "en": "transcended dualities"
       },
       "विमत्सरः": {
-        "hi": "विमत्सरः",
+        "hi": "ईर्ष्या से रहित",
         "en": "free from envy"
       },
       "समः": {
-        "hi": "समः",
-        "en": "evenminded"
+        "hi": "समान",
+        "en": "steady"
       },
       "सिद्धावसिद्धौ": {
-        "hi": "सिद्धावसिद्धौ",
-        "en": "this word"
+        "hi": "सफलता में · असफलता में",
+        "en": "in success · in failure"
       },
       "च": {
-        "hi": "च",
+        "hi": "और",
         "en": "and"
       },
       "कृत्वापि": {
-        "hi": "कृत्वापि",
-        "en": "this word"
+        "hi": "कर्म करके · भी",
+        "en": "having acted · even"
       },
       "न": {
-        "hi": "न",
-        "en": "not"
+        "hi": "नहीं",
+        "en": "never"
       },
       "निबध्यते": {
-        "hi": "निबध्यते",
-        "en": "is bound.Commentary The sage is ite satisfied with what comes to him by chance. In verses IV. 18"
+        "hi": "बंधता है",
+        "en": "is bound"
       }
     }
   },
@@ -1007,32 +1007,32 @@ window.GITA_CHAPTER_4 = [
     "en": "All the actions of a person whose attachment has completely gone, who is liberated, whose intellect rests in knowledge of the Self, and who acts only for the sake of sacrifice, dissolve.",
     "wordMeanings": {
       "गतसङ्गस्य": {
-        "hi": "गतसङ्गस्य",
-        "en": "one who is devoid of attachment"
+        "hi": "दूर हो गई है · जिसकी आसक्ति",
+        "en": "freed from · of attachment"
       },
       "मुक्तस्य": {
-        "hi": "मुक्तस्य",
-        "en": "of the liberated"
+        "hi": "मुक्त पुरुष के",
+        "en": "of the liberated one"
       },
       "ज्ञानावस्थितचेतसः": {
-        "hi": "ज्ञानावस्थितचेतसः",
-        "en": "whose mind is established in knowledge"
+        "hi": "ज्ञान में · स्थित · चित्त वाले के",
+        "en": "in knowledge · situated · whose mind"
       },
       "यज्ञायाचरतः": {
-        "hi": "यज्ञायाचरतः",
-        "en": "this word"
+        "hi": "यज्ञ के लिए · कर्म करने वाले के",
+        "en": "for the sake of sacrifice · acting"
       },
       "कर्म": {
         "hi": "कर्म",
         "en": "action"
       },
       "समग्रं": {
-        "hi": "समग्रं",
-        "en": "this word"
+        "hi": "सम्पूर्ण",
+        "en": "entirely"
       },
       "प्रविलीयते": {
-        "hi": "प्रविलीयते",
-        "en": "is dissolved.Commentary One who is free from attachment"
+        "hi": "विलीन हो जाते हैं",
+        "en": "dissolves"
       }
     }
   },
@@ -1042,40 +1042,40 @@ window.GITA_CHAPTER_4 = [
     "en": "In that sacrifice the offering is Brahman, the oblation is Brahman, and the act of offering into the fire of Brahman by one who is Brahman is also Brahman. For the person whose actions have been absorbed in Brahman, the fruit to be attained is also Brahman.",
     "wordMeanings": {
       "ब्रह्मार्पणं": {
-        "hi": "ब्रह्मार्पणं",
-        "en": "this word"
+        "hi": "ब्रह्म · अर्पण (यज्ञ का साधन)",
+        "en": "Brahman · the instrument of offering"
       },
       "ब्रह्म": {
         "hi": "ब्रह्म",
         "en": "Brahman"
       },
       "हविर्ब्रह्माग्नौ": {
-        "hi": "हविर्ब्रह्माग्नौ",
-        "en": "this word"
+        "hi": "आहुति · ब्रह्म की · अग्नि में",
+        "en": "the oblation · of Brahman · in the fire"
       },
       "ब्रह्मणा": {
-        "hi": "ब्रह्मणा",
+        "hi": "ब्रह्म के द्वारा",
         "en": "by Brahman"
       },
       "हुतम्": {
-        "hi": "हुतम्",
-        "en": "is offered"
+        "hi": "हवन किया गया",
+        "en": "offered"
       },
       "ब्रह्मैव": {
-        "hi": "ब्रह्मैव",
-        "en": "this word"
+        "hi": "ब्रह्म · ही",
+        "en": "Brahman · indeed"
       },
       "तेन": {
-        "hi": "तेन",
+        "hi": "उसके द्वारा",
         "en": "by him"
       },
       "गन्तव्यं": {
-        "hi": "गन्तव्यं",
-        "en": "this word"
+        "hi": "प्राप्त करने योग्य",
+        "en": "to be attained"
       },
       "ब्रह्मकर्मसमाधिना": {
-        "hi": "ब्रह्मकर्मसमाधिना",
-        "en": "by the man who is absorbed in action which is Brahman.Commentary This is JnanaYajna or wisdomsacrifice wherein the idea of Brahman is substituted for the ideas of the instrument and other accessories of action"
+        "hi": "ब्रह्म रूपी कर्म में समाहित व्यक्ति द्वारा",
+        "en": "by the one who is fully absorbed in action that is Brahman"
       }
     }
   },
@@ -1085,28 +1085,28 @@ window.GITA_CHAPTER_4 = [
     "en": "Some yogis perform only the sacrifice of offering everything to the Lord. Other yogis offer the individual self as the oblation, through the sacrifice of inquiry, into the fire that is Brahman.",
     "wordMeanings": {
       "दैवमेवापरे": {
-        "hi": "दैवमेवापरे",
-        "en": "this word"
+        "hi": "देवताओं के · ही · अन्य",
+        "en": "to the demigods · indeed · some others"
       },
       "यज्ञं": {
-        "hi": "यज्ञं",
-        "en": "this word"
+        "hi": "यज्ञ को",
+        "en": "the sacrifice"
       },
       "योगिनः": {
-        "hi": "योगिनः",
-        "en": "Yogis"
+        "hi": "योगी",
+        "en": "yogis"
       },
       "पर्युपासते": {
-        "hi": "पर्युपासते",
-        "en": "perform"
+        "hi": "भली-भाँति अनुष्ठान करते हैं",
+        "en": "perform perfectly"
       },
       "ब्रह्माग्नावपरे": {
-        "hi": "ब्रह्माग्नावपरे",
-        "en": "this word"
+        "hi": "परब्रह्म रूपी · अग्नि में · अन्य",
+        "en": "of the Supreme Brahman · in the fire · others"
       },
       "यज्ञेनैवोपजुह्वति": {
-        "hi": "यज्ञेनैवोपजुह्वति",
-        "en": "this word"
+        "hi": "यज्ञ के द्वारा · ही · हवन करते हैं",
+        "en": "by the sacrifice · indeed · offer as sacrifice"
       }
     }
   },
@@ -1116,24 +1116,24 @@ window.GITA_CHAPTER_4 = [
     "en": "Other yogis offer all the senses, beginning with hearing, into the fires of restraint. Still others offer objects such as sound into the fires of the senses.",
     "wordMeanings": {
       "श्रोत्रादीनीन्द्रियाण्यन्ये": {
-        "hi": "श्रोत्रादीनीन्द्रियाण्यन्ये",
-        "en": "this word"
+        "hi": "कान आदि · इन्द्रियों को · अन्य (योगी)",
+        "en": "hearing and others · senses · others"
       },
       "संयमाग्निषु": {
-        "hi": "संयमाग्निषु",
-        "en": "in the fire of restraint"
+        "hi": "संयम रूपी अग्नियों में",
+        "en": "in the fires of restraint"
       },
       "जुह्वति": {
-        "hi": "जुह्वति",
-        "en": "sacrifice"
+        "hi": "हवन करते हैं",
+        "en": "offer as sacrifice"
       },
       "शब्दादीन्विषयानन्य": {
-        "hi": "शब्दादीन्विषयानन्य",
-        "en": "this word"
+        "hi": "शब्द आदि · विषयों को · अन्य",
+        "en": "sound and others · sense objects · others"
       },
       "इन्द्रियाग्निषु": {
-        "hi": "इन्द्रियाग्निषु",
-        "en": "in the fire of the senses"
+        "hi": "इन्द्रिय रूपी अग्नियों में",
+        "en": "in the fires of the senses"
       }
     }
   },
@@ -1143,28 +1143,28 @@ window.GITA_CHAPTER_4 = [
     "en": "Other yogis offer the actions of all the senses and the actions of the vital breaths into the fire of yoga that restrains the self, a fire lit by knowledge.",
     "wordMeanings": {
       "सर्वाणीन्द्रियकर्माणि": {
-        "hi": "सर्वाणीन्द्रियकर्माणि",
-        "en": "this word"
+        "hi": "सम्पूर्ण · इन्द्रियों की क्रियाओं को",
+        "en": "all · functions of the senses"
       },
       "प्राणकर्माणि": {
-        "hi": "प्राणकर्माणि",
-        "en": "functions of the breath (vital energy)"
+        "hi": "प्राणों की क्रियाओं को",
+        "en": "functions of the life breaths"
       },
       "चापरे": {
-        "hi": "चापरे",
-        "en": "this word"
+        "hi": "और · दूसरे",
+        "en": "and · others"
       },
       "आत्मसंयमयोगाग्नौ": {
-        "hi": "आत्मसंयमयोगाग्नौ",
-        "en": "in the fire of the Yoga of selfrestraitn"
+        "hi": "आत्मसंयम रूप योग की अग्नि में",
+        "en": "in the fire of the yoga of self-restraint"
       },
       "जुह्वति": {
-        "hi": "जुह्वति",
-        "en": "sacrifice"
+        "hi": "हवन करते हैं",
+        "en": "offer as sacrifice"
       },
       "ज्ञानदीपिते": {
-        "hi": "ज्ञानदीपिते",
-        "en": "kindled by knowledge.Commentary Just as a lamp is kindled by oil"
+        "hi": "ज्ञान द्वारा प्रज्वलित",
+        "en": "kindled by knowledge"
       }
     }
   },
@@ -1174,24 +1174,24 @@ window.GITA_CHAPTER_4 = [
     "en": "Some strenuous seekers of keen vows perform sacrifices of material things; some perform the sacrifice of austerity; some the sacrifice of yoga; and some the sacrifice of knowledge in the form of study of sacred texts.",
     "wordMeanings": {
       "द्रव्ययज्ञास्तपोयज्ञा": {
-        "hi": "द्रव्ययज्ञास्तपोयज्ञा",
-        "en": "this word"
+        "hi": "द्रव्य (संपत्ति) का यज्ञ करने वाले · तपस्या का यज्ञ करने वाले",
+        "en": "those who offer wealth as sacrifice · those who offer austerities as sacrifice"
       },
       "योगयज्ञास्तथापरे": {
-        "hi": "योगयज्ञास्तथापरे",
-        "en": "this word"
+        "hi": "योग का यज्ञ करने वाले · तथा · अन्य लोग",
+        "en": "those who offer yoga as sacrifice · similarly · others"
       },
       "स्वाध्यायज्ञानयज्ञाश्च": {
-        "hi": "स्वाध्यायज्ञानयज्ञाश्च",
-        "en": "this word"
+        "hi": "स्वाध्याय और ज्ञान का यज्ञ करने वाले · और",
+        "en": "those who offer the study of scriptures and knowledge as sacrifice · and"
       },
       "यतयः": {
-        "hi": "यतयः",
-        "en": "ascetics or anchorites (persons of selfrestraint)"
+        "hi": "यत्नशील साधक",
+        "en": "ascetics"
       },
       "संशितव्रताः": {
-        "hi": "संशितव्रताः",
-        "en": "persons of rigid vows.Commentary Some do sacrifice by distributing their wealth to the deserving as charity some offer their Tapas (austerities) as sacrifice some practise the eight limbs of Raja Yoga"
+        "hi": "कठोर व्रतों का पालन करने वाले",
+        "en": "observing strict vows"
       }
     }
   },
@@ -1201,36 +1201,36 @@ window.GITA_CHAPTER_4 = [
     "en": "Verses 4.29–4.30. Other yogis devoted to pranayama fill prana into apana, stop the movement of prana and apana, and then offer apana into prana. Others, who eat in a regulated way, offer the breaths into the breaths. All these seekers destroy sins through sacrifices and know the sacrifices.",
     "wordMeanings": {
       "अपाने": {
-        "hi": "अपाने",
-        "en": "in the outgoing breath"
+        "hi": "अपान वायु में",
+        "en": "into the outgoing breath"
       },
       "जुह्वति": {
-        "hi": "जुह्वति",
-        "en": "sacrifice"
+        "hi": "हवन करते हैं",
+        "en": "offer as sacrifice"
       },
       "प्राणं": {
-        "hi": "प्राणं",
-        "en": "this word"
+        "hi": "प्राण वायु का",
+        "en": "the incoming breath"
       },
       "प्राणेऽपानं": {
-        "hi": "प्राणेऽपानं",
-        "en": "this word"
+        "hi": "प्राण वायु में · अपान वायु का",
+        "en": "into the incoming breath · the outgoing breath"
       },
       "तथापरे": {
-        "hi": "तथापरे",
-        "en": "this word"
+        "hi": "तथा · अन्य",
+        "en": "also · others"
       },
       "प्राणापानगती": {
-        "hi": "प्राणापानगती",
-        "en": "courses of the outgoing and incoming breaths"
+        "hi": "प्राण और अपान की गति को",
+        "en": "the movement of incoming and outgoing breaths"
       },
       "रुद्ध्वा": {
-        "hi": "रुद्ध्वा",
-        "en": "restraining"
+        "hi": "रोककर",
+        "en": "having restrained"
       },
       "प्राणायामपरायणाः": {
-        "hi": "प्राणायामपरायणाः",
-        "en": "solely absorbed in the restraint of breath.Commentary Some Yogis practise Puraka (inhalation)"
+        "hi": "प्राणायाम के परायण",
+        "en": "devoted to breath control"
       }
     }
   },
@@ -1240,32 +1240,32 @@ window.GITA_CHAPTER_4 = [
     "en": "Verses 4.29–4.30. Other yogis devoted to pranayama fill prana into apana, stop the movement of prana and apana, and then offer apana into prana. Others, who eat in a regulated way, offer the breaths into the breaths. All these seekers destroy sins through sacrifices and know the sacrifices.",
     "wordMeanings": {
       "अपरे": {
-        "hi": "अपरे",
-        "en": "other persons"
+        "hi": "अन्य लोग",
+        "en": "others"
       },
       "नियताहाराः": {
-        "hi": "नियताहाराः",
-        "en": "of regulated food"
+        "hi": "नियमित आहार वाले",
+        "en": "having regulated diet"
       },
       "प्राणान्प्राणेषु": {
-        "hi": "प्राणान्प्राणेषु",
-        "en": "this word"
+        "hi": "प्राणों को · प्राणों में",
+        "en": "life-breaths · into the life-breaths"
       },
       "जुह्वति": {
-        "hi": "जुह्वति",
+        "hi": "हवन करते हैं",
         "en": "sacrifice"
       },
       "सर्वेऽप्येते": {
-        "hi": "सर्वेऽप्येते",
-        "en": "this word"
+        "hi": "सभी · भी · ये",
+        "en": "all · also · these"
       },
       "यज्ञविदो": {
-        "hi": "यज्ञविदो",
-        "en": "this word"
+        "hi": "यज्ञ को जानने वाले",
+        "en": "knowers of sacrifice"
       },
       "यज्ञक्षपितकल्मषाः": {
-        "hi": "यज्ञक्षपितकल्मषाः",
-        "en": "this word"
+        "hi": "यज्ञ द्वारा नष्ट हुए पापों वाले",
+        "en": "whose sins are destroyed by sacrifice"
       }
     }
   },
@@ -1275,36 +1275,36 @@ window.GITA_CHAPTER_4 = [
     "en": "O Arjuna, best of the Kurus, those who taste the nectar left from sacrifice attain the eternal supreme Brahman. This human world is not happy for one who does not sacrifice; how then could the next world be happy?",
     "wordMeanings": {
       "यज्ञशिष्टामृतभुजो": {
-        "hi": "यज्ञशिष्टामृतभुजो",
-        "en": "this word"
+        "hi": "यज्ञ से बचे हुए अमृतरूपी अन्न को खाने वाले",
+        "en": "those who eat the nectar-like remnants of sacrifice"
       },
       "यान्ति": {
-        "hi": "यान्ति",
-        "en": "go"
+        "hi": "प्राप्त होते हैं",
+        "en": "attain"
       },
       "ब्रह्म": {
-        "hi": "ब्रह्म",
-        "en": "Brahman"
+        "hi": "परब्रह्म को",
+        "en": "the Supreme Brahman"
       },
       "सनातनम्": {
-        "hi": "सनातनम्",
+        "hi": "सनातन",
         "en": "eternal"
       },
       "नायं": {
-        "hi": "नायं",
-        "en": "this word"
+        "hi": "नहीं · यह",
+        "en": "not · this"
       },
       "लोकोऽस्त्ययज्ञस्य": {
-        "hi": "लोकोऽस्त्ययज्ञस्य",
-        "en": "this word"
+        "hi": "लोक · है · यज्ञ न करने वाले के लिए",
+        "en": "world · is · for one who performs no sacrifice"
       },
       "कुतोऽन्यः": {
-        "hi": "कुतोऽन्यः",
-        "en": "this word"
+        "hi": "कहाँ से (कैसे) · दूसरा (परलोक)",
+        "en": "how · other (world)"
       },
       "कुरुसत्तम": {
-        "hi": "कुरुसत्तम",
-        "en": "this word"
+        "hi": "हे कुरुश्रेष्ठ",
+        "en": "O best of the Kurus"
       }
     }
   },
@@ -1314,44 +1314,44 @@ window.GITA_CHAPTER_4 = [
     "en": "Many other kinds of sacrifice are set out at length in the words of the Veda. Know all of them as born of action. Knowing this and performing sacrifice, you will be freed from the bondage of action.",
     "wordMeanings": {
       "एवं": {
-        "hi": "एवं",
-        "en": "this word"
+        "hi": "इस प्रकार",
+        "en": "thus"
       },
       "बहुविधा": {
-        "hi": "बहुविधा",
-        "en": "this word"
+        "hi": "बहुत प्रकार के",
+        "en": "of various kinds"
       },
       "यज्ञा": {
-        "hi": "यज्ञा",
-        "en": "this word"
+        "hi": "यज्ञ",
+        "en": "sacrifices"
       },
       "वितता": {
-        "hi": "वितता",
-        "en": "this word"
+        "hi": "विस्तार से बताए गए हैं",
+        "en": "are spread out (manifested)"
       },
       "ब्रह्मणो": {
-        "hi": "ब्रह्मणो",
-        "en": "this word"
+        "hi": "वेद के",
+        "en": "of the Vedas"
       },
       "मुखे": {
-        "hi": "मुखे",
-        "en": "in the face"
+        "hi": "मुख में (वाणी में)",
+        "en": "in the mouth (words)"
       },
       "कर्मजान्विद्धि": {
-        "hi": "कर्मजान्विद्धि",
-        "en": "this word"
+        "hi": "कर्म से उत्पन्न · जानो",
+        "en": "born of action · know"
       },
       "तान्सर्वानेवं": {
-        "hi": "तान्सर्वानेवं",
-        "en": "this word"
+        "hi": "उन · सभी को · इस प्रकार",
+        "en": "them · all · thus"
       },
       "ज्ञात्वा": {
-        "hi": "ज्ञात्वा",
+        "hi": "जानकर",
         "en": "having known"
       },
       "विमोक्ष्यसे": {
-        "hi": "विमोक्ष्यसे",
-        "en": "thou shalt be liberated.Commentary The word Brahmanah has also been interpreted to mean In the Vedas.Various kinds of sacrifices are spread out at the mouth of Brahman"
+        "hi": "तुम मुक्त हो जाओगे",
+        "en": "you will be liberated"
       }
     }
   },
@@ -1361,32 +1361,32 @@ window.GITA_CHAPTER_4 = [
     "en": "O Arjuna, scorcher of foes, the sacrifice of knowledge is better than a sacrifice of material things. All actions and objects come to an end in knowledge of the truth.",
     "wordMeanings": {
       "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः": {
-        "hi": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः",
-        "en": "this word"
+        "hi": "श्रेष्ठ है · द्रव्यमय (भौतिक) से · यज्ञ की अपेक्षा · ज्ञान रूपी यज्ञ",
+        "en": "superior · than material · than sacrifice · sacrifice of knowledge"
       },
       "परन्तप": {
-        "hi": "परन्तप",
-        "en": "O Parantapa"
+        "hi": "हे परन्तप (शत्रुओं को तपाने वाले)",
+        "en": "O chastiser of enemies"
       },
       "सर्वं": {
-        "hi": "सर्वं",
-        "en": "this word"
+        "hi": "सभी",
+        "en": "all"
       },
       "कर्माखिलं": {
-        "hi": "कर्माखिलं",
-        "en": "this word"
+        "hi": "कर्म · सम्पूर्ण",
+        "en": "action · in its entirety"
       },
       "पार्थ": {
-        "hi": "पार्थ",
-        "en": "O Partha"
+        "hi": "हे पार्थ",
+        "en": "O son of Pritha"
       },
       "ज्ञाने": {
-        "hi": "ज्ञाने",
+        "hi": "ज्ञान में",
         "en": "in knowledge"
       },
       "परिसमाप्यते": {
-        "hi": "परिसमाप्यते",
-        "en": "is culminated.Commentary Sacrifices with material objects cause material effects and bring the sacrificer to this world for the enjoyment of the fruits"
+        "hi": "पूर्णता को प्राप्त होते हैं",
+        "en": "culminates"
       }
     }
   },
@@ -1396,36 +1396,36 @@ window.GITA_CHAPTER_4 = [
     "en": "Learn that knowledge of the truth by going to great souls who see it. By a full prostration, by serving them, and by asking questions simply, those knowers will teach you that knowledge.",
     "wordMeanings": {
       "तद्विद्धि": {
-        "hi": "तद्विद्धि",
-        "en": "this word"
+        "hi": "उस (ज्ञान को) · जानो",
+        "en": "that (knowledge) · know"
       },
       "प्रणिपातेन": {
-        "hi": "प्रणिपातेन",
-        "en": "by long prostration"
+        "hi": "प्रणाम करने से",
+        "en": "by prostrating"
       },
       "परिप्रश्नेन": {
-        "hi": "परिप्रश्नेन",
-        "en": "by estion"
+        "hi": "प्रश्न पूछने से",
+        "en": "by questioning"
       },
       "सेवया": {
-        "hi": "सेवया",
+        "hi": "सेवा करने से",
         "en": "by service"
       },
       "उपदेक्ष्यन्ति": {
-        "hi": "उपदेक्ष्यन्ति",
-        "en": "will instruct"
+        "hi": "उपदेश देंगे",
+        "en": "they will impart"
       },
       "ते": {
-        "hi": "ते",
-        "en": "to thee"
+        "hi": "तुम्हें",
+        "en": "unto you"
       },
       "ज्ञानं": {
-        "hi": "ज्ञानं",
-        "en": "this word"
+        "hi": "ज्ञान का",
+        "en": "knowledge"
       },
       "ज्ञानिनस्तत्त्वदर्शिनः": {
-        "hi": "ज्ञानिनस्तत्त्वदर्शिनः",
-        "en": "this word"
+        "hi": "ज्ञानी पुरुष · तत्त्व को जानने वाले",
+        "en": "the wise · those who have seen the truth"
       }
     }
   },
@@ -1435,44 +1435,44 @@ window.GITA_CHAPTER_4 = [
     "en": "Once you have realized that knowledge, you will not fall into this delusion again. O Arjuna, by it you will see all beings, without remainder, first in yourself and then in Me, the Lord who is existence, consciousness, and bliss.",
     "wordMeanings": {
       "यज्ज्ञात्वा": {
-        "hi": "यज्ज्ञात्वा",
-        "en": "this word"
+        "hi": "जिसे · जानकर",
+        "en": "which · having known"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "पुनर्मोहमेवं": {
-        "hi": "पुनर्मोहमेवं",
-        "en": "this word"
+        "hi": "फिर · मोह को · इस प्रकार",
+        "en": "again · illusion · thus"
       },
       "यास्यसि": {
-        "hi": "यास्यसि",
-        "en": "will get"
+        "hi": "प्राप्त होगे",
+        "en": "you will fall into"
       },
       "पाण्डव": {
-        "hi": "पाण्डव",
-        "en": "O Pandava"
+        "hi": "हे पाण्डव",
+        "en": "O son of Pandu"
       },
       "येन": {
-        "hi": "येन",
-        "en": "by this"
+        "hi": "जिसके द्वारा",
+        "en": "by which"
       },
       "भूतान्यशेषेण": {
-        "hi": "भूतान्यशेषेण",
-        "en": "this word"
+        "hi": "प्राणियों को · सम्पूर्ण रूप से",
+        "en": "living beings · completely"
       },
       "द्रक्ष्यस्यात्मन्यथो": {
-        "hi": "द्रक्ष्यस्यात्मन्यथो",
-        "en": "this word"
+        "hi": "देखोगे",
+        "en": "you will see"
       },
       "मयि": {
-        "hi": "मयि",
-        "en": "in Me.Commentary That"
+        "hi": "अपने आप में",
+        "en": "in the Self"
       },
       "अशेषाणि)": {
-        "hi": "अशेषाणि)",
-        "en": "this word"
+        "hi": "और फिर · मुझमें",
+        "en": "and then · in Me"
       }
     }
   },
@@ -1482,40 +1482,40 @@ window.GITA_CHAPTER_4 = [
     "en": "Even if you are more sinful than all other sinners, you will surely cross the whole ocean of sin by the boat of knowledge.",
     "wordMeanings": {
       "अपि": {
-        "hi": "अपि",
+        "hi": "भी",
         "en": "even"
       },
       "चेदसि": {
-        "hi": "चेदसि",
-        "en": "this word"
+        "hi": "यदि · तुम हो",
+        "en": "if · you are"
       },
       "पापेभ्यः": {
-        "hi": "पापेभ्यः",
-        "en": "than sinners"
+        "hi": "पापियों में",
+        "en": "of sinners"
       },
       "सर्वेभ्यः": {
-        "hi": "सर्वेभ्यः",
-        "en": "(than) all"
+        "hi": "सब",
+        "en": "of all"
       },
       "पापकृत्तमः": {
-        "hi": "पापकृत्तमः",
-        "en": "most sinful"
+        "hi": "सबसे बड़ा पापी",
+        "en": "the most sinful"
       },
       "सर्वं": {
-        "hi": "सर्वं",
-        "en": "this word"
+        "hi": "संपूर्ण",
+        "en": "all"
       },
       "ज्ञानप्लवेनैव": {
-        "hi": "ज्ञानप्लवेनैव",
-        "en": "this word"
+        "hi": "ज्ञान रूपी नौका से · ही",
+        "en": "by the boat of knowledge · certainly"
       },
       "वृजिनं": {
-        "hi": "वृजिनं",
-        "en": "this word"
+        "hi": "पाप-समुद्र को",
+        "en": "the ocean of sins"
       },
       "सन्तरिष्यसि": {
-        "hi": "सन्तरिष्यसि",
-        "en": "this word"
+        "hi": "तुम भली-भांति पार कर जाओगे",
+        "en": "you will cross over"
       }
     }
   },
@@ -1525,28 +1525,28 @@ window.GITA_CHAPTER_4 = [
     "en": "O Arjuna, as a blazing fire burns fuel to ashes, the fire of knowledge burns all actions to ashes.",
     "wordMeanings": {
       "यथैधांसि": {
-        "hi": "यथैधांसि",
-        "en": "this word"
+        "hi": "जैसे · लकड़ियों को",
+        "en": "just as · firewood"
       },
       "समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन": {
-        "hi": "समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन",
-        "en": "this word"
+        "hi": "प्रज्वलित · आग · राख · कर देती है · हे अर्जुन",
+        "en": "blazing · fire · to ashes · turns · O Arjuna"
       },
       "ज्ञानाग्निः": {
-        "hi": "ज्ञानाग्निः",
-        "en": "fire of knowledge"
+        "hi": "ज्ञान रूपी · अग्नि",
+        "en": "of knowledge · the fire"
       },
       "सर्वकर्माणि": {
-        "hi": "सर्वकर्माणि",
-        "en": "all actions"
+        "hi": "सम्पूर्ण · कर्मों को",
+        "en": "all · actions"
       },
       "भस्मसात्कुरुते": {
-        "hi": "भस्मसात्कुरुते",
-        "en": "reduces to ashes"
+        "hi": "राख · कर देती है",
+        "en": "to ashes · turns"
       },
       "तथा": {
-        "hi": "तथा",
-        "en": "so.Commentary Just as the sees that are roasted cannot germinate"
+        "hi": "उसी प्रकार",
+        "en": "similarly"
       }
     }
   },
@@ -1556,44 +1556,44 @@ window.GITA_CHAPTER_4 = [
     "en": "In this human world there is certainly no means as purifying as knowledge. The yogi of action whose yoga has been well accomplished finds that knowledge of the truth in himself.",
     "wordMeanings": {
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "हि": {
-        "hi": "हि",
-        "en": "verily"
+        "hi": "निश्चय ही",
+        "en": "certainly"
       },
       "ज्ञानेन": {
-        "hi": "ज्ञानेन",
-        "en": "to wisdom"
+        "hi": "ज्ञान के",
+        "en": "to knowledge"
       },
       "सदृशं": {
-        "hi": "सदृशं",
-        "en": "this word"
+        "hi": "समान",
+        "en": "equal"
       },
       "पवित्रमिह": {
-        "hi": "पवित्रमिह",
-        "en": "this word"
+        "hi": "पवित्र करने वाला · इस संसार में",
+        "en": "purifying · in this world"
       },
       "विद्यते": {
-        "hi": "विद्यते",
-        "en": "is"
+        "hi": "है (विद्यमान है)",
+        "en": "exists"
       },
       "तत्स्वयं": {
-        "hi": "तत्स्वयं",
-        "en": "this word"
+        "hi": "उस (ज्ञान) को · अपने आप",
+        "en": "that · himself"
       },
       "योगसंसिद्धः": {
-        "hi": "योगसंसिद्धः",
-        "en": "perfected in Yoga"
+        "hi": "योग में सिद्ध हुआ मनुष्य",
+        "en": "one who is perfected in yoga"
       },
       "कालेनात्मनि": {
-        "hi": "कालेनात्मनि",
-        "en": "this word"
+        "hi": "समय के साथ · अपने भीतर (आत्मा में)",
+        "en": "in due course of time · within himself"
       },
       "विन्दति": {
-        "hi": "विन्दति",
-        "en": "finds.Commentary There exists no purifier eal to knowledge of the Self. He who has attained perfection by the constant practice of Karma Yoga and Dhyana Yoga (the Yoga of meditation) will"
+        "hi": "प्राप्त कर लेता है",
+        "en": "finds"
       }
     }
   },
@@ -1603,32 +1603,32 @@ window.GITA_CHAPTER_4 = [
     "en": "A person of faith who has mastered the senses and is devoted to the means attains knowledge, and on attaining knowledge immediately attains supreme peace.",
     "wordMeanings": {
       "श्रद्धावाँल्लभते": {
-        "hi": "श्रद्धावाँल्लभते",
-        "en": "this word"
+        "hi": "श्रद्धावान मनुष्य · प्राप्त करता है",
+        "en": "a faithful person · obtains"
       },
       "ज्ञानं": {
-        "hi": "ज्ञानं",
-        "en": "this word"
+        "hi": "ज्ञान को",
+        "en": "knowledge"
       },
       "तत्परः": {
-        "hi": "तत्परः",
-        "en": "devoted"
+        "hi": "तत्पर (समर्पित)",
+        "en": "dedicated"
       },
       "संयतेन्द्रियः": {
-        "hi": "संयतेन्द्रियः",
-        "en": "who has subdued the senses"
+        "hi": "वश में की हुई · इन्द्रियों वाला",
+        "en": "controlled · senses"
       },
       "लब्ध्वा": {
-        "hi": "लब्ध्वा",
+        "hi": "प्राप्त करके",
         "en": "having obtained"
       },
       "परां": {
-        "hi": "परां",
-        "en": "this word"
+        "hi": "परम",
+        "en": "supreme"
       },
       "शान्तिमचिरेणाधिगच्छति": {
-        "hi": "शान्तिमचिरेणाधिगच्छति",
-        "en": "this word"
+        "hi": "शान्ति को · शीघ्र ही · प्राप्त हो जाता है",
+        "en": "peace · quickly · attains"
       }
     }
   },
@@ -1638,40 +1638,40 @@ window.GITA_CHAPTER_4 = [
     "en": "A person without discrimination, without faith, and full of doubt falls. For such a doubting person there is neither this world, nor the next, nor happiness.",
     "wordMeanings": {
       "अज्ञश्चाश्रद्दधानश्च": {
-        "hi": "अज्ञश्चाश्रद्दधानश्च",
-        "en": "this word"
+        "hi": "अज्ञानी · और · श्रद्धारहित · तथा",
+        "en": "the ignorant · and · the faithless · and"
       },
       "संशयात्मा": {
-        "hi": "संशयात्मा",
-        "en": "the doubting self"
+        "hi": "संशययुक्त मनुष्य",
+        "en": "the doubting soul"
       },
       "विनश्यति": {
-        "hi": "विनश्यति",
-        "en": "goes to destruction"
+        "hi": "नष्ट हो जाता है",
+        "en": "perishes"
       },
       "नायं": {
-        "hi": "नायं",
-        "en": "this word"
+        "hi": "नहीं · यह",
+        "en": "not · this"
       },
       "लोकोऽस्ति": {
-        "hi": "लोकोऽस्ति",
-        "en": "this word"
+        "hi": "लोक · है",
+        "en": "world · is"
       },
       "न": {
         "hi": "न",
         "en": "not"
       },
       "परो": {
-        "hi": "परो",
-        "en": "this word"
+        "hi": "परलोक",
+        "en": "the next"
       },
       "सुखं": {
-        "hi": "सुखं",
-        "en": "this word"
+        "hi": "सुख",
+        "en": "happiness"
       },
       "संशयात्मनः": {
-        "hi": "संशयात्मनः",
-        "en": "for the doubting self.Commentary The ignorant one who has no knowledge of the Self. The man without faith one who has no faith in his own self"
+        "hi": "संशयात्मा के लिए",
+        "en": "for the doubting soul"
       }
     }
   },
@@ -1681,32 +1681,32 @@ window.GITA_CHAPTER_4 = [
     "en": "O Dhananjaya, actions do not bind the person who is intent on the Self, whose connection with all actions has been cut by yoga, which is evenness, and whose doubts have all been destroyed by knowledge.",
     "wordMeanings": {
       "योगसंन्यस्तकर्माणं": {
-        "hi": "योगसंन्यस्तकर्माणं",
-        "en": "this word"
+        "hi": "योग द्वारा कर्मों का संन्यास करने वाले को",
+        "en": "one who has renounced actions through yoga"
       },
       "ज्ञानसञ्छिन्नसंशयम्": {
-        "hi": "ज्ञानसञ्छिन्नसंशयम्",
-        "en": "this word"
+        "hi": "ज्ञान द्वारा जिसके संशय नष्ट हो गए हैं",
+        "en": "whose doubts have been dispelled by knowledge"
       },
       "आत्मवन्तं": {
-        "hi": "आत्मवन्तं",
-        "en": "this word"
+        "hi": "आत्मज्ञानी को",
+        "en": "the self-realized person"
       },
       "न": {
-        "hi": "न",
+        "hi": "नहीं",
         "en": "not"
       },
       "कर्माणि": {
-        "hi": "कर्माणि",
+        "hi": "कर्म",
         "en": "actions"
       },
       "निबध्नन्ति": {
-        "hi": "निबध्नन्ति",
+        "hi": "बांधते हैं",
         "en": "bind"
       },
       "धनञ्जय": {
-        "hi": "धनञ्जय",
-        "en": "O Dhananjaya.Commentary Sri Madhusudana Sarasvati explains Atmavantam as always watchful.He who has attained to Selfrealisation renounces all actions by means of Yoga or the knowledge of Brahman. As he is established in the knowledge of the identity of the individual soul with the,Supreme Soul"
+        "hi": "हे धनञ्जय",
+        "en": "O conqueror of wealth"
       }
     }
   },
@@ -1716,32 +1716,32 @@ window.GITA_CHAPTER_4 = [
     "en": "Therefore, O Arjuna of the Bharata line, cut with the sword of knowledge this doubt in your heart, born of ignorance, stand firm in yoga, which is evenness, and rise for battle.",
     "wordMeanings": {
       "तस्मादज्ञानसम्भूतं": {
-        "hi": "तस्मादज्ञानसम्भूतं",
-        "en": "this word"
+        "hi": "इसलिए · अज्ञान से उत्पन्न",
+        "en": "therefore · born of ignorance"
       },
       "हृत्स्थं": {
-        "hi": "हृत्स्थं",
-        "en": "this word"
+        "hi": "हृदय में स्थित",
+        "en": "situated in the heart"
       },
       "ज्ञानासिनात्मनः": {
-        "hi": "ज्ञानासिनात्मनः",
-        "en": "this word"
+        "hi": "ज्ञान रूपी तलवार से · अपने",
+        "en": "by the sword of knowledge · of the self"
       },
       "छित्त्वैनं": {
-        "hi": "छित्त्वैनं",
-        "en": "this word"
+        "hi": "काटकर · इस",
+        "en": "having cut · this"
       },
       "संशयं": {
-        "hi": "संशयं",
-        "en": "this word"
+        "hi": "संशय को",
+        "en": "doubt"
       },
       "योगमातिष्ठोत्तिष्ठ": {
-        "hi": "योगमातिष्ठोत्तिष्ठ",
-        "en": "this word"
+        "hi": "योग में · स्थित हो जाओ · उठ खड़े हो",
+        "en": "in yoga · take refuge · arise"
       },
       "भारत": {
-        "hi": "भारत",
-        "en": "O Bharata.Commentary Doubt causes a great deal of mental torment. It is most sinful. It is born of ignorance. Kill it ruthlessly with the knowledge of the Self. Now stand up and fight"
+        "hi": "हे भरतवंशी",
+        "en": "O descendant of Bharata"
       }
     }
   }
