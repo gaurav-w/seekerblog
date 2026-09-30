@@ -7,7 +7,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 
 const requested = process.argv.slice(2).map(Number).filter(Number.isInteger);
-const chapters = requested.length ? requested : [1, 2, 4, 5];
+const chapters = requested.length ? requested : [1, 2, 4, 5, 6, 7];
 const root = path.resolve(__dirname, '../..');
 const devanagari = /[\u0904-\u0939]/;
 const supplements = {
@@ -18,6 +18,22 @@ const supplements = {
     ['महीपते', 'हे राजन्', 'O King']
   ]
 };
+// Applied after alignment. These repair a source-table omission that a trailing
+// supplement row cannot place without shifting the following glosses.
+const reviewedGlosses = {
+  '7.11': {
+    'चाहं': {'hi': 'और · मैं हूँ', 'en': 'and · I am'}
+  }
+};
+function expandRepeated(rows) {
+  return rows.flatMap(row => {
+    const parts = row.word.split(/\s+/).filter(Boolean);
+    if (parts.length === 2 && norm(parts[0]) === norm(parts[1])) {
+      return [{word: parts[0], meaning: row.meaning}, {word: parts[1], meaning: row.meaning}];
+    }
+    return [row];
+  });
+}
 
 function decode(value) {
   return value.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/&#39;/g, "'")
@@ -65,11 +81,12 @@ function align(tokens, hiRows, enRows) {
   }
   const result = best[tokens.length][words.length];
   if (!result) throw new Error(`Unable to align ${tokens.length} displayed tokens with ${words.length} source words. Display: ${tokens.join(' | ')}. Source: ${words.join(' | ')}`);
+  const join = rows => rows.map(row => row.meaning).filter((meaning, index, all) => meaning !== all[index - 1]).join(' · ');
   const meanings = {};
   result.path.forEach(([start, end], index) => {
     meanings[tokens[index]] = {
-      hi: hiRows.slice(start, end).map(row => row.meaning).join(' · '),
-      en: enRows.slice(start, end).map(row => row.meaning).join(' · ')
+      hi: join(hiRows.slice(start, end)),
+      en: join(enRows.slice(start, end))
     };
   });
   return {meanings, averageDifference: result.cost / tokens.length};
@@ -92,6 +109,8 @@ async function run() {
     let worst = {verse: 0, difference: 0};
     for (let index = 0; index < verses.length; index++) {
       const rows = await fetchVerse(chapter, index + 1);
+      rows.hi = expandRepeated(rows.hi);
+      rows.en = expandRepeated(rows.en);
       for (const [word, hi, en] of supplements[`${chapter}.${index + 1}`] || []) {
         rows.hi.push({word, meaning: hi});
         rows.en.push({word, meaning: en});
@@ -101,7 +120,7 @@ async function run() {
       try { aligned = align(tokens, rows.hi, rows.en); }
       catch (error) { throw new Error(`Cannot align ${chapter}.${index + 1}: ${error.message}`); }
       delete verses[index].wordMeaning;
-      verses[index].wordMeanings = aligned.meanings;
+      verses[index].wordMeanings = Object.assign(aligned.meanings, reviewedGlosses[`${chapter}.${index + 1}`] || {});
       if (aligned.averageDifference > worst.difference) worst = {verse: index + 1, difference: aligned.averageDifference};
       await new Promise(resolve => setTimeout(resolve, 80));
     }

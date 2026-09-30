@@ -1,6 +1,6 @@
 # Word-meaning source
 
-Chapters 1, 2, 4, and 5 use the bilingual word tables at
+Chapters 1, 2, 4, 5, 6, and 7 use the bilingual word tables at
 [bhagwadgita.info](https://bhagwadgita.info/). Use the same source for new
 chapters that retain the Swami Ramsukhdas Hindi verse translation. Each source
 row is grouped to the reader's displayed Sanskrit token and rendered directly

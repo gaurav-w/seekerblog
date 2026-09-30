@@ -23,8 +23,9 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
     assert.equal(await fullscreen.count(), 1, 'Fullscreen control is available');
     await fullscreen.click();
     await page.waitForFunction(() => document.fullscreenElement === document.documentElement && document.documentElement.classList.contains('gita-fullscreen'));
-    assert.equal(await fullscreen.getAttribute('aria-pressed'), 'true');
-    assert.equal(await fullscreen.getAttribute('aria-label'), 'Exit full screen');
+    const fullscreenButton = page.locator('#gitaFullscreen');
+    assert.equal(await fullscreenButton.getAttribute('aria-pressed'), 'true');
+    assert.equal(await fullscreenButton.getAttribute('aria-label'), 'Exit full screen');
     await page.keyboard.press('Escape');
     await page.waitForFunction(() => !document.fullscreenElement && !document.documentElement.classList.contains('gita-fullscreen'));
     assert.equal(await fullscreen.getAttribute('aria-pressed'), 'false');
@@ -106,9 +107,10 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
       assert(verse.words.every((w,i) => w.start >= 0 && w.end >= w.start && w.end <= verse.duration + .01 && (!i || w.start >= verse.words[i-1].end - .05)));
     }
     assert.deepEqual(errors, []);
-    for (const chapter of [1, 2, 4, 5]) {
+    for (const chapter of [1, 2, 4, 5, 6, 7]) {
       await page.goto(new URL(`../${chapter}/`, url).href);
       await page.waitForFunction(() => document.querySelectorAll('.word').length > 0);
+      await page.getByRole('button', {name:'English', exact:true}).click();
       assert.equal(await page.locator('#wordTools').isVisible(), true,
         `Chapter ${chapter} exposes sourced word meanings`);
       const verseCount = await page.locator('#verseSelect option').count();
