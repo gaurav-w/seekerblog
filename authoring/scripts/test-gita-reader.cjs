@@ -107,7 +107,7 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
       assert(verse.words.every((w,i) => w.start >= 0 && w.end >= w.start && w.end <= verse.duration + .01 && (!i || w.start >= verse.words[i-1].end - .05)));
     }
     assert.deepEqual(errors, []);
-    for (const chapter of [1, 2, 4, 5, 6, 7]) {
+    for (const chapter of [1, 2, 4, 5, 6, 7, 8, 9, 10]) {
       await page.goto(new URL(`../${chapter}/`, url).href);
       await page.waitForFunction(() => document.querySelectorAll('.word').length > 0);
       await page.getByRole('button', {name:'English', exact:true}).click();

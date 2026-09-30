@@ -20,7 +20,7 @@
       "id": "long",
       "title": "Long works",
       "works": [
-        {"id": "bhagavad-gita", "topic": "vedanta", "url": "/gita/", "chapters": ["/gita/1/", "/gita/2/", "/gita/3/"]},
+        {"id": "bhagavad-gita", "topic": "vedanta", "url": "/gita/", "chapters": ["/gita/1/", "/gita/2/", "/gita/3/", "/gita/4/", "/gita/5/", "/gita/6/", "/gita/7/", "/gita/8/", "/gita/9/", "/gita/10/"]},
         {"id": "vishnu-sahasranama", "topic": "vishnu", "url": "/vishnu-sahasranama/", "guide": "/vishnu-sahasranama/guide/", "verses": "/vishnu-sahasranama/verse/1/"}
       ]
     },

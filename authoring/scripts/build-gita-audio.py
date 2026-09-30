@@ -40,6 +40,9 @@ for words in aligned:
             edge = max(previous['start'], (previous['end'] + following['start']) / 2)
             previous['end'] = edge
             following['start'] = edge
+    for word in words:
+        if word['end'] < word['start']:
+            word['end'] = word['start']
 output = {'version': 1, 'chapter': chapter, 'sourceSha256': hashlib.sha256(source.read_bytes()).hexdigest(),
           'method': 'Local forced alignment of Sanskrit text; Hindi acoustic model with ASR-constrained line windows.',
           'reviewStatus': 'machine-aligned', 'verses': []}

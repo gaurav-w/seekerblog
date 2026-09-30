@@ -46,6 +46,21 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://seekerblog.gauravw.com/gita/8/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/gita/9/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seekerblog.gauravw.com/gita/10/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://seekerblog.gauravw.com/vishnu-sahasranama/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
