@@ -8,7 +8,7 @@ os.environ['HF_HUB_OFFLINE'] = '1'
 from faster_whisper import WhisperModel
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--chapter', type=int, required=True, choices=(1, 2, 3))
+parser.add_argument('--chapter', type=int, required=True, choices=range(1, 19))
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[2]
 work = root / '.gita-work' / f'chapter-{args.chapter}'

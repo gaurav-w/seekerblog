@@ -15,7 +15,7 @@ os.environ['TRANSFORMERS_OFFLINE'] = '1'
 import numpy as np
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--chapter', type=int, required=True, choices=(1, 2, 3))
+parser.add_argument('--chapter', type=int, required=True, choices=range(1, 19))
 parser.add_argument('--redo', type=int, nargs='*', default=[])
 redo = set(parser.parse_args().redo)
 
@@ -63,7 +63,7 @@ for i, verse in enumerate(verses):
     windows.append(lines)
 # The ASR returned Latin transliteration for verse 33. Use its observed phrase
 # windows directly so a preceding Sanskrit syllable cannot be reused by CTC.
-overrides = json.loads((ROOT / f'scripts/gita-alignment-windows-chapter-{chapter}.json').read_text(encoding='utf-8'))
+overrides = json.loads((ROOT / 'authoring' / 'scripts' / f'gita-alignment-windows-chapter-{chapter}.json').read_text(encoding='utf-8'))
 for number, bounds in overrides.items():
     for line, bound in zip(windows[int(number)-1], bounds):
         line.update(bound)

@@ -10,6 +10,7 @@
   const seek = $('seek');
   const status = $('readerStatus');
   const select = $('verseSelect');
+  const fullscreen = $('gitaFullscreen');
   const languageKey = `seekerblog:gita${chapter}:meaning-language:v1`;
   let language = 'hi', current = 0, repeat = false, frame = null, revision = 0;
   let activeWord = -1, wordElements = [], pending = false;
@@ -18,6 +19,26 @@
   const formatTime = seconds => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
   const clip = () => timings?.verses[current];
   const duration = () => Number.isFinite(audio.duration) ? audio.duration : clip()?.duration || 0;
+
+  function syncFullscreenControl() {
+    const active = document.fullscreenElement === document.documentElement;
+    document.documentElement.classList.toggle('gita-fullscreen', active);
+    if (!fullscreen) return;
+    const label = active ? message('पूर्ण स्क्रीन से बाहर निकलें', 'Exit full screen') : message('पूर्ण स्क्रीन में खोलें', 'Enter full screen');
+    fullscreen.setAttribute('aria-label', label);
+    fullscreen.title = label;
+    fullscreen.setAttribute('aria-pressed', String(active));
+  }
+
+  async function toggleFullscreen() {
+    try {
+      if (document.fullscreenElement) await document.exitFullscreen();
+      else if (document.documentElement.requestFullscreen) await document.documentElement.requestFullscreen();
+      else throw new Error('Fullscreen is unavailable');
+    } catch (_) {
+      status.textContent = message('इस ब्राउज़र में पूर्ण स्क्रीन उपलब्ध नहीं है।', 'Full screen is unavailable in this browser.');
+    }
+  }
 
   function renderMeaning() {
     document.documentElement.lang = language;
@@ -34,6 +55,7 @@
     $('verseLabel').replaceChildren(document.createTextNode(message('श्लोक ', 'Shloka ') + (current + 1)));
     const total = document.createElement('span'); total.textContent = `/ ${verses.length}`; $('verseLabel').append(total);
     document.querySelectorAll('[data-language]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
+    syncFullscreenControl();
     updatePlay();
   }
 
@@ -122,6 +144,11 @@
 
   verses.forEach((_, index) => { const option = document.createElement('option'); option.value = index; option.textContent = `${chapter}.${index + 1}`; select.append(option); });
   play.addEventListener('click', togglePlay);
+  if (fullscreen) {
+    fullscreen.addEventListener('click', toggleFullscreen);
+    document.addEventListener('fullscreenchange', syncFullscreenControl);
+    syncFullscreenControl();
+  }
   $('previousVerse').addEventListener('click', () => navigate(-1));
   $('nextVerse').addEventListener('click', () => navigate(1));
   select.addEventListener('change', () => chooseVerse(Number(select.value), pending || !audio.paused));

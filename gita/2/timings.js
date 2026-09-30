@@ -891,8 +891,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 13,
       "audio": "audio/13.mp3",
       "sourceStart": 248.774,
-      "sourceEnd": 265.636,
-      "duration": 16.862,
+      "sourceEnd": 265.635,
+      "duration": 16.861,
       "words": [
         {
           "text": "देहिनोऽस्मिन्यथा",
@@ -954,8 +954,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 14,
       "audio": "audio/14.mp3",
       "sourceStart": 265.491,
-      "sourceEnd": 284.235,
-      "duration": 18.744,
+      "sourceEnd": 284.234,
+      "duration": 18.743,
       "words": [
         {
           "text": "मात्रास्पर्शास्तु",
@@ -1119,8 +1119,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 17,
       "audio": "audio/17.mp3",
       "sourceStart": 314.454,
-      "sourceEnd": 330.136,
-      "duration": 15.682,
+      "sourceEnd": 330.135,
+      "duration": 15.681,
       "words": [
         {
           "text": "अविनाशि",
@@ -1239,8 +1239,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 19,
       "audio": "audio/19.mp3",
       "sourceStart": 346.611,
-      "sourceEnd": 363.737,
-      "duration": 17.126,
+      "sourceEnd": 363.736,
+      "duration": 17.125,
       "words": [
         {
           "text": "य",
@@ -1338,8 +1338,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 20,
       "audio": "audio/20.mp3",
       "sourceStart": 363.592,
-      "sourceEnd": 386.095,
-      "duration": 22.503,
+      "sourceEnd": 386.094,
+      "duration": 22.502,
       "words": [
         {
           "text": "न",
@@ -1641,8 +1641,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 23,
       "audio": "audio/23.mp3",
       "sourceStart": 423.034,
-      "sourceEnd": 438.956,
-      "duration": 15.922,
+      "sourceEnd": 438.955,
+      "duration": 15.921,
       "words": [
         {
           "text": "नैनं",
@@ -1962,8 +1962,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 28,
       "audio": "audio/28.mp3",
       "sourceStart": 502.079,
-      "sourceEnd": 521.295,
-      "duration": 19.216,
+      "sourceEnd": 521.294,
+      "duration": 19.215,
       "words": [
         {
           "text": "अव्यक्तादीनि",
@@ -2226,8 +2226,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 32,
       "audio": "audio/32.mp3",
       "sourceStart": 573.13,
-      "sourceEnd": 590.296,
-      "duration": 17.166,
+      "sourceEnd": 590.295,
+      "duration": 17.165,
       "words": [
         {
           "text": "यदृच्छया",
@@ -3606,8 +3606,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 54,
       "audio": "audio/54.mp3",
       "sourceStart": 930.633,
-      "sourceEnd": 949.719,
-      "duration": 19.086,
+      "sourceEnd": 949.718,
+      "duration": 19.085,
       "words": [
         {
           "text": "अर्जुन",
@@ -3972,8 +3972,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 60,
       "audio": "audio/60.mp3",
       "sourceStart": 1028.991,
-      "sourceEnd": 1043.696,
-      "duration": 14.705,
+      "sourceEnd": 1043.695,
+      "duration": 14.704,
       "words": [
         {
           "text": "यततो",
@@ -4212,8 +4212,8 @@ window.GITA_CHAPTER_2_TIMINGS = {
       "verse": 64,
       "audio": "audio/64.mp3",
       "sourceStart": 1091.603,
-      "sourceEnd": 1105.515,
-      "duration": 13.912,
+      "sourceEnd": 1105.514,
+      "duration": 13.911,
       "words": [
         {
           "text": "रागद्वेषविमुक्तैस्तु",

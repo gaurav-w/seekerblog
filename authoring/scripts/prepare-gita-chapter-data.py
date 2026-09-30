@@ -17,7 +17,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-COUNTS = {1: 47, 2: 72}
+COUNTS = {1: 47, 2: 72, 3: 43, 4: 42, 5: 29}
 
 
 def get_json(url: str) -> dict:

@@ -7,7 +7,7 @@ import subprocess
 from pathlib import Path
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--chapter', type=int, required=True, choices=(1, 2, 3))
+parser.add_argument('--chapter', type=int, required=True, choices=range(1, 19))
 args = parser.parse_args()
 chapter = args.chapter
 ROOT = Path(__file__).resolve().parents[2]

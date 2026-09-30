@@ -927,8 +927,8 @@ window.GITA_CHAPTER_3_TIMINGS = {
       "verse": 15,
       "audio": "audio/15.mp3",
       "sourceStart": 249.455,
-      "sourceEnd": 264.458,
-      "duration": 15.003,
+      "sourceEnd": 264.457,
+      "duration": 15.002,
       "words": [
         {
           "text": "कर्म",
@@ -1248,8 +1248,8 @@ window.GITA_CHAPTER_3_TIMINGS = {
       "verse": 20,
       "audio": "audio/20.mp3",
       "sourceStart": 325.872,
-      "sourceEnd": 342.336,
-      "duration": 16.464,
+      "sourceEnd": 342.335,
+      "duration": 16.463,
       "words": [
         {
           "text": "कर्मणैव",
@@ -1575,8 +1575,8 @@ window.GITA_CHAPTER_3_TIMINGS = {
       "verse": 25,
       "audio": "audio/25.mp3",
       "sourceStart": 404.094,
-      "sourceEnd": 421.057,
-      "duration": 16.963,
+      "sourceEnd": 421.056,
+      "duration": 16.962,
       "words": [
         {
           "text": "सक्ताः",
@@ -1620,8 +1620,8 @@ window.GITA_CHAPTER_3_TIMINGS = {
       "verse": 26,
       "audio": "audio/26.mp3",
       "sourceStart": 420.912,
-      "sourceEnd": 436.516,
-      "duration": 15.604,
+      "sourceEnd": 436.515,
+      "duration": 15.603,
       "words": [
         {
           "text": "न",
@@ -1671,8 +1671,8 @@ window.GITA_CHAPTER_3_TIMINGS = {
       "verse": 27,
       "audio": "audio/27.mp3",
       "sourceStart": 436.371,
-      "sourceEnd": 451.199,
-      "duration": 14.828,
+      "sourceEnd": 451.198,
+      "duration": 14.827,
       "words": [
         {
           "text": "प्रकृतेः",

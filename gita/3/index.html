@@ -28,8 +28,11 @@
   <section class="reader-card" aria-labelledby="verseLabel">
     <div class="verse-head">
       <h2 id="verseLabel">श्लोक 1 <span>/ 43</span></h2>
-      <label class="sr-only" for="verseSelect">श्लोक चुनें / Choose a shloka</label>
-      <select id="verseSelect" aria-label="श्लोक चुनें / Choose a shloka"></select>
+      <div class="verse-actions">
+        <label class="sr-only" for="verseSelect">श्लोक चुनें / Choose a shloka</label>
+        <select id="verseSelect" aria-label="श्लोक चुनें / Choose a shloka"></select>
+        <button id="gitaFullscreen" class="gita-fullscreen" type="button" aria-label="पूर्ण स्क्रीन में खोलें" title="पूर्ण स्क्रीन में खोलें" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+      </div>
     </div>
     <div id="wordTools" class="word-tools" hidden>
       <label class="word-meaning-option"><span id="wordMeaningsLabel">शब्दार्थ दिखाएँ</span><input id="showWordMeanings" type="checkbox" role="switch" aria-controls="shloka" checked><span class="switch-track" aria-hidden="true"></span></label>

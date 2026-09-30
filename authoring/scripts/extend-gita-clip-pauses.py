@@ -3,11 +3,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import subprocess
 from pathlib import Path
 
 parser = argparse.ArgumentParser()
-parser.add_argument("chapters", nargs="+", type=int, choices=(1, 2, 3))
+parser.add_argument("chapters", nargs="+", type=int, choices=range(1, 19))
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[2]
 guard = 0.035  # End just before the next aligned audible syllable.
@@ -28,7 +29,10 @@ for chapter in args.chapters:
             # of allowing the next recitation to bleed into this clip.
             last_voice = start + verse["words"][-1]["end"]
             end = max(last_voice, next_voice - guard)
-        verse["sourceEnd"] = round(end, 3)
+        # Floor instead of ordinary rounding: an MP3 boundary must never move
+        # forward into the next verse's first audible cue.
+        end = math.floor(end * 1000) / 1000
+        verse["sourceEnd"] = end
         verse["duration"] = round(end - start, 3)
         output = root / "gita" / str(chapter) / verse["audio"]
         subprocess.run([
