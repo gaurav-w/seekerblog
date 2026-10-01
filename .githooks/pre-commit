@@ -1,0 +1,21 @@
+#!/bin/sh
+# Keep the committed static search corpus in sync with staged public text.
+set -eu
+
+SOURCE_PATHS="gita stotra vishnu-sahasranama vishnu-sahasranam-verses catalog.json authoring/scripts/build-site-search-index.cjs"
+STAGED_SOURCES="$(git diff --cached --name-only -- $SOURCE_PATHS)"
+
+[ -n "$STAGED_SOURCES" ] || exit 0
+
+# The generator reads from the working tree. Do not let a commit accidentally
+# include passages that have been edited but not staged.
+UNSTAGED_SOURCES="$(git diff --name-only -- $SOURCE_PATHS)"
+if [ -n "$UNSTAGED_SOURCES" ]; then
+  echo "Search source changes must be staged before committing:" >&2
+  echo "$UNSTAGED_SOURCES" >&2
+  exit 1
+fi
+
+echo "Refreshing the site search index..."
+node authoring/scripts/build-site-search-index.cjs
+git add -- assets/search-index.json
