@@ -2604,8 +2604,8 @@ window.GITA_CHAPTER_4_TIMINGS = {
       "verse": 42,
       "audio": "audio/42.mp3",
       "sourceStart": 637.811,
-      "sourceEnd": 652.549,
-      "duration": 14.738,
+      "sourceEnd": 652.89,
+      "duration": 15.079,
       "words": [
         {
           "text": "तस्मादज्ञानसम्भूतं",
@@ -2627,26 +2627,26 @@ window.GITA_CHAPTER_4_TIMINGS = {
         },
         {
           "text": "छित्त्वैनं",
-          "start": 7.973,
-          "end": 9.093,
+          "start": 7.369,
+          "end": 9.029,
           "score": 0.612
         },
         {
           "text": "संशयं",
-          "start": 9.254,
-          "end": 10.074,
+          "start": 9.029,
+          "end": 10.069,
           "score": 0.716
         },
         {
           "text": "योगमातिष्ठोत्तिष्ठ",
-          "start": 10.315,
-          "end": 14.058,
+          "start": 10.069,
+          "end": 13.889,
           "score": 0.652
         },
         {
           "text": "भारत",
-          "start": 14.138,
-          "end": 14.458,
+          "start": 13.889,
+          "end": 15.069,
           "score": 0.252
         }
       ]

@@ -22,12 +22,12 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
     const fullscreen = page.getByRole('button', {name:'Enter full screen', exact:true});
     assert.equal(await fullscreen.count(), 1, 'Fullscreen control is available');
     await fullscreen.click();
-    await page.waitForFunction(() => document.fullscreenElement === document.documentElement && document.documentElement.classList.contains('gita-fullscreen'));
+    await page.waitForFunction(() => document.fullscreenElement === document.documentElement && document.documentElement.classList.contains('gita-reader-fullscreen'));
     const fullscreenButton = page.locator('#gitaFullscreen');
     assert.equal(await fullscreenButton.getAttribute('aria-pressed'), 'true');
     assert.equal(await fullscreenButton.getAttribute('aria-label'), 'Exit full screen');
     await page.keyboard.press('Escape');
-    await page.waitForFunction(() => !document.fullscreenElement && !document.documentElement.classList.contains('gita-fullscreen'));
+    await page.waitForFunction(() => !document.fullscreenElement && !document.documentElement.classList.contains('gita-reader-fullscreen'));
     assert.equal(await fullscreen.getAttribute('aria-pressed'), 'false');
     assert(await page.getByRole('switch', {name:'Word meanings'}).isChecked());
     assert.equal(await page.locator('.word-meaning:visible').count(), 12, 'First verse has a gloss under every displayed word');
@@ -75,6 +75,7 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
     await page.locator('audio').evaluate(a => { a.currentTime = a.duration - .12; });
     await page.waitForFunction(() => document.getElementById('gitaAudio').ended);
     assert.equal(await page.locator('#verseSelect').inputValue(), '42');
+    assert.equal(await page.locator('#readerStatus').textContent(), 'Chapter 3 complete.');
 
     for (const width of [320,390,768,1280]) {
       await page.setViewportSize({width,height:900});
@@ -107,7 +108,7 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
       assert(verse.words.every((w,i) => w.start >= 0 && w.end >= w.start && w.end <= verse.duration + .01 && (!i || w.start >= verse.words[i-1].end - .05)));
     }
     assert.deepEqual(errors, []);
-    for (const chapter of [1, 2, 4, 5, 6, 7, 8, 9, 10]) {
+    for (const chapter of [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]) {
       await page.goto(new URL(`../${chapter}/`, url).href);
       await page.waitForFunction(() => document.querySelectorAll('.word').length > 0);
       await page.getByRole('button', {name:'English', exact:true}).click();

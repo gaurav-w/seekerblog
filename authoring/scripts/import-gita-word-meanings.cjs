@@ -10,6 +10,10 @@ const requested = process.argv.slice(2).map(Number).filter(Number.isInteger);
 const chapters = requested.length ? requested : [1, 2, 4, 5, 6, 7];
 const root = path.resolve(__dirname, '../..');
 const devanagari = /[\u0904-\u0939]/;
+// See prepare-gita-chapter-data.py: the selected Chapter 13 recital follows
+// the 34-verse recension, while this source exposes an additional opening
+// question. Fetch the matching source table for every displayed verse.
+const sourceOffsets = {13: 1};
 const supplements = {
   '1.20': [
     ['हृषीकेशं', 'हृषीकेश से', 'unto Hrishikesha'],
@@ -23,6 +27,47 @@ const supplements = {
 const reviewedGlosses = {
   '7.11': {
     'चाहं': {'hi': 'और · मैं हूँ', 'en': 'and · I am'}
+  },
+  // The source table splits लोकक्षयकृत्प्रवृद्धो into two rows. The reader
+  // deliberately displays it as one metrical group, so use this reviewed map
+  // rather than accepting the otherwise shifted dynamic-programming match.
+  '11.32': {
+    'श्रीभगवानुवाच': {'hi': 'श्री भगवान् ने कहा', 'en': 'the Supreme Lord said'},
+    'कालोऽस्मि': {'hi': 'काल · मैं हूँ', 'en': 'Time · I am'},
+    'लोकक्षयकृत्प्रवृद्धो': {'hi': 'लोकों का क्षय करनेवाला · प्रबल', 'en': 'world-destroying · grown mighty'},
+    'लोकान्समाहर्तुमिह': {'hi': 'लोकों का संहार करने के लिये · यहाँ', 'en': 'to destroy the worlds · here'},
+    'प्रवृत्तः': {'hi': 'प्रवृत्त हुआ हूँ', 'en': 'I am engaged'},
+    'ऋतेऽपि': {'hi': 'बिना भी', 'en': 'even without'},
+    'त्वां': {'hi': 'तुम्हारे', 'en': 'you'},
+    'न': {'hi': 'नहीं', 'en': 'not'},
+    'भविष्यन्ति': {'hi': 'रहेंगे', 'en': 'will remain'},
+    'सर्वे': {'hi': 'सभी', 'en': 'all'},
+    'येऽवस्थिताः': {'hi': 'जो खड़े हैं', 'en': 'who are stationed'},
+    'प्रत्यनीकेषु': {'hi': 'विपक्षी सेनाओं में', 'en': 'in the opposing armies'},
+    'योधाः': {'hi': 'योद्धा', 'en': 'warriors'}
+  },
+  // The table joins the first three terms while this reader keeps them
+  // separate for recitation highlighting.
+  '17.16': {
+    'मनः': {'hi': 'मन की', 'en': 'of the mind'},
+    'प्रसादः': {'hi': 'प्रसन्नता', 'en': 'serenity'},
+    'सौम्यत्वं': {'hi': 'सौम्यता', 'en': 'gentleness'},
+    'मौनमात्मविनिग्रहः': {'hi': 'मौन · आत्मसंयम', 'en': 'silence · self-control'},
+    'भावसंशुद्धिरित्येतत्तपो': {'hi': 'भावों की शुद्धि · इस प्रकार · यह · तप', 'en': 'purity of feeling · thus · this · austerity'},
+    'मानसमुच्यते': {'hi': 'मानसिक · कहा जाता है', 'en': 'mental · is called'}
+  },
+  // The source table separates यद्, अहंकारम्, and आश्रित्य while this reader
+  // preserves the recording's joined opening group.
+  '18.59': {
+    'यदहंकारमाश्रित्य': {'hi': 'यदि · अहंकार का · आश्रय लेकर', 'en': 'if · egoism · taking shelter of'},
+    'न': {'hi': 'नहीं', 'en': 'not'},
+    'योत्स्य': {'hi': 'युद्ध करूँगा', 'en': 'I will fight'},
+    'इति': {'hi': 'ऐसा', 'en': 'thus'},
+    'मन्यसे': {'hi': 'तुम मानते हो', 'en': 'you think'},
+    'मिथ्यैष': {'hi': 'यह मिथ्या है', 'en': 'this is vain'},
+    'व्यवसायस्ते': {'hi': 'तेरा निश्चय', 'en': 'your resolve'},
+    'प्रकृतिस्त्वां': {'hi': 'प्रकृति तुम्हें', 'en': 'nature · you'},
+    'नियोक्ष्यति': {'hi': 'विवश करेगी', 'en': 'will compel'}
   }
 };
 function expandRepeated(rows) {
@@ -108,7 +153,8 @@ async function run() {
     if (!Array.isArray(verses)) throw new Error(`Missing ${key}`);
     let worst = {verse: 0, difference: 0};
     for (let index = 0; index < verses.length; index++) {
-      const rows = await fetchVerse(chapter, index + 1);
+      const sourceVerse = index + 1 + (sourceOffsets[chapter] || 0);
+      const rows = await fetchVerse(chapter, sourceVerse);
       rows.hi = expandRepeated(rows.hi);
       rows.en = expandRepeated(rows.en);
       for (const [word, hi, en] of supplements[`${chapter}.${index + 1}`] || []) {

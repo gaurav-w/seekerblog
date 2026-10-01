@@ -22,7 +22,7 @@
 
   function syncFullscreenControl() {
     const active = document.fullscreenElement === document.documentElement;
-    document.documentElement.classList.toggle('gita-fullscreen', active);
+    document.documentElement.classList.toggle('gita-reader-fullscreen', active);
     if (!fullscreen) return;
     const label = active ? message('पूर्ण स्क्रीन से बाहर निकलें', 'Exit full screen') : message('पूर्ण स्क्रीन में खोलें', 'Enter full screen');
     fullscreen.setAttribute('aria-label', label);
@@ -102,7 +102,15 @@
     seek.value = String(length ? Math.min(100, 100 * time / length) : 0);
     seek.disabled = !Number.isFinite(audio.duration) || !length;
     seek.setAttribute('aria-valuetext', `${formatTime(time)} / ${formatTime(length)}`);
-    const index = (clip()?.words || []).findIndex(word => time >= word.start && time < word.end);
+    const words = clip()?.words || [];
+    const matchedIndex = words.findIndex(word => time >= word.start && time < word.end);
+    // Do not make the marker flicker during a normal, very short pause between
+    // two aligned words. Longer uncovered speech remains visible as an audit
+    // issue instead of being masked by a held marker.
+    const index = matchedIndex >= 0 ? matchedIndex : (
+      activeWord >= 0 && time >= words[activeWord]?.end && time < words[activeWord]?.end + .18
+        ? activeWord : -1
+    );
     if (index !== activeWord) {
       if (wordElements[activeWord]) { wordElements[activeWord].classList.remove('is-active'); wordElements[activeWord].removeAttribute('aria-current'); }
       if (wordElements[index]) { wordElements[index].classList.add('is-active'); wordElements[index].setAttribute('aria-current', 'true'); }
@@ -115,7 +123,7 @@
   async function start() {
     const request = revision;
     if (!clip()) { status.textContent = message('इस श्लोक का ऑडियो उपलब्ध नहीं है।', 'Audio is unavailable for this shloka.'); return; }
-    pending = true; status.textContent = ''; updatePlay();
+    pending = true; status.textContent = message('ऑडियो लोड हो रहा है…', 'Loading audio…'); updatePlay();
     try {
       if (audio.getAttribute('src') !== clip().audio) audio.src = clip().audio;
       if (audio.error) audio.load();
@@ -171,7 +179,12 @@
   audio.addEventListener('ended', () => {
     if (repeat) { audio.currentTime = 0; start(); }
     else if ($('continuePlayback').checked && current < verses.length - 1) chooseVerse(current + 1, true);
-    else { updatePlay(); updateProgress(); }
+    else {
+      updatePlay(); updateProgress();
+      if (current === verses.length - 1) {
+        status.textContent = message(`अध्याय ${chapter} पूर्ण हुआ।`, `Chapter ${chapter} complete.`);
+      }
+    }
   });
   audio.addEventListener('error', () => { pending = false; updatePlay(); status.textContent = message('ऑडियो लोड नहीं हुआ। फिर से प्रयास करें।', 'Audio could not load. Please try again.'); });
   document.addEventListener('keydown', event => {

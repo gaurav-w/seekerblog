@@ -1002,8 +1002,8 @@ window.GITA_CHAPTER_5_TIMINGS = {
       "verse": 16,
       "audio": "audio/16.mp3",
       "sourceStart": 249.187,
-      "sourceEnd": 270.056,
-      "duration": 20.869,
+      "sourceEnd": 263.628,
+      "duration": 14.441,
       "words": [
         {
           "text": "ज्ञानेन",
@@ -1058,27 +1058,27 @@ window.GITA_CHAPTER_5_TIMINGS = {
     {
       "verse": 17,
       "audio": "audio/17.mp3",
-      "sourceStart": 269.911,
-      "sourceEnd": 282.157,
-      "duration": 12.246,
+      "sourceStart": 263.74,
+      "sourceEnd": 280.92,
+      "duration": 17.18,
       "words": [
         {
           "text": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः",
           "start": 0.18,
-          "end": 2.638,
-          "score": 0.281
+          "end": 8.66,
+          "score": 0.776
         },
         {
           "text": "गच्छन्त्यपुनरावृत्तिं",
-          "start": 3.943,
-          "end": 6.867,
-          "score": 0.729
+          "start": 9.28,
+          "end": 13.04,
+          "score": 0.66
         },
         {
           "text": "ज्ञाननिर्धूतकल्मषाः",
-          "start": 7.568,
-          "end": 10.072,
-          "score": 0.751
+          "start": 13.04,
+          "end": 16.9,
+          "score": 0.737
         }
       ]
     },
@@ -1619,51 +1619,51 @@ window.GITA_CHAPTER_5_TIMINGS = {
     {
       "verse": 26,
       "audio": "audio/26.mp3",
-      "sourceStart": 405.889,
-      "sourceEnd": 421.756,
-      "duration": 15.867,
+      "sourceStart": 407.71,
+      "sourceEnd": 420.779,
+      "duration": 13.069,
       "words": [
         {
           "text": "कामक्रोधवियुक्तानां",
           "start": 0.18,
-          "end": 2.022,
-          "score": 0.559
+          "end": 1.623,
+          "score": 0.317
         },
         {
           "text": "यतीनां",
-          "start": 2.042,
-          "end": 2.702,
-          "score": 0.603
+          "start": 2.084,
+          "end": 3.186,
+          "score": 0.759
         },
         {
           "text": "यतचेतसाम्",
-          "start": 2.722,
-          "end": 3.343,
-          "score": 0.351
+          "start": 3.406,
+          "end": 4.869,
+          "score": 0.696
         },
         {
           "text": "अभितो",
-          "start": 7.944,
-          "end": 8.646,
-          "score": 0.773
+          "start": 6.113,
+          "end": 6.815,
+          "score": 0.765
         },
         {
           "text": "ब्रह्मनिर्वाणं",
-          "start": 8.946,
-          "end": 10.851,
-          "score": 0.788
+          "start": 6.835,
+          "end": 9.04,
+          "score": 0.749
         },
         {
           "text": "वर्तते",
-          "start": 11.512,
-          "end": 12.455,
-          "score": 0.9
+          "start": 9.681,
+          "end": 10.624,
+          "score": 0.856
         },
         {
           "text": "विदितात्मनाम्",
-          "start": 12.615,
-          "end": 14.62,
-          "score": 0.703
+          "start": 10.804,
+          "end": 12.789,
+          "score": 0.63
         }
       ]
     },
@@ -1772,57 +1772,57 @@ window.GITA_CHAPTER_5_TIMINGS = {
     {
       "verse": 29,
       "audio": "audio/29.mp3",
-      "sourceStart": 453.637,
-      "sourceEnd": 467.624,
-      "duration": 13.987,
+      "sourceStart": 453.652,
+      "sourceEnd": 468.039,
+      "duration": 14.387,
       "words": [
         {
           "text": "भोक्तारं",
           "start": 0.18,
           "end": 1.461,
-          "score": 0.844
+          "score": 0.821
         },
         {
           "text": "यज्ञतपसां",
-          "start": 1.701,
-          "end": 3.342,
-          "score": 0.588
+          "start": 1.682,
+          "end": 3.324,
+          "score": 0.703
         },
         {
           "text": "सर्वलोकमहेश्वरम्",
-          "start": 3.842,
-          "end": 6.064,
-          "score": 0.807
+          "start": 3.844,
+          "end": 6.047,
+          "score": 0.771
         },
         {
           "text": "सुहृदं",
-          "start": 7.634,
-          "end": 8.336,
-          "score": 0.73
+          "start": 7.629,
+          "end": 8.331,
+          "score": 0.745
         },
         {
           "text": "सर्वभूतानां",
-          "start": 8.536,
-          "end": 10.641,
-          "score": 0.785
+          "start": 8.532,
+          "end": 10.618,
+          "score": 0.814
         },
         {
           "text": "ज्ञात्वा",
-          "start": 10.981,
-          "end": 11.883,
-          "score": 0.711
+          "start": 10.979,
+          "end": 11.881,
+          "score": 0.752
         },
         {
           "text": "मां",
-          "start": 11.984,
-          "end": 12.525,
-          "score": 0.658
+          "start": 11.961,
+          "end": 12.523,
+          "score": 0.753
         },
         {
           "text": "शान्तिमृच्छति",
-          "start": 12.745,
-          "end": 13.707,
-          "score": 0.6
+          "start": 12.744,
+          "end": 14.107,
+          "score": 0.56
         }
       ]
     }

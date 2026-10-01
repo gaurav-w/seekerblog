@@ -1817,92 +1817,92 @@
     {
       "verse": 28,
       "audio": "audio/28.mp3",
-      "sourceStart": 413.912,
-      "sourceEnd": 429.434,
-      "duration": 15.522,
+      "sourceStart": 413.18,
+      "sourceEnd": 430.92,
+      "duration": 17.74,
       "words": [
         {
           "text": "वेदेषु",
           "start": 0.18,
-          "end": 1.142,
+          "end": 1.9,
           "score": 0.843
         },
         {
           "text": "यज्ञेषु",
-          "start": 1.242,
-          "end": 1.924,
+          "start": 1.9,
+          "end": 3.06,
           "score": 0.667
         },
         {
           "text": "तपःसु",
-          "start": 1.944,
-          "end": 2.244,
+          "start": 3.06,
+          "end": 3.84,
           "score": 0.433
         },
         {
           "text": "चैव",
-          "start": 2.345,
-          "end": 2.405,
+          "start": 3.84,
+          "end": 4.52,
           "score": 0.0
         },
         {
           "text": "दानेषु",
-          "start": 4.482,
-          "end": 5.466,
+          "start": 4.52,
+          "end": 6.22,
           "score": 0.711
         },
         {
           "text": "यत्पुण्यफलं",
-          "start": 5.566,
-          "end": 7.012,
+          "start": 6.22,
+          "end": 7.68,
           "score": 0.498
         },
         {
           "text": "प्रदिष्टम्",
-          "start": 7.172,
-          "end": 7.936,
+          "start": 7.68,
+          "end": 8.8,
           "score": 0.719
         },
         {
           "text": "अत्येति",
-          "start": 8.943,
-          "end": 9.747,
+          "start": 8.8,
+          "end": 10.58,
           "score": 0.556
         },
         {
           "text": "तत्सर्वमिदं",
-          "start": 9.867,
-          "end": 11.234,
+          "start": 10.58,
+          "end": 11.94,
           "score": 0.79
         },
         {
           "text": "विदित्वा",
-          "start": 11.394,
-          "end": 12.037,
+          "start": 11.94,
+          "end": 13.04,
           "score": 0.78
         },
         {
           "text": "योगी",
-          "start": 12.999,
-          "end": 13.74,
+          "start": 13.04,
+          "end": 14.4,
           "score": 0.82
         },
         {
           "text": "परं",
-          "start": 13.921,
-          "end": 14.221,
+          "start": 14.4,
+          "end": 15.02,
           "score": 0.613
         },
         {
           "text": "स्थानमुपैति",
-          "start": 14.241,
-          "end": 14.641,
+          "start": 15.02,
+          "end": 16.14,
           "score": 0.304
         },
         {
           "text": "चाद्यम्",
-          "start": 14.662,
-          "end": 15.242,
+          "start": 16.14,
+          "end": 17.72,
           "score": 0.522
         }
       ]

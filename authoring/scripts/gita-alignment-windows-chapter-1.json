@@ -10,5 +10,19 @@
   "20": [
     {"start": 338.82, "end": 346.0, "reason": "Verse 19's final syllable touched the following verse; begin the next line after that boundary."},
     {"start": 345.2, "end": 354.2, "reason": "Preserve the transcription-derived second-line region."}
-  ]
+  ],
+  "_cueOverrides": {
+    "47": [
+      {"word": "सञ्जय", "start": 787.487, "end": 787.970},
+      {"word": "उवाच", "start": 787.990, "end": 788.191},
+      {"word": "एवमुक्त्वार्जुनः", "start": 790.545, "end": 792.389},
+      {"word": "सङ्ख्ये", "start": 792.790, "end": 793.692},
+      {"word": "रथोपस्थ", "start": 794.373, "end": 796.097},
+      {"word": "उपाविशत्", "start": 796.137, "end": 797.340},
+      {"word": "विसृज्य", "start": 798.791, "end": 799.672},
+      {"word": "सशरं", "start": 799.692, "end": 800.553},
+      {"word": "चापं", "start": 800.814, "end": 801.475},
+      {"word": "शोकसंविग्नमानसः", "start": 802.396, "end": 805.240}
+    ]
+  }
 }

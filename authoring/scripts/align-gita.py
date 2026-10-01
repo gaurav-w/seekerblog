@@ -64,6 +64,8 @@ for i, verse in enumerate(verses):
 # The ASR returned Latin transliteration for verse 33. Use its observed phrase
 # windows directly so a preceding Sanskrit syllable cannot be reused by CTC.
 overrides = json.loads((ROOT / 'authoring' / 'scripts' / f'gita-alignment-windows-chapter-{chapter}.json').read_text(encoding='utf-8'))
+cue_overrides = overrides.pop('_cueOverrides', {})
+overrides.pop('_clipEndOverrides', None)
 for number, bounds in overrides.items():
     for line, bound in zip(windows[int(number)-1], bounds):
         line.update(bound)
@@ -84,6 +86,15 @@ for index, window in enumerate(windows):
         result = whisperx.align(window, model, metadata, audio, 'cpu', return_char_alignments=False)
         cache.write_text(json.dumps(result, ensure_ascii=False), encoding='utf-8')
     words = result['word_segments']
+    # A chapter-specific, transcript-anchored cue override is only used when
+    # the acoustic model collapses a clearly spoken phrase into a short range.
+    # Keep it explicit and verify it still matches the displayed tokenization.
+    replacement = cue_overrides.get(str(index + 1))
+    if replacement:
+        assert [word['word'] for word in words] == [word['word'] for word in replacement], \
+            f'Cue override token mismatch in verse {index + 1}'
+        words = [{**word, 'start': revised['start'], 'end': revised['end']}
+                 for word, revised in zip(words, replacement)]
     results.append(words)
     scores = [w.get('score',0) for w in words]
     print(f'Verse {index+1}: {len(words)} words, confidence {np.mean(scores):.2f}', flush=True)

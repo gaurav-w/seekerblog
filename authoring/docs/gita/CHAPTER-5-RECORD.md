@@ -10,5 +10,6 @@ Implemented 2026-09-30: 29 verses, *Karma Sannyasa Yoga*. Sanskrit and Hindi ful
 - Separate Chapter 5 transcription, line force-alignment, and clip build produced 29 clips and clip-relative cues. A few single-syllable cues are only a few hundredths of a second. Status: **machine-aligned**; no full manual listening audit claimed.
 - Automated: `node authoring/scripts/validate-gita-chapter.cjs 5 29` PASS; Chapter 3 structural regression PASS.
 - Local preview: http://127.0.0.1:43128/gita/5/ — verse 5.1 played (`audio/01.mp3`, duration 17.042 s) with the Hindi meaning. The chapter index lists this chapter.
+- Repair update, 2026-10-01: source-window alignment and selective rebuild repaired the 5.16/5.17 boundary, 5.26's first-line markers, and 5.29's ending. Clips 16, 17, 26, and 29 plus matching manifest entries were regenerated. The last recovered 5.29 cue ends at master 467.759 s and the clip ends at 468.039 s, before the closing colophon. Status remains **machine-aligned**.
 
 Remaining: full manual listening/highlight review and the complete browser/visual matrix were not certified in this run.

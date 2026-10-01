@@ -1,0 +1,263 @@
+[
+  {
+    "verse": 1,
+    "decodedDuration": 18.04,
+    "manifestDuration": 18.04,
+    "last100msDbFS": -26.62,
+    "last500msDbFS": -33.42,
+    "cueTail": 1.278,
+    "lead": 0.18
+  },
+  {
+    "verse": 2,
+    "decodedDuration": 18.008,
+    "manifestDuration": 18.008,
+    "last100msDbFS": -22.26,
+    "last500msDbFS": -29.07,
+    "cueTail": 1.374,
+    "lead": 0.18
+  },
+  {
+    "verse": 3,
+    "decodedDuration": 15.423,
+    "manifestDuration": 15.423,
+    "last100msDbFS": -33.67,
+    "last500msDbFS": -39.36,
+    "cueTail": 1.198,
+    "lead": 0.18
+  },
+  {
+    "verse": 4,
+    "decodedDuration": 15.023,
+    "manifestDuration": 15.023,
+    "last100msDbFS": -21.21,
+    "last500msDbFS": -28.14,
+    "cueTail": 1.253,
+    "lead": 0.18
+  },
+  {
+    "verse": 5,
+    "decodedDuration": 14.345,
+    "manifestDuration": 14.345,
+    "last100msDbFS": -21.36,
+    "last500msDbFS": -20.6,
+    "cueTail": 0.869,
+    "lead": 0.18
+  },
+  {
+    "verse": 6,
+    "decodedDuration": 16.686,
+    "manifestDuration": 16.686,
+    "last100msDbFS": -23.28,
+    "last500msDbFS": -30.21,
+    "cueTail": 1.531,
+    "lead": 0.18
+  },
+  {
+    "verse": 7,
+    "decodedDuration": 15.487,
+    "manifestDuration": 15.487,
+    "last100msDbFS": -21.02,
+    "last500msDbFS": -27.95,
+    "cueTail": 1.37,
+    "lead": 0.18
+  },
+  {
+    "verse": 8,
+    "decodedDuration": 15.043,
+    "manifestDuration": 15.043,
+    "last100msDbFS": -18.02,
+    "last500msDbFS": -19.27,
+    "cueTail": 0.0,
+    "lead": 0.18
+  },
+  {
+    "verse": 9,
+    "decodedDuration": 13.951,
+    "manifestDuration": 13.951,
+    "last100msDbFS": -19.2,
+    "last500msDbFS": -17.66,
+    "cueTail": 0.0,
+    "lead": 0.007
+  },
+  {
+    "verse": 10,
+    "decodedDuration": 16.166,
+    "manifestDuration": 16.166,
+    "last100msDbFS": -46.28,
+    "last500msDbFS": -46.19,
+    "cueTail": 1.531,
+    "lead": 0
+  },
+  {
+    "verse": 11,
+    "decodedDuration": 14.742,
+    "manifestDuration": 14.742,
+    "last100msDbFS": -24.78,
+    "last500msDbFS": -31.67,
+    "cueTail": 1.74,
+    "lead": 0.18
+  },
+  {
+    "verse": 12,
+    "decodedDuration": 15.566,
+    "manifestDuration": 15.566,
+    "last100msDbFS": -35.0,
+    "last500msDbFS": -40.62,
+    "cueTail": 2.091,
+    "lead": 0.18
+  },
+  {
+    "verse": 13,
+    "decodedDuration": 15.023,
+    "manifestDuration": 15.023,
+    "last100msDbFS": -24.97,
+    "last500msDbFS": -31.83,
+    "cueTail": 1.403,
+    "lead": 0.18
+  },
+  {
+    "verse": 14,
+    "decodedDuration": 14.609,
+    "manifestDuration": 14.609,
+    "last100msDbFS": -24.01,
+    "last500msDbFS": -30.92,
+    "cueTail": 1.513,
+    "lead": 0.18
+  },
+  {
+    "verse": 15,
+    "decodedDuration": 15.538,
+    "manifestDuration": 15.538,
+    "last100msDbFS": -23.49,
+    "last500msDbFS": -30.39,
+    "cueTail": 1.822,
+    "lead": 0.18
+  },
+  {
+    "verse": 16,
+    "decodedDuration": 20.869,
+    "manifestDuration": 20.869,
+    "last100msDbFS": -22.78,
+    "last500msDbFS": -18.34,
+    "cueTail": 6.708,
+    "lead": 0.18
+  },
+  {
+    "verse": 17,
+    "decodedDuration": 12.246,
+    "manifestDuration": 12.246,
+    "last100msDbFS": -25.94,
+    "last500msDbFS": -32.8,
+    "cueTail": 2.174,
+    "lead": 0.18
+  },
+  {
+    "verse": 18,
+    "decodedDuration": 13.869,
+    "manifestDuration": 13.869,
+    "last100msDbFS": -44.47,
+    "last500msDbFS": -46.17,
+    "cueTail": 1.367,
+    "lead": 0.18
+  },
+  {
+    "verse": 19,
+    "decodedDuration": 15.909,
+    "manifestDuration": 15.909,
+    "last100msDbFS": -31.97,
+    "last500msDbFS": -38.36,
+    "cueTail": 1.754,
+    "lead": 0.18
+  },
+  {
+    "verse": 20,
+    "decodedDuration": 15.54,
+    "manifestDuration": 15.54,
+    "last100msDbFS": -22.14,
+    "last500msDbFS": -28.84,
+    "cueTail": 1.534,
+    "lead": 0.18
+  },
+  {
+    "verse": 21,
+    "decodedDuration": 15.379,
+    "manifestDuration": 15.379,
+    "last100msDbFS": -22.3,
+    "last500msDbFS": -29.03,
+    "cueTail": 1.492,
+    "lead": 0.18
+  },
+  {
+    "verse": 22,
+    "decodedDuration": 15.846,
+    "manifestDuration": 15.846,
+    "last100msDbFS": -23.06,
+    "last500msDbFS": -29.97,
+    "cueTail": 1.614,
+    "lead": 0.18
+  },
+  {
+    "verse": 23,
+    "decodedDuration": 16.33,
+    "manifestDuration": 16.33,
+    "last100msDbFS": -22.13,
+    "last500msDbFS": -29.07,
+    "cueTail": 1.622,
+    "lead": 0.18
+  },
+  {
+    "verse": 24,
+    "decodedDuration": 16.019,
+    "manifestDuration": 16.019,
+    "last100msDbFS": -23.98,
+    "last500msDbFS": -30.88,
+    "cueTail": 1.592,
+    "lead": 0.18
+  },
+  {
+    "verse": 25,
+    "decodedDuration": 16.142,
+    "manifestDuration": 16.142,
+    "last100msDbFS": -48.2,
+    "last500msDbFS": -46.9,
+    "cueTail": 1.551,
+    "lead": 0.18
+  },
+  {
+    "verse": 26,
+    "decodedDuration": 15.867,
+    "manifestDuration": 15.867,
+    "last100msDbFS": -37.97,
+    "last500msDbFS": -42.89,
+    "cueTail": 1.247,
+    "lead": 0.18
+  },
+  {
+    "verse": 27,
+    "decodedDuration": 17.264,
+    "manifestDuration": 17.264,
+    "last100msDbFS": -27.32,
+    "last500msDbFS": -34.11,
+    "cueTail": 1.856,
+    "lead": 0.18
+  },
+  {
+    "verse": 28,
+    "decodedDuration": 15.052,
+    "manifestDuration": 15.052,
+    "last100msDbFS": -28.39,
+    "last500msDbFS": -35.12,
+    "cueTail": 2.435,
+    "lead": 0.18
+  },
+  {
+    "verse": 29,
+    "decodedDuration": 13.987,
+    "manifestDuration": 13.987,
+    "last100msDbFS": -18.8,
+    "last500msDbFS": -22.06,
+    "cueTail": 0.28,
+    "lead": 0.18
+  }
+]

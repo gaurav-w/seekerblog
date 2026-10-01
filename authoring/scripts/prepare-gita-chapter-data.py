@@ -17,7 +17,15 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-COUNTS = {1: 47, 2: 72, 3: 43, 4: 42, 5: 29, 6: 47, 7: 30, 8: 28, 9: 34, 10: 42}
+COUNTS = {
+    1: 47, 2: 72, 3: 43, 4: 42, 5: 29, 6: 47, 7: 30, 8: 28, 9: 34, 10: 42,
+    11: 55, 12: 20, 13: 34, 14: 27, 15: 20, 16: 24, 17: 28, 18: 78,
+}
+# The selected Chapter 13 recital and its word-meaning source use the common
+# 34-verse recension, whose opening is "इदं शरीरं...".  The Vedic Scriptures
+# mirror additionally exposes the alternate Arjuna question as 13.1, so its
+# records must be offset while reader verse numbers remain 1–34.
+SOURCE_OFFSETS = {13: 1}
 
 
 def get_json(url: str) -> dict:
@@ -57,15 +65,16 @@ def main() -> None:
     target.mkdir(parents=True, exist_ok=True)
     verses = []
     for number in range(1, COUNTS[args.chapter] + 1):
-        file = target / f"{number:02}.json"
+        source_number = number + SOURCE_OFFSETS.get(args.chapter, 0)
+        file = target / f"{source_number:02}.json"
         if file.exists():
             record = json.loads(file.read_text(encoding="utf-8"))
         else:
-            record = get_json(f"https://vedicscriptures.github.io/slok/{args.chapter}/{number}")
+            record = get_json(f"https://vedicscriptures.github.io/slok/{args.chapter}/{source_number}")
             file.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
             time.sleep(.15)
         hindi = clean_hindi(record["rams"]["ht"])
-        english_file = target / f"{number:02}-en.txt"
+        english_file = target / f"{source_number:02}-en.txt"
         if english_file.exists():
             english = english_file.read_text(encoding="utf-8")
         else:
@@ -80,6 +89,8 @@ def main() -> None:
                     raise error
             english_file.write_text(english, encoding="utf-8")
             time.sleep(.25)
+        if args.chapter == 13:
+            english = re.sub(r"^13\\.\\d+", f"13.{number}", english)
         sanskrit = clean_sanskrit(record["slok"])
         # Do not manufacture word glosses from the displayed Sanskrit or a
         # commentary regex.  A chapter can still provide its full Hindi and

@@ -2841,8 +2841,8 @@ window.GITA_CHAPTER_1_TIMINGS = {
       "verse": 47,
       "audio": "audio/47.mp3",
       "sourceStart": 787.307,
-      "sourceEnd": 804.879,
-      "duration": 17.572,
+      "sourceEnd": 805.52,
+      "duration": 18.213,
       "words": [
         {
           "text": "सञ्जय",
@@ -2901,7 +2901,7 @@ window.GITA_CHAPTER_1_TIMINGS = {
         {
           "text": "शोकसंविग्नमानसः",
           "start": 15.089,
-          "end": 17.292,
+          "end": 17.933,
           "score": 0.847
         }
       ]

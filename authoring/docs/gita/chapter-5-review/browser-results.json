@@ -1,0 +1,4689 @@
+{
+  "url": "http://127.0.0.1:43128/gita/5/",
+  "browser": "Edge",
+  "errors": [],
+  "layout": [
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "hi",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "language": "en",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "hi",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "hi",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "language": "en",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "hi",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 1,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 2,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 3,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 4,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 5,
+      "overflow": false,
+      "clipped": [],
+      "words": 14,
+      "glosses": 14,
+      "expected": 14
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 6,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 7,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 8,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 9,
+      "overflow": false,
+      "clipped": [],
+      "words": 5,
+      "glosses": 5,
+      "expected": 5
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 10,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 11,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 12,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 13,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 14,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 15,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 16,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 17,
+      "overflow": false,
+      "clipped": [],
+      "words": 3,
+      "glosses": 3,
+      "expected": 3
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 18,
+      "overflow": false,
+      "clipped": [],
+      "words": 10,
+      "glosses": 10,
+      "expected": 10
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 19,
+      "overflow": false,
+      "clipped": [],
+      "words": 15,
+      "glosses": 15,
+      "expected": 15
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 20,
+      "overflow": false,
+      "clipped": [],
+      "words": 9,
+      "glosses": 9,
+      "expected": 9
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 21,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 22,
+      "overflow": false,
+      "clipped": [],
+      "words": 13,
+      "glosses": 13,
+      "expected": 13
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 23,
+      "overflow": false,
+      "clipped": [],
+      "words": 11,
+      "glosses": 11,
+      "expected": 11
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 24,
+      "overflow": false,
+      "clipped": [],
+      "words": 6,
+      "glosses": 6,
+      "expected": 6
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 25,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 26,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 27,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 28,
+      "overflow": false,
+      "clipped": [],
+      "words": 7,
+      "glosses": 7,
+      "expected": 7
+    },
+    {
+      "width": 1280,
+      "height": 1000,
+      "language": "en",
+      "verse": 29,
+      "overflow": false,
+      "clipped": [],
+      "words": 8,
+      "glosses": 8,
+      "expected": 8
+    },
+    {
+      "fullscreen": true,
+      "width": 320,
+      "height": 568,
+      "verse": 8,
+      "shlokaHeight": 362.25,
+      "scrollHeight": 362,
+      "scrollTop": 0,
+      "firstWordY": 221.421875,
+      "lastWordBottom": 452.796875,
+      "shlokaTop": 208.625,
+      "shlokaBottom": 570.875,
+      "overflow": false
+    },
+    {
+      "fullscreen": true,
+      "width": 390,
+      "height": 844,
+      "verse": 8,
+      "shlokaHeight": 245.890625,
+      "scrollHeight": 350,
+      "scrollTop": 0,
+      "firstWordY": 40.4375,
+      "lastWordBottom": 341.734375,
+      "shlokaTop": 120.78125,
+      "shlokaBottom": 366.671875,
+      "overflow": false
+    },
+    {
+      "fullscreen": true,
+      "width": 844,
+      "height": 390,
+      "verse": 8,
+      "shlokaHeight": 49.828125,
+      "scrollHeight": 1113,
+      "scrollTop": 0,
+      "firstWordY": -901.046875,
+      "lastWordBottom": 997.625,
+      "shlokaTop": 138.390625,
+      "shlokaBottom": 188.21875,
+      "overflow": false
+    },
+    {
+      "fullscreen": true,
+      "width": 1280,
+      "height": 720,
+      "verse": 8,
+      "shlokaHeight": 379.828125,
+      "scrollHeight": 1427,
+      "scrollTop": 0,
+      "firstWordY": -884.265625,
+      "lastWordBottom": 1302.609375,
+      "shlokaTop": 138.390625,
+      "shlokaBottom": 518.21875,
+      "overflow": false
+    }
+  ],
+  "probes": [
+    {
+      "verse": 26,
+      "time": 4.7,
+      "active": null
+    },
+    {
+      "verse": 1,
+      "manifestDuration": 18.04,
+      "browserDuration": 18.04,
+      "results": [
+        {
+          "word": 0,
+          "text": "अर्जुन",
+          "time": 0.492,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "उवाच",
+          "time": 1.277,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "संन्यासं",
+          "time": 3.9665,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "कर्मणां",
+          "time": 5.2095,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "कृष्ण",
+          "time": 6.303,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "पुनर्योगं",
+          "time": 8.0075,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "च",
+          "time": 8.658999,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "शंससि",
+          "time": 9.0105,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "यच्छ्रेय",
+          "time": 11.1855,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "एतयोरेकं",
+          "time": 12.718,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "तन्मे",
+          "time": 14.299499,
+          "active": 10,
+          "expected": 10
+        },
+        {
+          "word": 11,
+          "text": "ब्रूहि",
+          "time": 15.3105,
+          "active": 11,
+          "expected": 11
+        },
+        {
+          "word": 12,
+          "text": "सुनिश्चितम्",
+          "time": 16.2715,
+          "active": 12,
+          "expected": 12
+        }
+      ]
+    },
+    {
+      "verse": 2,
+      "manifestDuration": 18.008,
+      "browserDuration": 18.008,
+      "results": [
+        {
+          "word": 0,
+          "text": "श्रीभगवानुवाच",
+          "time": 1.0935,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "संन्यासः",
+          "time": 3.924,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "कर्मयोगश्च",
+          "time": 6.006,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "निःश्रेयसकरावुभौ",
+          "time": 8.589,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "तयोस्तु",
+          "time": 11.391,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "कर्मसंन्यासात्कर्मयोगो",
+          "time": 13.8775,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "विशिष्यते",
+          "time": 16.2635,
+          "active": 6,
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "verse": 3,
+      "manifestDuration": 15.423,
+      "browserDuration": 15.423,
+      "results": [
+        {
+          "word": 0,
+          "text": "ज्ञेयः",
+          "time": 0.4905,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "स",
+          "time": 1.262,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "नित्यसंन्यासी",
+          "time": 2.484,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "यो",
+          "time": 4.297,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "न",
+          "time": 4.608,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "द्वेष्टि",
+          "time": 5.309,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "न",
+          "time": 5.78,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "काङ्क्षति",
+          "time": 6.2005,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "निर्द्वन्द्वो",
+          "time": 8.6885,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "हि",
+          "time": 9.408999,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "महाबाहो",
+          "time": 10.32,
+          "active": 10,
+          "expected": 10
+        },
+        {
+          "word": 11,
+          "text": "सुखं",
+          "time": 11.942499,
+          "active": 11,
+          "expected": 11
+        },
+        {
+          "word": 12,
+          "text": "बन्धात्प्रमुच्यते",
+          "time": 13.303999,
+          "active": 12,
+          "expected": 12
+        }
+      ]
+    },
+    {
+      "verse": 4,
+      "manifestDuration": 15.023,
+      "browserDuration": 15.023,
+      "results": [
+        {
+          "word": 0,
+          "text": "साङ्ख्ययोगौ",
+          "time": 0.961,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "पृथग्बालाः",
+          "time": 2.613,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "प्रवदन्ति",
+          "time": 4.496,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "न",
+          "time": 5.067,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "पण्डिताः",
+          "time": 5.5775,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "एकमप्यास्थितः",
+          "time": 8.9725,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "सम्यगुभयोर्विन्दते",
+          "time": 11.8075,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "फलम्",
+          "time": 13.6,
+          "active": 7,
+          "expected": 7
+        }
+      ]
+    },
+    {
+      "verse": 5,
+      "manifestDuration": 14.345,
+      "browserDuration": 14.345,
+      "results": [
+        {
+          "word": 0,
+          "text": "यत्साङ्ख्यैः",
+          "time": 0.860499,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "प्राप्यते",
+          "time": 2.4615,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "स्थानं",
+          "time": 3.6325,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "तद्योगैरपि",
+          "time": 5.194,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "गम्यते",
+          "time": 6.195,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "एकं",
+          "time": 8.5745,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "साङ्ख्यं",
+          "time": 9.547,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "च",
+          "time": 10.208,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "योगं",
+          "time": 10.7295,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "च",
+          "time": 11.4815,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "यः",
+          "time": 12.4635,
+          "active": 10,
+          "expected": 10
+        },
+        {
+          "word": 11,
+          "text": "पश्यति",
+          "time": 12.955,
+          "active": 11,
+          "expected": 11
+        },
+        {
+          "word": 12,
+          "text": "स",
+          "time": 13.125,
+          "active": 12,
+          "expected": 12
+        },
+        {
+          "word": 13,
+          "text": "पश्यति",
+          "time": 13.3355,
+          "active": 13,
+          "expected": 13
+        }
+      ]
+    },
+    {
+      "verse": 6,
+      "manifestDuration": 16.686,
+      "browserDuration": 16.686,
+      "results": [
+        {
+          "word": 0,
+          "text": "संन्यासस्तु",
+          "time": 1.5715,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "महाबाहो",
+          "time": 3.895,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "दुःखमाप्तुमयोगतः",
+          "time": 6.608,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "योगयुक्तो",
+          "time": 10.032499,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "मुनिर्ब्रह्म",
+          "time": 11.586,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "नचिरेणाधिगच्छति",
+          "time": 14.0925,
+          "active": 5,
+          "expected": 5
+        }
+      ]
+    },
+    {
+      "verse": 7,
+      "manifestDuration": 15.487,
+      "browserDuration": 15.487,
+      "results": [
+        {
+          "word": 0,
+          "text": "योगयुक्तो",
+          "time": 0.851499,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "विशुद्धात्मा",
+          "time": 2.4845,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "विजितात्मा",
+          "time": 4.489,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "जितेन्द्रियः",
+          "time": 5.952,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "सर्वभूतात्मभूतात्मा",
+          "time": 9.734,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "कुर्वन्नपि",
+          "time": 12.5925,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "न",
+          "time": 13.2445,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "लिप्यते",
+          "time": 13.766,
+          "active": 7,
+          "expected": 7
+        }
+      ]
+    },
+    {
+      "verse": 8,
+      "manifestDuration": 15.043,
+      "browserDuration": 15.043,
+      "results": [
+        {
+          "word": 0,
+          "text": "नैव",
+          "time": 0.400499,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "किञ्चित्करोमीति",
+          "time": 2.0335,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "युक्तो",
+          "time": 4.3885,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "मन्येत",
+          "time": 5.2,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "तत्त्ववित्",
+          "time": 6.221999,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "पश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन्",
+          "time": 11.4605,
+          "active": 5,
+          "expected": 5
+        }
+      ]
+    },
+    {
+      "verse": 9,
+      "manifestDuration": 13.951,
+      "browserDuration": 13.951,
+      "results": [
+        {
+          "word": 0,
+          "text": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि",
+          "time": 2.782,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "इन्द्रियाणीन्द्रियार्थेषु",
+          "time": 9.3995,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "वर्तन्त",
+          "time": 12.2325,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "इति",
+          "time": 12.943,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "धारयन्",
+          "time": 13.552,
+          "active": 4,
+          "expected": 4
+        }
+      ]
+    },
+    {
+      "verse": 10,
+      "manifestDuration": 16.166,
+      "browserDuration": 16.166,
+      "results": [
+        {
+          "word": 0,
+          "text": "ब्रह्मण्याधाय",
+          "time": 1.583,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "कर्माणि",
+          "time": 3.8175,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "सङ्गं",
+          "time": 5.592,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "त्यक्त्वा",
+          "time": 6.474,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "करोति",
+          "time": 7.3065,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "यः",
+          "time": 7.6575,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "लिप्यते",
+          "time": 10.012,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "न",
+          "time": 10.564499,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "स",
+          "time": 10.734,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "पापेन",
+          "time": 11.4165,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "पद्मपत्रमिवाम्भसा",
+          "time": 13.522,
+          "active": 10,
+          "expected": 10
+        }
+      ]
+    },
+    {
+      "verse": 11,
+      "manifestDuration": 14.742,
+      "browserDuration": 14.742,
+      "results": [
+        {
+          "word": 0,
+          "text": "कायेन",
+          "time": 0.611,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "मनसा",
+          "time": 1.5135,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "बुद्ध्या",
+          "time": 2.536,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "केवलैरिन्द्रियैरपि",
+          "time": 4.401,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "योगिनः",
+          "time": 7.4675,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "कर्म",
+          "time": 8.508,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "कुर्वन्ति",
+          "time": 9.299,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "सङ्गं",
+          "time": 10.75,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "त्यक्त्वात्मशुद्धये",
+          "time": 12.101,
+          "active": 8,
+          "expected": 8
+        }
+      ]
+    },
+    {
+      "verse": 12,
+      "manifestDuration": 15.566,
+      "browserDuration": 15.566,
+      "results": [
+        {
+          "word": 0,
+          "text": "युक्तः",
+          "time": 0.43,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "कर्मफलं",
+          "time": 1.531499,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "त्यक्त्वा",
+          "time": 2.733,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "शान्तिमाप्नोति",
+          "time": 4.535,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "नैष्ठिकीम्",
+          "time": 5.9175,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "अयुक्तः",
+          "time": 8.381,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "कामकारेण",
+          "time": 10.035499,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "फले",
+          "time": 11.8105,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "सक्तो",
+          "time": 12.603,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "निबध्यते",
+          "time": 13.2645,
+          "active": 9,
+          "expected": 9
+        }
+      ]
+    },
+    {
+      "verse": 13,
+      "manifestDuration": 15.023,
+      "browserDuration": 15.023,
+      "results": [
+        {
+          "word": 0,
+          "text": "सर्वकर्माणि",
+          "time": 0.9205,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "मनसा",
+          "time": 2.2215,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "संन्यस्यास्ते",
+          "time": 4.134,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "सुखं",
+          "time": 5.395,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "वशी",
+          "time": 5.9755,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "नवद्वारे",
+          "time": 8.3345,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "पुरे",
+          "time": 9.2775,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "देही",
+          "time": 10.14,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "नैव",
+          "time": 11.554,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "कुर्वन्न",
+          "time": 12.3965,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "कारयन्",
+          "time": 13.268999,
+          "active": 10,
+          "expected": 10
+        }
+      ]
+    },
+    {
+      "verse": 14,
+      "manifestDuration": 14.609,
+      "browserDuration": 14.609,
+      "results": [
+        {
+          "word": 0,
+          "text": "न",
+          "time": 0.2805,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "कर्तृत्वं",
+          "time": 0.872,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "न",
+          "time": 1.5735,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "कर्माणि",
+          "time": 2.2955,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "लोकस्य",
+          "time": 3.7485,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "सृजति",
+          "time": 4.4005,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "प्रभुः",
+          "time": 4.751,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "न",
+          "time": 7.293,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "कर्मफलसंयोगं",
+          "time": 8.6965,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "स्वभावस्तु",
+          "time": 11.2215,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "प्रवर्तते",
+          "time": 12.675,
+          "active": 10,
+          "expected": 10
+        }
+      ]
+    },
+    {
+      "verse": 15,
+      "manifestDuration": 15.538,
+      "browserDuration": 15.538,
+      "results": [
+        {
+          "word": 0,
+          "text": "नादत्ते",
+          "time": 0.812,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "कस्यचित्पापं",
+          "time": 2.5065,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "न",
+          "time": 3.399,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "चैव",
+          "time": 3.458999,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "सुकृतं",
+          "time": 4.211,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "विभुः",
+          "time": 4.7025,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "अज्ञानेनावृतं",
+          "time": 8.695,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "ज्ञानं",
+          "time": 10.429,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "तेन",
+          "time": 11.5615,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "मुह्यन्ति",
+          "time": 12.413,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "जन्तवः",
+          "time": 13.395,
+          "active": 10,
+          "expected": 10
+        }
+      ]
+    },
+    {
+      "verse": 16,
+      "manifestDuration": 20.869,
+      "browserDuration": 20.869,
+      "results": [
+        {
+          "word": 0,
+          "text": "ज्ञानेन",
+          "time": 0.641,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "तु",
+          "time": 1.322,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "तदज्ञानं",
+          "time": 2.2035,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "येषां",
+          "time": 3.877,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "नाशितमात्मनः",
+          "time": 5.35,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "तेषामादित्यवज्ज्ञानं",
+          "time": 9.6475,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "प्रकाशयति",
+          "time": 12.165,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "तत्परम्",
+          "time": 13.76,
+          "active": 7,
+          "expected": 7
+        }
+      ]
+    },
+    {
+      "verse": 17,
+      "manifestDuration": 12.246,
+      "browserDuration": 12.246,
+      "results": [
+        {
+          "word": 0,
+          "text": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः",
+          "time": 1.409,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "गच्छन्त्यपुनरावृत्तिं",
+          "time": 5.405,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "ज्ञाननिर्धूतकल्मषाः",
+          "time": 8.82,
+          "active": 2,
+          "expected": 2
+        }
+      ]
+    },
+    {
+      "verse": 18,
+      "manifestDuration": 13.869,
+      "browserDuration": 13.869,
+      "results": [
+        {
+          "word": 0,
+          "text": "विद्याविनयसम्पन्ने",
+          "time": 1.522,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "ब्राह्मणे",
+          "time": 3.7055,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "गवि",
+          "time": 4.547,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "हस्तिनि",
+          "time": 5.1075,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "शुनि",
+          "time": 7.1635,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "चैव",
+          "time": 7.5455,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "श्वपाके",
+          "time": 8.468499,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "च",
+          "time": 9.4815,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "पण्डिताः",
+          "time": 10.726,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "समदर्शिनः",
+          "time": 11.95,
+          "active": 9,
+          "expected": 9
+        }
+      ]
+    },
+    {
+      "verse": 19,
+      "manifestDuration": 15.909,
+      "browserDuration": 15.909,
+      "results": [
+        {
+          "word": 0,
+          "text": "इहैव",
+          "time": 0.4905,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "तैर्जितः",
+          "time": 1.1915,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "सर्गो",
+          "time": 2.354,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "येषां",
+          "time": 3.767,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "साम्ये",
+          "time": 4.839,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "स्थितं",
+          "time": 5.6605,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "मनः",
+          "time": 6.1015,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "निर्दोषं",
+          "time": 8.4135,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "हि",
+          "time": 9.3555,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "समं",
+          "time": 9.686,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "ब्रह्म",
+          "time": 10.418,
+          "active": 10,
+          "expected": 10
+        },
+        {
+          "word": 11,
+          "text": "तस्माद्",
+          "time": 11.951,
+          "active": 11,
+          "expected": 11
+        },
+        {
+          "word": 12,
+          "text": "ब्रह्मणि",
+          "time": 12.8325,
+          "active": 12,
+          "expected": 12
+        },
+        {
+          "word": 13,
+          "text": "ते",
+          "time": 13.4235,
+          "active": 13,
+          "expected": 13
+        },
+        {
+          "word": 14,
+          "text": "स्थिताः",
+          "time": 13.9145,
+          "active": 14,
+          "expected": 14
+        }
+      ]
+    },
+    {
+      "verse": 20,
+      "manifestDuration": 15.54,
+      "browserDuration": 15.54,
+      "results": [
+        {
+          "word": 0,
+          "text": "न",
+          "time": 0.19,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "प्रहृष्येत्प्रियं",
+          "time": 1.352,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "प्राप्य",
+          "time": 2.6935,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "नोद्विजेत्प्राप्य",
+          "time": 4.9465,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "चाप्रियम्",
+          "time": 6.5685,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "स्थिरबुद्धिरसम्मूढो",
+          "time": 9.8,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "ब्रह्मविद्",
+          "time": 11.9925,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "ब्रह्मणि",
+          "time": 12.9945,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "स्थितः",
+          "time": 13.7455,
+          "active": 8,
+          "expected": 8
+        }
+      ]
+    },
+    {
+      "verse": 21,
+      "manifestDuration": 15.379,
+      "browserDuration": 15.379,
+      "results": [
+        {
+          "word": 0,
+          "text": "बाह्यस्पर्शेष्वसक्तात्मा",
+          "time": 1.942,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "विन्दत्यात्मनि",
+          "time": 5.246,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "यत्सुखम्",
+          "time": 6.5675,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "स",
+          "time": 8.337,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "ब्रह्मयोगयुक्तात्मा",
+          "time": 9.8295,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "सुखमक्षयमश्नुते",
+          "time": 12.905,
+          "active": 5,
+          "expected": 5
+        }
+      ]
+    },
+    {
+      "verse": 22,
+      "manifestDuration": 15.846,
+      "browserDuration": 15.846,
+      "results": [
+        {
+          "word": 0,
+          "text": "ये",
+          "time": 0.3,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "हि",
+          "time": 0.61,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "संस्पर्शजा",
+          "time": 1.5805,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "भोगा",
+          "time": 2.8815,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "दुःखयोनय",
+          "time": 4.6525,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "एव",
+          "time": 5.643,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "ते",
+          "time": 6.103999,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "आद्यन्तवन्तः",
+          "time": 8.9705,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "कौन्तेय",
+          "time": 10.7745,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "न",
+          "time": 12.298,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "तेषु",
+          "time": 12.7885,
+          "active": 10,
+          "expected": 10
+        },
+        {
+          "word": 11,
+          "text": "रमते",
+          "time": 13.52,
+          "active": 11,
+          "expected": 11
+        },
+        {
+          "word": 12,
+          "text": "बुधः",
+          "time": 14.1115,
+          "active": 12,
+          "expected": 12
+        }
+      ]
+    },
+    {
+      "verse": 23,
+      "manifestDuration": 16.33,
+      "browserDuration": 16.33,
+      "results": [
+        {
+          "word": 0,
+          "text": "शक्नोतीहैव",
+          "time": 1.030999,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "यः",
+          "time": 2.122,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "सोढुं",
+          "time": 3.023,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "प्राक्शरीरविमोक्षणात्",
+          "time": 5.5455,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "कामक्रोधोद्भवं",
+          "time": 9.5215,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "वेगं",
+          "time": 11.2035,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "स",
+          "time": 12.565,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "युक्तः",
+          "time": 12.9855,
+          "active": 7,
+          "expected": 7
+        },
+        {
+          "word": 8,
+          "text": "स",
+          "time": 13.495999,
+          "active": 8,
+          "expected": 8
+        },
+        {
+          "word": 9,
+          "text": "सुखी",
+          "time": 14.0175,
+          "active": 9,
+          "expected": 9
+        },
+        {
+          "word": 10,
+          "text": "नरः",
+          "time": 14.597999,
+          "active": 10,
+          "expected": 10
+        }
+      ]
+    },
+    {
+      "verse": 24,
+      "manifestDuration": 16.019,
+      "browserDuration": 16.019,
+      "results": [
+        {
+          "word": 0,
+          "text": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव",
+          "time": 3.097499,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "यः",
+          "time": 6.075,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "स",
+          "time": 8.3925,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "योगी",
+          "time": 8.924,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "ब्रह्मनिर्वाणं",
+          "time": 10.367,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "ब्रह्मभूतोऽधिगच्छति",
+          "time": 13.234,
+          "active": 5,
+          "expected": 5
+        }
+      ]
+    },
+    {
+      "verse": 25,
+      "manifestDuration": 16.142,
+      "browserDuration": 16.142,
+      "results": [
+        {
+          "word": 0,
+          "text": "लभन्ते",
+          "time": 0.660999,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "ब्रह्मनिर्वाणमृषयः",
+          "time": 2.947,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "क्षीणकल्मषाः",
+          "time": 5.654,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "छिन्नद्वैधा",
+          "time": 9.344,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "यतात्मानः",
+          "time": 10.966,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "सर्वभूतहिते",
+          "time": 12.849,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "रताः",
+          "time": 14.1905,
+          "active": 6,
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "verse": 26,
+      "manifestDuration": 15.867,
+      "browserDuration": 15.867,
+      "results": [
+        {
+          "word": 0,
+          "text": "कामक्रोधवियुक्तानां",
+          "time": 1.101,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "यतीनां",
+          "time": 2.372,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "यतचेतसाम्",
+          "time": 3.032499,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "अभितो",
+          "time": 8.295,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "ब्रह्मनिर्वाणं",
+          "time": 9.8985,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "वर्तते",
+          "time": 11.9835,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "विदितात्मनाम्",
+          "time": 13.6175,
+          "active": 6,
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "verse": 27,
+      "manifestDuration": 17.264,
+      "browserDuration": 17.264,
+      "results": [
+        {
+          "word": 0,
+          "text": "स्पर्शान्कृत्वा",
+          "time": 1.091,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "बहिर्बाह्यांश्चक्षुश्चैवान्तरे",
+          "time": 4.255,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "भ्रुवोः",
+          "time": 6.9775,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "प्राणापानौ",
+          "time": 9.0005,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "समौ",
+          "time": 10.9325,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "कृत्वा",
+          "time": 11.8835,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "नासाभ्यन्तरचारिणौ",
+          "time": 14.1665,
+          "active": 6,
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "verse": 28,
+      "manifestDuration": 15.052,
+      "browserDuration": 15.052,
+      "results": [
+        {
+          "word": 0,
+          "text": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः",
+          "time": 2.763,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "विगतेच्छाभयक्रोधो",
+          "time": 8.587,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "यः",
+          "time": 10.992999,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "सदा",
+          "time": 11.5845,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "मुक्त",
+          "time": 12.2665,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "एव",
+          "time": 12.536999,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "सः",
+          "time": 12.597,
+          "active": 6,
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "verse": 29,
+      "manifestDuration": 13.987,
+      "browserDuration": 13.987,
+      "results": [
+        {
+          "word": 0,
+          "text": "भोक्तारं",
+          "time": 0.8205,
+          "active": 0,
+          "expected": 0
+        },
+        {
+          "word": 1,
+          "text": "यज्ञतपसां",
+          "time": 2.5215,
+          "active": 1,
+          "expected": 1
+        },
+        {
+          "word": 2,
+          "text": "सर्वलोकमहेश्वरम्",
+          "time": 4.953,
+          "active": 2,
+          "expected": 2
+        },
+        {
+          "word": 3,
+          "text": "सुहृदं",
+          "time": 7.985,
+          "active": 3,
+          "expected": 3
+        },
+        {
+          "word": 4,
+          "text": "सर्वभूतानां",
+          "time": 9.5885,
+          "active": 4,
+          "expected": 4
+        },
+        {
+          "word": 5,
+          "text": "ज्ञात्वा",
+          "time": 11.431999,
+          "active": 5,
+          "expected": 5
+        },
+        {
+          "word": 6,
+          "text": "मां",
+          "time": 12.2545,
+          "active": 6,
+          "expected": 6
+        },
+        {
+          "word": 7,
+          "text": "शान्तिमृच्छति",
+          "time": 13.226,
+          "active": 7,
+          "expected": 7
+        }
+      ]
+    }
+  ],
+  "initial": {
+    "mp3Requests": 0,
+    "verseOptions": 29
+  },
+  "noPlayRequests": 0,
+  "final": {
+    "ended": true,
+    "verse": "28",
+    "status": "",
+    "playLabel": "Play shloka",
+    "active": null
+  },
+  "requests": [
+    "http://127.0.0.1:43128/gita/5/audio/26.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/01.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/02.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/03.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/04.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/05.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/06.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/07.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/08.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/09.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/10.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/11.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/12.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/13.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/14.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/15.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/16.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/17.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/18.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/19.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/20.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/21.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/22.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/23.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/24.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/25.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/26.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/27.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/28.mp3",
+    "http://127.0.0.1:43128/gita/5/audio/29.mp3"
+  ]
+}

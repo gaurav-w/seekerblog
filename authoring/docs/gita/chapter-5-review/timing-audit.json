@@ -1,0 +1,1233 @@
+{
+  "metadata": {
+    "version": 1,
+    "chapter": 5,
+    "sourceSha256": "9d9b2c6ec17d66be86945142f179c88d287d203a95c556b2381236cf3b3a178a",
+    "method": "Local forced alignment of Sanskrit text; Hindi acoustic model with ASR-constrained line windows.",
+    "reviewStatus": "machine-aligned"
+  },
+  "verses": [
+    {
+      "verse": 1,
+      "duration": 18.04,
+      "gap_total": 5.516,
+      "max_gap": {
+        "gap": 1.786,
+        "after": "उवाच",
+        "before": "संन्यासं",
+        "start": 1.609,
+        "end": 3.395
+      },
+      "short": [
+        {
+          "text": "च",
+          "start": 8.649,
+          "end": 8.669,
+          "score": 0.0
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "च",
+          "start": 8.649,
+          "end": 8.669,
+          "score": 0.0
+        },
+        {
+          "text": "शंससि",
+          "start": 8.83,
+          "end": 9.191,
+          "score": 0.494
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 17.416,
+      "sourceEnd": 35.456
+    },
+    {
+      "verse": 2,
+      "duration": 18.008,
+      "gap_total": 4.651,
+      "max_gap": {
+        "gap": 1.567,
+        "after": "श्रीभगवानुवाच",
+        "before": "संन्यासः",
+        "start": 2.007,
+        "end": 3.574
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 35.311,
+      "sourceEnd": 53.319
+    },
+    {
+      "verse": 3,
+      "duration": 15.423,
+      "gap_total": 4.351,
+      "max_gap": {
+        "gap": 1.667,
+        "after": "काङ्क्षति",
+        "before": "निर्द्वन्द्वो",
+        "start": 6.471,
+        "end": 8.138
+      },
+      "short": [
+        {
+          "text": "स",
+          "start": 1.242,
+          "end": 1.282,
+          "score": 0.996
+        },
+        {
+          "text": "न",
+          "start": 5.73,
+          "end": 5.83,
+          "score": 0.992
+        },
+        {
+          "text": "हि",
+          "start": 9.359,
+          "end": 9.459,
+          "score": 0.996
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "काङ्क्षति",
+          "start": 5.93,
+          "end": 6.471,
+          "score": 0.295
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 53.174,
+      "sourceEnd": 68.597
+    },
+    {
+      "verse": 4,
+      "duration": 15.023,
+      "gap_total": 2.873,
+      "max_gap": {
+        "gap": 1.712,
+        "after": "पण्डिताः",
+        "before": "एकमप्यास्थितः",
+        "start": 5.908,
+        "end": 7.62
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 68.452,
+      "sourceEnd": 83.475
+    },
+    {
+      "verse": 5,
+      "duration": 14.345,
+      "gap_total": 4.344,
+      "max_gap": {
+        "gap": 1.899,
+        "after": "गम्यते",
+        "before": "एकं",
+        "start": 6.305,
+        "end": 8.204
+      },
+      "short": [
+        {
+          "text": "स",
+          "start": 13.115,
+          "end": 13.135,
+          "score": 0.0
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "गम्यते",
+          "start": 6.085,
+          "end": 6.305,
+          "score": 0.332
+        },
+        {
+          "text": "च",
+          "start": 10.148,
+          "end": 10.268,
+          "score": 0.483
+        },
+        {
+          "text": "पश्यति",
+          "start": 12.815,
+          "end": 13.095,
+          "score": 0.178
+        },
+        {
+          "text": "स",
+          "start": 13.115,
+          "end": 13.135,
+          "score": 0.0
+        },
+        {
+          "text": "पश्यति",
+          "start": 13.195,
+          "end": 13.476,
+          "score": 0.448
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 83.33,
+      "sourceEnd": 97.675
+    },
+    {
+      "verse": 6,
+      "duration": 16.686,
+      "gap_total": 3.096,
+      "max_gap": {
+        "gap": 1.532,
+        "after": "दुःखमाप्तुमयोगतः",
+        "before": "योगयुक्तो",
+        "start": 7.769,
+        "end": 9.301
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 97.53,
+      "sourceEnd": 114.216
+    },
+    {
+      "verse": 7,
+      "duration": 15.487,
+      "gap_total": 3.711,
+      "max_gap": {
+        "gap": 1.646,
+        "after": "जितेन्द्रियः",
+        "before": "सर्वभूतात्मभूतात्मा",
+        "start": 6.433,
+        "end": 8.079
+      },
+      "short": [
+        {
+          "text": "न",
+          "start": 13.194,
+          "end": 13.295,
+          "score": 0.833
+        }
+      ],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 114.071,
+      "sourceEnd": 129.558
+    },
+    {
+      "verse": 8,
+      "duration": 15.043,
+      "gap_total": 2.387,
+      "max_gap": {
+        "gap": 1.145,
+        "after": "तत्त्ववित्",
+        "before": "पश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन्",
+        "start": 6.733,
+        "end": 7.878
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 129.413,
+      "sourceEnd": 144.456
+    },
+    {
+      "verse": 9,
+      "duration": 13.951,
+      "gap_total": 3.192,
+      "max_gap": {
+        "gap": 2.191,
+        "after": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि",
+        "before": "इन्द्रियाणीन्द्रियार्थेषु",
+        "start": 5.557,
+        "end": 7.748
+      },
+      "short": [],
+      "zero": [],
+      "low": [
+        {
+          "text": "इति",
+          "start": 12.813,
+          "end": 13.073,
+          "score": 0.475
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 144.463,
+      "sourceEnd": 158.414
+    },
+    {
+      "verse": 10,
+      "duration": 16.166,
+      "gap_total": 4.128,
+      "max_gap": {
+        "gap": 1.923,
+        "after": "यः",
+        "before": "लिप्यते",
+        "start": 7.678,
+        "end": 9.601
+      },
+      "short": [
+        {
+          "text": "यः",
+          "start": 7.637,
+          "end": 7.678,
+          "score": 0.499
+        },
+        {
+          "text": "स",
+          "start": 10.704,
+          "end": 10.764,
+          "score": 0.487
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "यः",
+          "start": 7.637,
+          "end": 7.678,
+          "score": 0.499
+        },
+        {
+          "text": "स",
+          "start": 10.704,
+          "end": 10.764,
+          "score": 0.487
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 158.413,
+      "sourceEnd": 174.579
+    },
+    {
+      "verse": 11,
+      "duration": 14.742,
+      "gap_total": 4.348,
+      "max_gap": {
+        "gap": 2.004,
+        "after": "केवलैरिन्द्रियैरपि",
+        "before": "योगिनः",
+        "start": 5.233,
+        "end": 7.237
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 174.434,
+      "sourceEnd": 189.176
+    },
+    {
+      "verse": 12,
+      "duration": 15.566,
+      "gap_total": 4.318,
+      "max_gap": {
+        "gap": 1.712,
+        "after": "नैष्ठिकीम्",
+        "before": "अयुक्तः",
+        "start": 6.348,
+        "end": 8.06
+      },
+      "short": [],
+      "zero": [],
+      "low": [
+        {
+          "text": "निबध्यते",
+          "start": 13.054,
+          "end": 13.475,
+          "score": 0.484
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 189.031,
+      "sourceEnd": 204.597
+    },
+    {
+      "verse": 13,
+      "duration": 15.023,
+      "gap_total": 4.042,
+      "max_gap": {
+        "gap": 1.577,
+        "after": "वशी",
+        "before": "नवद्वारे",
+        "start": 6.126,
+        "end": 7.703
+      },
+      "short": [],
+      "zero": [],
+      "low": [
+        {
+          "text": "कारयन्",
+          "start": 12.918,
+          "end": 13.62,
+          "score": 0.444
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 204.452,
+      "sourceEnd": 219.475
+    },
+    {
+      "verse": 14,
+      "duration": 14.609,
+      "gap_total": 5.117,
+      "max_gap": {
+        "gap": 2.412,
+        "after": "प्रभुः",
+        "before": "न",
+        "start": 4.871,
+        "end": 7.283
+      },
+      "short": [
+        {
+          "text": "न",
+          "start": 1.523,
+          "end": 1.624,
+          "score": 0.999
+        },
+        {
+          "text": "न",
+          "start": 7.283,
+          "end": 7.303,
+          "score": 0.994
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "लोकस्य",
+          "start": 3.488,
+          "end": 4.009,
+          "score": 0.446
+        },
+        {
+          "text": "सृजति",
+          "start": 4.33,
+          "end": 4.471,
+          "score": 0.285
+        },
+        {
+          "text": "प्रभुः",
+          "start": 4.631,
+          "end": 4.871,
+          "score": 0.489
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 219.33,
+      "sourceEnd": 233.939
+    },
+    {
+      "verse": 15,
+      "duration": 15.538,
+      "gap_total": 4.433,
+      "max_gap": {
+        "gap": 2.83,
+        "after": "विभुः",
+        "before": "अज्ञानेनावृतं",
+        "start": 4.793,
+        "end": 7.623
+      },
+      "short": [
+        {
+          "text": "न",
+          "start": 3.389,
+          "end": 3.409,
+          "score": 0.958
+        },
+        {
+          "text": "चैव",
+          "start": 3.429,
+          "end": 3.489,
+          "score": 0.0
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "चैव",
+          "start": 3.429,
+          "end": 3.489,
+          "score": 0.0
+        },
+        {
+          "text": "सुकृतं",
+          "start": 3.91,
+          "end": 4.512,
+          "score": 0.487
+        },
+        {
+          "text": "विभुः",
+          "start": 4.612,
+          "end": 4.793,
+          "score": 0.399
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 233.794,
+      "sourceEnd": 249.332
+    },
+    {
+      "verse": 16,
+      "duration": 20.869,
+      "gap_total": 3.033,
+      "max_gap": {
+        "gap": 2.011,
+        "after": "नाशितमात्मनः",
+        "before": "तेषामादित्यवज्ज्ञानं",
+        "start": 6.212,
+        "end": 8.223
+      },
+      "short": [
+        {
+          "text": "तु",
+          "start": 1.282,
+          "end": 1.362,
+          "score": 0.572
+        }
+      ],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 249.187,
+      "sourceEnd": 270.056
+    },
+    {
+      "verse": 17,
+      "duration": 12.246,
+      "gap_total": 2.006,
+      "max_gap": {
+        "gap": 1.305,
+        "after": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः",
+        "before": "गच्छन्त्यपुनरावृत्तिं",
+        "start": 2.638,
+        "end": 3.943
+      },
+      "short": [],
+      "zero": [],
+      "low": [
+        {
+          "text": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः",
+          "start": 0.18,
+          "end": 2.638,
+          "score": 0.281
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 269.911,
+      "sourceEnd": 282.157
+    },
+    {
+      "verse": 18,
+      "duration": 13.869,
+      "gap_total": 3.36,
+      "max_gap": {
+        "gap": 1.595,
+        "after": "हस्तिनि",
+        "before": "शुनि",
+        "start": 5.428,
+        "end": 7.023
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 282.012,
+      "sourceEnd": 295.881
+    },
+    {
+      "verse": 19,
+      "duration": 15.909,
+      "gap_total": 5.436,
+      "max_gap": {
+        "gap": 1.931,
+        "after": "मनः",
+        "before": "निर्दोषं",
+        "start": 6.172,
+        "end": 8.103
+      },
+      "short": [
+        {
+          "text": "हि",
+          "start": 9.305,
+          "end": 9.406,
+          "score": 0.768
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "स्थितं",
+          "start": 5.53,
+          "end": 5.791,
+          "score": 0.303
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 295.736,
+      "sourceEnd": 311.645
+    },
+    {
+      "verse": 20,
+      "duration": 15.54,
+      "gap_total": 3.792,
+      "max_gap": {
+        "gap": 1.509,
+        "after": "चाप्रियम्",
+        "before": "स्थिरबुद्धिरसम्मूढो",
+        "start": 7.069,
+        "end": 8.578
+      },
+      "short": [
+        {
+          "text": "न",
+          "start": 0.18,
+          "end": 0.2,
+          "score": 0.997
+        }
+      ],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 311.501,
+      "sourceEnd": 327.041
+    },
+    {
+      "verse": 21,
+      "duration": 15.379,
+      "gap_total": 2.951,
+      "max_gap": {
+        "gap": 1.349,
+        "after": "यत्सुखम्",
+        "before": "स",
+        "start": 6.948,
+        "end": 8.297
+      },
+      "short": [
+        {
+          "text": "स",
+          "start": 8.297,
+          "end": 8.377,
+          "score": 0.998
+        }
+      ],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 326.896,
+      "sourceEnd": 342.275
+    },
+    {
+      "verse": 22,
+      "duration": 15.846,
+      "gap_total": 5.599,
+      "max_gap": {
+        "gap": 2.255,
+        "after": "ते",
+        "before": "आद्यन्तवन्तः",
+        "start": 6.124,
+        "end": 8.379
+      },
+      "short": [
+        {
+          "text": "हि",
+          "start": 0.56,
+          "end": 0.66,
+          "score": 0.982
+        },
+        {
+          "text": "ते",
+          "start": 6.084,
+          "end": 6.124,
+          "score": 0.968
+        },
+        {
+          "text": "न",
+          "start": 12.268,
+          "end": 12.328,
+          "score": 0.992
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "एव",
+          "start": 5.523,
+          "end": 5.763,
+          "score": 0.467
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 342.131,
+      "sourceEnd": 357.977
+    },
+    {
+      "verse": 23,
+      "duration": 16.33,
+      "gap_total": 3.917,
+      "max_gap": {
+        "gap": 1.293,
+        "after": "प्राक्शरीरविमोक्षणात्",
+        "before": "कामक्रोधोद्भवं",
+        "start": 7.067,
+        "end": 8.36
+      },
+      "short": [
+        {
+          "text": "स",
+          "start": 13.446,
+          "end": 13.546,
+          "score": 0.891
+        }
+      ],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 357.832,
+      "sourceEnd": 374.162
+    },
+    {
+      "verse": 24,
+      "duration": 16.019,
+      "gap_total": 3.339,
+      "max_gap": {
+        "gap": 2.177,
+        "after": "यः",
+        "before": "स",
+        "start": 6.115,
+        "end": 8.292
+      },
+      "short": [
+        {
+          "text": "यः",
+          "start": 6.035,
+          "end": 6.115,
+          "score": 0.83
+        }
+      ],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 374.018,
+      "sourceEnd": 390.037
+    },
+    {
+      "verse": 25,
+      "duration": 16.142,
+      "gap_total": 3.39,
+      "max_gap": {
+        "gap": 2.227,
+        "after": "क्षीणकल्मषाः",
+        "before": "छिन्नद्वैधा",
+        "start": 6.356,
+        "end": 8.583
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 389.892,
+      "sourceEnd": 406.034
+    },
+    {
+      "verse": 26,
+      "duration": 15.867,
+      "gap_total": 5.762,
+      "max_gap": {
+        "gap": 4.601,
+        "after": "यतचेतसाम्",
+        "before": "अभितो",
+        "start": 3.343,
+        "end": 7.944
+      },
+      "short": [],
+      "zero": [],
+      "low": [
+        {
+          "text": "यतचेतसाम्",
+          "start": 2.722,
+          "end": 3.343,
+          "score": 0.351
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 405.889,
+      "sourceEnd": 421.756
+    },
+    {
+      "verse": 27,
+      "duration": 17.264,
+      "gap_total": 1.573,
+      "max_gap": {
+        "gap": 0.601,
+        "after": "कृत्वा",
+        "before": "नासाभ्यन्तरचारिणौ",
+        "start": 12.324,
+        "end": 12.925
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 421.611,
+      "sourceEnd": 438.875
+    },
+    {
+      "verse": 28,
+      "duration": 15.052,
+      "gap_total": 2.821,
+      "max_gap": {
+        "gap": 1.677,
+        "after": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः",
+        "before": "विगतेच्छाभयक्रोधो",
+        "start": 5.346,
+        "end": 7.023
+      },
+      "short": [
+        {
+          "text": "एव",
+          "start": 12.517,
+          "end": 12.557,
+          "score": 0.0
+        },
+        {
+          "text": "सः",
+          "start": 12.577,
+          "end": 12.617,
+          "score": 0.496
+        }
+      ],
+      "zero": [],
+      "low": [
+        {
+          "text": "एव",
+          "start": 12.517,
+          "end": 12.557,
+          "score": 0.0
+        },
+        {
+          "text": "सः",
+          "start": 12.577,
+          "end": 12.617,
+          "score": 0.496
+        }
+      ],
+      "raw_overlaps": [],
+      "sourceStart": 438.73,
+      "sourceEnd": 453.782
+    },
+    {
+      "verse": 29,
+      "duration": 13.987,
+      "gap_total": 3.171,
+      "max_gap": {
+        "gap": 1.57,
+        "after": "सर्वलोकमहेश्वरम्",
+        "before": "सुहृदं",
+        "start": 6.064,
+        "end": 7.634
+      },
+      "short": [],
+      "zero": [],
+      "low": [],
+      "raw_overlaps": [],
+      "sourceStart": 453.637,
+      "sourceEnd": 467.624
+    }
+  ],
+  "words": 260,
+  "latin_segments": [
+    {
+      "start": 302.38,
+      "end": 311.21999999999997,
+      "text": " Nirdhosham hi samam brahma, tasmād brahmani tēstdhita下一",
+      "words": [
+        {
+          "word": " Nirdhosham",
+          "start": 302.38,
+          "end": 304.86
+        },
+        {
+          "word": " hi",
+          "start": 304.86,
+          "end": 305.16
+        },
+        {
+          "word": " samam",
+          "start": 305.16,
+          "end": 305.6
+        },
+        {
+          "word": " brahma,",
+          "start": 305.6,
+          "end": 306.38
+        },
+        {
+          "word": " tasmād",
+          "start": 307.14,
+          "end": 308.12
+        },
+        {
+          "word": " brahmani",
+          "start": 308.12,
+          "end": 308.88
+        },
+        {
+          "word": " tēstdhita下一",
+          "start": 308.88,
+          "end": 311.21999999999997
+        }
+      ]
+    },
+    {
+      "start": 311.72,
+      "end": 318.76,
+      "text": " Nap beraber hushedh priyam prapya, nodesvījé jejāputra pya chāp priyam",
+      "words": [
+        {
+          "word": " Nap",
+          "start": 311.72,
+          "end": 311.76
+        },
+        {
+          "word": " beraber",
+          "start": 311.76,
+          "end": 312.32
+        },
+        {
+          "word": " hushedh",
+          "start": 312.32,
+          "end": 313.18
+        },
+        {
+          "word": " priyam",
+          "start": 313.18,
+          "end": 313.62
+        },
+        {
+          "word": " prapya,",
+          "start": 313.62,
+          "end": 314.56
+        },
+        {
+          "word": " nodesvījé",
+          "start": 315.3,
+          "end": 316.46
+        },
+        {
+          "word": " jejāputra",
+          "start": 316.46,
+          "end": 316.94
+        },
+        {
+          "word": " pya",
+          "start": 316.94,
+          "end": 317.46
+        },
+        {
+          "word": " chāp",
+          "start": 317.46,
+          "end": 318.02
+        },
+        {
+          "word": " priyam",
+          "start": 318.02,
+          "end": 318.76
+        }
+      ]
+    },
+    {
+      "start": 319.84,
+      "end": 325.54,
+      "text": " sthirabuddhira sammūḍho brahma, vidhipbrah maini sthita",
+      "words": [
+        {
+          "word": " sthirabuddhira",
+          "start": 319.84,
+          "end": 321.26
+        },
+        {
+          "word": " sammūḍho",
+          "start": 321.26,
+          "end": 322.6
+        },
+        {
+          "word": " brahma,",
+          "start": 322.6,
+          "end": 323.64
+        },
+        {
+          "word": " vidhipbrah",
+          "start": 323.76,
+          "end": 324.34
+        },
+        {
+          "word": " maini",
+          "start": 324.34,
+          "end": 325.0
+        },
+        {
+          "word": " sthita",
+          "start": 325.0,
+          "end": 325.54
+        }
+      ]
+    },
+    {
+      "start": 325.54,
+      "end": 332.26,
+      "text": " bāyhse pārwearśva saktāt mavidhat tā",
+      "words": [
+        {
+          "word": " bāyhse",
+          "start": 325.54,
+          "end": 327.8
+        },
+        {
+          "word": " pārwearśva",
+          "start": 327.8,
+          "end": 329.04
+        },
+        {
+          "word": " saktāt",
+          "start": 329.04,
+          "end": 330.1
+        },
+        {
+          "word": " mavidhat",
+          "start": 330.1,
+          "end": 331.92
+        },
+        {
+          "word": " tā",
+          "start": 331.92,
+          "end": 332.26
+        }
+      ]
+    }
+  ],
+  "final_transcript": [
+    {
+      "start": 453.76,
+      "end": 459.8,
+      "text": " भूक्तारम, यद्न्यत पसाम, सर्व लोक महेश्वरम,",
+      "words": [
+        {
+          "word": " भूक्तारम,",
+          "start": 453.76,
+          "end": 455.08
+        },
+        {
+          "word": " यद्न्यत",
+          "start": 455.36,
+          "end": 455.92
+        },
+        {
+          "word": " पसाम,",
+          "start": 455.92,
+          "end": 456.92
+        },
+        {
+          "word": " सर्व",
+          "start": 457.32,
+          "end": 457.86
+        },
+        {
+          "word": " लोक",
+          "start": 457.86,
+          "end": 458.48
+        },
+        {
+          "word": " महेश्वरम,",
+          "start": 458.48,
+          "end": 459.8
+        }
+      ]
+    },
+    {
+      "start": 461.08,
+      "end": 467.84,
+      "text": " सुर्दम, सर्व भूतानाम, द्म्यात्वामाम, शान्तिम रुच्छति,",
+      "words": [
+        {
+          "word": " सुर्दम,",
+          "start": 461.08,
+          "end": 461.84
+        },
+        {
+          "word": " सर्व",
+          "start": 462.24,
+          "end": 462.52
+        },
+        {
+          "word": " भूतानाम,",
+          "start": 462.52,
+          "end": 464.3
+        },
+        {
+          "word": " द्म्यात्वामाम,",
+          "start": 464.52,
+          "end": 466.22
+        },
+        {
+          "word": " शान्तिम",
+          "start": 466.44,
+          "end": 467.1
+        },
+        {
+          "word": " रुच्छति,",
+          "start": 467.1,
+          "end": 467.84
+        }
+      ]
+    },
+    {
+      "start": 467.84,
+      "end": 481.06,
+      "text": " उम तच्सदिति श्रीमद भगवद गीतासू उपनिषत्सू ब्रह्म विद्यायाम योगशास्त्रे",
+      "words": [
+        {
+          "word": " उम",
+          "start": 467.84,
+          "end": 470.62
+        },
+        {
+          "word": " तच्सदिति",
+          "start": 470.62,
+          "end": 471.74
+        },
+        {
+          "word": " श्रीमद",
+          "start": 471.74,
+          "end": 473.08
+        },
+        {
+          "word": " भगवद",
+          "start": 473.08,
+          "end": 473.78
+        },
+        {
+          "word": " गीतासू",
+          "start": 473.78,
+          "end": 475.2
+        },
+        {
+          "word": " उपनिषत्सू",
+          "start": 475.2,
+          "end": 476.98
+        },
+        {
+          "word": " ब्रह्म",
+          "start": 476.98,
+          "end": 477.98
+        },
+        {
+          "word": " विद्यायाम",
+          "start": 477.98,
+          "end": 479.46
+        },
+        {
+          "word": " योगशास्त्रे",
+          "start": 479.46,
+          "end": 481.06
+        }
+      ]
+    },
+    {
+      "start": 481.06,
+      "end": 490.24,
+      "text": " श्री क्रुष्नार जून सववादे कर्म सन्यास योगो नाम पन्चमो द्याया हा",
+      "words": [
+        {
+          "word": " श्री",
+          "start": 481.06,
+          "end": 481.82
+        },
+        {
+          "word": " क्रुष्नार",
+          "start": 481.82,
+          "end": 482.8
+        },
+        {
+          "word": " जून",
+          "start": 482.8,
+          "end": 483.1
+        },
+        {
+          "word": " सववादे",
+          "start": 483.1,
+          "end": 484.28
+        },
+        {
+          "word": " कर्म",
+          "start": 484.28,
+          "end": 485.24
+        },
+        {
+          "word": " सन्यास",
+          "start": 485.24,
+          "end": 486.26
+        },
+        {
+          "word": " योगो",
+          "start": 486.26,
+          "end": 487.08
+        },
+        {
+          "word": " नाम",
+          "start": 487.08,
+          "end": 487.66
+        },
+        {
+          "word": " पन्चमो",
+          "start": 487.66,
+          "end": 488.8
+        },
+        {
+          "word": " द्याया",
+          "start": 488.8,
+          "end": 489.96
+        },
+        {
+          "word": " हा",
+          "start": 489.96,
+          "end": 490.24
+        }
+      ]
+    },
+    {
+      "start": 490.24,
+      "end": 495.56,
+      "text": " उम्श्री क्रिष्नार पन्मस्त।",
+      "words": [
+        {
+          "word": " उम्श्री",
+          "start": 490.24,
+          "end": 492.74
+        },
+        {
+          "word": " क्रिष्नार",
+          "start": 492.74,
+          "end": 494.22
+        },
+        {
+          "word": " पन्मस्त।",
+          "start": 494.22,
+          "end": 495.56
+        }
+      ]
+    }
+  ]
+}

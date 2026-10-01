@@ -1,0 +1,140 @@
+{
+  "fullscreen": [
+    {
+      "width": 320,
+      "height": 568,
+      "firstWordTop": -49.640625,
+      "lastWordBottom": 251.65625,
+      "shlokaTop": 121.78125,
+      "shlokaBottom": 185.515625,
+      "scrollTop": 0,
+      "scrollHeight": 259,
+      "clientHeight": 64,
+      "font": "22.4px",
+      "lines": [
+        {
+          "height": 209.765625,
+          "flexShrink": "1"
+        },
+        {
+          "height": 161.625,
+          "flexShrink": "1"
+        }
+      ],
+      "exit": {
+        "left": 91.1875,
+        "top": 18.59375,
+        "right": 131.1875,
+        "bottom": 58.59375
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "firstWordTop": 41.4375,
+      "lastWordBottom": 342.734375,
+      "shlokaTop": 121.78125,
+      "shlokaBottom": 367.671875,
+      "scrollTop": 0,
+      "scrollHeight": 350,
+      "clientHeight": 246,
+      "font": "22.4px",
+      "lines": [
+        {
+          "height": 209.765625,
+          "flexShrink": "1"
+        },
+        {
+          "height": 161.625,
+          "flexShrink": "1"
+        }
+      ],
+      "exit": {
+        "left": 91.1875,
+        "top": 18.59375,
+        "right": 131.1875,
+        "bottom": 58.59375
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "firstWordTop": -901.046875,
+      "lastWordBottom": 997.625,
+      "shlokaTop": 138.390625,
+      "shlokaBottom": 188.21875,
+      "scrollTop": 0,
+      "scrollHeight": 1113,
+      "clientHeight": 50,
+      "font": "27.008px",
+      "lines": [
+        {
+          "height": 1123.515625,
+          "flexShrink": "1"
+        },
+        {
+          "height": 970.015625,
+          "flexShrink": "1"
+        }
+      ],
+      "exit": {
+        "left": -98.1875,
+        "top": 24,
+        "right": -58.1875,
+        "bottom": 64
+      }
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "firstWordTop": -883.265625,
+      "lastWordBottom": 1303.609375,
+      "shlokaTop": 139.390625,
+      "shlokaBottom": 519.21875,
+      "scrollTop": 0,
+      "scrollHeight": 1427,
+      "clientHeight": 380,
+      "font": "32px",
+      "lines": [
+        {
+          "height": 1271.734375,
+          "flexShrink": "1"
+        },
+        {
+          "height": 1118.234375,
+          "flexShrink": "1"
+        }
+      ],
+      "exit": {
+        "left": -98.1875,
+        "top": 25,
+        "right": -58.1875,
+        "bottom": 65
+      }
+    }
+  ],
+  "interaction": {
+    "languageCaptions": {
+      "paused": false,
+      "time": 0.39377,
+      "src": "audio/01.mp3"
+    },
+    "before": 0.309676,
+    "repeatPrecedence": "0",
+    "autoNext": "1",
+    "missingAudio": "Audio could not play. Please try Play again.",
+    "errorRecovery": {
+      "paused": false,
+      "src": "audio/05.mp3"
+    }
+  },
+  "loading": {
+    "pending": {
+      "status": "",
+      "busy": "true",
+      "label": "Pause shloka",
+      "time": 0,
+      "paused": false
+    }
+  }
+}
