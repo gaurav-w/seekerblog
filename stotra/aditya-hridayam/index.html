@@ -515,6 +515,9 @@ const S={
   i      :clamp("i",0,999999,0)
 };
 
+const searchVerse = Number(location.hash.match(/^#verse-(\d+)$/)?.[1]);
+if (Number.isInteger(searchVerse) && searchVerse > 0) { S.section = "all"; S.i = searchVerse - 1; }
+
 let list=[], playing=false, timer=null, rep=0, wakeLock=null;
 let devaToks=[], iastToks=[], wWeights=[], wTimer=null, wIdx=-1, verseT0=0;
 

@@ -293,6 +293,40 @@ header {
   text-decoration: underline;
 }
 
+.site-search-results {
+  margin: -0.3rem 0 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(11, 24, 45, 0.72);
+}
+
+.site-search-results[hidden] { display: none; }
+
+.site-search-status {
+  display: block;
+  padding: 0.8rem 1rem;
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.site-search-result {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.3rem 0.75rem;
+  padding: 0.85rem 1rem;
+  color: inherit;
+  text-decoration: none;
+  border-top: 1px solid var(--line);
+}
+
+.site-search-result:hover, .site-search-result:focus-visible { background: var(--bg-card-hover); }
+.site-search-result-meta { color: var(--lamp); font-size: 0.77rem; font-weight: 700; }
+.site-search-language { color: var(--ink-muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.site-search-excerpt { grid-column: 1 / -1; color: var(--ink); font-family: var(--latin); font-size: 0.88rem; line-height: 1.52; }
+.site-search-excerpt mark { color: inherit; background: rgba(227, 178, 90, 0.28); border-radius: 2px; padding: 0 0.08em; }
+
 /* Filter Pills */
 .filter-controls {
   margin-bottom: 1.55rem;
@@ -602,11 +636,15 @@ footer .footer-links a:hover {
   <div class="search-container">
     <div class="search-input-wrap">
       <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" placeholder="Search stotrams or texts (e.g. Hanuman, Shiva, सूक्तम्)..." aria-label="Search stotrams">
+      <input type="text" id="searchInput" placeholder="Search the library (e.g. surrender, शांति, Hanuman)..." aria-label="Search the library">
       <button class="search-clear" id="clearSearch" type="button" hidden aria-label="Clear search">Clear</button>
       <span class="kbd-hint" id="searchShortcut">/</span>
     </div>
   </div>
+  <section class="site-search-results" id="siteSearchResults" aria-label="Matching passages" hidden>
+    <output class="site-search-status" id="siteSearchStatus" aria-live="polite"></output>
+    <div id="siteSearchList"></div>
+  </section>
 
   <div class="filter-controls">
     <div class="filter-row">
@@ -798,6 +836,7 @@ footer .footer-links a:hover {
   </footer>
 </div>
 
+<script src="./assets/js/site-search.js"></script>
 <script>
 (function(){
   var K = "idx.last";
@@ -843,6 +882,13 @@ footer .footer-links a:hover {
   var noResults = document.getElementById("noResults");
   var currentCategory = "all";
   var currentTopic = "all";
+  var siteSearch = window.SeekerblogSiteSearch && window.SeekerblogSiteSearch.mount({
+    input: searchInput,
+    panel: document.getElementById("siteSearchResults"),
+    container: document.getElementById("siteSearchList"),
+    status: document.getElementById("siteSearchStatus"),
+    indexUrl: "./assets/search-index.json"
+  });
 
   function normaliseSearch(value){
     return value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -888,7 +934,7 @@ footer .footer-links a:hover {
       }
     });
 
-    if(visibleTotal === 0){
+    if(visibleTotal === 0 && !(siteSearch && siteSearch.hasQuery())){
       noResults.style.display = "block";
     } else {
       noResults.style.display = "none";
@@ -896,11 +942,16 @@ footer .footer-links a:hover {
   }
 
   if(searchInput){
-    searchInput.addEventListener("input", function(){ filterContent(); updateSearchAction(); });
+    searchInput.addEventListener("input", function(){
+      filterContent();
+      updateSearchAction();
+      if(siteSearch){ siteSearch.search(searchInput.value); }
+    });
     clearSearch.addEventListener("click", function(){
       searchInput.value = "";
       filterContent();
       updateSearchAction();
+      if(siteSearch){ siteSearch.search(""); }
       searchInput.focus();
     });
     document.addEventListener("keydown", function(e){
@@ -912,6 +963,7 @@ footer .footer-links a:hover {
         searchInput.value = "";
         filterContent();
         updateSearchAction();
+        if(siteSearch){ siteSearch.search(""); }
         searchInput.blur();
       }
     });

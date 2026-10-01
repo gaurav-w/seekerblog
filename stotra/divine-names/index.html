@@ -164,5 +164,15 @@
 
     <footer><a class="back-link" href="../../">← Back to the chanting library</a></footer>
   </div>
+  <script>
+    document.querySelectorAll('.name-card').forEach(function(card, index) {
+      card.id = 'name-' + (index + 1);
+    });
+    var match = location.hash.match(/^#name-(\d+)$/);
+    if (match) {
+      var target = document.getElementById('name-' + match[1]);
+      if (target) target.scrollIntoView();
+    }
+  </script>
 </body>
 </html>
