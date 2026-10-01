@@ -178,7 +178,6 @@ for (const entry of fs.readdirSync(path.join(root, 'vishnu-sahasranama/verse'), 
   if (!Number.isInteger(number)) continue;
   addNameCards(`vishnu-sahasranama/verse/${entry.name}/index.html`, `Vishnu Sahasranama · Verse ${number}`, `vishnu-sahasranama/verse/${entry.name}/`);
 }
-addNameCards('vishnu-sahasranam-verses/verse-25.html', 'Vishnu Sahasranama · Verse 25', 'vishnu-sahasranam-verses/verse-25.html');
 addNameCards('stotra/divine-names/index.html', 'Twelve Divine Names', 'stotra/divine-names/');
 
 records.sort((left, right) => left.work.localeCompare(right.work) || left.location.localeCompare(right.location, undefined, { numeric: true }));
