@@ -206,11 +206,14 @@ html[data-face="sans"]  .deva[data-script="deva"],html[data-face="sans"]  .gloss
 .chant-pace{position:absolute;bottom:100%;left:0;right:0;background:var(--bg2);border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(0,0,0,.18);padding:.5rem max(1rem,env(safe-area-inset-right)) .5rem max(1rem,env(safe-area-inset-left));z-index:2}
 .chant-pace[hidden]{display:none}
 .chant-pace-inner{max-width:30rem;margin:auto;display:flex;align-items:center;gap:.75rem}
+.chant-pace-inner[hidden]{display:none}
 .chant-pace label{flex:none;font-size:.72rem;color:var(--fg2)}
 .chant-pace output{display:block;color:var(--accent);font-variant-numeric:tabular-nums;min-width:8rem;font-size:.75rem}
 .chant-pace-range{flex:1;min-width:0}
 .chant-pace input[type=range]{display:block;height:2rem;margin:0;cursor:pointer}
 .chant-pace-hints{display:flex;justify-content:space-between;font-size:.6rem;color:var(--fg2)}
+.sound-pace-label{flex:none;font-size:.72rem;color:var(--fg2)}
+.sound-pace .seg{margin-left:auto}
 html[data-ls="1"] #chantControls{display:block !important}
 footer{position:relative;flex:none;border-top:1px solid var(--line);background:var(--bg2);margin:0;padding:0;display:block}
 .transport{display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.55rem max(.6rem,env(safe-area-inset-right)) .4rem max(.6rem,env(safe-area-inset-left))}
@@ -218,8 +221,8 @@ footer{position:relative;flex:none;border-top:1px solid var(--line);background:v
   display:grid;place-items:center;border-radius:50%;color:var(--fg2);
   width:2.75rem;height:2.75rem;flex:none;
 }
-.transport #paceBtn{width:auto;min-width:5.5rem;padding:0 .6rem;border:1px solid var(--line);border-radius:12px;font-size:.75rem;color:var(--accent);font-variant-numeric:tabular-nums}
-.transport #paceBtn[aria-expanded="true"]{background:var(--bg);border-color:var(--accent)}
+.transport #paceBtn,.transport #soundBtn{width:auto;min-width:5.5rem;padding:0 .6rem;border:1px solid var(--line);border-radius:12px;font-size:.75rem;color:var(--accent);font-variant-numeric:tabular-nums}
+.transport #paceBtn[aria-expanded="true"],.transport #soundBtn[aria-pressed="true"]{background:var(--bg);border-color:var(--accent)}
 .transport #setBtn svg{width:1.2rem;height:1.2rem;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .settings-tools{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
 .settings-tools .toolbar-btn-text-full{display:inline}
@@ -230,6 +233,12 @@ footer{position:relative;flex:none;border-top:1px solid var(--line);background:v
 .transport svg{width:.9rem;height:.9rem;fill:currentColor}
 #play{
   width:3.5rem;height:3.5rem;background:var(--accent);color:var(--bg);
+}
+@media (max-width:430px){
+  .transport{gap:.25rem;padding-left:.4rem;padding-right:.4rem}
+  .transport button{width:2.4rem;height:2.4rem}
+  .transport #play{width:3.1rem;height:3.1rem}
+  .transport #paceBtn,.transport #soundBtn{min-width:3.75rem;padding:0 .3rem;font-size:.65rem}
 }
 html[data-theme="leaf"] #play{color:#F6EFDC}
 #play:hover{color:var(--bg);filter:brightness(1.08)}
@@ -333,14 +342,21 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
     </div>
   </div>
 </main>
+<audio id="chantAudio" preload="none"></audio>
 
 <footer id="chantControls" data-unified-controls>
 <div class="chant-pace" id="pacePanel" hidden>
-  <div class="chant-pace-inner">
+  <div class="chant-pace-inner" id="silentPaceControls">
     <label for="chantSpeed">Pace <output id="chantSpeedVal" for="chantSpeed"></output></label>
     <div class="chant-pace-range">
       <input type="range" id="chantSpeed" min="0" max="100" value="50" aria-label="Chanting pace">
       <div class="chant-pace-hints" aria-hidden="true"><span>Slower</span><span>Faster</span></div>
+    </div>
+  </div>
+  <div class="chant-pace-inner sound-pace" id="soundPaceControls" hidden>
+    <span class="sound-pace-label">Playback speed</span>
+    <div class="seg" id="segAudioRate" aria-label="Recording playback speed">
+      <button data-v="1">1×</button><button data-v="1.2">1.2×</button><button data-v="1.5">1.5×</button><button data-v="2">2×</button>
     </div>
   </div>
 </div>
@@ -349,6 +365,7 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
     <button id="prev" aria-label="Previous verse"><svg viewBox="0 0 24 24"><path d="M8 5h2v14H8zM19 5v14l-9-7z"/></svg></button>
     <button id="play" aria-label="Start auto-advance"><svg viewBox="0 0 24 24"><path id="playIcon" d="M7 4l13 8-13 8z"/></svg></button>
     <button id="next" aria-label="Next verse"><svg viewBox="0 0 24 24"><path d="M14 5h2v14h-2zM5 5l9 7-9 7z"/></svg></button>
+    <button id="soundBtn" aria-pressed="false">Sound: Off</button>
     <button id="paceBtn" aria-expanded="false" aria-controls="pacePanel">Pace: <span id="paceBtnVal"></span></button>
   <button class="iconbtn" id="setBtn" aria-label="Settings" aria-expanded="false">
     <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 9 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 4.6 9a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H9a1.6 1.6 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V9a1.6 1.6 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg>
@@ -425,6 +442,13 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
     </div>
   </div>
   <div class="row">
+    <span class="rowhead">Chanting sound</span>
+    <div class="seg" id="segSound">
+      <button data-v="off">Off</button><button data-v="on">On</button>
+    </div>
+    <p class="note" id="soundNote">When sound is on, the recording guides the word marker and verse change.</p>
+  </div>
+  <div class="row">
     <span class="rowhead">Auto-advance timing</span>
     <div class="seg" id="segTiming">
       <button data-v="scaled">Scaled to verse length</button>
@@ -498,6 +522,7 @@ input[type=range]{width:100%;accent-color:var(--accent);height:1.6rem}
   </div>
 </div>
 
+<script src="timings.js"></script>
 <script>
 const PURVA=[
 {n:"1",d:"ॐ शुक्लाम्बरधरं विष्णुं शशिवर्णं चतुर्भुजम् ।\nप्रसन्नवदनं ध्यायेत् सर्वविघ्नोपशान्तये ॥",ta:"ௐ ஶுக்லாம்பரதரம் விஷ்ணும் ஶஶிவர்ணம் சதுர்புஜம் ।\nப்ரஸந்நவதநம் த்யாயேத் ஸர்வவிக்நோபஶாந்தயே ॥",te:"ఓం శుక్లామ్బరధరం విష్ణుం శశివర్ణం చతుర్భుజమ్ ।\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాన్తయే ॥",kn:"ಓಂ ಶುಕ್ಲಾಮ್ಬರಧರಂ ವಿಷ್ಣುಂ ಶಶಿವರ್ಣಂ ಚತುರ್ಭುಜಮ್ ।\nಪ್ರಸನ್ನವದನಂ ಧ್ಯಾಯೇತ್ ಸರ್ವವಿಘ್ನೋಪಶಾನ್ತಯೇ ॥",ml:"ഓം ശുക്ലാമ്ബരധരം വിഷ്ണും ശശിവര്ണം ചതുര്ഭുജമ് ।\nപ്രസന്നവദനം ധ്യായേത് സര്വവിഘ്നോപശാന്തയേ ॥",i:"oṁ śuklāmbaradharaṁ viṣṇuṁ śaśivarṇaṁ caturbhujam |\nprasannavadanaṁ dhyāyet sarvavighnopaśāntaye ||",e:"Meditate on the one robed in white, all-pervading, moon-hued, four-armed, with a gracious face — so that every obstacle may be stilled.",h:"श्वेत वस्त्रधारी, सर्वव्यापी, चन्द्रमा के समान वर्ण वाले, चतुर्भुज और प्रसन्नमुख भगवान् का ध्यान करें, जिससे सब विघ्न शान्त हों।"},
@@ -718,6 +743,8 @@ const S={
   roman  :pick("roman",["off","on"],"off"),
   gloss  :pick("gloss",["off","hi","en","both"],"off"),
   timing :pick("timing",["scaled","fixed"],"scaled"),
+  sound  :pick("sound",["off","on"],"off"),
+  audioRate:pick("audio-rate",[1,1.2,1.5,2],1),
   speed  :clamp("speed",0,100,50),
   repeat :clamp("repeat",1,3,1),
   size   :clamp("size",70,190,100),
@@ -745,6 +772,8 @@ const el={
   mala:$("mala"), playIcon:$("playIcon"), play:$("play"),
   sheet:$("sheet"), scrim:$("scrim")
 };
+const chantAudio=$("chantAudio");
+const recordedEntries=new Map((window.VISHNU_SAHASRANAMA_TIMINGS?.entries||[]).map(entry=>[entry.key,entry]));
 
 /* ── list assembly ─────────────────────────────────── */
 function buildList(){
@@ -752,7 +781,7 @@ function buildList(){
   list=[];
   keys.forEach(k=>{
     const sec=SECTIONS[k];
-    sec.list.forEach(v=>list.push({...v, mark:sec.mark, sec:sec.label}));
+    sec.list.forEach((v,index)=>list.push({...v, audioKey:`${k}:${index+1}`, mark:sec.mark, sec:sec.label}));
   });
   if(S.i>=list.length) S.i=0;
   el.secLabel.textContent = S.section==="all" ? "Full Pārāyaṇa" : SECTIONS[S.section].label;
@@ -862,10 +891,23 @@ function clearWord(){
   el.stage.classList.remove("dimmed");
   wIdx=-1;
 }
+function recordedClip(){ return recordedEntries.get(list[S.i]?.audioKey); }
+function syncRecordedWalker(){
+  clearTimeout(wTimer);
+  if(S.hl==="off" || !playing || !devaToks.length){ clearWord(); return; }
+  const words=recordedClip()?.words||[];
+  const time=chantAudio.currentTime||0;
+  let k=words.findIndex(word=>time>=word.start && time<word.end);
+  if(k<0 && wIdx>=0 && time>=words[wIdx]?.end && time<words[wIdx]?.end+.18) k=wIdx;
+  if(k<0 && time>=chantAudio.duration-.08) k=words.length-1;
+  if(k>=0) setWord(k); else clearWord();
+  el.stage.classList.toggle("dimmed",S.hl==="dim" && k>=0);
+}
 /* Rebuilds the walk from however far into the verse we already are, so the
    highlight stays true after a repaint, a pace change or a resume. */
 function syncWalker(){
   clearTimeout(wTimer);
+  if(S.sound==="on"){ syncRecordedWalker(); return; }
   if(S.hl==="off" || !playing || !devaToks.length){ clearWord(); return; }
   el.stage.classList.toggle("dimmed", S.hl==="dim");
   const dur=duration();
@@ -894,6 +936,8 @@ function syllables(iast){
 function secPerSyllable(){ return 1.10 - (S.speed/100)*(1.10-0.094); }
 function fixedSeconds(){ return Math.round(40 - (S.speed/100)*37); }
 function duration(){
+  const clip=recordedClip();
+  if(S.sound==="on" && clip?.available!==false && Number.isFinite(clip?.duration)) return clip.duration*1000;
   const v=list[S.i];
   return S.timing==="scaled" ? syllables(v.i)*secPerSyllable()*1000
                              : fixedSeconds()*1000;
@@ -905,14 +949,30 @@ function paceLabel(){
 }
 function syncPaceControls(){
   const label=paceLabel();
+  const recorded=S.sound==="on";
+  const audioRateLabel=Number(S.audioRate).toLocaleString(undefined,{maximumFractionDigits:1})+"×";
   ["speed","chantSpeed"].forEach(id=>{
     $(id).value=S.speed;
     $(id).setAttribute("aria-valuetext",label);
   });
   $("speedVal").textContent=label;
   $("chantSpeedVal").textContent=label;
-  $("paceBtnVal").textContent=(S.timing==="scaled" ? "≈ " : "")+(S.timing==="scaled" ? Math.round(32*secPerSyllable()) : fixedSeconds())+"s";
-  $("paceBtn").setAttribute("aria-label","Pace: "+label);
+  $("paceBtnVal").textContent=recorded ? audioRateLabel : (S.timing==="scaled" ? "≈ " : "")+(S.timing==="scaled" ? Math.round(32*secPerSyllable()) : fixedSeconds())+"s";
+  $("paceBtn").setAttribute("aria-label",recorded ? "Playback speed: "+audioRateLabel : "Pace: "+label);
+  $("silentPaceControls").hidden=recorded;
+  $("soundPaceControls").hidden=!recorded;
+  ["speed","chantSpeed","tapPad"].forEach(id=>$(id).disabled=recorded);
+  [...$("segTiming").querySelectorAll("button")].forEach(button=>button.disabled=recorded);
+  chantAudio.playbackRate=Number(S.audioRate);
+  $("soundNote").textContent=recorded
+    ? "The recording now controls the word marker and verse change. Use Pace to change its playback speed."
+    : "When sound is on, the recording guides the word marker and verse change.";
+}
+function syncSoundButton(){
+  const on=S.sound==="on", button=$("soundBtn");
+  button.textContent=on ? "Sound: On" : "Sound: Off";
+  button.setAttribute("aria-pressed",String(on));
+  button.setAttribute("aria-label",on ? "Turn sound off" : "Turn sound on");
 }
 function setPace(value){
   // Keep the current word and verse progress while changing the remaining time.
@@ -935,6 +995,7 @@ const repsFor=()=>(list[S.i]&&list[S.i].rep)||S.repeat;
 function schedule(reset=true){
   clearTimeout(timer);
   if(!playing) return;
+  if(S.sound==="on"){ syncRecordedWalker(); return; }
   if(reset) verseT0=Date.now();
   syncWalker();
   timer=setTimeout(()=>{
@@ -943,10 +1004,30 @@ function schedule(reset=true){
     else { rep=0; step(1,true); }
   }, Math.max(0,duration()-(Date.now()-verseT0)));
 }
+let loadedAudioKey="";
+async function playRecorded(restart=false,startAt=null){
+  const clip=recordedClip();
+  if(!clip || clip.available===false){ stop(); $("soundNote").textContent="This passage is not included in the supplied recording."; return; }
+  const changed=loadedAudioKey!==clip.key;
+  if(changed){
+    loadedAudioKey=clip.key;
+    chantAudio.src=clip.audio;
+    chantAudio.load();
+  }
+  chantAudio.playbackRate=Number(S.audioRate);
+  if(restart && !changed) chantAudio.currentTime=0;
+  else if(startAt!==null) chantAudio.currentTime=Math.max(0,Math.min(clip.duration-.01,startAt));
+  try { await chantAudio.play(); syncRecordedWalker(); }
+  catch(e){ stop(); $("soundNote").textContent="Audio could not start. Check your browser's sound permission and try again."; }
+}
+function resumeCurrent(){
+  if(!playing) return;
+  if(S.sound==="on") void playRecorded(); else schedule();
+}
 function step(dir,auto){
   const fixed=list[S.i]&&list[S.i].rep;
   if(!auto && dir>0 && fixed && rep<fixed-1){        /* walk the rounds by hand too */
-    rep++; paint(true); if(playing) schedule(); return;
+    rep++; paint(true); resumeCurrent(); return;
   }
   const next=S.i+dir;
   if(next>=list.length){ if(auto){stop(); return;} S.i=list.length-1; }
@@ -954,22 +1035,55 @@ function step(dir,auto){
   else S.i=next;
   rep=0;
   paint(true);
-  if(playing) schedule();
+  resumeCurrent();
 }
 async function start(){
   playing=true;
+  if(S.sound==="on") droneStop();
   el.playIcon.setAttribute("d","M6 4h4v16H6zM14 4h4v16h-4z");
   el.play.setAttribute("aria-label","Pause auto-advance");
-  schedule();
+  resumeCurrent();
   try{ if("wakeLock" in navigator) wakeLock=await navigator.wakeLock.request("screen"); }catch(e){}
 }
 function stop(){
-  playing=false; clearTimeout(timer); clearTimeout(wTimer); clearWord();
+  playing=false; clearTimeout(timer); clearTimeout(wTimer); chantAudio.pause(); clearWord();
   el.playIcon.setAttribute("d","M7 4l13 8-13 8z");
   el.play.setAttribute("aria-label","Start auto-advance");
   try{ if(wakeLock){wakeLock.release();wakeLock=null} }catch(e){}
 }
 const toggle=()=> playing?stop():start();
+function setSound(){
+  syncSoundButton();
+  if(S.sound==="on"){
+    const silentDuration=S.timing==="scaled"
+      ? syllables(list[S.i].i)*secPerSyllable()*1000 : fixedSeconds()*1000;
+    const progress=playing ? Math.max(0,Math.min(1,(Date.now()-verseT0)/silentDuration)) : 0;
+    clearTimeout(timer); clearTimeout(wTimer);
+    syncPaceControls();
+    droneStop();
+    if(playing) void playRecorded(false,progress*(recordedClip()?.duration||0));
+  } else {
+    syncPaceControls();
+    const progress=chantAudio.duration ? chantAudio.currentTime/chantAudio.duration : 0;
+    chantAudio.pause();
+    verseT0=Date.now()-Math.max(0,Math.min(1,progress))*duration();
+    if(S.drone==="on") droneStart();
+    if(playing) schedule(false);
+  }
+  syncWalker();
+}
+chantAudio.addEventListener("timeupdate",syncRecordedWalker);
+chantAudio.addEventListener("seeking",syncRecordedWalker);
+chantAudio.addEventListener("loadedmetadata",()=>{chantAudio.playbackRate=Number(S.audioRate);syncRecordedWalker()});
+chantAudio.addEventListener("error",()=>{
+  if(S.sound==="on" && playing){ stop(); $("soundNote").textContent="This recording clip could not be loaded."; }
+});
+chantAudio.addEventListener("ended",()=>{
+  if(S.sound!=="on" || !playing) return;
+  rep++;
+  if(rep<repsFor()){ paint(false); void playRecorded(true); }
+  else { rep=0; step(1,true); }
+});
 
 /* ── settings wiring ───────────────────────────────── */
 function seg(id,key,after){
@@ -983,12 +1097,14 @@ function seg(id,key,after){
   });
   sync();
 }
-seg("segSection","section",()=>{S.i=0;rep=0;buildList();paint(true);if(playing)schedule()});
+seg("segSection","section",()=>{S.i=0;rep=0;buildList();paint(true);resumeCurrent()});
 seg("segScript","script",()=>paint(false));
 seg("segRoman","roman",()=>paint(false));
 seg("segGloss","gloss",()=>paint(false));
 seg("segTiming","timing",()=>{syncPaceControls();if(playing)schedule()});
-seg("segRepeat","repeat",()=>{rep=0;paint(false);if(playing)schedule()});
+seg("segSound","sound",setSound);
+seg("segAudioRate","audioRate",syncPaceControls);
+seg("segRepeat","repeat",()=>{rep=0;paint(false);resumeCurrent()});
 seg("segTheme","theme",applyTheme);
 seg("segFace","face",applyFace);
 seg("segWb","wb",()=>paint(false));
@@ -1020,7 +1136,7 @@ $("jumpGo").addEventListener("click",()=>{
   if(!n) return;
   const at=list.findIndex(v=>v.n===String(n));
   S.i = at>=0 ? at : Math.min(Math.max(n-1,0), list.length-1);
-  rep=0; paint(true); closeSheet(); if(playing) schedule();
+  rep=0; paint(true); closeSheet(); resumeCurrent();
 });
 $("jumpIn").addEventListener("keydown",e=>{ if(e.key==="Enter") $("jumpGo").click() });
 
@@ -1067,10 +1183,16 @@ el.mala.addEventListener("click",e=>{
   const w=r.width-pad*2;
   const k=Math.floor(((e.clientX-r.left-pad)/w)*list.length);
   S.i=Math.min(Math.max(k,0),list.length-1);
-  rep=0; paint(true); if(playing) schedule();
+  rep=0; paint(true); resumeCurrent();
 });
 
 function closePace(){ $("pacePanel").hidden=true; $("paceBtn").setAttribute("aria-expanded","false") }
+$("soundBtn").addEventListener("click",()=>{
+  S.sound=S.sound==="on" ? "off" : "on";
+  store.set("sound",S.sound);
+  [...$("segSound").children].forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.v===S.sound)));
+  setSound();
+});
 $("paceBtn").addEventListener("click",()=>{
   const open=$("pacePanel").hidden;
   $("pacePanel").hidden=!open;
@@ -1192,6 +1314,7 @@ $("droneVol").addEventListener("input",e=>{
 applyTheme(); applyFace(); applySize();
 $("pitchVal").textContent=NOTES[S.pitch];
 $("volVal").textContent=S.dvol+"%";
+syncSoundButton();
 syncPaceControls();
 buildList();
 paint(false);

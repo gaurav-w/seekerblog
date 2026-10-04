@@ -5,7 +5,7 @@ const path = require('node:path');
 const {chromium} = require(process.env.PLAYWRIGHT_PACKAGE || 'playwright');
 const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
 (async () => {
-  const browser = await chromium.launch({headless:true});
+  const browser = await chromium.launch({headless:true, executablePath:process.env.CHROME_EXECUTABLE || undefined});
   try {
     const page = await browser.newPage({viewport:{width:1280,height:1000}});
     const errors = [], mediaRequests = [];
@@ -75,7 +75,7 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
     await page.locator('audio').evaluate(a => { a.currentTime = a.duration - .12; });
     await page.waitForFunction(() => document.getElementById('gitaAudio').ended);
     assert.equal(await page.locator('#verseSelect').inputValue(), '42');
-    assert.equal(await page.locator('#readerStatus').textContent(), 'Chapter 3 complete.');
+    assert.equal(await page.locator('#readerStatus').textContent(), 'अध्याय 3 पूर्ण हुआ।');
 
     for (const width of [320,390,768,1280]) {
       await page.setViewportSize({width,height:900});

@@ -1,4 +1,4 @@
-/* Usage: node authoring/scripts/validate-gita-chapter.cjs CHAPTER EXPECTED_VERSES */
+/* Usage: node authoring/scripts/validate-gita-chapter.cjs CHAPTER EXPECTED_VERSES [CANDIDATE_DIR] */
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
@@ -8,18 +8,21 @@ try {
   const chapter = Number(process.argv[2]);
   const expected = Number(process.argv[3]);
   assert(Number.isInteger(chapter) && chapter >= 1 && chapter <= 18 &&
-    Number.isInteger(expected) && expected > 0 && process.argv.length === 4,
-    'Usage: node authoring/scripts/validate-gita-chapter.cjs CHAPTER EXPECTED_VERSES');
+    Number.isInteger(expected) && expected > 0 && [4,5].includes(process.argv.length),
+    'Usage: node authoring/scripts/validate-gita-chapter.cjs CHAPTER EXPECTED_VERSES [CANDIDATE_DIR]');
   const root = path.resolve(__dirname, '../..');
   const base = `gita/${chapter}/`;
+  const candidate = process.argv[4] && path.resolve(process.argv[4]);
+  const timingFile = name => candidate ? path.join(candidate, name) : path.join(root, base, name);
   function readAssignment(file, global) {
-    const text = fs.readFileSync(path.join(root, file), 'utf8').trim();
+    const target = candidate && file.endsWith('/timings.js') ? timingFile('timings.js') : path.join(root, file);
+    const text = fs.readFileSync(target, 'utf8').trim();
     const prefix = `window.${global} = `;
     assert(text.startsWith(prefix) && text.endsWith(';'), `${file}: unexpected assignment wrapper`);
     return JSON.parse(text.slice(prefix.length, -1));
   }
   const verses = readAssignment(`${base}data.js`, `GITA_CHAPTER_${chapter}`);
-  const timings = JSON.parse(fs.readFileSync(path.join(root, `${base}timings.json`), 'utf8'));
+  const timings = JSON.parse(fs.readFileSync(timingFile('timings.json'), 'utf8'));
   assert.deepEqual(readAssignment(`${base}timings.js`, `GITA_CHAPTER_${chapter}_TIMINGS`), timings,
     'Timing JS and JSON must contain identical data');
   assert.equal(timings.chapter, chapter, 'Timing chapter identity');
@@ -80,13 +83,18 @@ try {
     assert.match(cue.audio, /^audio\/[0-9]+\.mp3$/, `${label}: wrong audio folder`);
     assert(!mediaPaths.has(cue.audio), `${label}: reused audio path`);
     mediaPaths.add(cue.audio);
-    const media = fs.statSync(path.join(root, `gita/${chapter}`, cue.audio));
+    const media = fs.statSync(path.join(candidate || path.join(root, base), cue.audio));
     assert(media.isFile() && media.size > 0, `${label}: empty or missing clip`);
     cue.words.forEach((word, wi) => {
       assert(Number.isFinite(word.start) && Number.isFinite(word.end) && word.start >= 0 &&
         word.end >= word.start && word.end <= cue.duration + .01, `${label}, word ${wi+1}: invalid local cue`);
       if (wi) assert(word.start >= cue.words[wi-1].end - .05, `${label}, word ${wi+1}: cue overlap`);
-      assert(Number.isFinite(word.score) && word.score >= 0 && word.score <= 1, `${label}, word ${wi+1}: confidence score`);
+      if (word.score === undefined) {
+        assert(['groq-word','source-supported-endpoint'].includes(word.timingMethod), `${label}, word ${wi+1}: missing acoustic score without source timing provenance`);
+        assert.match(timings.alignmentFingerprint || '', /^[a-f0-9]{64}$/, `${label}: missing STT alignment provenance`);
+      } else {
+        assert(Number.isFinite(word.score) && word.score >= 0 && word.score <= 1, `${label}, word ${wi+1}: confidence score`);
+      }
     });
     wordCount += tokens.length;
   });

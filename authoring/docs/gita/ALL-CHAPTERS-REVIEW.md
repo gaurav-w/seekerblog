@@ -1,5 +1,7 @@
 # All-Chapter Gita Reader Review
 
+**Historical baseline:** The 2 October 2026 Groq transcription and timing rebuild is documented in [GROQ-TIMING-REPAIR-REPORT.md](GROQ-TIMING-REPAIR-REPORT.md). The inventory and review queue below describe the earlier manifests; consult that report for current timing metrics. Previously source-supported repairs are preserved in the rebuild.
+
 **Review date:** 1 October 2026  
 **Scope:** Chapters 1–18, local verse data, timing manifests, verse MP3s, cached speech-recognition transcripts, and the shared playback code.
 

@@ -1,0 +1,371 @@
+[
+  {
+    "chapter": 7,
+    "verse": 30,
+    "sourceStart": 455.1,
+    "sourceEnd": 457.4,
+    "cueEnd": 456.232,
+    "clipEnd": 456.512,
+    "measurement": "300-3000 Hz, 4th order Butterworth, 50 ms RMS dBFS. Energy supports voice decay; it does not identify words.",
+    "frames": [
+      {
+        "start": 455.1,
+        "dbfs": -16.3
+      },
+      {
+        "start": 455.15,
+        "dbfs": -15.4
+      },
+      {
+        "start": 455.2,
+        "dbfs": -30.89
+      },
+      {
+        "start": 455.25,
+        "dbfs": -36.28
+      },
+      {
+        "start": 455.3,
+        "dbfs": -20.65
+      },
+      {
+        "start": 455.35,
+        "dbfs": -15.78
+      },
+      {
+        "start": 455.4,
+        "dbfs": -15.27
+      },
+      {
+        "start": 455.45,
+        "dbfs": -16.87
+      },
+      {
+        "start": 455.5,
+        "dbfs": -16.91
+      },
+      {
+        "start": 455.55,
+        "dbfs": -20.95
+      },
+      {
+        "start": 455.6,
+        "dbfs": -40.57
+      },
+      {
+        "start": 455.65,
+        "dbfs": -38.5
+      },
+      {
+        "start": 455.7,
+        "dbfs": -19.16
+      },
+      {
+        "start": 455.75,
+        "dbfs": -18.81
+      },
+      {
+        "start": 455.8,
+        "dbfs": -30.11
+      },
+      {
+        "start": 455.85,
+        "dbfs": -39.79
+      },
+      {
+        "start": 455.9,
+        "dbfs": -18.5
+      },
+      {
+        "start": 455.95,
+        "dbfs": -16.5
+      },
+      {
+        "start": 456.0,
+        "dbfs": -28.08
+      },
+      {
+        "start": 456.05,
+        "dbfs": -24.75
+      },
+      {
+        "start": 456.1,
+        "dbfs": -21.07
+      },
+      {
+        "start": 456.15,
+        "dbfs": -28.08
+      },
+      {
+        "start": 456.2,
+        "dbfs": -39.99
+      },
+      {
+        "start": 456.25,
+        "dbfs": -42.71
+      },
+      {
+        "start": 456.3,
+        "dbfs": -44.17
+      },
+      {
+        "start": 456.35,
+        "dbfs": -44.08
+      },
+      {
+        "start": 456.4,
+        "dbfs": -44.4
+      },
+      {
+        "start": 456.45,
+        "dbfs": -43.89
+      },
+      {
+        "start": 456.5,
+        "dbfs": -43.88
+      },
+      {
+        "start": 456.55,
+        "dbfs": -44.08
+      },
+      {
+        "start": 456.6,
+        "dbfs": -44.29
+      },
+      {
+        "start": 456.65,
+        "dbfs": -44.85
+      },
+      {
+        "start": 456.7,
+        "dbfs": -45.15
+      },
+      {
+        "start": 456.75,
+        "dbfs": -45.49
+      },
+      {
+        "start": 456.8,
+        "dbfs": -45.83
+      },
+      {
+        "start": 456.85,
+        "dbfs": -46.33
+      },
+      {
+        "start": 456.9,
+        "dbfs": -46.54
+      },
+      {
+        "start": 456.95,
+        "dbfs": -46.95
+      },
+      {
+        "start": 457.0,
+        "dbfs": -47.44
+      },
+      {
+        "start": 457.05,
+        "dbfs": -47.45
+      },
+      {
+        "start": 457.1,
+        "dbfs": -47.67
+      },
+      {
+        "start": 457.15,
+        "dbfs": -47.2
+      },
+      {
+        "start": 457.2,
+        "dbfs": -47.39
+      },
+      {
+        "start": 457.25,
+        "dbfs": -26.8
+      },
+      {
+        "start": 457.3,
+        "dbfs": -15.61
+      },
+      {
+        "start": 457.35,
+        "dbfs": -16.7
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "verse": 34,
+    "sourceStart": 454.9,
+    "sourceEnd": 455.8,
+    "cueEnd": 455.48,
+    "clipEnd": 455.68,
+    "measurement": "300-3000 Hz, 4th order Butterworth, 50 ms RMS dBFS. Energy supports voice decay; it does not identify words.",
+    "frames": [
+      {
+        "start": 454.9,
+        "dbfs": -27.58
+      },
+      {
+        "start": 454.95,
+        "dbfs": -21.34
+      },
+      {
+        "start": 455.0,
+        "dbfs": -21.04
+      },
+      {
+        "start": 455.05,
+        "dbfs": -18.51
+      },
+      {
+        "start": 455.1,
+        "dbfs": -20.23
+      },
+      {
+        "start": 455.15,
+        "dbfs": -20.5
+      },
+      {
+        "start": 455.2,
+        "dbfs": -20.03
+      },
+      {
+        "start": 455.25,
+        "dbfs": -21.01
+      },
+      {
+        "start": 455.3,
+        "dbfs": -22.95
+      },
+      {
+        "start": 455.35,
+        "dbfs": -26.04
+      },
+      {
+        "start": 455.4,
+        "dbfs": -30.98
+      },
+      {
+        "start": 455.45,
+        "dbfs": -37.91
+      },
+      {
+        "start": 455.5,
+        "dbfs": -39.21
+      },
+      {
+        "start": 455.55,
+        "dbfs": -42.86
+      },
+      {
+        "start": 455.6,
+        "dbfs": -43.38
+      },
+      {
+        "start": 455.65,
+        "dbfs": -43.9
+      },
+      {
+        "start": 455.7,
+        "dbfs": -45.16
+      },
+      {
+        "start": 455.75,
+        "dbfs": -46.06
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "verse": 78,
+    "sourceStart": 1102.9,
+    "sourceEnd": 1103.9,
+    "cueEnd": 1103.431,
+    "clipEnd": 1103.711,
+    "measurement": "300-3000 Hz, 4th order Butterworth, 50 ms RMS dBFS. Energy supports voice decay; it does not identify words.",
+    "frames": [
+      {
+        "start": 1102.9,
+        "dbfs": -34.26
+      },
+      {
+        "start": 1102.95,
+        "dbfs": -23.43
+      },
+      {
+        "start": 1103.0,
+        "dbfs": -21.13
+      },
+      {
+        "start": 1103.05,
+        "dbfs": -22.88
+      },
+      {
+        "start": 1103.1,
+        "dbfs": -26.08
+      },
+      {
+        "start": 1103.15,
+        "dbfs": -21.1
+      },
+      {
+        "start": 1103.2,
+        "dbfs": -22.23
+      },
+      {
+        "start": 1103.25,
+        "dbfs": -23.3
+      },
+      {
+        "start": 1103.3,
+        "dbfs": -25.1
+      },
+      {
+        "start": 1103.35,
+        "dbfs": -27.96
+      },
+      {
+        "start": 1103.4,
+        "dbfs": -34.92
+      },
+      {
+        "start": 1103.45,
+        "dbfs": -41.78
+      },
+      {
+        "start": 1103.5,
+        "dbfs": -43.32
+      },
+      {
+        "start": 1103.55,
+        "dbfs": -43.96
+      },
+      {
+        "start": 1103.6,
+        "dbfs": -43.74
+      },
+      {
+        "start": 1103.65,
+        "dbfs": -44.66
+      },
+      {
+        "start": 1103.7,
+        "dbfs": -45.24
+      },
+      {
+        "start": 1103.75,
+        "dbfs": -44.77
+      },
+      {
+        "start": 1103.8,
+        "dbfs": -44.91
+      },
+      {
+        "start": 1103.85,
+        "dbfs": -44.23
+      }
+    ]
+  }
+]

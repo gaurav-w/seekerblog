@@ -48,11 +48,42 @@ body{padding-bottom:2rem}
 /* Focused reader: activated only after an explicit Fullscreen API request. */
 html.gita-reader-fullscreen,html.gita-reader-fullscreen body{height:100%;overflow:hidden}
 html.gita-reader-fullscreen body{padding:0}
-html.gita-reader-fullscreen .gita-page{max-width:none;width:100%;height:100vh;height:100svh;margin:0}
+html.gita-reader-fullscreen .gita-page{max-width:none;width:100%;height:100vh;height:100dvh;margin:0}
 html.gita-reader-fullscreen .gita-nav,html.gita-reader-fullscreen .gita-hero,html.gita-reader-fullscreen .reader-footer{display:none}
-html.gita-reader-fullscreen .reader-card{height:100%;border:0;border-radius:0;box-shadow:none;display:flex;flex-direction:column;background:linear-gradient(145deg,rgba(22,38,65,.94),rgba(10,20,40,.99))}
+html.gita-reader-fullscreen .reader-card{height:100%;border:0;border-radius:0;box-shadow:none;display:flex;flex-direction:column;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right);background:linear-gradient(145deg,rgba(22,38,65,.94),rgba(10,20,40,.99))}
 html.gita-reader-fullscreen .verse-head,html.gita-reader-fullscreen .word-tools,html.gita-reader-fullscreen .playback{flex:none}
-html.gita-reader-fullscreen .shloka{flex:1;min-height:0;overflow:auto;display:flex;flex-direction:column;justify-content:safe center;padding:1.5rem clamp(1.25rem,6vw,5rem)}html.gita-reader-fullscreen .shloka-line{flex-shrink:0}
-html.gita-reader-fullscreen .meaning-panel{max-height:34svh;overflow:auto}
-@media(orientation:landscape) and (min-width:700px){html.gita-reader-fullscreen .reader-card{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(21rem,.85fr);grid-template-rows:auto auto minmax(0,1fr) auto}html.gita-reader-fullscreen .verse-head{grid-column:1;grid-row:1}html.gita-reader-fullscreen .word-tools{grid-column:1;grid-row:2}html.gita-reader-fullscreen .shloka{grid-column:1;grid-row:3;min-height:0}html.gita-reader-fullscreen .playback{grid-column:1;grid-row:4;width:100%;max-width:34rem}html.gita-reader-fullscreen .meaning-panel{grid-column:2;grid-row:1 / span 4;max-height:none;border-top:0;border-left:1px solid var(--line);padding:clamp(1.5rem,4vw,3rem);overflow:auto}}
+html.gita-reader-fullscreen .verse-head{padding:max(.35rem,env(safe-area-inset-top)) .8rem .35rem;gap:.5rem;flex-wrap:wrap}
+html.gita-reader-fullscreen #verseSelect,html.gita-reader-fullscreen button.gita-fullscreen{min-height:44px;height:44px}
+html.gita-reader-fullscreen button.gita-fullscreen{width:44px}
+html.gita-reader-fullscreen .word-tools{justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;padding:0 .8rem .25rem}
+html.gita-reader-fullscreen .word-meaning-option{max-width:100%}
+html.gita-reader-fullscreen .switch-track{flex:none}
+.meaning-toggle,.follow-verse{min-height:44px;padding:.35rem .65rem;border:1px solid var(--line);border-radius:9px;background:var(--bg-darker);color:var(--ink-muted);font:400 .75rem var(--font-ui)}
+.follow-verse[aria-pressed=true]{color:var(--lamp);background:var(--lamp-glow);border-color:var(--line-bright)}
+.meaning-toggle[hidden],.follow-verse[hidden],.word-meaning-option[hidden],#meaningText[hidden]{display:none}
+html.gita-reader-fullscreen .reader-reading{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;scroll-behavior:auto}
+html.gita-reader-fullscreen .shloka{min-height:0;display:block;overflow:visible;padding:1rem clamp(.8rem,4vw,3rem);font-size:clamp(1.4rem,3vw,2rem);line-height:1.75}
+html.gita-reader-fullscreen .show-word-meanings .word-meaning{max-width:min(24rem,100%)}
+html.gita-reader-fullscreen .meaning-panel{max-height:none;overflow:visible;padding:1rem}
+html.gita-reader-fullscreen .meaning-heading{flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem}
+html.gita-reader-fullscreen .language-switch{margin-left:auto}
+html.gita-reader-fullscreen .language-switch button{min-height:44px}
+html.gita-reader-fullscreen .playback{width:100%;max-width:none;margin:0;padding:.35rem .8rem max(.4rem,env(safe-area-inset-bottom));border-top:1px solid var(--line);display:grid;grid-template-columns:auto minmax(0,1fr);gap:.25rem .75rem;background:var(--bg-darker)}
+html.gita-reader-fullscreen .transport{grid-column:1;gap:.4rem}
+html.gita-reader-fullscreen .audio-play{width:48px;height:48px}
+html.gita-reader-fullscreen .seek-row{grid-column:2;min-width:0;margin:0;gap:.35rem;font-size:.68rem}
+html.gita-reader-fullscreen .seek-row span{min-width:1.8rem}
+html.gita-reader-fullscreen #seek{min-width:0;height:44px}
+html.gita-reader-fullscreen .playback-options{grid-column:1 / -1;margin:0;gap:.5rem;flex-wrap:wrap}
+html.gita-reader-fullscreen .option-button,html.gita-reader-fullscreen .continue-option{min-height:44px}
+html.gita-reader-fullscreen .reader-status{grid-column:1 / -1;margin:0;font-size:.74rem}
+@media(max-height:450px){html.gita-reader-fullscreen .shloka{padding:.65rem .8rem;font-size:1.4rem;line-height:1.65}}
+/* Columns need both desktop width and sufficient height. */
+@media(min-width:960px) and (min-height:600px){html.gita-reader-fullscreen .reader-reading{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(20rem,.85fr);overflow:hidden}html.gita-reader-fullscreen .shloka{overflow:auto;scroll-behavior:auto}html.gita-reader-fullscreen .meaning-panel{overflow:auto;border-top:0;border-left:1px solid var(--line);padding:1.5rem}}
+/* Extremely tall tokens or enlarged text can use the entire shell's height. */
+html.gita-reader-fullscreen .reader-card.reader-flow{display:block;overflow-y:auto;overscroll-behavior:contain;scroll-behavior:auto}
+html.gita-reader-fullscreen .reader-flow .verse-head{position:sticky;top:0;z-index:3;background:var(--bg-darker)}
+html.gita-reader-fullscreen .reader-flow .reader-reading,html.gita-reader-fullscreen .reader-flow .shloka,html.gita-reader-fullscreen .reader-flow .meaning-panel{overflow:visible}
+html.gita-reader-fullscreen .reader-flow .playback{grid-template-columns:minmax(0,1fr)}
+html.gita-reader-fullscreen .reader-flow .transport,html.gita-reader-fullscreen .reader-flow .seek-row{grid-column:1}
 @media(prefers-reduced-motion:reduce){.audio-play,.word{transition:none}}

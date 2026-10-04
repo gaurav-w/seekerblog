@@ -11,18 +11,111 @@
   const status = $('readerStatus');
   const select = $('verseSelect');
   const fullscreen = $('gitaFullscreen');
+  const shloka = $('shloka');
+  const card = shloka.closest('.reader-card');
+  const meaningPanel = $('meaningText').closest('.meaning-panel');
+  const wordTools = $('wordTools');
+  const meaningToggle = document.createElement('button');
+  meaningToggle.id = 'toggleMeaning'; meaningToggle.className = 'meaning-toggle';
+  meaningToggle.type = 'button'; meaningToggle.hidden = true;
+  meaningToggle.setAttribute('aria-controls', 'meaningText');
+  $('meaningTitle').after(meaningToggle);
+  const followButton = document.createElement('button');
+  followButton.id = 'followVerse'; followButton.className = 'follow-verse';
+  followButton.type = 'button'; followButton.hidden = true;
+  wordTools.prepend(followButton);
+  let readingRegion = null, shlokaHome = null, meaningHome = null;
+  let meaningCollapsed = false, followVerse = true, layoutFrame = null;
   const languageKey = `seekerblog:gita${chapter}:meaning-language:v1`;
   let language = 'hi', current = 0, repeat = false, frame = null, revision = 0;
-  let activeWord = -1, wordElements = [], pending = false;
+  let activeWord = -1, activeCueIndices = [], wordElements = [], pending = false;
   try { language = localStorage.getItem(languageKey) === 'en' ? 'en' : 'hi'; } catch (_) { }
   const message = (hi, en) => language === 'en' ? en : hi;
   const formatTime = seconds => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
   const clip = () => timings?.verses[current];
   const duration = () => Number.isFinite(audio.duration) ? audio.duration : clip()?.duration || 0;
 
+  function syncReadingControls() {
+    meaningToggle.hidden = !readingRegion;
+    meaningToggle.textContent = meaningCollapsed ? message('दिखाएँ', 'Show') : message('छिपाएँ', 'Hide');
+    meaningToggle.setAttribute('aria-label', meaningCollapsed ? message('भावार्थ दिखाएँ', 'Show meaning') : message('भावार्थ छिपाएँ', 'Hide meaning'));
+    meaningToggle.setAttribute('aria-expanded', String(!meaningCollapsed));
+    $('meaningText').hidden = Boolean(readingRegion && meaningCollapsed);
+    followButton.hidden = !readingRegion;
+    followButton.textContent = message('श्लोक के साथ चलें', 'Follow verse');
+    followButton.setAttribute('aria-pressed', String(followVerse));
+    const hasGlosses = Boolean(verses[current].wordMeanings);
+    wordTools.hidden = !hasGlosses && !readingRegion;
+    $('showWordMeanings').closest('label').hidden = !hasGlosses;
+    if (readingRegion) readingRegion.setAttribute('aria-label', message('श्लोक और भावार्थ', 'Verse and meaning'));
+  }
+
+  function pauseFollowing() { followVerse = false; syncReadingControls(); }
+
+  function scrollViewport() {
+    if (card.classList.contains('reader-flow')) return card;
+    return getComputedStyle(shloka).overflowY === 'auto' ? shloka : readingRegion;
+  }
+
+  function followActiveWord() {
+    if (!readingRegion || !followVerse || audio.paused || activeWord < 0) return;
+    const scroller = scrollViewport(), word = wordElements[activeWord];
+    const bounds = scroller.getBoundingClientRect(), rect = word.getBoundingClientRect();
+    const visibleTop = bounds.top + (scroller === card ? $('verseLabel').closest('.verse-head').getBoundingClientRect().height : 0) + 8;
+    const visibleBottom = bounds.bottom - 8;
+    let delta = 0;
+    if (rect.height > visibleBottom - visibleTop || rect.top < visibleTop) delta = rect.top - visibleTop;
+    else if (rect.bottom > visibleBottom) delta = rect.bottom - visibleBottom;
+    if (Math.abs(delta) > 1) scroller.scrollBy({top:delta, behavior:'instant'});
+  }
+
+  function scheduleReadingLayout() {
+    if (!readingRegion || layoutFrame !== null) return;
+    layoutFrame = requestAnimationFrame(() => {
+      layoutFrame = null;
+      if (!readingRegion) return;
+      const fixedHeight = [...card.children].filter(el => el !== readingRegion)
+        .reduce((height, el) => height + el.getBoundingClientRect().height, 0);
+      const style = getComputedStyle(card);
+      const available = card.clientHeight - fixedHeight - parseFloat(style.paddingTop) - parseFloat(style.paddingBottom);
+      const largest = Math.max(0, ...[...shloka.querySelectorAll('.word,.word-meaning')].map(el => el.getBoundingClientRect().height));
+      // When a whole wrapped word/gloss cannot fit, let the shell scroll.
+      // Its sticky header keeps fullscreen exit available.
+      card.classList.toggle('reader-flow', largest + 32 > available);
+      followActiveWord();
+    });
+  }
+
+  function mountReadingRegion(active) {
+    if (active && !readingRegion) {
+      shlokaHome = document.createComment('verse position');
+      meaningHome = document.createComment('meaning position');
+      shloka.before(shlokaHome); meaningPanel.before(meaningHome);
+      readingRegion = document.createElement('div');
+      readingRegion.id = 'readerReading'; readingRegion.className = 'reader-reading';
+      readingRegion.tabIndex = 0; readingRegion.setAttribute('role', 'region');
+      shloka.before(readingRegion); readingRegion.append(shloka, meaningPanel);
+      meaningCollapsed = matchMedia('(max-width:700px), (max-height:650px)').matches;
+      followVerse = true;
+      readingRegion.addEventListener('pointerdown', event => {
+        if (event.pointerType === 'mouse' && (event.target === readingRegion || event.target === shloka)) pauseFollowing();
+      });
+      readingRegion.addEventListener('keydown', event => {
+        if (!event.target.closest('button,input,select,a') && ['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' '].includes(event.key)) pauseFollowing();
+      });
+    } else if (!active && readingRegion) {
+      shlokaHome.replaceWith(shloka); meaningHome.replaceWith(meaningPanel);
+      readingRegion.remove(); readingRegion = null;
+      card.classList.remove('reader-flow'); card.scrollTop = 0;
+      meaningCollapsed = false;
+    }
+    syncReadingControls(); scheduleReadingLayout();
+  }
+
   function syncFullscreenControl() {
     const active = document.fullscreenElement === document.documentElement;
     document.documentElement.classList.toggle('gita-reader-fullscreen', active);
+    mountReadingRegion(active);
     if (!fullscreen) return;
     const label = active ? message('पूर्ण स्क्रीन से बाहर निकलें', 'Exit full screen') : message('पूर्ण स्क्रीन में खोलें', 'Enter full screen');
     fullscreen.setAttribute('aria-label', label);
@@ -60,7 +153,9 @@
   }
 
   function renderVerse() {
-    $('shloka').replaceChildren(); wordElements = []; activeWord = -1;
+    followVerse = true;
+    if (readingRegion) { readingRegion.scrollTop = 0; shloka.scrollTop = 0; card.scrollTop = 0; }
+    $('shloka').replaceChildren(); wordElements = []; activeWord = -1; activeCueIndices = [];
     const glosses = verses[current].wordMeanings;
     $('wordTools').hidden = !glosses;
     $('shloka').classList.toggle('show-word-meanings', Boolean(glosses && $('showWordMeanings').checked));
@@ -103,18 +198,45 @@
     seek.disabled = !Number.isFinite(audio.duration) || !length;
     seek.setAttribute('aria-valuetext', `${formatTime(time)} / ${formatTime(length)}`);
     const words = clip()?.words || [];
-    const matchedIndex = words.findIndex(word => time >= word.start && time < word.end);
+    const wordLevel = clip()?.highlightMode === 'word';
+    const matchedGroups = new Set();
+    const nextActive = [];
+    words.forEach((word, index) => {
+      const start = wordLevel ? word.start : (word.highlightStart ?? word.start);
+      const end = wordLevel ? word.end : (word.highlightEnd ?? word.end);
+      if (time >= start && time < end) {
+        if (!wordLevel && word.highlightGroup !== undefined) matchedGroups.add(word.highlightGroup);
+        else nextActive.push(index);
+      }
+    });
+    if (matchedGroups.size) {
+      words.forEach((word, index) => {
+        if (matchedGroups.has(word.highlightGroup)) nextActive.push(index);
+      });
+    }
     // Do not make the marker flicker during a normal, very short pause between
     // two aligned words. Longer uncovered speech remains visible as an audit
     // issue instead of being masked by a held marker.
-    const index = matchedIndex >= 0 ? matchedIndex : (
-      activeWord >= 0 && time >= words[activeWord]?.end && time < words[activeWord]?.end + .18
-        ? activeWord : -1
-    );
-    if (index !== activeWord) {
-      if (wordElements[activeWord]) { wordElements[activeWord].classList.remove('is-active'); wordElements[activeWord].removeAttribute('aria-current'); }
-      if (wordElements[index]) { wordElements[index].classList.add('is-active'); wordElements[index].setAttribute('aria-current', 'true'); }
-      activeWord = index;
+    if (!nextActive.length && activeWord >= 0) {
+      const previous = words[activeWord];
+      const end = previous.highlightEnd ?? previous.end;
+      if (time >= end && time < end + .18) nextActive.push(...activeCueIndices);
+    }
+    const changed = nextActive.length !== activeCueIndices.length ||
+      nextActive.some((index, position) => index !== activeCueIndices[position]);
+    if (changed) {
+      activeCueIndices.forEach(index => {
+        wordElements[index]?.classList.remove('is-active');
+        wordElements[index]?.removeAttribute('aria-current');
+      });
+      nextActive.forEach((index, position) => {
+        wordElements[index]?.classList.add('is-active');
+        if (position === 0) wordElements[index]?.setAttribute('aria-current', 'true');
+        else wordElements[index]?.removeAttribute('aria-current');
+      });
+      activeCueIndices = nextActive;
+      activeWord = nextActive[0] ?? -1;
+      if (activeWord >= 0) followActiveWord();
     }
   }
 
@@ -163,7 +285,24 @@
   $('repeatVerse').addEventListener('click', () => { repeat = !repeat; $('repeatVerse').setAttribute('aria-pressed', String(repeat)); });
   $('showWordMeanings').addEventListener('change', () => {
     $('shloka').classList.toggle('show-word-meanings', Boolean(verses[current].wordMeanings && $('showWordMeanings').checked));
+    scheduleReadingLayout();
   });
+  meaningToggle.addEventListener('click', () => { meaningCollapsed = !meaningCollapsed; syncReadingControls(); scheduleReadingLayout(); });
+  followButton.addEventListener('click', () => { followVerse = !followVerse; syncReadingControls(); followActiveWord(); });
+  // Listen on the shell too: very large text can make it the scroll viewport.
+  card.addEventListener('wheel', () => { if (readingRegion) pauseFollowing(); }, {passive:true});
+  card.addEventListener('touchmove', () => { if (readingRegion) pauseFollowing(); }, {passive:true});
+  card.addEventListener('pointerdown', event => {
+    if (readingRegion && event.pointerType === 'mouse' && event.target === card) pauseFollowing();
+  });
+  window.addEventListener('resize', scheduleReadingLayout);
+  window.visualViewport?.addEventListener('resize', scheduleReadingLayout);
+  if (window.ResizeObserver) {
+    const observer = new ResizeObserver(scheduleReadingLayout);
+    [card, wordTools, play.closest('.playback'), $('verseLabel').closest('.verse-head')].forEach(el => observer.observe(el));
+  }
+  document.fonts?.ready.then(scheduleReadingLayout);
+  document.fonts?.addEventListener('loadingdone', scheduleReadingLayout);
   document.querySelectorAll('[data-language]').forEach(button => button.addEventListener('click', () => {
     language = button.dataset.language;
     try { localStorage.setItem(languageKey, language); } catch (_) { }
@@ -172,8 +311,8 @@
   seek.addEventListener('input', () => { if (Number.isFinite(audio.duration)) { audio.currentTime = audio.duration * Number(seek.value) / 100; updateProgress(); } });
   audio.addEventListener('loadedmetadata', updateProgress);
   audio.addEventListener('timeupdate', updateProgress);
-  audio.addEventListener('seeked', updateProgress);
-  audio.addEventListener('play', () => { stopFrame(); animate(); updatePlay(); });
+  audio.addEventListener('seeked', () => { updateProgress(); followActiveWord(); });
+  audio.addEventListener('play', () => { stopFrame(); animate(); followActiveWord(); updatePlay(); });
   audio.addEventListener('playing', () => { pending = false; status.textContent = ''; updatePlay(); });
   audio.addEventListener('pause', () => { stopFrame(); updateProgress(); updatePlay(); });
   audio.addEventListener('ended', () => {
@@ -188,7 +327,11 @@
   });
   audio.addEventListener('error', () => { pending = false; updatePlay(); status.textContent = message('ऑडियो लोड नहीं हुआ। फिर से प्रयास करें।', 'Audio could not load. Please try again.'); });
   document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && readingRegion && document.fullscreenElement) {
+      event.preventDefault(); document.exitFullscreen().catch(() => {}); return;
+    }
     if (event.target.closest('button,input,select,textarea,a,[contenteditable]') || event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest('.reader-reading') && event.code === 'Space') return;
     if (event.code === 'Space') { event.preventDefault(); togglePlay(); }
     if (event.key === 'ArrowLeft') { event.preventDefault(); navigate(-1); }
     if (event.key === 'ArrowRight') { event.preventDefault(); navigate(1); }
