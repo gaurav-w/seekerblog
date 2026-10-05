@@ -38,6 +38,12 @@ const origin = process.argv[2] || 'http://127.0.0.1:43129/';
     assert.equal(await gita.count(), 1, 'English search finds the matching Gita shloka');
     assert.match(await gita.getAttribute('href'), /gita\/1\/#1-1$/);
 
+    await page.locator('#searchInput').fill('karmanye vadhikaraste');
+    await page.waitForFunction(() => document.querySelectorAll('.site-search-result').length > 0);
+    const romanisedGita = page.locator('.site-search-result').filter({ hasText: 'Chapter 2 · Shloka 47' }).first();
+    assert.equal(await romanisedGita.count(), 1, 'Unaccented, sandhi-style Sanskrit finds the matching Gita shloka');
+    assert.match(await romanisedGita.getAttribute('href'), /gita\/2\/#2-47$/);
+
     await page.locator('#searchInput').fill('no passage should contain this phrase');
     await page.waitForFunction(() => document.getElementById('siteSearchStatus').textContent.includes('No passages'));
     await page.locator('#clearSearch').click();

@@ -18,6 +18,14 @@
       .trim();
   }
 
+  // Sanskrit is commonly typed without IAST accents and often without the
+  // transliteration's word breaks (for example, "karmanye vadhikaraste").
+  // Keep the readable normalised form for excerpts, plus a compact form that
+  // lets those equivalent spellings meet in the middle.
+  function compactRomanisation(value) {
+    return normalise(value).replace(/[^\p{L}\p{N}]/gu, '');
+  }
+
   function excerpt(text, terms) {
     const source = String(text || '').replace(/\s+/g, ' ').trim();
     if (source.length <= 190) return source;
@@ -50,7 +58,11 @@
       { label: 'English', value: record.english || '' },
       { label: 'Hindi', value: record.hindi || '' },
       { label: 'Text', value: record.source || '' },
-    ].map(field => ({ ...field, normalised: normalise(field.value) }));
+    ].map(field => ({
+      ...field,
+      normalised: normalise(field.value),
+      compactRomanisation: compactRomanisation(field.value),
+    }));
   }
 
   window.SeekerblogSiteSearch = {
@@ -111,6 +123,7 @@
         const currentVersion = ++version;
         const query = normalise(rawQuery);
         const terms = query ? query.split(' ').filter(Boolean) : [];
+        const compactQuery = compactRomanisation(rawQuery);
         queryActive = terms.length > 0;
         if (!queryActive) {
           panel.hidden = true;
@@ -128,9 +141,13 @@
           const matches = records.map(record => {
             const fields = searchableFields(record);
             const combined = fields.map(field => field.normalised).join(' ');
-            if (!terms.every(term => combined.includes(term))) return null;
-            const field = fields.find(candidate => terms.some(term => candidate.normalised.includes(term))) || fields[0];
-            const phraseScore = field.normalised.includes(query) ? 2 : 0;
+            const directMatch = terms.every(term => combined.includes(term));
+            const compactMatch = compactQuery && fields.some(field => field.compactRomanisation.includes(compactQuery));
+            if (!directMatch && !compactMatch) return null;
+            const field = fields.find(candidate =>
+              candidate.normalised.includes(query) || candidate.compactRomanisation.includes(compactQuery)
+            ) || fields.find(candidate => terms.some(term => candidate.normalised.includes(term))) || fields[0];
+            const phraseScore = field.normalised.includes(query) || field.compactRomanisation.includes(compactQuery) ? 2 : 0;
             const beginningScore = terms.some(term => field.normalised.startsWith(term)) ? 1 : 0;
             return { record, field, score: phraseScore + beginningScore };
           }).filter(Boolean).sort((left, right) => right.score - left.score || left.record.work.localeCompare(right.record.work));

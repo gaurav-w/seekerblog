@@ -15,6 +15,15 @@
   const card = shloka.closest('.reader-card');
   const meaningPanel = $('meaningText').closest('.meaning-panel');
   const wordTools = $('wordTools');
+  const continuePlayback = $('continuePlayback');
+  const showWordMeanings = $('showWordMeanings');
+  const repeatButton = $('repeatVerse');
+  const playback = play.closest('.playback');
+  const speedControl = document.createElement('label');
+  speedControl.className = 'speed-control';
+  speedControl.innerHTML = '<span id="playbackSpeedLabel">गति</span><select id="gitaAudioRate" aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.5">1.5×</option></select>';
+  playback.querySelector('.transport').append(speedControl);
+  const playbackRate = $('gitaAudioRate');
   const meaningToggle = document.createElement('button');
   meaningToggle.id = 'toggleMeaning'; meaningToggle.className = 'meaning-toggle';
   meaningToggle.type = 'button'; meaningToggle.hidden = true;
@@ -27,14 +36,53 @@
   let readingRegion = null, shlokaHome = null, meaningHome = null;
   let meaningCollapsed = false, followVerse = true, layoutFrame = null;
   const languageKey = `seekerblog:gita${chapter}:meaning-language:v1`;
+  const preferenceKeys = {
+    continuousPlayback: 'seekerblog:gita:continuous-playback',
+    showWordMeanings: 'seekerblog:gita:show-word-meanings',
+    repeatVerse: 'seekerblog:gita:repeat-verse',
+  };
   let language = 'hi', current = 0, repeat = false, frame = null, revision = 0;
   let activeWord = -1, activeCueIndices = [], wordElements = [], pending = false;
   let screenWakeLock = null, wakeLockPending = false, pageActive = true;
+  let nextAudio = null, nextAudioIndex = -1;
+  function savedBoolean(key, fallback = false) {
+    try {
+      const value = localStorage.getItem(key);
+      return value === null ? fallback : value === 'true';
+    } catch (_) { return fallback; }
+  }
+  function saveBoolean(key, value) {
+    try { localStorage.setItem(key, String(Boolean(value))); } catch (_) { }
+  }
   try { language = localStorage.getItem(languageKey) === 'en' ? 'en' : 'hi'; } catch (_) { }
+  continuePlayback.checked = savedBoolean(preferenceKeys.continuousPlayback);
+  showWordMeanings.checked = savedBoolean(preferenceKeys.showWordMeanings, showWordMeanings.checked);
+  repeat = savedBoolean(preferenceKeys.repeatVerse);
+  repeatButton.setAttribute('aria-pressed', String(repeat));
   const message = (hi, en) => language === 'en' ? en : hi;
   const formatTime = seconds => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
   const clip = () => timings?.verses[current];
   const duration = () => Number.isFinite(audio.duration) ? audio.duration : clip()?.duration || 0;
+
+  function clearNextAudioPreload() {
+    if (!nextAudio) return;
+    nextAudio.removeAttribute('src');
+    nextAudio.load();
+    nextAudio = null;
+    nextAudioIndex = -1;
+  }
+
+  function preloadNextAudio() {
+    const index = current + 1;
+    const nextClip = timings?.verses[index];
+    if (repeat || !continuePlayback.checked || !nextClip?.audio || nextAudioIndex === index) return;
+    clearNextAudioPreload();
+    nextAudio = new Audio();
+    nextAudio.preload = 'auto';
+    nextAudio.src = nextClip.audio;
+    nextAudio.load();
+    nextAudioIndex = index;
+  }
 
   function needsScreenAwake() {
     return pageActive && document.visibilityState === 'visible' &&
@@ -172,6 +220,8 @@
     $('meaningText').lang = language;
     $('repeatText').textContent = message('दोहराएँ', 'Repeat');
     $('continueText').textContent = message('अगला श्लोक स्वतः चलाएँ', 'Auto-play next');
+    $('playbackSpeedLabel').textContent = message('गति', 'Speed');
+    playbackRate.setAttribute('aria-label', message('पाठ की गति', 'Playback speed'));
     $('wordMeaningsLabel').textContent = message('शब्दार्थ दिखाएँ', 'Word meanings');
     document.querySelectorAll('.word-meaning').forEach(gloss => {
       gloss.textContent = verses[current].wordMeanings[gloss.dataset.token][language];
@@ -230,6 +280,7 @@
     seek.value = String(length ? Math.min(100, 100 * time / length) : 0);
     seek.disabled = !Number.isFinite(audio.duration) || !length;
     seek.setAttribute('aria-valuetext', `${formatTime(time)} / ${formatTime(length)}`);
+    if (length && time >= Math.max(0, length - 2.5)) preloadNextAudio();
     const words = clip()?.words || [];
     const wordLevel = clip()?.highlightMode === 'word';
     const matchedGroups = new Set();
@@ -283,6 +334,7 @@
       if (audio.getAttribute('src') !== clip().audio) audio.src = clip().audio;
       if (audio.error) audio.load();
       if (audio.ended) audio.currentTime = 0;
+      audio.playbackRate = Number(playbackRate.value);
       await audio.play();
     } catch (error) {
       if (request === revision && error.name !== 'AbortError') status.textContent = message('ऑडियो नहीं चल सका। फिर से Play दबाएँ।', 'Audio could not play. Please try Play again.');
@@ -295,6 +347,7 @@
   function chooseVerse(index, autoplay = false, updateHash = true) {
     if (!Number.isInteger(index) || index < 0 || index >= verses.length) return;
     revision++; pending = false; audio.pause(); stopFrame(); current = index;
+    if (nextAudioIndex !== current) clearNextAudioPreload();
     status.textContent = '';
     // Leave src unset until Play: some browsers fetch metadata despite preload=none.
     audio.removeAttribute('src');
@@ -315,11 +368,22 @@
   $('previousVerse').addEventListener('click', () => navigate(-1));
   $('nextVerse').addEventListener('click', () => navigate(1));
   select.addEventListener('change', () => chooseVerse(Number(select.value), pending || !audio.paused));
-  $('repeatVerse').addEventListener('click', () => { repeat = !repeat; $('repeatVerse').setAttribute('aria-pressed', String(repeat)); });
-  $('showWordMeanings').addEventListener('change', () => {
-    $('shloka').classList.toggle('show-word-meanings', Boolean(verses[current].wordMeanings && $('showWordMeanings').checked));
+  repeatButton.addEventListener('click', () => {
+    repeat = !repeat;
+    repeatButton.setAttribute('aria-pressed', String(repeat));
+    saveBoolean(preferenceKeys.repeatVerse, repeat);
+    if (repeat) clearNextAudioPreload();
+  });
+  continuePlayback.addEventListener('change', () => {
+    saveBoolean(preferenceKeys.continuousPlayback, continuePlayback.checked);
+    if (!continuePlayback.checked) clearNextAudioPreload();
+  });
+  showWordMeanings.addEventListener('change', () => {
+    saveBoolean(preferenceKeys.showWordMeanings, showWordMeanings.checked);
+    $('shloka').classList.toggle('show-word-meanings', Boolean(verses[current].wordMeanings && showWordMeanings.checked));
     scheduleReadingLayout();
   });
+  playbackRate.addEventListener('change', () => { audio.playbackRate = Number(playbackRate.value); });
   meaningToggle.addEventListener('click', () => { meaningCollapsed = !meaningCollapsed; syncReadingControls(); scheduleReadingLayout(); });
   followButton.addEventListener('click', () => { followVerse = !followVerse; syncReadingControls(); followActiveWord(); });
   // Listen on the shell too: very large text can make it the scroll viewport.
@@ -354,7 +418,7 @@
   audio.addEventListener('pause', () => { stopFrame(); updateProgress(); updatePlay(); });
   audio.addEventListener('ended', () => {
     if (repeat) { audio.currentTime = 0; start(); }
-    else if ($('continuePlayback').checked && current < verses.length - 1) chooseVerse(current + 1, true);
+    else if (continuePlayback.checked && current < verses.length - 1) chooseVerse(current + 1, true);
     else {
       updatePlay(); updateProgress();
       if (current === verses.length - 1) {

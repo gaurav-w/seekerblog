@@ -11,6 +11,38 @@ function compact(value) {
   return String(value || '').replace(/\s+/g, ' ').trim();
 }
 
+// Search aliases only: this deliberately uses familiar, unaccented spelling
+// so QWERTY queries can find Devanagari-only Gita records. The visible reader
+// remains the source of truth for the text and its presentation.
+const devanagariConsonants = {
+  'क':'k', 'ख':'kh', 'ग':'g', 'घ':'gh', 'ङ':'ng', 'च':'c', 'छ':'ch', 'ज':'j', 'झ':'jh', 'ञ':'ny',
+  'ट':'t', 'ठ':'th', 'ड':'d', 'ढ':'dh', 'ण':'n', 'त':'t', 'थ':'th', 'द':'d', 'ध':'dh', 'न':'n',
+  'प':'p', 'फ':'ph', 'ब':'b', 'भ':'bh', 'म':'m', 'य':'y', 'र':'r', 'ल':'l', 'व':'v', 'श':'sh',
+  'ष':'sh', 'स':'s', 'ह':'h', 'ळ':'l', 'क़':'q', 'ख़':'kh', 'ग़':'g', 'ज़':'z', 'ड़':'d', 'ढ़':'dh', 'फ़':'f', 'य़':'y',
+};
+const devanagariVowels = { 'अ':'a', 'आ':'a', 'इ':'i', 'ई':'i', 'उ':'u', 'ऊ':'u', 'ऋ':'r', 'ॠ':'r', 'ऌ':'l', 'ए':'e', 'ऐ':'ai', 'ओ':'o', 'औ':'au' };
+const devanagariMarks = { 'ा':'a', 'ि':'i', 'ी':'i', 'ु':'u', 'ू':'u', 'ृ':'r', 'ॄ':'r', 'ॢ':'l', 'े':'e', 'ै':'ai', 'ो':'o', 'ौ':'au', 'ॅ':'e', 'ॉ':'o' };
+
+function transliterateDevanagari(value) {
+  const text = String(value || '');
+  let output = '';
+  for (let index = 0; index < text.length; index++) {
+    const character = text[index];
+    if (devanagariConsonants[character]) {
+      output += devanagariConsonants[character];
+      const following = text[index + 1];
+      if (following === '्') index++;
+      else if (devanagariMarks[following]) { output += devanagariMarks[following]; index++; }
+      else output += 'a';
+    } else if (devanagariVowels[character]) output += devanagariVowels[character];
+    else if (character === 'ं' || character === 'ँ') output += 'm';
+    else if (character === 'ः') output += 'h';
+    else if (character === 'ऽ' || character === '़') { /* no roman sound */ }
+    else output += character;
+  }
+  return compact(output);
+}
+
 function decodeHtml(value) {
   return compact(value
     .replace(/<br\s*\/?\s*>/gi, ' ')
@@ -145,7 +177,7 @@ for (let chapter = 1; chapter <= 18; chapter++) {
     work: 'Bhagavad Gita',
     location: `Chapter ${chapter} · Shloka ${index + 1}`,
     url: `gita/${chapter}/#${chapter}-${index + 1}`,
-    source: verse.sanskrit,
+    source: [verse.sanskrit, transliterateDevanagari(verse.sanskrit)].join(' '),
     hindi: [verse.hi, ...Object.values(verse.wordMeanings || {}).map(meaning => meaning.hi)].filter(Boolean).join(' '),
     english: [verse.en, ...Object.values(verse.wordMeanings || {}).map(meaning => meaning.en)].filter(Boolean).join(' '),
   }));
