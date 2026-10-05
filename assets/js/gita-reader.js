@@ -29,11 +29,42 @@
   const languageKey = `seekerblog:gita${chapter}:meaning-language:v1`;
   let language = 'hi', current = 0, repeat = false, frame = null, revision = 0;
   let activeWord = -1, activeCueIndices = [], wordElements = [], pending = false;
+  let screenWakeLock = null, wakeLockPending = false, pageActive = true;
   try { language = localStorage.getItem(languageKey) === 'en' ? 'en' : 'hi'; } catch (_) { }
   const message = (hi, en) => language === 'en' ? en : hi;
   const formatTime = seconds => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
   const clip = () => timings?.verses[current];
   const duration = () => Number.isFinite(audio.duration) ? audio.duration : clip()?.duration || 0;
+
+  function needsScreenAwake() {
+    return pageActive && document.visibilityState === 'visible' &&
+      (document.fullscreenElement === document.documentElement ||
+        pending || (!audio.paused && !audio.ended && !audio.error));
+  }
+
+  async function syncScreenWakeLock() {
+    if (!needsScreenAwake()) {
+      const lock = screenWakeLock;
+      screenWakeLock = null;
+      try { await lock?.release(); } catch (_) { }
+      return;
+    }
+    if (!navigator.wakeLock || screenWakeLock || wakeLockPending) return;
+    wakeLockPending = true;
+    try {
+      const lock = await navigator.wakeLock.request('screen');
+      // The user may have paused, left full screen, or hidden the page
+      // while the browser was handling the request.
+      if (!needsScreenAwake()) { await lock.release(); return; }
+      if (lock.released) return;
+      screenWakeLock = lock;
+      lock.addEventListener('release', () => {
+        if (screenWakeLock === lock) screenWakeLock = null;
+      });
+    } catch (_) {
+      // Unsupported or denied wake locks must not interrupt reading/audio.
+    } finally { wakeLockPending = false; }
+  }
 
   function syncReadingControls() {
     meaningToggle.hidden = !readingRegion;
@@ -116,6 +147,7 @@
     const active = document.fullscreenElement === document.documentElement;
     document.documentElement.classList.toggle('gita-reader-fullscreen', active);
     mountReadingRegion(active);
+    syncScreenWakeLock();
     if (!fullscreen) return;
     const label = active ? message('पूर्ण स्क्रीन से बाहर निकलें', 'Exit full screen') : message('पूर्ण स्क्रीन में खोलें', 'Enter full screen');
     fullscreen.setAttribute('aria-label', label);
@@ -184,6 +216,7 @@
   }
 
   function updatePlay() {
+    syncScreenWakeLock();
     const isPlaying = pending || !audio.paused;
     const label = isPlaying ? message('पाठ रोकें', 'Pause shloka') : message('श्लोक सुनें', 'Play shloka');
     play.setAttribute('aria-label', label); play.title = label;
@@ -296,6 +329,10 @@
     if (readingRegion && event.pointerType === 'mouse' && event.target === card) pauseFollowing();
   });
   window.addEventListener('resize', scheduleReadingLayout);
+  document.addEventListener('visibilitychange', syncScreenWakeLock);
+  window.addEventListener('focus', syncScreenWakeLock);
+  window.addEventListener('pagehide', () => { pageActive = false; syncScreenWakeLock(); });
+  window.addEventListener('pageshow', () => { pageActive = true; syncScreenWakeLock(); });
   window.visualViewport?.addEventListener('resize', scheduleReadingLayout);
   if (window.ResizeObserver) {
     const observer = new ResizeObserver(scheduleReadingLayout);
