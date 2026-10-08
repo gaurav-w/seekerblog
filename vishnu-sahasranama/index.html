@@ -892,6 +892,9 @@ function clearWord(){
   wIdx=-1;
 }
 function recordedClip(){ return recordedEntries.get(list[S.i]?.audioKey); }
+function usableRecordedClip(clip=recordedClip()){
+  return !!clip && clip.available!==false && clip.playback!=="disabled-pending-recut";
+}
 function syncRecordedWalker(){
   clearTimeout(wTimer);
   if(S.hl==="off" || !playing || !devaToks.length){ clearWord(); return; }
@@ -937,7 +940,7 @@ function secPerSyllable(){ return 1.10 - (S.speed/100)*(1.10-0.094); }
 function fixedSeconds(){ return Math.round(40 - (S.speed/100)*37); }
 function duration(){
   const clip=recordedClip();
-  if(S.sound==="on" && clip?.available!==false && Number.isFinite(clip?.duration)) return clip.duration*1000;
+  if(S.sound==="on" && usableRecordedClip(clip) && Number.isFinite(clip?.duration)) return clip.duration*1000;
   const v=list[S.i];
   return S.timing==="scaled" ? syllables(v.i)*secPerSyllable()*1000
                              : fixedSeconds()*1000;
@@ -1007,7 +1010,13 @@ function schedule(reset=true){
 let loadedAudioKey="";
 async function playRecorded(restart=false,startAt=null){
   const clip=recordedClip();
-  if(!clip || clip.available===false){ stop(); $("soundNote").textContent="This passage is not included in the supplied recording."; return; }
+  if(!usableRecordedClip(clip)){
+    stop();
+    $("soundNote").textContent=clip?.playback==="disabled-pending-recut"
+      ? "This recording clip is being corrected because it does not match the displayed passage."
+      : "This passage is not included in the supplied recording.";
+    return;
+  }
   const changed=loadedAudioKey!==clip.key;
   if(changed){
     loadedAudioKey=clip.key;

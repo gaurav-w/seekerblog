@@ -29,6 +29,36 @@ GROQ_MODEL = 'whisper-large-v3'
 GROQ_RATE_PER_HOUR = .111
 GROQ_PROMPT = 'श्री विष्णु सहस्रनाम स्तोत्रम्। संस्कृत श्लोक पाठ। विश्वं विष्णुर्वषट्कारो।'
 
+# These are source-supported exceptions to the generic STT mapping.  Each word
+# is still immutable reader text; only its measured source range is overridden.
+# Verse 108 is recited three times in the master.  The former clip contained
+# all repetitions, so the reader played extra chanting after the displayed
+# passage.  Keep the first complete recitation only.
+MANUAL_RECUTS = {
+    # These four clips contain a complete recitation, but inherited a fraction
+    # of the preceding passage because the generic neighbour midpoint was too
+    # permissive.  Their existing canonical word cues remain valid.
+    'purva:12': {'sourceStart': 162.580, 'sourceEnd': 175.497},
+    'purva:15': {'sourceStart': 201.620, 'sourceEnd': 213.003},
+    'stotram:85': {'sourceStart': 1621.340, 'sourceEnd': 1634.444},
+    'stotram:97': {'sourceStart': 1771.940, 'sourceEnd': 1784.069},
+    'stotram:108': {
+        'sourceStart': 1918.680,
+        'sourceEnd': 1931.980,
+        'words': [
+            ('वनमाली', 1918.860, 1920.780),
+            ('गदी', 1920.780, 1921.330),
+            ('शार्ङ्गी', 1921.330, 1921.960),
+            ('शङ्खी', 1921.960, 1922.620),
+            ('चक्री', 1922.620, 1923.420),
+            ('च', 1923.420, 1923.660),
+            ('नन्दकी', 1923.660, 1925.020),
+            ('श्रीमान्नारायणो', 1926.180, 1928.260),
+            ('विष्णुर्वासुदेवोऽभिरक्षतु', 1928.260, 1931.800),
+        ],
+    },
+}
+
 
 def normalize(text: str) -> str:
     text = (text.replace('श', 'स').replace('ष', 'स').replace('ण', 'न')
@@ -148,12 +178,23 @@ def build(selected_entries: set[int] | None = None) -> None:
         if not cue_words:
             records.append({'key': verse['key'], 'available': False, 'words': []})
             continue
-        start = max(0, float(cue_words[0]['start']) - .18)
-        end = float(cue_words[-1]['end']) + .28
-        if index > 1 and aligned[index - 2]:
-            start = max(start, (float(aligned[index - 2][-1]['end']) + float(cue_words[0]['start'])) / 2)
-        if index < len(aligned) and aligned[index]:
-            end = min(end, (float(cue_words[-1]['end']) + float(aligned[index][0]['start'])) / 2)
+        repair = MANUAL_RECUTS.get(verse['key'])
+        if repair:
+            if 'words' in repair:
+                cue_words = [
+                    {'word': text, 'start': start, 'end': end, 'score': None}
+                    for text, start, end in repair['words']
+                ]
+                if [word['word'] for word in cue_words] != words(verse['devanagari']):
+                    raise RuntimeError(f'{verse["key"]}: manual re-cut text differs from reader text.')
+            start, end = repair['sourceStart'], repair['sourceEnd']
+        else:
+            start = max(0, float(cue_words[0]['start']) - .18)
+            end = float(cue_words[-1]['end']) + .28
+            if index > 1 and aligned[index - 2]:
+                start = max(start, (float(aligned[index - 2][-1]['end']) + float(cue_words[0]['start'])) / 2)
+            if index < len(aligned) and aligned[index]:
+                end = min(end, (float(cue_words[-1]['end']) + float(aligned[index][0]['start'])) / 2)
         if end - start < 1:
             raise RuntimeError(f'{verse["key"]}: impossible clip duration.')
         filename = f'{index:03}.mp3'

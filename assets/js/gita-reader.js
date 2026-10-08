@@ -21,7 +21,7 @@
   const playback = play.closest('.playback');
   const speedControl = document.createElement('label');
   speedControl.className = 'speed-control';
-  speedControl.innerHTML = '<span id="playbackSpeedLabel">गति</span><select id="gitaAudioRate" aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.5">1.5×</option></select>';
+  speedControl.innerHTML = '<span id="playbackSpeedLabel">गति</span><select id="gitaAudioRate" aria-label="Playback speed"><option value="0.85">0.85×</option><option value="1" selected>1×</option><option value="1.2">1.2×</option><option value="1.5">1.5×</option></select>';
   playback.querySelector('.transport').append(speedControl);
   const playbackRate = $('gitaAudioRate');
   const meaningToggle = document.createElement('button');

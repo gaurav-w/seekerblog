@@ -10,7 +10,7 @@ CHAPTERS = {
     11: ("विश्वरूपदर्शनयोग", "The yoga of the vision of the universal form", 55, "2bmRapKPFeI"),
     12: ("भक्तियोग", "The yoga of devotion", 20, "TLX3S-BD5vk"),
     13: ("क्षेत्रक्षेत्रज्ञविभागयोग", "The yoga of the distinction between the field and its knower", 34, "nPqpIg4dIpc"),
-    14: ("गुणत्रयविभागयोग", "The yoga of the division of the three gunas", 27, "HZ7TON9mk8A"),
+    14: ("गुणत्रयविभागयोग", "The yoga of the division of the three gunas", 27, "MaAYGYjbpaw"),
     15: ("पुरुषोत्तमयोग", "The yoga of the supreme person", 20, "cEsJL3jqTOM"),
     16: ("दैवासुरसम्पद्विभागयोग", "The yoga of the division between divine and demonic qualities", 24, "6avQjcWU0Io"),
     17: ("श्रद्धात्रयविभागयोग", "The yoga of the threefold faith", 28, "NJkdl9kon4k"),

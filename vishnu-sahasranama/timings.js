@@ -13,12 +13,14 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
     {
       "key": "purva:1",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "purva:2",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "stt-partial-no-clip"
     },
     {
       "key": "purva:3",
@@ -548,7 +550,9 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 15.614,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "partial-or-wrong-clip",
+      "playback": "disabled-pending-recut"
     },
     {
       "key": "purva:11",
@@ -612,68 +616,68 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
       "key": "purva:12",
       "available": true,
       "audio": "audio/012.mp3",
-      "sourceStart": 162.423,
+      "sourceStart": 162.58,
       "sourceEnd": 175.497,
-      "duration": 13.074,
+      "duration": 12.917,
       "words": [
         {
           "text": "अनादि",
-          "start": 0.157,
-          "end": 1.773,
+          "start": 0,
+          "end": 1.616,
           "score": null
         },
         {
           "text": "निधनं",
-          "start": 1.841,
-          "end": 2.571,
+          "start": 1.684,
+          "end": 2.413,
           "score": null
         },
         {
           "text": "विष्णुं",
-          "start": 2.697,
-          "end": 3.364,
+          "start": 2.54,
+          "end": 3.207,
           "score": null
         },
         {
           "text": "सर्वलोक",
-          "start": 3.417,
-          "end": 4.285,
+          "start": 3.26,
+          "end": 4.128,
           "score": null
         },
         {
           "text": "महेश्वरम्",
-          "start": 4.399,
-          "end": 6.633,
+          "start": 4.242,
+          "end": 6.476,
           "score": null
         },
         {
           "text": "लोकाध्यक्षं",
-          "start": 7.077,
-          "end": 8.464,
+          "start": 6.92,
+          "end": 8.306,
           "score": null
         },
         {
           "text": "स्तुवन्नित्यं",
-          "start": 8.523,
-          "end": 9.859,
+          "start": 8.366,
+          "end": 9.702,
           "score": null
         },
         {
           "text": "सर्व",
-          "start": 9.919,
-          "end": 10.278,
+          "start": 9.761,
+          "end": 10.12,
           "score": null
         },
         {
           "text": "दुःखातिगो",
-          "start": 10.337,
-          "end": 11.631,
+          "start": 10.18,
+          "end": 11.473,
           "score": null
         },
         {
           "text": "भवेत्",
-          "start": 11.824,
-          "end": 12.893,
+          "start": 11.667,
+          "end": 12.736,
           "score": null
         }
       ]
@@ -822,80 +826,80 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
       "key": "purva:15",
       "available": true,
       "audio": "audio/015.mp3",
-      "sourceStart": 201.548,
+      "sourceStart": 201.62,
       "sourceEnd": 213.003,
-      "duration": 11.455,
+      "duration": 11.383,
       "words": [
         {
           "text": "परमं",
-          "start": 0.072,
-          "end": 1.232,
+          "start": 0,
+          "end": 1.16,
           "score": null
         },
         {
           "text": "यो",
-          "start": 1.512,
-          "end": 1.952,
+          "start": 1.44,
+          "end": 1.88,
           "score": null
         },
         {
           "text": "महत्तेजः",
-          "start": 2.232,
-          "end": 3.195,
+          "start": 2.16,
+          "end": 3.123,
           "score": null
         },
         {
           "text": "परमं",
-          "start": 3.292,
-          "end": 3.922,
+          "start": 3.22,
+          "end": 3.85,
           "score": null
         },
         {
           "text": "यो",
-          "start": 4.025,
-          "end": 4.289,
+          "start": 3.953,
+          "end": 4.217,
           "score": null
         },
         {
           "text": "महत्तपः",
-          "start": 4.392,
-          "end": 5.112,
+          "start": 4.32,
+          "end": 5.04,
           "score": null
         },
         {
           "text": "परमं",
-          "start": 6.872,
-          "end": 7.492,
+          "start": 6.8,
+          "end": 7.42,
           "score": null
         },
         {
           "text": "यो",
-          "start": 7.592,
-          "end": 7.852,
+          "start": 7.52,
+          "end": 7.78,
           "score": null
         },
         {
           "text": "महद्ब्रह्म",
-          "start": 7.952,
-          "end": 8.882,
+          "start": 7.88,
+          "end": 8.81,
           "score": null
         },
         {
           "text": "परमं",
-          "start": 8.972,
-          "end": 9.616,
+          "start": 8.9,
+          "end": 9.544,
           "score": null
         },
         {
           "text": "यः",
-          "start": 9.724,
-          "end": 9.804,
+          "start": 9.652,
+          "end": 9.732,
           "score": null
         },
         {
           "text": "परायणम्",
-          "start": 9.912,
-          "end": 11.175,
+          "start": 9.84,
+          "end": 11.103,
           "score": null
         }
       ]
@@ -1703,27 +1707,32 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
     {
       "key": "nyasa:2",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "nyasa:3",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "nyasa:4",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "nyasa:5",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "stt-partial-no-clip"
     },
     {
       "key": "nyasa:6",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "dhyana:1",
@@ -2292,22 +2301,26 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
     {
       "key": "dhyana:7",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "dhyana:8",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "stotram:1",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "stt-partial-no-clip"
     },
     {
       "key": "stotram:2",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "stotram:3",
@@ -2371,7 +2384,9 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 11.775,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "partial-or-wrong-clip",
+      "playback": "disabled-pending-recut"
     },
     {
       "key": "stotram:4",
@@ -2974,12 +2989,14 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
     {
       "key": "stotram:14",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "stotram:15",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "stotram:16",
@@ -3037,7 +3054,9 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 33.495,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "partial-or-wrong-clip",
+      "playback": "disabled-pending-recut"
     },
     {
       "key": "stotram:17",
@@ -4849,7 +4868,9 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 7.805,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "partial-or-wrong-clip",
+      "playback": "disabled-pending-recut"
     },
     {
       "key": "stotram:47",
@@ -6063,7 +6084,9 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 13.588,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "partial-or-wrong-clip",
+      "playback": "disabled-pending-recut"
     },
     {
       "key": "stotram:67",
@@ -6282,17 +6305,20 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
     {
       "key": "stotram:71",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "stotram:72",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "stotram:73",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "stt-partial-no-clip"
     },
     {
       "key": "stotram:74",
@@ -6413,12 +6439,14 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
     {
       "key": "stotram:76",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "stt-partial-no-clip"
     },
     {
       "key": "stotram:77",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "stt-partial-no-clip"
     },
     {
       "key": "stotram:78",
@@ -6830,68 +6858,68 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
       "key": "stotram:85",
       "available": true,
       "audio": "audio/121.mp3",
-      "sourceStart": 1621.275,
+      "sourceStart": 1621.34,
       "sourceEnd": 1634.444,
-      "duration": 13.169,
+      "duration": 13.104,
       "words": [
         {
           "text": "उद्भवः",
-          "start": 0.065,
-          "end": 0.872,
+          "start": 0,
+          "end": 0.807,
           "score": null
         },
         {
           "text": "सुन्दरः",
-          "start": 1.034,
-          "end": 2.083,
+          "start": 0.969,
+          "end": 2.018,
           "score": null
         },
         {
           "text": "सुन्दो",
-          "start": 2.246,
-          "end": 3.295,
+          "start": 2.181,
+          "end": 3.23,
           "score": null
         },
         {
           "text": "रत्ननाभः",
-          "start": 3.457,
-          "end": 4.749,
+          "start": 3.392,
+          "end": 4.684,
           "score": null
         },
         {
           "text": "सुलोचनः",
-          "start": 4.911,
-          "end": 6.203,
+          "start": 4.846,
+          "end": 6.138,
           "score": null
         },
         {
           "text": "अर्को",
-          "start": 6.725,
-          "end": 8.14,
+          "start": 6.66,
+          "end": 8.075,
           "score": null
         },
         {
           "text": "वाजसनः",
-          "start": 8.251,
-          "end": 9.096,
+          "start": 8.186,
+          "end": 9.031,
           "score": null
         },
         {
           "text": "शृङ्गी",
-          "start": 9.207,
-          "end": 10.198,
+          "start": 9.142,
+          "end": 10.133,
           "score": null
         },
         {
           "text": "जयन्तः",
-          "start": 10.265,
-          "end": 11.02,
+          "start": 10.2,
+          "end": 10.955,
           "score": null
         },
         {
           "text": "सर्वविज्जयी",
-          "start": 11.165,
-          "end": 13.094,
+          "start": 11.1,
+          "end": 13.029,
           "score": null
         }
       ]
@@ -7496,56 +7524,56 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
       "key": "stotram:97",
       "available": true,
       "audio": "audio/133.mp3",
-      "sourceStart": 1771.848,
+      "sourceStart": 1771.94,
       "sourceEnd": 1784.069,
-      "duration": 12.221,
+      "duration": 12.129,
       "words": [
         {
           "text": "अरौद्रः",
-          "start": 0.096,
-          "end": 1.265,
+          "start": 0.004,
+          "end": 1.173,
           "score": null
         },
         {
           "text": "कुण्डली",
-          "start": 1.458,
-          "end": 2.839,
+          "start": 1.366,
+          "end": 2.747,
           "score": null
         },
         {
           "text": "चक्री",
-          "start": 3.002,
-          "end": 3.809,
+          "start": 2.91,
+          "end": 3.717,
           "score": null
         },
         {
           "text": "विक्रम्यूर्जितशासनः",
-          "start": 3.972,
-          "end": 6.602,
+          "start": 3.88,
+          "end": 6.51,
           "score": null
         },
         {
           "text": "शब्दातिगः",
-          "start": 6.852,
-          "end": 8.766,
+          "start": 6.76,
+          "end": 8.674,
           "score": null
         },
         {
           "text": "शब्दसहः",
-          "start": 8.992,
-          "end": 9.824,
+          "start": 8.9,
+          "end": 9.733,
           "score": null
         },
         {
           "text": "शिशिरः",
-          "start": 9.852,
-          "end": 10.636,
+          "start": 9.76,
+          "end": 10.544,
           "score": null
         },
         {
           "text": "शर्वरीकरः",
-          "start": 10.732,
-          "end": 12.149,
+          "start": 10.64,
+          "end": 12.057,
           "score": null
         }
       ]
@@ -8147,61 +8175,61 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
       "available": true,
       "audio": "audio/144.mp3",
       "sourceStart": 1918.68,
-      "sourceEnd": 1957.977,
-      "duration": 39.297,
+      "sourceEnd": 1931.98,
+      "duration": 13.3,
       "words": [
         {
           "text": "वनमाली",
           "start": 0.18,
-          "end": 1.86,
+          "end": 2.1,
           "score": null
         },
         {
           "text": "गदी",
           "start": 2.1,
-          "end": 2.475,
+          "end": 2.65,
           "score": null
         },
         {
           "text": "शार्ङ्गी",
-          "start": 2.543,
-          "end": 29.656,
+          "start": 2.65,
+          "end": 3.28,
           "score": null
         },
         {
           "text": "शङ्खी",
-          "start": 29.7,
-          "end": 30.275,
+          "start": 3.28,
+          "end": 3.94,
           "score": null
         },
         {
           "text": "चक्री",
-          "start": 30.36,
-          "end": 30.95,
+          "start": 3.94,
+          "end": 4.74,
           "score": null
         },
         {
           "text": "च",
-          "start": 31.04,
-          "end": 31.12,
+          "start": 4.74,
+          "end": 4.98,
           "score": null
         },
         {
           "text": "नन्दकी",
-          "start": 31.317,
-          "end": 32.503,
+          "start": 4.98,
+          "end": 6.34,
           "score": null
         },
         {
           "text": "श्रीमान्नारायणो",
-          "start": 33.9,
-          "end": 35.86,
+          "start": 7.5,
+          "end": 9.58,
           "score": null
         },
         {
           "text": "विष्णुर्वासुदेवोऽभिरक्षतु",
-          "start": 35.94,
-          "end": 39.017,
+          "start": 9.58,
+          "end": 13.12,
           "score": null
         }
       ]
@@ -9168,12 +9196,14 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 10.958,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "possible-extra-speech"
     },
     {
       "key": "phala:16",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "phala:17",
@@ -9225,7 +9255,9 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 12.154,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "partial-or-wrong-clip",
+      "playback": "disabled-pending-recut"
     },
     {
       "key": "phala:18",
@@ -10500,7 +10532,8 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
     {
       "key": "phala:34",
       "available": false,
-      "words": []
+      "words": [],
+      "audioReview": "not-evidenced-no-clip"
     },
     {
       "key": "phala:35",
@@ -10570,7 +10603,9 @@ window.VISHNU_SAHASRANAMA_TIMINGS = {
           "end": 6.674,
           "score": null
         }
-      ]
+      ],
+      "audioReview": "partial-or-wrong-clip",
+      "playback": "disabled-pending-recut"
     }
   ]
-};
+}

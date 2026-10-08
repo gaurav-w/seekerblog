@@ -10,6 +10,8 @@ const readerScript = Array.from(readerHtml.matchAll(/<script\b[^>]*>([\s\S]*?)<\
   .find(script => script.includes('const PURVA='));
 assert(readerScript, 'the reader data and controller script exists');
 new Function(readerScript);
+assert.match(readerHtml, /function usableRecordedClip\(clip=recordedClip\(\)\)[\s\S]*?clip\.playback!=="disabled-pending-recut"/, 'reader blocks clips queued for re-cut');
+assert.match(readerHtml, /This recording clip is being corrected because it does not match the displayed passage\./, 'reader explains blocked mismatched audio');
 assert.match(readerHtml, /id="soundBtn"[^>]*aria-pressed="false"/, 'transport has a sound on\/off button');
 assert.match(readerHtml, /id="segAudioRate"[\s\S]*?data-v="1"[\s\S]*?1×[\s\S]*?data-v="1\.2"[\s\S]*?1\.2×[\s\S]*?data-v="1\.5"[\s\S]*?1\.5×[\s\S]*?data-v="2"[\s\S]*?2×/, 'sound mode exposes all requested playback speeds');
 const work = path.join(root, '.vishnu-work', 'verses.json');
@@ -17,12 +19,21 @@ if (!fs.existsSync(work)) execFileSync(process.execPath, [path.join(__dirname, '
 const verses = JSON.parse(fs.readFileSync(work, 'utf8'));
 const manifestPath = path.join(root, 'vishnu-sahasranama', 'timings.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+const auditStates = new Set([
+  'not-evidenced-no-clip', 'stt-partial-no-clip', 'partial-or-wrong-clip',
+  'extra-speech-in-clip', 'possible-extra-speech',
+]);
+const blockedPlaybackStates = new Set(['partial-or-wrong-clip', 'extra-speech-in-clip']);
 assert.equal(manifest.entries.length, verses.length, 'every reader entry has a timing record');
 assert.equal(manifest.source.id, 'W2gNg8-XQRg');
 assert(['provisional-paced', 'machine-aligned', 'stt-mapped'].includes(manifest.reviewStatus), 'a recognised timing review state is recorded');
 for (const [index, verse] of verses.entries()) {
   const entry = manifest.entries[index];
   assert.equal(entry.key, verse.key);
+  if (entry.audioReview !== undefined) {
+    assert(auditStates.has(entry.audioReview), `${entry.key}: recognised STT review status`);
+    assert.equal(entry.playback === 'disabled-pending-recut', blockedPlaybackStates.has(entry.audioReview), `${entry.key}: playback guard matches review status`);
+  }
   if (entry.available === false) {
     assert.deepEqual(entry.words, [], `${entry.key}: omitted audio has no fabricated cues`);
     continue;

@@ -1,6 +1,6 @@
 # All-Chapter Gita Reader Review
 
-**Historical baseline:** The 2 October 2026 Groq transcription and timing rebuild is documented in [GROQ-TIMING-REPAIR-REPORT.md](GROQ-TIMING-REPAIR-REPORT.md). The inventory and review queue below describe the earlier manifests; consult that report for current timing metrics. Previously source-supported repairs are preserved in the rebuild.
+**Historical baseline:** The 2 October 2026 Groq transcription and timing rebuild is documented in [GROQ-TIMING-REPAIR-REPORT.md](GROQ-TIMING-REPAIR-REPORT.md). The inventory and review queue below describe the earlier manifests. Chapter 14 was rebuilt from a different Rajshri Soul source on 8 October 2026, so all Chapter 14 metrics and source-specific repairs in this historical report are superseded by [CHAPTER-14-RECORD.md](CHAPTER-14-RECORD.md).
 
 **Review date:** 1 October 2026  
 **Scope:** Chapters 1–18, local verse data, timing manifests, verse MP3s, cached speech-recognition transcripts, and the shared playback code.
@@ -15,7 +15,7 @@ This workspace contains no rendered chapter video. The review is of the audio re
 
 - The shared reader now keeps a marker through a normal pause of up to 180 ms, without masking longer cue gaps; reports audio loading visibly; reports completion at the final verse; and uses a dedicated fullscreen root class. The fullscreen button can no longer collapse the page to its 2.5 rem control width. Overflowing fullscreen text starts at a reachable scroll position.
 - Chapter 5 clips and cues were rebuilt for 5.16, 5.17, 5.26, and 5.29. The 5.16/5.17 boundary no longer assigns the opening of 5.17 to 5.16; 5.26's first line has cues across the former 4.601-second voiced gap; and 5.29 includes the final sound through master 467.759 s plus a short tail, ending before the colophon.
-- Chapter 14.27 was rebuilt through master 466.72 s before the colophon, restoring the final phrase that had been cut from the prior clip.
+- Chapter 14 was subsequently replaced and rebuilt in full from the Rajshri Soul recording; the earlier 14.27 cut no longer applies.
 - Final verse clips were rebuilt from transcript-anchored cues for 1.47, 4.42, 8.28, and 12.20. Their new source cuts are 805.520 s, 652.890 s, 430.920 s, and 355.540 s respectively; each cut is before the detected colophon. These replace four of the six final-verse candidates listed below.
 
 The rebuilt manifests remain `machine-aligned`. The remaining rows below are a listening queue, including final-verse checks that have not had a source-supported repair.
@@ -71,7 +71,7 @@ The build adds 280 ms after each final aligned cue, then cuts the verse clip. Th
 | 5 | 29 | Repaired: 468.04 s | Voice-band energy and ASR-supported final sound are included; detailed findings are in the Chapter 5 report. |
 | 8 | 28 | Repaired: 430.92 s | Final `चाद्यम्` restored to 430.90 s; clip stops before the 430.94 s colophon. |
 | 12 | 20 | Repaired: 355.54 s | Final `प्रियाः` restored through 355.26 s; colophon starts about 356.84 s. |
-| 14 | 27 | Repaired: 467.00 s | Final phrase restored through 466.72 s before the colophon. |
+| 14 | 27 | Superseded | Chapter 14 now uses a different Rajshri Soul master; see its chapter record and newly generated manifest. |
 
 The completed repairs are source-supported timing corrections, not word-perfect ASR measurements or human listening certification. Chapters 15.20 and 18.78 still merit a final-syllable check because their last-word scores/timing deserve review. Do not include the following `ॐ तत्सत्` colophon in a verse clip unless that is a deliberate product decision.
 
