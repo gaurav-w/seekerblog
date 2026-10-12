@@ -128,7 +128,7 @@ window.GITA_CHAPTER_17 = [
     "wordMeanings": {
       "सत्त्वानुरूपा": {
         "hi": "अन्तःकरण के अनुरूप",
-        "en": "according to one&rsquo;s inherent nature"
+        "en": "according to one’s inherent nature"
       },
       "सर्वस्य": {
         "hi": "सभी की",
@@ -974,7 +974,7 @@ window.GITA_CHAPTER_17 = [
     "en": "17.24 Therefore, with the utterance of \"Om\" are the acts of sacrifice, gift and austerity as enjoined in the scriptures, always begun by the students of Brahman.",
     "wordMeanings": {
       "तस्मादोमित्युदाहृत्य": {
-        "hi": "इसलिए · &lsquo;ॐ&rsquo; (प्रणव) · इस प्रकार · उच्चारण करके",
+        "hi": "इसलिए · ‘ॐ’ (प्रणव) · इस प्रकार · उच्चारण करके",
         "en": "therefore · the sacred syllable Om · thus · uttering"
       },
       "यज्ञदानतपःक्रियाः": {
@@ -1002,7 +1002,7 @@ window.GITA_CHAPTER_17 = [
   {
     "sanskrit": "तदित्यनभिसन्धाय फलं यज्ञतपःक्रियाः ।\nदानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षिभिः ॥",
     "hi": "'तत्' नामसे कहे जानेवाले परमात्माके लिये ही सब कुछ है -- ऐसा मानकर मुक्ति चाहनेवाले मनुष्योंद्वारा फलकी इच्छासे रहित होकर अनेक प्रकारकी यज्ञ और तपरूप क्रियाएँ तथा दानरूप क्रियाएँ की जाती हैं।",
-    "en": "17.25 Uttering ï1Tatï1, without aiming at the fruits, are the acts of sacrifice and austerity and the various acts of gifts performed by the seekers of liberation.",
+    "en": "17.25 Uttering Tat, without aiming at the fruits, are the acts of sacrifice and austerity and the various acts of gifts performed by the seekers of liberation.",
     "wordMeanings": {
       "तदित्यनभिसन्धाय": {
         "hi": "तत् (वह परमात्मा का नाम) · इस प्रकार (उच्चारण करके) · बिना इच्छा किए",
@@ -1037,7 +1037,7 @@ window.GITA_CHAPTER_17 = [
   {
     "sanskrit": "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते ।\nप्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते ॥",
     "hi": "हे पार्थ ! परमात्माके 'सत्'--इस नामका सत्तामात्रमें और श्रेष्ठ भावमें प्रयोग किया जाता है तथा प्रशंसनीय कर्मके साथ 'सत्' शब्द जोड़ा जाता है।",
-    "en": "17.26 The word ï1Satï1 is used in the sense of reality and of goodness; and so also, O Arjuna, the word ï1Satï1 is used in the sense of an auspicious act.",
+    "en": "17.26 The word Sat is used in the sense of reality and of goodness; and so also, O Arjuna, the word Sat is used in the sense of an auspicious act.",
     "wordMeanings": {
       "सद्भावे": {
         "hi": "अस्तित्व के भाव में (सत्यता में)",
@@ -1052,8 +1052,8 @@ window.GITA_CHAPTER_17 = [
         "en": "and"
       },
       "सदित्येतत्प्रयुज्यते": {
-        "hi": "&lsquo;सत्&rsquo; · इस प्रकार · यह · प्रयोग किया जाता है",
-        "en": "&lsquo;Sat&rsquo; · thus · this · is used"
+        "hi": "‘सत्’ · इस प्रकार · यह · प्रयोग किया जाता है",
+        "en": "‘Sat’ · thus · this · is used"
       },
       "प्रशस्ते": {
         "hi": "प्रशंसनीय (कल्याणकारी)",
@@ -1068,8 +1068,8 @@ window.GITA_CHAPTER_17 = [
         "en": "likewise"
       },
       "सच्छब्दः": {
-        "hi": "&lsquo;सत्&rsquo; शब्द",
-        "en": "the word &lsquo;Sat&rsquo;"
+        "hi": "‘सत्’ शब्द",
+        "en": "the word ‘Sat’"
       },
       "पार्थ": {
         "hi": "हे अर्जुन (प्रथा के पुत्र)",
@@ -1107,8 +1107,8 @@ window.GITA_CHAPTER_17 = [
         "en": "steadfastness"
       },
       "सदिति": {
-        "hi": "&lsquo;सत्&rsquo; · इस प्रकार",
-        "en": "&lsquo;Sat&rsquo; · thus"
+        "hi": "‘सत्’ · इस प्रकार",
+        "en": "‘Sat’ · thus"
       },
       "चोच्यते": {
         "hi": "और · कही जाती है",
@@ -1127,8 +1127,8 @@ window.GITA_CHAPTER_17 = [
         "en": "for the sake of That (the Supreme)"
       },
       "सदित्येवाभिधीयते": {
-        "hi": "&lsquo;सत्&rsquo; · इस प्रकार · ही · कहा जाता है",
-        "en": "&lsquo;Sat&rsquo; · thus · only · is designated"
+        "hi": "‘सत्’ · इस प्रकार · ही · कहा जाता है",
+        "en": "‘Sat’ · thus · only · is designated"
       }
     }
   },

@@ -64,6 +64,11 @@
   const clip = () => timings?.verses[current];
   const duration = () => Number.isFinite(audio.duration) ? audio.duration : clip()?.duration || 0;
 
+  function audioUrl(verse) {
+    const fingerprint = timings?.alignmentFingerprint;
+    return fingerprint ? `${verse.audio}${verse.audio.includes('?') ? '&' : '?'}v=${fingerprint.slice(0, 16)}` : verse.audio;
+  }
+
   function clearNextAudioPreload() {
     if (!nextAudio) return;
     nextAudio.removeAttribute('src');
@@ -79,7 +84,7 @@
     clearNextAudioPreload();
     nextAudio = new Audio();
     nextAudio.preload = 'auto';
-    nextAudio.src = nextClip.audio;
+    nextAudio.src = audioUrl(nextClip);
     nextAudio.load();
     nextAudioIndex = index;
   }
@@ -274,6 +279,42 @@
     $('playIcon').setAttribute('d', isPlaying ? 'M6 5h4v14H6zm8 0h4v14h-4z' : 'M8 5l11 7-11 7z');
   }
 
+  function activeCuesAt(words, time, wordLevel, rate = 1) {
+    const bounds = word => wordLevel ? [word.start, word.end] :
+      [word.highlightStart ?? word.start, word.highlightEnd ?? word.end];
+    const active = [];
+    const groups = new Set();
+    let previous = -1, previousEnd = -Infinity, nextStart = Infinity, latestStarted = -1;
+    words.forEach((word, index) => {
+      const [start, end] = bounds(word);
+      if (time >= start && time < end) {
+        active.push(index);
+        if (!wordLevel && word.highlightGroup !== undefined) groups.add(word.highlightGroup);
+      }
+      if (end <= time && end >= previousEnd) { previous = index; previousEnd = end; }
+      if (start <= time) latestStarted = index;
+      if (start > time) nextStart = Math.min(nextStart, start);
+    });
+    // Acoustic intervals can overlap by a few milliseconds. Once the later
+    // canonical word ends, hold that word instead of jumping back to an older
+    // interval whose measured end happens to be slightly later.
+    if (wordLevel && latestStarted >= 0 && words[latestStarted].end <= time) {
+      active.length = 0;
+      previous = latestStarted;
+      previousEnd = words[latestStarted].end;
+    }
+    // Use the same timing mode for the cue and its brief visual hold. Derive
+    // the hold from media time so seeking gives the same result as playback.
+    // The next spoken word always wins; longer pauses still clear the marker.
+    if (!active.length && previous >= 0 &&
+        time < Math.min(previousEnd + .18 * rate, nextStart)) {
+      active.push(previous);
+      if (!wordLevel && words[previous].highlightGroup !== undefined) groups.add(words[previous].highlightGroup);
+    }
+    return groups.size ? words.flatMap((word, index) =>
+      groups.has(word.highlightGroup) || active.includes(index) ? [index] : []) : active;
+  }
+
   function updateProgress() {
     const time = audio.currentTime || 0, length = duration();
     $('elapsed').textContent = formatTime(time); $('duration').textContent = formatTime(length);
@@ -283,29 +324,7 @@
     if (length && time >= Math.max(0, length - 2.5)) preloadNextAudio();
     const words = clip()?.words || [];
     const wordLevel = clip()?.highlightMode === 'word';
-    const matchedGroups = new Set();
-    const nextActive = [];
-    words.forEach((word, index) => {
-      const start = wordLevel ? word.start : (word.highlightStart ?? word.start);
-      const end = wordLevel ? word.end : (word.highlightEnd ?? word.end);
-      if (time >= start && time < end) {
-        if (!wordLevel && word.highlightGroup !== undefined) matchedGroups.add(word.highlightGroup);
-        else nextActive.push(index);
-      }
-    });
-    if (matchedGroups.size) {
-      words.forEach((word, index) => {
-        if (matchedGroups.has(word.highlightGroup)) nextActive.push(index);
-      });
-    }
-    // Do not make the marker flicker during a normal, very short pause between
-    // two aligned words. Longer uncovered speech remains visible as an audit
-    // issue instead of being masked by a held marker.
-    if (!nextActive.length && activeWord >= 0) {
-      const previous = words[activeWord];
-      const end = previous.highlightEnd ?? previous.end;
-      if (time >= end && time < end + .18) nextActive.push(...activeCueIndices);
-    }
+    const nextActive = audio.ended ? [] : activeCuesAt(words, time, wordLevel, audio.playbackRate);
     const changed = nextActive.length !== activeCueIndices.length ||
       nextActive.some((index, position) => index !== activeCueIndices[position]);
     if (changed) {
@@ -331,7 +350,8 @@
     if (!clip()) { status.textContent = message('इस श्लोक का ऑडियो उपलब्ध नहीं है।', 'Audio is unavailable for this shloka.'); return; }
     pending = true; status.textContent = message('ऑडियो लोड हो रहा है…', 'Loading audio…'); updatePlay();
     try {
-      if (audio.getAttribute('src') !== clip().audio) audio.src = clip().audio;
+      const source = audioUrl(clip());
+      if (audio.getAttribute('src') !== source) audio.src = source;
       if (audio.error) audio.load();
       if (audio.ended) audio.currentTime = 0;
       audio.playbackRate = Number(playbackRate.value);

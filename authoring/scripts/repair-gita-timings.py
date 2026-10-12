@@ -9,6 +9,7 @@ import argparse
 import difflib
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -16,7 +17,31 @@ import shutil
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
-VERSION = 1
+VERSION = 2
+
+
+def reconciliation_issues(before, after):
+    """A nonoverlapping result alone is insufficient evidence for a new cut."""
+    if [w['word'] for w in before] != [w.get('word') for w in after]:
+        return ['canonical-token-mismatch']
+    issues = []
+    for old, new in zip(before, after):
+        start, end, score = new.get('start'), new.get('end'), new.get('score', 0)
+        if not all(isinstance(x, (int, float)) and math.isfinite(x) for x in (start, end, score)):
+            issues.append('invalid-acoustic-result')
+            continue
+        if end <= start or score < .25:
+            issues.append('unsupported-acoustic-boundary')
+        if len(normalize(new['word'])) >= 5 and end - start < .12:
+            issues.append('collapsed-compound')
+        # Short words can inherit a preceding pause in an older alignment.
+        # Reserve the severe-compression guard for genuinely long tokens;
+        # zero-score and collapsed-word checks still apply to every boundary.
+        if len(normalize(old['word'])) >= 8 and \
+                (old.get('timingMethod') == 'groq-word' or old.get('score', 0) >= .5) and \
+                old['end'] - old['start'] > .5 and end - start < .4 * (old['end'] - old['start']):
+            issues.append('stronger-evidence-was-compressed')
+    return sorted(set(issues))
 
 
 def normalize(text):
@@ -288,6 +313,7 @@ def align_chapter(chapter, model, metadata, whisperx, ffmpeg, promote):
     # merely to make the validation pass.
     flat=[word for verse in aligned for word in verse]
     reconciliations=[]
+    rejected_reconciliations=[]
     for _ in range(3):
         disputed=[(left,right)for left,right in zip(flat,flat[1:])if left['end']>right['start']+.001]
         if not disputed:break
@@ -296,6 +322,10 @@ def align_chapter(chapter, model, metadata, whisperx, ffmpeg, promote):
                      'end':min(len(audio)/16000,max(left['end'],right['end'])+.08),
                      'text':left['word']+' '+right['word']}]
             result=whisperx.align(bounds,model,metadata,audio,'cpu',return_char_alignments=False,print_progress=False)['word_segments']
+            issues=reconciliation_issues([left,right],result)
+            if issues:
+                rejected_reconciliations.append({'before':[dict(left),dict(right)],'after':result,'issues':issues})
+                continue
             if len(result)==2 and all('start'in w and 'end'in w for w in result):
                 reconciliations.append({'before':[dict(left),dict(right)],'after':result})
                 for target,revised in zip([left,right],result):
@@ -312,6 +342,10 @@ def align_chapter(chapter, model, metadata, whisperx, ffmpeg, promote):
                      'end':min(len(audio)/16000,max(w['end']for w in cluster)+.08),
                      'text':' '.join(w['word']for w in cluster)}]
             result=whisperx.align(bounds,model,metadata,audio,'cpu',return_char_alignments=False,print_progress=False)['word_segments']
+            issues=reconciliation_issues(cluster,result)
+            if issues:
+                rejected_reconciliations.append({'before':[dict(w)for w in cluster],'after':result,'issues':issues})
+                continue
             if len(result)==len(cluster)and all('start'in w and 'end'in w for w in result):
                 reconciliations.append({'before':[dict(w)for w in cluster],'after':result})
                 for target,revised in zip(cluster,result):
@@ -354,6 +388,7 @@ def align_chapter(chapter, model, metadata, whisperx, ffmpeg, promote):
             errors.append({'verse':i+1,'type':'verse-overlap'})
     report={'chapter':chapter,'alignmentFingerprint':identity,'decisions':decisions,'errors':errors,
             'quarantinedProviderWords':evidence.get('quarantinedWords',[]),'reconciliations':reconciliations,
+            'rejectedReconciliations':rejected_reconciliations,
             'preservedSourceSupportedVerses':preserved,'sharedSttSpans':shared_spans,
             'sourceSupportedEndingOverrides':overrides.get('_lastCueEndOverrides',{}),
             'retainedPriorAcousticCues':supported_prior}

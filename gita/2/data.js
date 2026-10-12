@@ -816,7 +816,7 @@ window.GITA_CHAPTER_2 = [
   {
     "sanskrit": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् ।\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते ॥",
     "hi": "जो मनुष्य इस अविनाशी शरीरीको मारनेवाला मानता है और जो मनुष्य इसको मरा मानता है, वे दोनों ही इसको नहीं जानते; क्योंकि यह न मारता है और न मारा जाता है।",
-    "en": "2.19 He who takes the Self to be the slayer and he who thinks It is slain, neither of them ï1knowsï1. It slays not, nor is It slain.",
+    "en": "2.19 He who takes the Self to be the slayer and he who thinks It is slain, neither of them knows. It slays not, nor is It slain.",
     "wordMeanings": {
       "य": {
         "hi": "जो",
@@ -1971,7 +1971,7 @@ window.GITA_CHAPTER_2 = [
   {
     "sanskrit": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् ।\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते ॥",
     "hi": "उस पुष्पित वाणीसे जिसका अन्तःकरण हर लिया गया है अर्थात् भोगोंकी तरफ खिंच गया है और जो भोग तथा ऐश्वर्यमें अत्यन्त आसक्त हैं, उन मनुष्योंकी परमात्मामें निश्चयात्मिका बुद्धि नहीं होती।",
-    "en": "2.44 For those who are attached to pleasure and power, whose minds are drawn away by such teaching, ï1thatï1 determinate reason is not formed which is steadily bent on meditation and Samadhi (superconscious state).",
+    "en": "2.44 For those who are attached to pleasure and power, whose minds are drawn away by such teaching, that determinate reason is not formed which is steadily bent on meditation and Samadhi (superconscious state).",
     "wordMeanings": {
       "भोगैश्वर्यप्रसक्तानां": {
         "hi": "भोग · ऐश्वर्य · में आसक्त लोगों की",

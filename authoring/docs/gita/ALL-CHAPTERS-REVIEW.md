@@ -1,5 +1,7 @@
 # All-Chapter Gita Reader Review
 
+**Current word-marking repair (10 October 2026):** All 700 verses were re-aligned and audited; shared highlighting and cache behavior were corrected, and 304 clips were rebuilt. See [CONTEXT-TIMING-REPAIR-REPORT.md](CONTEXT-TIMING-REPAIR-REPORT.md) for the current results and remaining listening queue. The historical inventories below describe older manifests.
+
 **Historical baseline:** The 2 October 2026 Groq transcription and timing rebuild is documented in [GROQ-TIMING-REPAIR-REPORT.md](GROQ-TIMING-REPAIR-REPORT.md). The inventory and review queue below describe the earlier manifests. Chapter 14 was rebuilt from a different Rajshri Soul source on 8 October 2026, so all Chapter 14 metrics and source-specific repairs in this historical report are superseded by [CHAPTER-14-RECORD.md](CHAPTER-14-RECORD.md).
 
 **Review date:** 1 October 2026  

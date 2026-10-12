@@ -2,1685 +2,1952 @@
   "version": 1,
   "chapter": 14,
   "sourceSha256": "e2ec66cbb6bacc689a6e29d88a1a70a0e432ab396ec9ef989d8815d8b4339111",
-  "method": "Local forced alignment of Sanskrit text; Hindi acoustic model with ASR-constrained line windows.",
+  "method": "Canonical Sanskrit aligned with neighboring spoken lines and source-hashed ASR anchors; uncertain cues retained for listening review.",
   "reviewStatus": "machine-aligned",
   "verses": [
     {
       "verse": 1,
       "audio": "audio/01.mp3",
-      "sourceStart": 15.273,
-      "sourceEnd": 32.362,
-      "duration": 17.089,
+      "sourceStart": 15.271,
+      "sourceEnd": 33.364,
+      "duration": 18.093,
+      "highlightMode": "word",
       "words": [
         {
           "text": "श्रीभगवानुवाच",
           "start": 0.18,
-          "end": 2.088,
-          "score": 0.811
+          "end": 2.081,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.815
         },
         {
           "text": "परं",
-          "start": 5.038,
-          "end": 5.158,
-          "score": 0.526
+          "start": 3.542,
+          "end": 4.003,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.738
         },
         {
           "text": "भूयः",
-          "start": 5.238,
-          "end": 5.538,
-          "score": 0.705
+          "start": 4.223,
+          "end": 4.823,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.688
         },
         {
           "text": "प्रवक्ष्यामि",
-          "start": 5.658,
-          "end": 6.379,
-          "score": 0.265
+          "start": 5.023,
+          "end": 6.384,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.616
         },
         {
           "text": "ज्ञानानां",
-          "start": 6.7,
-          "end": 7.821,
-          "score": 0.707
+          "start": 6.885,
+          "end": 7.846,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.643
         },
         {
           "text": "ज्ञानमुत्तमम्",
-          "start": 7.841,
-          "end": 8.382,
-          "score": 0.337
+          "start": 7.946,
+          "end": 9.627,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.705
         },
         {
           "text": "यज्ज्ञात्वा",
-          "start": 10.877,
-          "end": 12.26,
-          "score": 0.665
+          "start": 10.868,
+          "end": 12.289,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.712
         },
         {
           "text": "मुनयः",
-          "start": 12.38,
-          "end": 12.821,
-          "score": 0.897
+          "start": 12.389,
+          "end": 12.89,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.777
         },
         {
           "text": "सर्वे",
-          "start": 13.242,
-          "end": 13.963,
-          "score": 0.907
+          "start": 13.25,
+          "end": 13.97,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.903
         },
         {
           "text": "परां",
-          "start": 14.384,
-          "end": 15.025,
-          "score": 0.805
+          "start": 14.391,
+          "end": 15.031,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.635
         },
         {
           "text": "सिद्धिमितो",
-          "start": 15.286,
-          "end": 16.408,
-          "score": 0.784
+          "start": 15.292,
+          "end": 16.412,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.724
         },
         {
           "text": "गताः",
-          "start": 16.548,
-          "end": 16.809,
-          "score": 0.994
+          "start": 16.432,
+          "end": 17.393,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.965
         }
       ]
     },
     {
       "verse": 2,
       "audio": "audio/02.mp3",
-      "sourceStart": 33.712,
+      "sourceStart": 33.364,
       "sourceEnd": 46.372,
-      "duration": 12.66,
+      "duration": 13.008,
+      "highlightMode": "word",
       "words": [
         {
           "text": "इदं",
-          "start": 0.18,
-          "end": 0.58,
-          "score": 0.753
+          "start": 0.531,
+          "end": 0.951,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.821
         },
         {
           "text": "ज्ञानमुपाश्रित्य",
-          "start": 0.801,
-          "end": 2.623,
-          "score": 0.683
+          "start": 1.111,
+          "end": 3.232,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.791
         },
         {
           "text": "मम",
-          "start": 3.584,
-          "end": 3.844,
-          "score": 0.793
+          "start": 3.932,
+          "end": 4.193,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.98
         },
         {
           "text": "साधर्म्यमागताः",
-          "start": 3.964,
-          "end": 4.665,
-          "score": 0.322
+          "start": 4.313,
+          "end": 6.654,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.757
         },
         {
           "text": "सर्गेऽपि",
-          "start": 7.123,
-          "end": 7.986,
-          "score": 0.87
+          "start": 7.474,
+          "end": 8.335,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.88
         },
         {
           "text": "नोपजायन्ते",
-          "start": 8.066,
-          "end": 9.952,
-          "score": 0.866
+          "start": 8.415,
+          "end": 10.296,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.884
         },
         {
           "text": "प्रलये",
-          "start": 10.333,
-          "end": 11.116,
-          "score": 0.799
+          "start": 10.676,
+          "end": 11.476,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.715
         },
         {
           "text": "न",
-          "start": 11.256,
-          "end": 11.397,
-          "score": 0.802
+          "start": 11.576,
+          "end": 11.596,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.983
         },
         {
           "text": "व्यथन्ति",
-          "start": 11.477,
-          "end": 12.219,
-          "score": 0.694
+          "start": 11.817,
+          "end": 12.557,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.536
         },
         {
           "text": "च",
-          "start": 12.36,
-          "end": 12.38,
-          "score": 0.058
+          "start": 12.697,
+          "end": 12.757,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.353
         }
       ]
     },
     {
       "verse": 3,
       "audio": "audio/03.mp3",
-      "sourceStart": 47.129,
-      "sourceEnd": 59.22,
-      "duration": 12.091,
+      "sourceStart": 46.372,
+      "sourceEnd": 60.046,
+      "duration": 13.674,
+      "highlightMode": "word",
       "words": [
         {
           "text": "मम",
-          "start": 0.18,
-          "end": 0.361,
+          "start": 0.94,
+          "end": 1.3,
+          "timingMethod": "neighbor-context-acoustic",
           "score": 0.996
         },
         {
           "text": "योनिर्महद्",
-          "start": 0.541,
-          "end": 1.542,
-          "score": 0.647
+          "start": 1.32,
+          "end": 2.341,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.63
         },
         {
           "text": "ब्रह्म",
-          "start": 1.822,
-          "end": 2.543,
-          "score": 0.546
+          "start": 2.581,
+          "end": 3.301,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.492
         },
         {
           "text": "तस्मिन्गर्भं",
-          "start": 3.043,
-          "end": 4.424,
-          "score": 0.743
+          "start": 3.801,
+          "end": 5.241,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.811
         },
         {
           "text": "दधाम्यहम्",
-          "start": 4.645,
-          "end": 5.806,
-          "score": 0.718
+          "start": 5.402,
+          "end": 6.562,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.745
         },
         {
           "text": "सम्भवः",
-          "start": 6.843,
-          "end": 7.704,
-          "score": 0.83
+          "start": 7.602,
+          "end": 8.462,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.742
         },
         {
           "text": "सर्वभूतानां",
-          "start": 7.885,
-          "end": 9.948,
-          "score": 0.601
+          "start": 8.642,
+          "end": 10.683,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.801
         },
         {
           "text": "ततो",
-          "start": 10.188,
-          "end": 10.729,
-          "score": 0.907
+          "start": 10.943,
+          "end": 11.483,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.926
         },
         {
           "text": "भवति",
-          "start": 10.869,
-          "end": 11.37,
-          "score": 0.764
+          "start": 11.603,
+          "end": 12.103,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.758
         },
         {
           "text": "भारत",
-          "start": 11.45,
-          "end": 11.811,
-          "score": 0.718
+          "start": 12.203,
+          "end": 12.864,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.832
         }
       ]
     },
     {
       "verse": 4,
       "audio": "audio/04.mp3",
-      "sourceStart": 60.479,
-      "sourceEnd": 73.014,
-      "duration": 12.535,
+      "sourceStart": 60.046,
+      "sourceEnd": 74.768,
+      "duration": 14.722,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सर्वयोनिषु",
-          "start": 0.18,
-          "end": 1.502,
+          "start": 0.618,
+          "end": 1.938,
+          "timingMethod": "neighbor-context-acoustic",
           "score": 0.722
         },
         {
           "text": "कौन्तेय",
-          "start": 1.602,
-          "end": 2.844,
-          "score": 0.836
+          "start": 2.038,
+          "end": 3.299,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.855
         },
         {
           "text": "मूर्तयः",
-          "start": 3.385,
-          "end": 4.026,
-          "score": 0.849
+          "start": 3.819,
+          "end": 4.759,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.914
         },
         {
           "text": "सम्भवन्ति",
-          "start": 4.546,
-          "end": 5.708,
-          "score": 0.796
+          "start": 4.979,
+          "end": 6.12,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.848
         },
         {
           "text": "याः",
-          "start": 5.828,
-          "end": 6.449,
-          "score": 0.816
+          "start": 6.24,
+          "end": 6.88,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.808
         },
         {
           "text": "तासां",
-          "start": 7.467,
-          "end": 8.409,
-          "score": 0.671
+          "start": 7.9,
+          "end": 8.86,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.745
         },
         {
           "text": "ब्रह्म",
-          "start": 8.589,
-          "end": 9.01,
-          "score": 0.594
+          "start": 9.02,
+          "end": 9.681,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.653
         },
         {
           "text": "महद्योनिरहं",
-          "start": 9.15,
-          "end": 10.532,
-          "score": 0.736
+          "start": 9.761,
+          "end": 12.021,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.68
         },
         {
           "text": "बीजप्रदः",
-          "start": 11.173,
-          "end": 11.594,
-          "score": 0.341
+          "start": 12.221,
+          "end": 13.502,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.793
         },
         {
           "text": "पिता",
-          "start": 11.794,
-          "end": 12.255,
-          "score": 0.735
+          "start": 13.662,
+          "end": 13.902,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.985
         }
       ]
     },
     {
       "verse": 5,
       "audio": "audio/05.mp3",
-      "sourceStart": 75.135,
+      "sourceStart": 74.768,
       "sourceEnd": 88.306,
-      "duration": 13.171,
+      "duration": 13.538,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सत्त्वं",
-          "start": 0.18,
-          "end": 0.922,
-          "score": 0.472
+          "start": 0.547,
+          "end": 1.307,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.618
         },
         {
           "text": "रजस्तम",
-          "start": 0.982,
-          "end": 1.865,
-          "score": 0.846
+          "start": 1.347,
+          "end": 2.228,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.839
         },
         {
           "text": "इति",
-          "start": 1.925,
-          "end": 2.526,
-          "score": 0.532
+          "start": 2.468,
+          "end": 2.888,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.676
         },
         {
           "text": "गुणाः",
-          "start": 3.248,
-          "end": 3.669,
-          "score": 0.831
+          "start": 3.609,
+          "end": 4.049,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.768
         },
         {
           "text": "प्रकृतिसम्भवाः",
-          "start": 4.171,
-          "end": 5.614,
-          "score": 0.752
+          "start": 4.55,
+          "end": 6.591,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.771
         },
         {
           "text": "निबध्नन्ति",
-          "start": 7.338,
-          "end": 8.36,
-          "score": 0.599
+          "start": 7.712,
+          "end": 8.733,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.581
         },
         {
           "text": "महाबाहो",
-          "start": 8.44,
-          "end": 10.004,
-          "score": 0.834
+          "start": 8.813,
+          "end": 10.394,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.809
         },
         {
           "text": "देहे",
-          "start": 10.546,
-          "end": 11.207,
-          "score": 0.972
+          "start": 10.915,
+          "end": 11.575,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.971
         },
         {
           "text": "देहिनमव्ययम्",
-          "start": 11.368,
-          "end": 12.891,
-          "score": 0.719
+          "start": 11.735,
+          "end": 13.257,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.777
         }
       ]
     },
     {
       "verse": 6,
       "audio": "audio/06.mp3",
-      "sourceStart": 88.911,
-      "sourceEnd": 100.319,
-      "duration": 11.408,
+      "sourceStart": 88.306,
+      "sourceEnd": 101.194,
+      "duration": 12.888,
+      "highlightMode": "word",
       "words": [
         {
           "text": "तत्र",
-          "start": 0.18,
-          "end": 0.68,
-          "score": 0.456
+          "start": 0.79,
+          "end": 1.29,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.491
         },
         {
           "text": "सत्त्वं",
-          "start": 0.78,
-          "end": 1.421,
-          "score": 0.708
+          "start": 1.41,
+          "end": 2.091,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.79
         },
         {
           "text": "निर्मलत्वात्प्रकाशकमनामयम्",
-          "start": 1.661,
-          "end": 5.504,
-          "score": 0.804
+          "start": 2.271,
+          "end": 6.114,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.761
         },
         {
           "text": "सुखसङ्गेन",
-          "start": 6.501,
-          "end": 7.743,
-          "score": 0.93
+          "start": 7.115,
+          "end": 8.135,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.953
         },
         {
           "text": "बध्नाति",
-          "start": 7.843,
-          "end": 8.845,
-          "score": 0.538
+          "start": 8.155,
+          "end": 9.436,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.798
         },
         {
           "text": "ज्ञानसङ्गेन",
-          "start": 9.245,
-          "end": 10.708,
-          "score": 0.748
+          "start": 9.456,
+          "end": 11.298,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.857
         },
         {
           "text": "चानघ",
-          "start": 10.828,
-          "end": 11.128,
-          "score": 0.698
+          "start": 11.438,
+          "end": 11.998,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.668
         }
       ]
     },
     {
       "verse": 7,
       "audio": "audio/07.mp3",
-      "sourceStart": 101.611,
+      "sourceStart": 101.194,
       "sourceEnd": 114.369,
-      "duration": 12.758,
+      "duration": 13.175,
+      "highlightMode": "word",
       "words": [
         {
           "text": "रजो",
-          "start": 0.18,
-          "end": 0.701,
+          "start": 0.601,
+          "end": 1.122,
+          "timingMethod": "neighbor-context-acoustic",
           "score": 0.772
         },
         {
           "text": "रागात्मकं",
-          "start": 0.761,
-          "end": 2.004,
-          "score": 0.668
+          "start": 1.182,
+          "end": 2.423,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.736
         },
         {
           "text": "विद्धि",
-          "start": 2.385,
-          "end": 2.926,
-          "score": 0.607
+          "start": 2.803,
+          "end": 3.343,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.592
         },
         {
           "text": "तृष्णासङ्गसमुद्भवम्",
-          "start": 3.287,
-          "end": 5.692,
-          "score": 0.684
+          "start": 3.704,
+          "end": 6.105,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.66
         },
         {
           "text": "तन्निबध्नाति",
-          "start": 6.923,
-          "end": 8.407,
-          "score": 0.651
+          "start": 7.346,
+          "end": 8.827,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.672
         },
         {
           "text": "कौन्तेय",
-          "start": 8.547,
-          "end": 9.851,
-          "score": 0.82
+          "start": 8.968,
+          "end": 10.268,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.849
         },
         {
           "text": "कर्मसङ्गेन",
-          "start": 10.192,
-          "end": 11.595,
-          "score": 0.959
+          "start": 10.609,
+          "end": 11.83,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.801
         },
         {
           "text": "देहिनम्",
-          "start": 11.716,
-          "end": 12.478,
-          "score": 0.806
+          "start": 12.13,
+          "end": 12.89,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.72
         }
       ]
     },
     {
       "verse": 8,
       "audio": "audio/08.mp3",
-      "sourceStart": 114.974,
-      "sourceEnd": 127.367,
-      "duration": 12.393,
+      "sourceStart": 114.369,
+      "sourceEnd": 128.463,
+      "duration": 14.094,
+      "highlightMode": "word",
       "words": [
         {
           "text": "तमस्त्वज्ञानजं",
-          "start": 0.18,
-          "end": 2.124,
-          "score": 0.823
+          "start": 0.785,
+          "end": 2.746,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.763
         },
         {
           "text": "विद्धि",
-          "start": 2.304,
-          "end": 2.905,
-          "score": 0.64
+          "start": 2.907,
+          "end": 3.507,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.493
         },
         {
           "text": "मोहनं",
-          "start": 3.546,
-          "end": 4.448,
-          "score": 0.775
+          "start": 4.147,
+          "end": 4.888,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.78
         },
         {
           "text": "सर्वदेहिनाम्",
-          "start": 4.588,
-          "end": 6.251,
-          "score": 0.79
+          "start": 5.188,
+          "end": 6.829,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.743
         },
         {
           "text": "प्रमादालस्यनिद्राभिस्तन्निबध्नाति",
-          "start": 7.317,
-          "end": 11.932,
-          "score": 0.704
+          "start": 7.932,
+          "end": 12.514,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.701
         },
         {
           "text": "भारत",
-          "start": 12.013,
-          "end": 12.393,
-          "score": 0.644
+          "start": 12.594,
+          "end": 13.234,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.869
         }
       ]
     },
     {
       "verse": 9,
       "audio": "audio/09.mp3",
-      "sourceStart": 127.367,
-      "sourceEnd": 136.368,
-      "duration": 9.001,
+      "sourceStart": 128.463,
+      "sourceEnd": 141.348,
+      "duration": 12.885,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सत्त्वं",
-          "start": 0,
-          "end": 2.407,
-          "score": 0.67
+          "start": 0.621,
+          "end": 1.301,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.42
         },
         {
           "text": "सुखे",
-          "start": 2.547,
-          "end": 3.029,
-          "score": 0.955
+          "start": 1.441,
+          "end": 1.921,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.913
         },
         {
           "text": "सञ्जयति",
-          "start": 3.19,
-          "end": 4.113,
-          "score": 0.769
+          "start": 2.081,
+          "end": 3.002,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.788
         },
         {
           "text": "रजः",
-          "start": 4.815,
-          "end": 5.117,
-          "score": 0.672
+          "start": 3.702,
+          "end": 4.002,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.562
         },
         {
           "text": "कर्मणि",
-          "start": 5.538,
-          "end": 6.141,
-          "score": 0.694
+          "start": 4.422,
+          "end": 5.023,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.663
         },
         {
           "text": "भारत",
-          "start": 6.24,
-          "end": 6.389,
-          "score": 0.68
+          "start": 5.123,
+          "end": 5.803,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.766
         },
         {
           "text": "ज्ञानमावृत्य",
-          "start": 6.389,
-          "end": 6.879,
-          "score": 0.402
+          "start": 5.863,
+          "end": 8.544,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.65
         },
         {
           "text": "तु",
-          "start": 6.898,
-          "end": 6.939,
-          "score": 0.0
+          "start": 8.624,
+          "end": 8.724,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.443
         },
         {
           "text": "तमः",
-          "start": 6.958,
-          "end": 8.041,
-          "score": 0.545
+          "start": 8.824,
+          "end": 9.164,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.868
         },
         {
           "text": "प्रमादे",
-          "start": 8.06,
-          "end": 8.28,
-          "score": 0.328
+          "start": 9.764,
+          "end": 10.445,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.757
         },
         {
           "text": "सञ्जयत्युत",
-          "start": 8.3,
-          "end": 8.721,
-          "score": 0.291
+          "start": 10.845,
+          "end": 12.085,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.7
         }
       ]
     },
     {
       "verse": 10,
       "audio": "audio/10.mp3",
-      "sourceStart": 141.775,
-      "sourceEnd": 150.582,
-      "duration": 8.807,
+      "sourceStart": 141.348,
+      "sourceEnd": 155.244,
+      "duration": 13.896,
+      "highlightMode": "word",
       "words": [
         {
           "text": "रजस्तमश्चाभिभूय",
-          "start": 0.18,
-          "end": 2.809,
-          "score": 0.822
+          "start": 0.605,
+          "end": 3.227,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.749
         },
         {
           "text": "सत्त्वं",
-          "start": 3.431,
-          "end": 4.154,
-          "score": 0.688
+          "start": 3.848,
+          "end": 4.569,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.669
         },
         {
           "text": "भवति",
-          "start": 4.375,
-          "end": 4.876,
-          "score": 0.81
+          "start": 4.789,
+          "end": 5.289,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.795
         },
         {
           "text": "भारत",
-          "start": 4.957,
-          "end": 5.026,
-          "score": 0.67
+          "start": 5.389,
+          "end": 6.05,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.655
         },
         {
           "text": "रजः",
-          "start": 5.026,
-          "end": 5.026,
-          "score": 0.612
+          "start": 7.431,
+          "end": 7.851,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.804
         },
         {
           "text": "सत्त्वं",
-          "start": 5.026,
-          "end": 5.396,
-          "score": 0.239
+          "start": 8.011,
+          "end": 8.672,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.517
         },
         {
           "text": "तमश्चैव",
-          "start": 5.576,
-          "end": 7.322,
-          "score": 0.528
+          "start": 8.892,
+          "end": 10.213,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.709
         },
         {
           "text": "तमः",
-          "start": 7.363,
-          "end": 7.423,
-          "score": 0.181
+          "start": 10.794,
+          "end": 11.214,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.789
         },
         {
           "text": "सत्त्वं",
-          "start": 7.583,
-          "end": 8.205,
-          "score": 0.696
+          "start": 11.374,
+          "end": 12.015,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.727
         },
         {
           "text": "रजस्तथा",
-          "start": 8.226,
-          "end": 8.527,
-          "score": 0.22
+          "start": 12.195,
+          "end": 13.076,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.724
         }
       ]
     },
     {
       "verse": 11,
       "audio": "audio/11.mp3",
-      "sourceStart": 152.528,
-      "sourceEnd": 163.997,
-      "duration": 11.469,
+      "sourceStart": 155.244,
+      "sourceEnd": 169.485,
+      "duration": 14.241,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सर्वद्वारेषु",
-          "start": 0.18,
-          "end": 1.323,
-          "score": 0.646
+          "start": 0.573,
+          "end": 2.234,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.834
         },
         {
           "text": "देहेऽस्मिन्प्रकाश",
-          "start": 1.403,
-          "end": 3.771,
-          "score": 0.467
+          "start": 2.354,
+          "end": 5.036,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.766
         },
         {
           "text": "उपजायते",
-          "start": 3.932,
-          "end": 4.473,
-          "score": 0.674
+          "start": 5.236,
+          "end": 6.257,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.787
         },
         {
           "text": "ज्ञानं",
-          "start": 7.159,
-          "end": 7.741,
-          "score": 0.455
+          "start": 7.578,
+          "end": 8.258,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.571
         },
         {
           "text": "यदा",
-          "start": 7.941,
-          "end": 8.202,
-          "score": 0.515
+          "start": 8.418,
+          "end": 8.838,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.813
         },
         {
           "text": "तदा",
-          "start": 8.222,
-          "end": 8.583,
-          "score": 0.72
+          "start": 8.978,
+          "end": 9.519,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.836
         },
         {
           "text": "विद्याद्विवृद्धं",
-          "start": 8.603,
-          "end": 10.487,
-          "score": 0.241
+          "start": 9.679,
+          "end": 11.92,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.621
         },
         {
           "text": "सत्त्वमित्युत",
-          "start": 10.508,
-          "end": 11.189,
-          "score": 0.399
+          "start": 12.281,
+          "end": 13.501,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.566
         }
       ]
     },
     {
       "verse": 12,
       "audio": "audio/12.mp3",
-      "sourceStart": 169.871,
-      "sourceEnd": 181.633,
-      "duration": 11.762,
+      "sourceStart": 169.485,
+      "sourceEnd": 182.454,
+      "duration": 12.969,
+      "highlightMode": "word",
       "words": [
         {
           "text": "लोभः",
-          "start": 0.18,
-          "end": 0.582,
-          "score": 0.748
+          "start": 0.55,
+          "end": 0.95,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.662
         },
         {
           "text": "प्रवृत्तिरारम्भः",
-          "start": 1.023,
-          "end": 2.528,
-          "score": 0.627
+          "start": 1.411,
+          "end": 2.912,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.668
         },
         {
           "text": "कर्मणामशमः",
-          "start": 3.411,
-          "end": 4.976,
-          "score": 0.834
+          "start": 3.772,
+          "end": 5.294,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.902
         },
         {
           "text": "स्पृहा",
-          "start": 4.996,
-          "end": 5.397,
-          "score": 0.735
+          "start": 5.314,
+          "end": 5.754,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.866
         },
         {
           "text": "रजस्येतानि",
-          "start": 6.615,
-          "end": 7.977,
-          "score": 0.758
+          "start": 7.015,
+          "end": 8.356,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.802
         },
         {
           "text": "जायन्ते",
-          "start": 8.077,
-          "end": 9.219,
-          "score": 0.769
+          "start": 8.476,
+          "end": 9.617,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.725
         },
         {
           "text": "विवृद्धे",
-          "start": 9.759,
-          "end": 10.5,
-          "score": 0.682
+          "start": 10.157,
+          "end": 11.138,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.637
         },
         {
           "text": "भरतर्षभ",
-          "start": 10.881,
-          "end": 11.482,
-          "score": 0.608
+          "start": 11.278,
+          "end": 12.279,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.828
         }
       ]
     },
     {
       "verse": 13,
       "audio": "audio/13.mp3",
-      "sourceStart": 182.771,
+      "sourceStart": 182.454,
       "sourceEnd": 195.18,
-      "duration": 12.409,
+      "duration": 12.726,
+      "highlightMode": "word",
       "words": [
         {
           "text": "अप्रकाशोऽप्रवृत्तिश्च",
-          "start": 0.18,
-          "end": 2.904,
-          "score": 0.657
+          "start": 0.498,
+          "end": 3.218,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.696
         },
         {
           "text": "प्रमादो",
-          "start": 3.305,
-          "end": 4.226,
-          "score": 0.815
+          "start": 3.618,
+          "end": 4.539,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.754
         },
         {
           "text": "मोह",
-          "start": 4.367,
-          "end": 4.827,
-          "score": 0.768
+          "start": 4.659,
+          "end": 5.139,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.838
         },
         {
           "text": "एव",
-          "start": 4.968,
-          "end": 5.188,
-          "score": 0.497
+          "start": 5.279,
+          "end": 5.519,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.439
         },
         {
           "text": "च",
-          "start": 5.208,
-          "end": 5.228,
-          "score": 0.0
+          "start": 5.819,
+          "end": 5.879,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.392
         },
         {
           "text": "तमस्येतानि",
-          "start": 6.68,
-          "end": 8.042,
-          "score": 0.809
+          "start": 6.999,
+          "end": 8.36,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.791
         },
         {
           "text": "जायन्ते",
-          "start": 8.162,
-          "end": 9.404,
-          "score": 0.831
+          "start": 8.48,
+          "end": 9.74,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.75
         },
         {
           "text": "विवृद्धे",
-          "start": 10.025,
-          "end": 11.027,
-          "score": 0.71
+          "start": 10.34,
+          "end": 11.32,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.694
         },
         {
           "text": "कुरुनन्दन",
-          "start": 11.268,
-          "end": 12.129,
-          "score": 0.749
+          "start": 11.58,
+          "end": 12.48,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.737
         }
       ]
     },
     {
       "verse": 14,
       "audio": "audio/14.mp3",
-      "sourceStart": 195.951,
-      "sourceEnd": 207.616,
-      "duration": 11.665,
+      "sourceStart": 195.18,
+      "sourceEnd": 208.736,
+      "duration": 13.556,
+      "highlightMode": "word",
       "words": [
         {
           "text": "यदा",
-          "start": 0.18,
-          "end": 0.621,
-          "score": 0.831
+          "start": 0.984,
+          "end": 1.384,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.778
         },
         {
           "text": "सत्त्वे",
-          "start": 0.742,
-          "end": 1.323,
-          "score": 0.499
+          "start": 1.524,
+          "end": 2.084,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.495
         },
         {
           "text": "प्रवृद्धे",
-          "start": 1.584,
-          "end": 2.547,
-          "score": 0.607
+          "start": 2.364,
+          "end": 3.304,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.612
         },
         {
           "text": "तु",
-          "start": 2.687,
-          "end": 2.768,
-          "score": 0.703
+          "start": 3.464,
+          "end": 3.544,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.644
         },
         {
           "text": "प्रलयं",
-          "start": 3.169,
-          "end": 3.69,
-          "score": 0.584
+          "start": 3.925,
+          "end": 4.465,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.689
         },
         {
           "text": "याति",
-          "start": 4.071,
-          "end": 4.533,
-          "score": 0.686
+          "start": 4.825,
+          "end": 5.305,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.679
         },
         {
           "text": "देहभृत्",
-          "start": 4.653,
-          "end": 5.175,
-          "score": 0.494
+          "start": 5.405,
+          "end": 6.125,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.66
         },
         {
           "text": "तदोत्तमविदां",
-          "start": 6.339,
-          "end": 8.001,
-          "score": 0.701
+          "start": 7.106,
+          "end": 8.766,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.777
         },
         {
           "text": "लोकानमलान्प्रतिपद्यते",
-          "start": 8.121,
-          "end": 11.385,
-          "score": 0.757
+          "start": 8.906,
+          "end": 13.548,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.825
         }
       ]
     },
     {
       "verse": 15,
       "audio": "audio/15.mp3",
-      "sourceStart": 208.551,
-      "sourceEnd": 219.944,
-      "duration": 11.393,
+      "sourceStart": 208.736,
+      "sourceEnd": 220.657,
+      "duration": 11.921,
+      "highlightMode": "word",
       "words": [
         {
           "text": "रजसि",
-          "start": 0.18,
-          "end": 0.66,
-          "score": 0.72
+          "start": 0.007,
+          "end": 0.467,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.694
         },
         {
           "text": "प्रलयं",
-          "start": 1.001,
-          "end": 1.561,
-          "score": 0.716
+          "start": 0.827,
+          "end": 1.447,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.714
         },
         {
           "text": "गत्वा",
-          "start": 1.862,
-          "end": 2.743,
-          "score": 0.9
+          "start": 1.687,
+          "end": 2.548,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.792
         },
         {
           "text": "कर्मसङ्गिषु",
-          "start": 3.324,
-          "end": 4.625,
-          "score": 0.851
+          "start": 3.148,
+          "end": 4.849,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.853
         },
         {
           "text": "जायते",
-          "start": 4.725,
-          "end": 5.026,
-          "score": 0.485
+          "start": 4.929,
+          "end": 5.209,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.743
         },
         {
           "text": "तथा",
-          "start": 6.582,
-          "end": 7.103,
-          "score": 0.868
+          "start": 6.409,
+          "end": 6.93,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.918
         },
         {
           "text": "प्रलीनस्तमसि",
-          "start": 7.243,
-          "end": 8.787,
-          "score": 0.784
+          "start": 7.05,
+          "end": 8.61,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.81
         },
         {
           "text": "मूढयोनिषु",
-          "start": 9.369,
-          "end": 10.692,
-          "score": 0.786
+          "start": 9.19,
+          "end": 10.291,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.616
         },
         {
           "text": "जायते",
-          "start": 10.792,
-          "end": 11.113,
-          "score": 0.485
+          "start": 10.591,
+          "end": 11.231,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.73
         }
       ]
     },
     {
       "verse": 16,
       "audio": "audio/16.mp3",
-      "sourceStart": 222.172,
+      "sourceStart": 220.657,
       "sourceEnd": 233.659,
-      "duration": 11.487,
+      "duration": 13.002,
+      "highlightMode": "word",
       "words": [
         {
           "text": "कर्मणः",
-          "start": 0.18,
-          "end": 0.421,
-          "score": 0.587
+          "start": 0.498,
+          "end": 1.279,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.848
         },
         {
           "text": "सुकृतस्याहुः",
-          "start": 0.622,
-          "end": 1.405,
-          "score": 0.506
+          "start": 1.379,
+          "end": 2.92,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.746
         },
         {
           "text": "सात्त्विकं",
-          "start": 1.806,
-          "end": 2.389,
-          "score": 0.535
+          "start": 3.321,
+          "end": 4.221,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.639
         },
         {
           "text": "निर्मलं",
-          "start": 2.931,
-          "end": 3.714,
-          "score": 0.712
+          "start": 4.441,
+          "end": 5.222,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.578
         },
         {
           "text": "फलम्",
-          "start": 3.894,
-          "end": 4.236,
-          "score": 0.655
+          "start": 5.402,
+          "end": 7.083,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.919
         },
         {
           "text": "रजसस्तु",
-          "start": 5.58,
-          "end": 6.421,
-          "score": 0.636
+          "start": 7.104,
+          "end": 7.944,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.791
         },
         {
           "text": "फलं",
-          "start": 6.541,
-          "end": 6.962,
-          "score": 0.675
+          "start": 8.064,
+          "end": 8.525,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.723
         },
         {
           "text": "दुःखमज्ञानं",
-          "start": 7.182,
-          "end": 9.745,
-          "score": 0.765
+          "start": 8.705,
+          "end": 11.207,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.76
         },
         {
           "text": "तमसः",
-          "start": 9.985,
-          "end": 10.486,
-          "score": 0.781
+          "start": 11.507,
+          "end": 12.007,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.985
         },
         {
           "text": "फलम्",
-          "start": 10.867,
-          "end": 11.207,
-          "score": 0.552
+          "start": 12.388,
+          "end": 12.768,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.684
         }
       ]
     },
     {
       "verse": 17,
       "audio": "audio/17.mp3",
-      "sourceStart": 234.492,
-      "sourceEnd": 247.762,
-      "duration": 13.27,
+      "sourceStart": 233.659,
+      "sourceEnd": 248.514,
+      "duration": 14.855,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सत्त्वात्सञ्जायते",
-          "start": 0.18,
-          "end": 2.563,
-          "score": 0.798
+          "start": 1.017,
+          "end": 3.398,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.776
         },
         {
           "text": "ज्ञानं",
-          "start": 2.763,
-          "end": 3.223,
-          "score": 0.616
+          "start": 3.598,
+          "end": 4.699,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.7
         },
         {
           "text": "रजसो",
-          "start": 3.324,
-          "end": 3.564,
-          "score": 0.222
+          "start": 4.859,
+          "end": 5.58,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.881
         },
         {
           "text": "लोभ",
-          "start": 3.584,
-          "end": 3.644,
-          "score": 0.0
+          "start": 5.74,
+          "end": 6.28,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.699
         },
         {
           "text": "एव",
-          "start": 3.664,
-          "end": 3.804,
-          "score": 0.524
+          "start": 6.46,
+          "end": 6.74,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.491
         },
         {
           "text": "च",
-          "start": 3.824,
-          "end": 3.844,
-          "score": 0.0
+          "start": 7.081,
+          "end": 7.121,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.505
         },
         {
           "text": "प्रमादमोहौ",
-          "start": 7.661,
-          "end": 9.203,
-          "score": 0.79
+          "start": 8.502,
+          "end": 10.043,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.774
         },
         {
           "text": "तमसो",
-          "start": 9.404,
-          "end": 10.265,
-          "score": 0.937
+          "start": 10.243,
+          "end": 11.063,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.805
         },
         {
           "text": "भवतोऽज्ञानमेव",
-          "start": 10.786,
-          "end": 12.95,
-          "score": 0.764
+          "start": 11.604,
+          "end": 13.805,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.686
         },
         {
           "text": "च",
-          "start": 12.97,
-          "end": 12.99,
-          "score": 0.0
+          "start": 14.145,
+          "end": 14.185,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.504
         }
       ]
     },
     {
       "verse": 18,
       "audio": "audio/18.mp3",
-      "sourceStart": 248.796,
+      "sourceStart": 248.514,
       "sourceEnd": 263.222,
-      "duration": 14.426,
+      "duration": 14.708,
+      "highlightMode": "word",
       "words": [
         {
           "text": "ऊर्ध्वं",
-          "start": 0.18,
-          "end": 0.862,
-          "score": 0.784
+          "start": 0.461,
+          "end": 1.142,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.783
         },
         {
           "text": "गच्छन्ति",
-          "start": 0.882,
-          "end": 2.045,
-          "score": 0.698
+          "start": 1.162,
+          "end": 2.363,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.725
         },
         {
           "text": "सत्त्वस्था",
-          "start": 2.065,
-          "end": 3.448,
-          "score": 0.685
+          "start": 2.483,
+          "end": 3.764,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.666
         },
         {
           "text": "मध्ये",
-          "start": 4.07,
-          "end": 4.711,
-          "score": 0.684
+          "start": 4.344,
+          "end": 5.004,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.671
         },
         {
           "text": "तिष्ठन्ति",
-          "start": 4.732,
-          "end": 5.854,
-          "score": 0.669
+          "start": 5.205,
+          "end": 6.125,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.604
         },
         {
           "text": "राजसाः",
-          "start": 5.935,
-          "end": 6.396,
-          "score": 0.651
+          "start": 6.205,
+          "end": 7.586,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.824
         },
         {
           "text": "जघन्यगुणवृत्तिस्था",
-          "start": 8.357,
-          "end": 10.78,
-          "score": 0.687
+          "start": 8.647,
+          "end": 11.069,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.72
         },
         {
           "text": "अधो",
-          "start": 11.341,
-          "end": 11.842,
-          "score": 0.895
+          "start": 11.629,
+          "end": 12.149,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.843
         },
         {
           "text": "गच्छन्ति",
-          "start": 12.042,
-          "end": 12.964,
+          "start": 12.324,
+          "end": 13.246,
+          "timingMethod": "prior-acoustic",
           "score": 0.869
         },
         {
           "text": "तामसाः",
-          "start": 13.084,
-          "end": 14.146,
-          "score": 0.888
+          "start": 13.37,
+          "end": 14.551,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.851
         }
       ]
     },
     {
       "verse": 19,
       "audio": "audio/19.mp3",
-      "sourceStart": 263.955,
-      "sourceEnd": 277.6,
-      "duration": 13.645,
+      "sourceStart": 263.222,
+      "sourceEnd": 278.055,
+      "duration": 14.833,
+      "highlightMode": "word",
       "words": [
         {
           "text": "नान्यं",
-          "start": 0.18,
-          "end": 0.842,
-          "score": 0.71
+          "start": 0.913,
+          "end": 1.574,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.693
         },
         {
           "text": "गुणेभ्यः",
-          "start": 1.062,
-          "end": 1.805,
-          "score": 0.805
+          "start": 1.794,
+          "end": 2.535,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.725
         },
         {
           "text": "कर्तारं",
-          "start": 2.266,
-          "end": 3.49,
-          "score": 0.809
+          "start": 2.995,
+          "end": 4.216,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.865
         },
         {
           "text": "यदा",
-          "start": 3.73,
-          "end": 4.172,
-          "score": 0.918
+          "start": 4.456,
+          "end": 4.916,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.902
         },
         {
           "text": "द्रष्टानुपश्यति",
-          "start": 4.192,
-          "end": 5.837,
-          "score": 0.625
+          "start": 5.096,
+          "end": 6.838,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.684
         },
         {
           "text": "गुणेभ्यश्च",
-          "start": 7.296,
-          "end": 8.498,
-          "score": 0.704
+          "start": 8.038,
+          "end": 9.239,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.711
         },
         {
           "text": "परं",
-          "start": 8.598,
-          "end": 8.898,
-          "score": 0.534
+          "start": 9.339,
+          "end": 9.639,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.607
         },
         {
           "text": "वेत्ति",
-          "start": 9.279,
-          "end": 9.98,
-          "score": 0.694
+          "start": 10.02,
+          "end": 10.72,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.768
         },
         {
           "text": "मद्भावं",
-          "start": 10.701,
-          "end": 11.983,
-          "score": 0.594
+          "start": 11.421,
+          "end": 12.722,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.815
         },
         {
           "text": "सोऽधिगच्छति",
-          "start": 12.203,
-          "end": 13.365,
-          "score": 0.578
+          "start": 12.942,
+          "end": 14.363,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.718
         }
       ]
     },
     {
       "verse": 20,
       "audio": "audio/20.mp3",
-      "sourceStart": 278.532,
+      "sourceStart": 278.055,
       "sourceEnd": 291.357,
-      "duration": 12.825,
+      "duration": 13.302,
+      "highlightMode": "word",
       "words": [
         {
           "text": "गुणानेतानतीत्य",
-          "start": 0.18,
-          "end": 2.425,
-          "score": 0.75
+          "start": 0.66,
+          "end": 2.902,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.786
         },
         {
           "text": "त्रीन्देही",
-          "start": 2.906,
-          "end": 4.328,
-          "score": 0.616
+          "start": 3.382,
+          "end": 4.803,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.696
         },
         {
           "text": "देहसमुद्भवान्",
-          "start": 4.449,
-          "end": 6.372,
-          "score": 0.661
+          "start": 4.923,
+          "end": 6.904,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.756
         },
         {
           "text": "जन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते",
-          "start": 7.439,
-          "end": 12.545,
-          "score": 0.768
+          "start": 7.925,
+          "end": 13.028,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.759
         }
       ]
     },
     {
       "verse": 21,
       "audio": "audio/21.mp3",
-      "sourceStart": 292.457,
+      "sourceStart": 291.357,
       "sourceEnd": 308.864,
-      "duration": 16.407,
+      "duration": 17.507,
+      "highlightMode": "word",
       "words": [
         {
           "text": "अर्जुन",
-          "start": 0.18,
-          "end": 0.602,
-          "score": 0.529
+          "start": 1.279,
+          "end": 1.899,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.72
         },
         {
           "text": "उवाच",
-          "start": 0.622,
-          "end": 0.803,
-          "score": 0.471
+          "start": 2.039,
+          "end": 2.6,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.657
         },
         {
           "text": "कैर्लिङ्गैस्त्रीन्गुणानेतानतीतो",
-          "start": 2.876,
-          "end": 6.445,
-          "score": 0.707
+          "start": 3.981,
+          "end": 8.484,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.752
         },
         {
           "text": "भवति",
-          "start": 6.465,
-          "end": 7.127,
-          "score": 0.767
+          "start": 8.984,
+          "end": 9.465,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.666
         },
         {
           "text": "प्रभो",
-          "start": 7.147,
-          "end": 7.407,
-          "score": 0.455
+          "start": 9.785,
+          "end": 10.145,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.692
         },
         {
           "text": "किमाचारः",
-          "start": 10.435,
-          "end": 11.517,
-          "score": 0.897
+          "start": 11.546,
+          "end": 12.627,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.876
         },
         {
           "text": "कथं",
-          "start": 11.978,
-          "end": 12.339,
-          "score": 0.612
+          "start": 13.087,
+          "end": 13.648,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.907
         },
         {
           "text": "चैतांस्त्रीन्गुणानतिवर्तते",
-          "start": 12.74,
-          "end": 16.127,
-          "score": 0.697
+          "start": 13.828,
+          "end": 17.23,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.707
         }
       ]
     },
     {
       "verse": 22,
       "audio": "audio/22.mp3",
-      "sourceStart": 309.892,
-      "sourceEnd": 325.856,
-      "duration": 15.964,
+      "sourceStart": 308.864,
+      "sourceEnd": 326.645,
+      "duration": 17.781,
+      "highlightMode": "word",
       "words": [
         {
           "text": "श्रीभगवानुवाच",
-          "start": 0.18,
-          "end": 2.064,
-          "score": 0.777
+          "start": 1.231,
+          "end": 3.092,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.794
         },
         {
           "text": "प्रकाशं",
-          "start": 3.601,
-          "end": 4.443,
-          "score": 0.789
+          "start": 4.633,
+          "end": 5.534,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.787
         },
         {
           "text": "च",
-          "start": 4.483,
-          "end": 4.523,
-          "score": 0.507
+          "start": 5.694,
+          "end": 5.774,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.829
         },
         {
           "text": "प्रवृत्तिं",
-          "start": 4.824,
-          "end": 5.666,
-          "score": 0.473
+          "start": 5.854,
+          "end": 6.635,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.491
         },
         {
           "text": "च",
-          "start": 5.926,
-          "end": 6.287,
-          "score": 0.949
+          "start": 6.955,
+          "end": 7.315,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.967
         },
         {
           "text": "मोहमेव",
-          "start": 6.828,
-          "end": 7.67,
-          "score": 0.774
+          "start": 7.855,
+          "end": 8.876,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.882
         },
         {
           "text": "च",
-          "start": 7.971,
-          "end": 8.071,
-          "score": 0.455
+          "start": 8.996,
+          "end": 9.096,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.883
         },
         {
           "text": "पाण्डव",
-          "start": 8.191,
-          "end": 8.786,
-          "score": 0.636
+          "start": 9.216,
+          "end": 9.917,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.702
         },
         {
           "text": "न",
-          "start": 8.786,
-          "end": 8.878,
-          "score": 0.7
+          "start": 11.238,
+          "end": 11.338,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.824
         },
         {
           "text": "द्वेष्टि",
-          "start": 10.199,
-          "end": 11.12,
-          "score": 0.662
+          "start": 11.358,
+          "end": 12.178,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.706
         },
         {
           "text": "सम्प्रवृत्तानि",
-          "start": 11.24,
-          "end": 12.842,
-          "score": 0.7
+          "start": 12.278,
+          "end": 13.859,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.657
         },
         {
           "text": "न",
-          "start": 13.622,
-          "end": 13.702,
+          "start": 14.65,
+          "end": 14.73,
+          "timingMethod": "prior-acoustic",
           "score": 0.849
         },
         {
           "text": "निवृत्तानि",
-          "start": 13.782,
-          "end": 14.883,
-          "score": 0.587
+          "start": 14.82,
+          "end": 15.941,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.7
         },
         {
           "text": "काङ्क्षति",
-          "start": 15.003,
-          "end": 15.684,
-          "score": 0.533
+          "start": 16.041,
+          "end": 17.021,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.654
         }
       ]
     },
     {
       "verse": 23,
       "audio": "audio/23.mp3",
-      "sourceStart": 326.612,
+      "sourceStart": 326.645,
       "sourceEnd": 339.472,
-      "duration": 12.86,
+      "duration": 12.827,
+      "highlightMode": "word",
       "words": [
         {
           "text": "उदासीनवदासीनो",
-          "start": 0.18,
-          "end": 2.925,
-          "score": 0.942
+          "start": 0.15,
+          "end": 2.892,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.953
         },
         {
           "text": "गुणैर्यो",
-          "start": 3.446,
-          "end": 4.247,
-          "score": 0.849
+          "start": 3.413,
+          "end": 4.494,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.826
         },
         {
           "text": "न",
-          "start": 4.588,
-          "end": 4.628,
-          "score": 0.973
+          "start": 4.534,
+          "end": 4.554,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.97
         },
         {
           "text": "विचाल्यते",
-          "start": 4.668,
-          "end": 5.049,
-          "score": 0.287
+          "start": 4.714,
+          "end": 5.755,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.652
         },
         {
           "text": "गुणा",
-          "start": 7.142,
-          "end": 7.604,
-          "score": 0.694
+          "start": 7.116,
+          "end": 7.576,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.717
         },
         {
           "text": "वर्तन्त",
-          "start": 7.724,
-          "end": 8.507,
-          "score": 0.758
+          "start": 7.696,
+          "end": 8.477,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.773
         },
         {
           "text": "इत्येवं",
-          "start": 8.647,
-          "end": 9.871,
-          "score": 0.789
+          "start": 8.637,
+          "end": 9.838,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.62
         },
         {
           "text": "योऽवतिष्ठति",
-          "start": 10.413,
-          "end": 11.737,
-          "score": 0.645
+          "start": 10.378,
+          "end": 11.699,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.744
         },
         {
           "text": "नेङ्गते",
-          "start": 11.818,
-          "end": 12.58,
-          "score": 0.807
+          "start": 11.779,
+          "end": 12.54,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.935
         }
       ]
     },
     {
       "verse": 24,
       "audio": "audio/24.mp3",
-      "sourceStart": 341.19,
+      "sourceStart": 339.472,
       "sourceEnd": 352.684,
-      "duration": 11.494,
+      "duration": 13.212,
+      "highlightMode": "word",
       "words": [
         {
           "text": "समदुःखसुखः",
-          "start": 0.18,
-          "end": 0.741,
-          "score": 0.377
+          "start": 0.944,
+          "end": 1.985,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.75
         },
         {
           "text": "स्वस्थः",
-          "start": 0.762,
-          "end": 1.564,
-          "score": 0.653
+          "start": 2.465,
+          "end": 3.285,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.787
         },
         {
           "text": "समलोष्टाश्मकाञ्चनः",
-          "start": 1.764,
-          "end": 4.19,
-          "score": 0.848
+          "start": 3.486,
+          "end": 5.907,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.807
         },
         {
           "text": "तुल्यप्रियाप्रियो",
-          "start": 5.343,
-          "end": 7.106,
-          "score": 0.716
+          "start": 7.068,
+          "end": 8.849,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.686
         },
         {
           "text": "धीरस्तुल्यनिन्दात्मसंस्तुतिः",
-          "start": 7.166,
-          "end": 11.214,
-          "score": 0.755
+          "start": 9.11,
+          "end": 12.932,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.778
         }
       ]
     },
     {
       "verse": 25,
       "audio": "audio/25.mp3",
-      "sourceStart": 353.572,
-      "sourceEnd": 367.341,
-      "duration": 13.769,
+      "sourceStart": 352.684,
+      "sourceEnd": 368.361,
+      "duration": 15.677,
+      "highlightMode": "word",
       "words": [
         {
           "text": "मानापमानयोस्तुल्यस्तुल्यो",
-          "start": 0.18,
-          "end": 2.966,
-          "score": 0.577
+          "start": 1.072,
+          "end": 5.054,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.72
         },
         {
           "text": "मित्रारिपक्षयोः",
-          "start": 3.166,
-          "end": 4.008,
-          "score": 0.467
+          "start": 5.154,
+          "end": 7.296,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.707
         },
         {
           "text": "सर्वारम्भपरित्यागी",
-          "start": 7.739,
-          "end": 10.363,
-          "score": 0.837
+          "start": 8.637,
+          "end": 11.259,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.81
         },
         {
           "text": "गुणातीतः",
-          "start": 10.944,
-          "end": 11.966,
-          "score": 0.617
+          "start": 11.839,
+          "end": 13.36,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.657
         },
         {
           "text": "स",
-          "start": 12.627,
-          "end": 12.727,
-          "score": 0.695
+          "start": 13.52,
+          "end": 13.6,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.766
         },
         {
           "text": "उच्यते",
-          "start": 12.848,
-          "end": 13.489,
-          "score": 0.872
+          "start": 13.74,
+          "end": 15.642,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.831
         }
       ]
     },
     {
       "verse": 26,
       "audio": "audio/26.mp3",
-      "sourceStart": 370.29,
+      "sourceStart": 368.361,
       "sourceEnd": 381.79,
-      "duration": 11.5,
+      "duration": 13.429,
+      "highlightMode": "word",
       "words": [
         {
           "text": "मां",
-          "start": 0.18,
-          "end": 0.582,
-          "score": 0.716
+          "start": 0.034,
+          "end": 0.495,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.857
         },
         {
           "text": "च",
-          "start": 0.602,
-          "end": 0.622,
-          "score": 0.0
+          "start": 0.755,
+          "end": 0.855,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.82
         },
         {
           "text": "योऽव्यभिचारेण",
-          "start": 0.722,
-          "end": 1.063,
-          "score": 0.17
+          "start": 0.975,
+          "end": 2.997,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.743
         },
         {
           "text": "भक्तियोगेन",
-          "start": 1.605,
-          "end": 3.05,
-          "score": 0.782
+          "start": 3.537,
+          "end": 4.978,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.879
         },
         {
           "text": "सेवते",
-          "start": 3.311,
-          "end": 3.974,
-          "score": 0.908
+          "start": 5.238,
+          "end": 5.899,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.919
         },
         {
           "text": "स",
-          "start": 5.444,
-          "end": 5.524,
-          "score": 0.819
+          "start": 7.38,
+          "end": 7.46,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.81
         },
         {
           "text": "गुणान्समतीत्यैतान्ब्रह्मभूयाय",
-          "start": 5.624,
-          "end": 10.478,
-          "score": 0.735
+          "start": 7.56,
+          "end": 12.403,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.74
         },
         {
           "text": "कल्पते",
-          "start": 10.578,
-          "end": 11.22,
-          "score": 0.833
+          "start": 12.503,
+          "end": 13.124,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.688
         }
       ]
     },
     {
       "verse": 27,
       "audio": "audio/27.mp3",
-      "sourceStart": 382.591,
+      "sourceStart": 381.79,
       "sourceEnd": 395.551,
-      "duration": 12.96,
+      "duration": 13.761,
+      "highlightMode": "word",
       "words": [
         {
           "text": "ब्रह्मणो",
-          "start": 0.18,
-          "end": 1.061,
+          "start": 0.981,
+          "end": 1.862,
+          "timingMethod": "prior-acoustic",
           "score": 0.563
         },
         {
           "text": "हि",
-          "start": 1.141,
-          "end": 1.221,
+          "start": 1.942,
+          "end": 2.022,
+          "timingMethod": "prior-acoustic",
           "score": 0.706
         },
         {
           "text": "प्रतिष्ठाहममृतस्याव्ययस्य",
-          "start": 1.301,
-          "end": 3.564,
+          "start": 2.102,
+          "end": 4.365,
+          "timingMethod": "prior-acoustic",
           "score": 0.515
         },
         {
           "text": "च",
-          "start": 3.604,
-          "end": 3.624,
+          "start": 4.405,
+          "end": 4.425,
+          "timingMethod": "prior-acoustic",
           "score": 0.0
         },
         {
           "text": "शाश्वतस्य",
-          "start": 8.019,
-          "end": 8.602,
+          "start": 8.82,
+          "end": 9.403,
+          "timingMethod": "prior-acoustic",
           "score": 0.453
         },
         {
           "text": "च",
-          "start": 8.622,
-          "end": 8.642,
+          "start": 9.423,
+          "end": 9.443,
+          "timingMethod": "prior-acoustic",
           "score": 0.0
         },
         {
           "text": "धर्मस्य",
-          "start": 8.662,
-          "end": 9.566,
+          "start": 9.463,
+          "end": 10.367,
+          "timingMethod": "prior-acoustic",
           "score": 0.567
         },
         {
           "text": "सुखस्यैकान्तिकस्य",
-          "start": 10.129,
-          "end": 12.54,
+          "start": 10.93,
+          "end": 13.341,
+          "timingMethod": "prior-acoustic",
           "score": 0.794
         },
         {
           "text": "च",
-          "start": 12.66,
-          "end": 12.68,
+          "start": 13.461,
+          "end": 13.481,
+          "timingMethod": "prior-acoustic",
           "score": 0.084
         }
       ]
     }
-  ]
+  ],
+  "alignmentFingerprint": "489b78c940f0ffd7c65351a4195dca6ff5f4f928e066a2a4d60cad5bb3170403"
 }

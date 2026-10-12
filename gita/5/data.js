@@ -616,7 +616,7 @@ window.GITA_CHAPTER_5 = [
       },
       "कस्यचित्पापं": {
         "hi": "किसी के · पाप को",
-        "en": "anyone&rsquo;s · sin"
+        "en": "anyone’s · sin"
       },
       "न": {
         "hi": "न",

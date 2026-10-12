@@ -1,7 +1,7 @@
 window.GITA_CHAPTER_1 = [
   {
     "sanskrit": "धृतराष्ट्र उवाच ।\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ॥",
-    "hi": "धृतराष्ट्र बोले - हे संजय! धर्मभूमि कुरुक्षेत्र में युद्ध की इच्छा से इकट्ठे हुए मेरेे और पाण्डु के पुत्रों ने भी क्या किया?",
+    "hi": "धृतराष्ट्र बोले - हे संजय! धर्मभूमि कुरुक्षेत्र में युद्ध की इच्छा से इकट्ठे हुए मेरे और पाण्डु के पुत्रों ने भी क्या किया?",
     "en": "Dhritarashtra said, \"Oh Sanjay! What did me and Pandu's sons, who had gathered at Dharmabhumi Kurukshetra with the desire to fight, do?",
     "wordMeanings": {
       "धृतराष्ट्र": {
@@ -475,7 +475,7 @@ window.GITA_CHAPTER_1 = [
     "wordMeanings": {
       "तस्य": {
         "hi": "उसके (दुर्योधन के)",
-        "en": "his (Duryodhana&rsquo;s)"
+        "en": "his (Duryodhana’s)"
       },
       "सञ्जनयन्हर्षं": {
         "hi": "उत्पन्न करते हुए · हर्ष",
@@ -491,7 +491,7 @@ window.GITA_CHAPTER_1 = [
       },
       "सिंहनादं": {
         "hi": "सिंह की गर्जना",
-        "en": "lion&rsquo;s roar"
+        "en": "lion’s roar"
       },
       "विनद्योच्चैः": {
         "hi": "गरज कर · जोर से",
@@ -764,7 +764,7 @@ window.GITA_CHAPTER_1 = [
       },
       "धार्तराष्ट्राणां": {
         "hi": "धृतराष्ट्र के पुत्रों के",
-        "en": "of Dhritarashtra&rsquo;s sons"
+        "en": "of Dhritarashtra’s sons"
       },
       "हृदयानि": {
         "hi": "हृदयों को",

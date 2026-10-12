@@ -15,6 +15,24 @@ def line_for(tokens):
 
 
 class CanonicalMappingTests(unittest.TestCase):
+    def test_zero_score_cannot_move_a_verse_boundary(self):
+        before=[{'word':'मामेवैष्यत्यसंशयः','start':957.6731,'end':961.57306,'timingMethod':'groq-word'},
+                {'word':'न','start':959.981,'end':960.001,'score':0}]
+        after=[{'word':'मामेवैष्यत्यसंशयः','start':957.734,'end':958.92,'score':.399},
+               {'word':'न','start':959.06,'end':959.08,'score':0}]
+        issues=repair.reconciliation_issues(before,after)
+        self.assertIn('unsupported-acoustic-boundary',issues)
+        self.assertIn('stronger-evidence-was-compressed',issues)
+
+    def test_reconciliation_requires_the_exact_canonical_words(self):
+        before=[{'word':'कर्म','start':1,'end':2}]
+        self.assertEqual(repair.reconciliation_issues(before,[{'word':'धर्म','start':1,'end':2,'score':.9}]),
+                         ['canonical-token-mismatch'])
+
+    def test_good_short_clitic_is_not_rejected_for_duration_alone(self):
+        before=[{'word':'न','start':1,'end':1.1,'score':.7}]
+        self.assertEqual(repair.reconciliation_issues(before,[{'word':'न','start':1,'end':1.02,'score':.9}]),[])
+
     def test_spoken_visarga_retains_measured_word(self):
         self.assertTrue(repair.measured_match(['मतः'],repair.normalize('मतहा।'),'groq',748.1935,749.0335))
         self.assertFalse(repair.measured_match(['मत'],repair.normalize('मतहा।'),'groq',1,2))

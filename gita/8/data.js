@@ -116,7 +116,7 @@ window.GITA_CHAPTER_8 = [
       },
       "स्वभावोऽध्यात्ममुच्यते": {
         "hi": "अपना स्वरूप (स्वभाव) · अध्यात्म · कहा जाता है",
-        "en": "one&rsquo;s own nature (the self) · Adhyatma (the individual soul) · is called"
+        "en": "one’s own nature (the self) · Adhyatma (the individual soul) · is called"
       },
       "भूतभावोद्भवकरो": {
         "hi": "जीवों के अस्तित्व को उत्पन्न करने वाला",
@@ -535,7 +535,7 @@ window.GITA_CHAPTER_8 = [
       },
       "मूध्न्यार्धायात्मनः": {
         "hi": "मस्तक में · स्थापित करके · अपने",
-        "en": "in the head · placing · one&rsquo;s own"
+        "en": "in the head · placing · one’s own"
       },
       "प्राणमास्थितो": {
         "hi": "प्राण को · स्थित होकर",
@@ -761,7 +761,7 @@ window.GITA_CHAPTER_8 = [
   {
     "sanskrit": "अव्यक्ताद् व्यक्तयः सर्वाः प्रभवन्त्यहरागमे ।\nरात्र्यागमे प्रलीयन्ते तत्रैवाव्यक्तसंज्ञके ॥",
     "hi": "ब्रह्माजीके दिनके आरम्भकालमें अव्यक्त- (ब्रह्माजीके सूक्ष्म-शरीर-) से सम्पूर्ण प्राणी पैदा होते हैं और ब्रह्माजीकी रातके आरम्भकालमें उसी अव्यक्तमें सम्पूर्ण प्राणी लीन हो जाते हैं।",
-    "en": "8.18 From the Unmanifested all the manifested (worlds) proceed at the coming of the 'day'; at the coming of the 'night' they dissolve verily into ï1thatï1 alone which is called the Unmanifested.",
+    "en": "8.18 From the Unmanifested all the manifested (worlds) proceed at the coming of the 'day'; at the coming of the 'night' they dissolve verily into that alone which is called the Unmanifested.",
     "wordMeanings": {
       "अव्यक्ताद्": {
         "hi": "अव्यक्त से (सूक्ष्म कारण से)",

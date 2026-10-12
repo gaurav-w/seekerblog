@@ -770,7 +770,7 @@ window.GITA_CHAPTER_18 = [
       },
       "नाहंकृतो": {
         "hi": "नहीं · अहंकार से युक्त",
-        "en": "not · egoistic (notion of &lsquo;I am the doer&rsquo;)"
+        "en": "not · egoistic (notion of ‘I am the doer’)"
       },
       "भावो": {
         "hi": "भाव (कर्तापन का भाव)",
@@ -1118,7 +1118,7 @@ window.GITA_CHAPTER_18 = [
       },
       "पौरुषम्": {
         "hi": "अपनी सामर्थ्य को",
-        "en": "one&rsquo;s own capacity"
+        "en": "one’s own capacity"
       },
       "मोहादारभ्यते": {
         "hi": "अज्ञान से / मोह से · आरम्भ किया जाता है",
@@ -1670,7 +1670,7 @@ window.GITA_CHAPTER_18 = [
       },
       "प्रोक्तमात्मबुद्धिप्रसादजम्": {
         "hi": "कहा गया है · अपने · बुद्धि की · प्रसन्नता से उत्पन्न",
-        "en": "is declared · of one&rsquo;s own · intellect · born of the purity (or peace)"
+        "en": "is declared · of one’s own · intellect · born of the purity (or peace)"
       }
     }
   },
@@ -1865,7 +1865,7 @@ window.GITA_CHAPTER_18 = [
       },
       "स्वभावजम्": {
         "hi": "स्वभाव से उत्पन्न",
-        "en": "born of one&rsquo;s own nature"
+        "en": "born of one’s own nature"
       }
     }
   },
@@ -1908,7 +1908,7 @@ window.GITA_CHAPTER_18 = [
       },
       "स्वभावजम्": {
         "hi": "स्वभाव से उत्पन्न",
-        "en": "born of one&rsquo;s own nature"
+        "en": "born of one’s own nature"
       }
     }
   },
@@ -1927,7 +1927,7 @@ window.GITA_CHAPTER_18 = [
       },
       "स्वभावजम्": {
         "hi": "स्वभाव से उत्पन्न",
-        "en": "born of one&rsquo;s own nature"
+        "en": "born of one’s own nature"
       },
       "परिचर्यात्मकं": {
         "hi": "सेवात्मक (परिचर्या रूप)",
@@ -1950,7 +1950,7 @@ window.GITA_CHAPTER_18 = [
     "wordMeanings": {
       "स्वे": {
         "hi": "अपने",
-        "en": "in one&rsquo;s own"
+        "en": "in one’s own"
       },
       "कर्मण्यभिरतः": {
         "hi": "कर्म में · लगा हुआ",
@@ -2017,7 +2017,7 @@ window.GITA_CHAPTER_18 = [
       },
       "स्वकर्मणा": {
         "hi": "अपने स्वाभाविक कर्म के द्वारा",
-        "en": "by one&rsquo;s own duty"
+        "en": "by one’s own duty"
       },
       "तमभ्यर्च्य": {
         "hi": "उस (परमेश्वर) को · पूजकर",
@@ -2044,7 +2044,7 @@ window.GITA_CHAPTER_18 = [
     "wordMeanings": {
       "श्रेयान्स्वधर्मो": {
         "hi": "श्रेष्ठतर · अपना धर्म",
-        "en": "better · one&rsquo;s own duty"
+        "en": "better · one’s own duty"
       },
       "विगुणः": {
         "hi": "गुणरहित (दोषयुक्त)",
@@ -2052,11 +2052,11 @@ window.GITA_CHAPTER_18 = [
       },
       "परधर्मात्स्वनुष्ठितात्": {
         "hi": "दूसरे के धर्म से · अच्छी प्रकार आचरण किए हुए से",
-        "en": "than another&rsquo;s duty · well-performed"
+        "en": "than another’s duty · well-performed"
       },
       "स्वभावनियतं": {
         "hi": "स्वभाव से नियत किए हुए",
-        "en": "prescribed by one&rsquo;s own nature"
+        "en": "prescribed by one’s own nature"
       },
       "कर्म": {
         "hi": "कर्म को",
@@ -2079,7 +2079,7 @@ window.GITA_CHAPTER_18 = [
     "wordMeanings": {
       "सहजं": {
         "hi": "सहज (स्वभाव से उत्पन्न)",
-        "en": "born of one&rsquo;s nature"
+        "en": "born of one’s nature"
       },
       "कर्म": {
         "hi": "कर्म को",
@@ -2326,7 +2326,7 @@ window.GITA_CHAPTER_18 = [
       },
       "निर्ममः": {
         "hi": "ममता से रहित",
-        "en": "free from the notion of &lsquo;mine&rsquo;"
+        "en": "free from the notion of ‘mine’"
       },
       "शान्तो": {
         "hi": "शांत",

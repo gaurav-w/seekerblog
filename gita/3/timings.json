@@ -2,382 +2,263 @@
   "version": 1,
   "chapter": 3,
   "sourceSha256": "b28b1f07c51b0ee869050cbfffab5126bdf55b4676466dff42f02eec02892021",
-  "method": "Groq Whisper Large V3 measured words with canonical Sanskrit acoustic alignment; raw evidence and decisions cached locally.",
+  "method": "Canonical Sanskrit aligned with neighboring spoken lines and source-hashed ASR anchors; uncertain cues retained for listening review.",
   "reviewStatus": "machine-aligned",
-  "alignmentFingerprint": "a5808ca4c6e7e2fa04811fead439569e72c7597b359fcce551b584081144fa3a",
+  "alignmentFingerprint": "29a879a18a4a6afc289726d9a70b077dd60122c4d3bebd065367446ce8ddc6c7",
   "verses": [
     {
       "verse": 1,
       "audio": "audio/01.mp3",
       "sourceStart": 15.42,
-      "sourceEnd": 33.862,
-      "duration": 18.442,
+      "sourceEnd": 32.773,
+      "duration": 17.353,
+      "highlightMode": "word",
       "words": [
         {
           "text": "अर्जुन",
-          "start": 0.18,
-          "end": 1.56,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.18,
-          "highlightEnd": 1.56,
-          "highlightMethod": "groq-word"
+          "start": 1.011,
+          "end": 1.631,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.765
         },
         {
           "text": "उवाच",
-          "start": 1.772,
-          "end": 2.455,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.749,
-          "highlightGroup": 1,
-          "highlightStart": 1.772,
-          "highlightEnd": 2.455,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 1.771,
+          "end": 2.472,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.801
         },
         {
           "text": "ज्यायसी",
-          "start": 4.204,
-          "end": 5.048,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.799,
-          "highlightGroup": 2,
-          "highlightStart": 4.204,
-          "highlightEnd": 5.048,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 4.193,
+          "end": 5.374,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.657
         },
         {
           "text": "चेत्कर्मणस्ते",
-          "start": 5.24,
-          "end": 7.42,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 5.24,
-          "highlightEnd": 7.42,
-          "highlightMethod": "groq-word"
+          "start": 5.614,
+          "end": 7.536,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.78
         },
         {
           "text": "मता",
-          "start": 7.42,
-          "end": 8.72,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 7.42,
-          "highlightEnd": 8.72,
-          "highlightMethod": "groq-word"
+          "start": 8.216,
+          "end": 8.737,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.914
         },
         {
           "text": "बुद्धिर्जनार्दन",
-          "start": 8.72,
-          "end": 10.84,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 8.72,
-          "highlightEnd": 10.84,
-          "highlightMethod": "groq-word"
+          "start": 8.917,
+          "end": 10.558,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.799
         },
         {
           "text": "तत्किं",
-          "start": 10.84,
-          "end": 12.52,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 10.84,
-          "highlightEnd": 12.52,
-          "highlightMethod": "groq-word"
+          "start": 11.859,
+          "end": 12.54,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.71
         },
         {
           "text": "कर्मणि",
-          "start": 12.52,
-          "end": 13.4,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 12.52,
-          "highlightEnd": 13.4,
-          "highlightMethod": "groq-word"
+          "start": 12.72,
+          "end": 13.32,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.644
         },
         {
           "text": "घोरे",
-          "start": 13.4,
-          "end": 14.1,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 13.4,
-          "highlightEnd": 14.1,
-          "highlightMethod": "groq-word"
+          "start": 13.44,
+          "end": 14.181,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.94
         },
         {
           "text": "मां",
-          "start": 14.296,
-          "end": 14.378,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.664,
-          "highlightGroup": 9,
-          "highlightStart": 14.296,
-          "highlightEnd": 14.378,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 14.281,
+          "end": 14.881,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.672
         },
         {
           "text": "नियोजयसि",
-          "start": 14.83,
-          "end": 16.441,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.755,
-          "highlightGroup": 10,
-          "highlightStart": 14.92,
-          "highlightEnd": 17.54,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 15.162,
+          "end": 16.443,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.825
         },
         {
           "text": "केशव",
-          "start": 16.562,
-          "end": 17.227,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.872,
-          "highlightGroup": 10,
-          "highlightStart": 14.92,
-          "highlightEnd": 17.54,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 16.563,
+          "end": 17.243,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.821
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 2,
       "audio": "audio/02.mp3",
-      "sourceStart": 33.862,
-      "sourceEnd": 50.06,
-      "duration": 16.198,
+      "sourceStart": 32.773,
+      "sourceEnd": 50.767,
+      "duration": 17.994,
+      "highlightMode": "word",
       "words": [
         {
           "text": "व्यामिश्रेणेव",
-          "start": 0.153,
-          "end": 1.861,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.672,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 3.358,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.06,
+          "end": 2.941,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.633
         },
         {
           "text": "वाक्येन",
-          "start": 2.182,
-          "end": 2.986,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.561,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 3.358,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.021,
+          "end": 4.762,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.752
         },
         {
           "text": "बुद्धिं",
-          "start": 4.345,
-          "end": 4.929,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.678,
-          "highlightGroup": 1,
-          "highlightStart": 4.345,
-          "highlightEnd": 4.929,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 5.422,
+          "end": 6.342,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.835
         },
         {
           "text": "मोहयसीव",
-          "start": 5.271,
-          "end": 6.8,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.807,
-          "highlightGroup": 2,
-          "highlightStart": 5.338,
-          "highlightEnd": 7.498,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.362,
+          "end": 8.023,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.882
         },
         {
           "text": "मे",
-          "start": 6.962,
-          "end": 7.003,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.955,
-          "highlightGroup": 2,
-          "highlightStart": 5.338,
-          "highlightEnd": 7.498,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.043,
+          "end": 8.343,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.996
         },
         {
           "text": "तदेकं",
-          "start": 7.498,
-          "end": 9.398,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 7.498,
-          "highlightEnd": 9.398,
-          "highlightMethod": "groq-word"
+          "start": 9.624,
+          "end": 10.544,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.856
         },
         {
           "text": "वद",
-          "start": 9.773,
-          "end": 10.076,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.645,
-          "highlightGroup": 4,
-          "highlightStart": 9.398,
-          "highlightEnd": 11.298,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.884,
+          "end": 11.104,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.622
         },
         {
           "text": "निश्चित्य",
-          "start": 10.156,
-          "end": 11.246,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.693,
-          "highlightGroup": 4,
-          "highlightStart": 9.398,
-          "highlightEnd": 11.298,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 11.244,
+          "end": 12.645,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.699
         },
         {
           "text": "येन",
-          "start": 11.298,
-          "end": 12.838,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 11.298,
-          "highlightEnd": 12.838,
-          "highlightMethod": "groq-word"
+          "start": 13.485,
+          "end": 14.146,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.827
         },
         {
           "text": "श्रेयोऽहमाप्नुयाम्",
-          "start": 13.099,
-          "end": 15.503,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.73,
-          "highlightGroup": 6,
-          "highlightStart": 13.099,
-          "highlightEnd": 15.503,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 14.166,
+          "end": 17.987,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.779
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 3,
       "audio": "audio/03.mp3",
-      "sourceStart": 50.06,
+      "sourceStart": 50.767,
       "sourceEnd": 71.095,
-      "duration": 21.035,
+      "duration": 20.328,
+      "highlightMode": "word",
       "words": [
         {
           "text": "श्रीभगवानुवाच",
-          "start": 0.707,
-          "end": 2.571,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.837,
-          "highlightGroup": 0,
-          "highlightStart": 0.707,
-          "highlightEnd": 2.571,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 0.008,
+          "end": 1.849,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.808
         },
         {
           "text": "लोकेऽस्मिन्द्विविधा",
-          "start": 4.165,
-          "end": 6.851,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.775,
-          "highlightGroup": 1,
-          "highlightStart": 2.591,
-          "highlightEnd": 11.571,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 3.45,
+          "end": 5.851,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.825
         },
         {
           "text": "निष्ठा",
-          "start": 6.991,
-          "end": 7.913,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.716,
-          "highlightGroup": 1,
-          "highlightStart": 2.591,
-          "highlightEnd": 11.571,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 6.292,
+          "end": 7.212,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.738
         },
         {
           "text": "पुरा",
-          "start": 8.634,
-          "end": 9.196,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.708,
-          "highlightGroup": 1,
-          "highlightStart": 2.591,
-          "highlightEnd": 11.571,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 7.932,
+          "end": 8.513,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.772
         },
         {
           "text": "प्रोक्ता",
-          "start": 9.536,
-          "end": 10.498,
+          "start": 8.829,
+          "end": 9.791,
           "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.734,
-          "highlightGroup": 1,
-          "highlightStart": 2.591,
-          "highlightEnd": 11.571,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "score": 0.734
         },
         {
           "text": "मयानघ",
-          "start": 10.619,
-          "end": 11.18,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.663,
-          "highlightGroup": 1,
-          "highlightStart": 2.591,
-          "highlightEnd": 11.571,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 9.914,
+          "end": 10.794,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.708
         },
         {
           "text": "ज्ञानयोगेन",
-          "start": 13.082,
-          "end": 14.726,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.712,
-          "highlightGroup": 2,
-          "highlightStart": 12.831,
-          "highlightEnd": 20.211,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 12.375,
+          "end": 13.816,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.651
         },
         {
           "text": "सांख्यानां",
-          "start": 14.867,
-          "end": 16.792,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.699,
-          "highlightGroup": 2,
-          "highlightStart": 12.831,
-          "highlightEnd": 20.211,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 14.156,
+          "end": 16.097,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.722
         },
         {
           "text": "कर्मयोगेन",
-          "start": 17.092,
-          "end": 18.737,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.881,
-          "highlightGroup": 2,
-          "highlightStart": 12.831,
-          "highlightEnd": 20.211,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 16.377,
+          "end": 18.038,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.927
         },
         {
           "text": "योगिनाम्",
-          "start": 18.857,
-          "end": 20.16,
-          "timingMethod": "groq-slice-constrained-acoustic",
-          "score": 0.739,
-          "highlightGroup": 2,
-          "highlightStart": 12.831,
-          "highlightEnd": 20.211,
-          "highlightMethod": "groq-slice-constrained-acoustic"
+          "start": 18.158,
+          "end": 19.439,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.679
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 4,
@@ -385,95 +266,65 @@
       "sourceStart": 71.095,
       "sourceEnd": 85.455,
       "duration": 14.36,
+      "highlightMode": "word",
       "words": [
         {
           "text": "न",
-          "start": 0.2,
-          "end": 0.22,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.995,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 4.765,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.189,
+          "end": 0.209,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.995
         },
         {
           "text": "कर्मणामनारम्भान्नैष्कर्म्यं",
-          "start": 0.44,
-          "end": 4.454,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.722,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 4.765,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.429,
+          "end": 4.85,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.819
         },
         {
           "text": "पुरुषोऽश्नुते",
-          "start": 4.765,
-          "end": 6.845,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 4.765,
-          "highlightEnd": 6.845,
-          "highlightMethod": "groq-word"
+          "start": 5.05,
+          "end": 6.37,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.775
         },
         {
           "text": "न",
-          "start": 7.861,
-          "end": 7.881,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.975,
-          "highlightGroup": 2,
-          "highlightStart": 6.845,
-          "highlightEnd": 10.205,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.851,
+          "end": 7.871,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.997
         },
         {
           "text": "च",
-          "start": 8.083,
-          "end": 8.163,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.281,
-          "highlightGroup": 2,
-          "highlightStart": 6.845,
-          "highlightEnd": 10.205,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.091,
+          "end": 8.171,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.728
         },
         {
           "text": "संन्यसनादेव",
-          "start": 8.304,
-          "end": 8.686,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.24,
-          "highlightGroup": 2,
-          "highlightStart": 6.845,
-          "highlightEnd": 10.205,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.291,
+          "end": 10.492,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.819
         },
         {
           "text": "सिद्धिं",
-          "start": 11.206,
-          "end": 11.873,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.592,
-          "highlightGroup": 3,
-          "highlightStart": 11.206,
-          "highlightEnd": 11.873,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 11.192,
+          "end": 12.032,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.766
         },
         {
           "text": "समधिगच्छति",
-          "start": 11.965,
-          "end": 14.285,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 11.965,
-          "highlightEnd": 14.285,
-          "highlightMethod": "groq-word"
+          "start": 12.292,
+          "end": 13.653,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.665
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 5,
@@ -481,113 +332,79 @@
       "sourceStart": 85.455,
       "sourceEnd": 100.965,
       "duration": 15.51,
+      "highlightMode": "word",
       "words": [
         {
           "text": "न",
           "start": 0.808,
           "end": 0.91,
           "timingMethod": "groq-constrained-acoustic",
-          "score": 0.999,
-          "highlightGroup": 0,
-          "highlightStart": 0.165,
-          "highlightEnd": 1.085,
-          "highlightMethod": "groq-constrained-acoustic"
+          "score": 0.999
         },
         {
           "text": "हि",
-          "start": 0.991,
-          "end": 1.032,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.498,
-          "highlightGroup": 0,
-          "highlightStart": 0.165,
-          "highlightEnd": 1.085,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.981,
+          "end": 1.081,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.5
         },
         {
           "text": "कश्चित्क्षणमपि",
-          "start": 1.085,
-          "end": 3.065,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.085,
-          "highlightEnd": 3.065,
-          "highlightMethod": "groq-word"
+          "start": 1.241,
+          "end": 3.062,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.633
         },
         {
           "text": "जातु",
-          "start": 4.0,
+          "start": 4.002,
           "end": 4.603,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.651,
-          "highlightGroup": 2,
-          "highlightStart": 3.065,
-          "highlightEnd": 6.825,
-          "highlightMethod": "groq-constrained-acoustic"
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.65
         },
         {
           "text": "तिष्ठत्यकर्मकृत्",
-          "start": 4.744,
-          "end": 6.151,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.415,
-          "highlightGroup": 2,
-          "highlightStart": 3.065,
-          "highlightEnd": 6.825,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.723,
+          "end": 6.764,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.639
         },
         {
           "text": "कार्यते",
-          "start": 6.825,
-          "end": 8.745,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 6.825,
-          "highlightEnd": 8.745,
-          "highlightMethod": "groq-word"
+          "start": 7.765,
+          "end": 8.705,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.885
         },
         {
           "text": "ह्यवशः",
-          "start": 8.745,
-          "end": 9.685,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 8.745,
-          "highlightEnd": 9.685,
-          "highlightMethod": "groq-word"
+          "start": 8.725,
+          "end": 9.566,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.653
         },
         {
           "text": "कर्म",
-          "start": 9.685,
-          "end": 10.705,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 9.685,
-          "highlightEnd": 10.705,
-          "highlightMethod": "groq-word"
+          "start": 10.226,
+          "end": 10.987,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.838
         },
         {
           "text": "सर्वः",
-          "start": 10.705,
-          "end": 12.445,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 10.705,
-          "highlightEnd": 12.445,
-          "highlightMethod": "groq-word"
+          "start": 11.787,
+          "end": 12.288,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.881
         },
         {
           "text": "प्रकृतिजैर्गुणैः",
-          "start": 12.445,
-          "end": 15.425,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 12.445,
-          "highlightEnd": 15.425,
-          "highlightMethod": "groq-word"
+          "start": 12.848,
+          "end": 14.809,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.772
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 6,
@@ -595,337 +412,232 @@
       "sourceStart": 100.965,
       "sourceEnd": 117.88,
       "duration": 16.915,
+      "highlightMode": "word",
       "words": [
         {
           "text": "कर्मेन्द्रियाणि",
-          "start": 0.035,
-          "end": 2.415,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.035,
-          "highlightEnd": 2.415,
-          "highlightMethod": "groq-word"
+          "start": 0.711,
+          "end": 2.352,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.698
         },
         {
           "text": "संयम्य",
-          "start": 2.537,
-          "end": 3.263,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.612,
-          "highlightGroup": 1,
-          "highlightStart": 2.537,
-          "highlightEnd": 3.263,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 2.532,
+          "end": 3.913,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.87
         },
         {
           "text": "य",
-          "start": 4.69,
-          "end": 4.75,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.734,
-          "highlightGroup": 2,
-          "highlightStart": 3.595,
-          "highlightEnd": 5.895,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.693,
+          "end": 4.753,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.907
         },
         {
           "text": "आस्ते",
-          "start": 4.957,
-          "end": 5.682,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.896,
-          "highlightGroup": 2,
-          "highlightStart": 3.595,
-          "highlightEnd": 5.895,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.953,
+          "end": 5.954,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.899
         },
         {
           "text": "मनसा",
-          "start": 5.895,
-          "end": 6.795,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 5.895,
-          "highlightEnd": 6.795,
-          "highlightMethod": "groq-word"
+          "start": 6.134,
+          "end": 6.614,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.994
         },
         {
           "text": "स्मरन्",
-          "start": 6.795,
-          "end": 7.915,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 6.795,
-          "highlightEnd": 7.915,
-          "highlightMethod": "groq-word"
+          "start": 6.995,
+          "end": 7.715,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.786
         },
         {
           "text": "इन्द्रियार्थान्विमूढात्मा",
-          "start": 7.915,
-          "end": 12.495,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 7.915,
-          "highlightEnd": 12.495,
-          "highlightMethod": "groq-word"
+          "start": 8.936,
+          "end": 12.518,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.699
         },
         {
           "text": "मिथ्याचारः",
-          "start": 13.231,
-          "end": 14.176,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.617,
-          "highlightGroup": 6,
-          "highlightStart": 12.495,
-          "highlightEnd": 15.395,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 13.238,
+          "end": 15.1,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.811
         },
         {
           "text": "स",
-          "start": 14.337,
-          "end": 14.358,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.0,
-          "highlightGroup": 6,
-          "highlightStart": 12.495,
-          "highlightEnd": 15.395,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 15.36,
+          "end": 15.44,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.746
         },
         {
           "text": "उच्यते",
-          "start": 15.395,
-          "end": 16.915,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 15.395,
-          "highlightEnd": 16.915,
-          "highlightMethod": "groq-word"
+          "start": 15.6,
+          "end": 16.32,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.756
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 7,
       "audio": "audio/07.mp3",
       "sourceStart": 117.88,
-      "sourceEnd": 132.892,
-      "duration": 15.012,
+      "sourceEnd": 134.071,
+      "duration": 16.191,
+      "highlightMode": "word",
       "words": [
         {
           "text": "यस्त्विन्द्रियाणि",
-          "start": 0.0,
-          "end": 2.58,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.58,
-          "highlightMethod": "groq-word"
+          "start": 0.776,
+          "end": 2.557,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.706
         },
         {
           "text": "मनसा",
-          "start": 2.58,
-          "end": 3.54,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.58,
-          "highlightEnd": 3.54,
-          "highlightMethod": "groq-word"
+          "start": 2.677,
+          "end": 3.518,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.856
         },
         {
           "text": "नियम्यारभतेऽर्जुन",
-          "start": 3.54,
-          "end": 6.82,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 3.54,
-          "highlightEnd": 6.82,
-          "highlightMethod": "groq-word"
+          "start": 4.258,
+          "end": 6.64,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.812
         },
         {
           "text": "कर्मेन्द्रियैः",
-          "start": 7.12,
-          "end": 9.52,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 7.12,
-          "highlightEnd": 9.52,
-          "highlightMethod": "groq-word"
+          "start": 8.041,
+          "end": 9.382,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.707
         },
         {
           "text": "कर्मयोगमसक्तः",
-          "start": 9.952,
-          "end": 12.962,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.7,
-          "highlightGroup": 4,
-          "highlightStart": 9.52,
-          "highlightEnd": 15.012,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.962,
+          "end": 12.944,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.854
         },
         {
           "text": "स",
           "start": 13.384,
           "end": 13.424,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.994,
-          "highlightGroup": 4,
-          "highlightStart": 9.52,
-          "highlightEnd": 15.012,
-          "highlightMethod": "groq-constrained-acoustic"
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.986
         },
         {
           "text": "विशिष्यते",
           "start": 13.584,
-          "end": 14.387,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.614,
-          "highlightGroup": 4,
-          "highlightStart": 9.52,
-          "highlightEnd": 15.012,
-          "highlightMethod": "groq-constrained-acoustic"
+          "end": 16.186,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.765
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 8,
       "audio": "audio/08.mp3",
-      "sourceStart": 132.892,
+      "sourceStart": 134.071,
       "sourceEnd": 147.233,
-      "duration": 14.341,
+      "duration": 13.162,
+      "highlightMode": "word",
       "words": [
         {
           "text": "नियतं",
-          "start": 0.048,
-          "end": 1.848,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.048,
-          "highlightEnd": 1.848,
-          "highlightMethod": "groq-word"
+          "start": 0.005,
+          "end": 0.765,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.828
         },
         {
           "text": "कुरु",
-          "start": 1.848,
-          "end": 2.548,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.848,
-          "highlightEnd": 2.548,
-          "highlightMethod": "groq-word"
+          "start": 0.986,
+          "end": 1.246,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.834
         },
         {
           "text": "कर्म",
-          "start": 2.58,
-          "end": 3.351,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.817,
-          "highlightGroup": 2,
-          "highlightStart": 2.548,
-          "highlightEnd": 3.748,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.406,
+          "end": 1.786,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.942
         },
         {
           "text": "त्वं",
-          "start": 3.371,
-          "end": 3.614,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.69,
-          "highlightGroup": 2,
-          "highlightStart": 2.548,
-          "highlightEnd": 3.748,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 2.186,
+          "end": 2.727,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.66
         },
         {
           "text": "कर्म",
-          "start": 4.182,
-          "end": 4.706,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.718,
-          "highlightGroup": 3,
-          "highlightStart": 3.748,
-          "highlightEnd": 6.188,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.007,
+          "end": 3.527,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.945
         },
         {
           "text": "ज्यायो",
-          "start": 4.968,
-          "end": 5.633,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.736,
-          "highlightGroup": 3,
-          "highlightStart": 3.748,
-          "highlightEnd": 6.188,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.767,
+          "end": 4.608,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.716
         },
         {
           "text": "ह्यकर्मणः",
-          "start": 6.098,
-          "end": 7.062,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.771,
-          "highlightGroup": 4,
-          "highlightStart": 6.098,
-          "highlightEnd": 7.062,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 4.628,
+          "end": 5.869,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.749
         },
         {
           "text": "शरीरयात्रापि",
-          "start": 8.468,
-          "end": 10.335,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.738,
-          "highlightGroup": 5,
-          "highlightStart": 7.108,
-          "highlightEnd": 10.928,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.29,
+          "end": 9.131,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.726
         },
         {
           "text": "च",
-          "start": 10.476,
-          "end": 10.556,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.589,
-          "highlightGroup": 5,
-          "highlightStart": 7.108,
-          "highlightEnd": 10.928,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.291,
+          "end": 9.371,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.497
         },
         {
           "text": "ते",
-          "start": 10.648,
-          "end": 11.069,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.755,
-          "highlightGroup": 5,
-          "highlightStart": 7.108,
-          "highlightEnd": 10.928,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.471,
+          "end": 9.891,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.719
         },
         {
           "text": "न",
-          "start": 11.803,
-          "end": 11.824,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.995,
-          "highlightGroup": 6,
-          "highlightStart": 10.928,
-          "highlightEnd": 14.341,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.632,
+          "end": 10.652,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.997
         },
         {
           "text": "प्रसिद्ध्येदकर्मणः",
-          "start": 12.005,
-          "end": 14.076,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.682,
-          "highlightGroup": 6,
-          "highlightStart": 10.928,
-          "highlightEnd": 14.341,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.832,
+          "end": 13.053,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.65
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 9,
@@ -933,95 +645,65 @@
       "sourceStart": 147.233,
       "sourceEnd": 164.241,
       "duration": 17.008,
+      "highlightMode": "word",
       "words": [
         {
           "text": "यज्ञार्थात्कर्मणोऽन्यत्र",
-          "start": 0.027,
-          "end": 4.227,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.027,
-          "highlightEnd": 4.227,
-          "highlightMethod": "groq-word"
+          "start": 1.142,
+          "end": 4.524,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.734
         },
         {
           "text": "लोकोऽयं",
-          "start": 5.483,
-          "end": 6.769,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.862,
-          "highlightGroup": 1,
-          "highlightStart": 4.227,
-          "highlightEnd": 8.567,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.485,
+          "end": 6.566,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.894
         },
         {
           "text": "कर्मबन्धनः",
-          "start": 7.03,
-          "end": 8.094,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.658,
-          "highlightGroup": 1,
-          "highlightStart": 4.227,
-          "highlightEnd": 8.567,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.026,
+          "end": 8.427,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.802
         },
         {
           "text": "तदर्थं",
-          "start": 8.767,
-          "end": 10.487,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 8.767,
-          "highlightEnd": 10.487,
-          "highlightMethod": "groq-word"
+          "start": 9.667,
+          "end": 10.648,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.813
         },
         {
           "text": "कर्म",
-          "start": 10.861,
-          "end": 11.184,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.752,
-          "highlightGroup": 3,
-          "highlightStart": 10.487,
-          "highlightEnd": 12.607,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.868,
+          "end": 11.188,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.888
         },
         {
           "text": "कौन्तेय",
-          "start": 11.426,
-          "end": 12.132,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.767,
-          "highlightGroup": 3,
-          "highlightStart": 10.487,
-          "highlightEnd": 12.607,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 11.429,
+          "end": 12.989,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.879
         },
         {
           "text": "मुक्तसङ्गः",
-          "start": 13.683,
-          "end": 14.909,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.778,
-          "highlightGroup": 4,
-          "highlightStart": 12.607,
-          "highlightEnd": 16.427,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 13.67,
+          "end": 15.051,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.842
         },
         {
           "text": "समाचर",
-          "start": 15.23,
-          "end": 15.773,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.788,
-          "highlightGroup": 4,
-          "highlightStart": 12.607,
-          "highlightEnd": 16.427,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 15.231,
+          "end": 16.352,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.893
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 10,
@@ -1029,97 +711,65 @@
       "sourceStart": 164.241,
       "sourceEnd": 179.974,
       "duration": 15.733,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सहयज्ञाः",
-          "start": 0.578,
-          "end": 1.122,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.727,
-          "highlightGroup": 0,
-          "highlightStart": 0.578,
-          "highlightEnd": 1.122,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.575,
+          "end": 1.775,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.826
         },
         {
           "text": "प्रजाः",
-          "start": 2.151,
-          "end": 2.775,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.736,
-          "highlightGroup": 1,
-          "highlightStart": 1.979,
-          "highlightEnd": 4.619,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 2.155,
+          "end": 2.896,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.715
         },
         {
           "text": "सृष्ट्वा",
-          "start": 3.077,
-          "end": 3.661,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.717,
-          "highlightGroup": 1,
-          "highlightStart": 1.979,
-          "highlightEnd": 4.619,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.076,
+          "end": 3.977,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.814
         },
         {
           "text": "पुरोवाच",
-          "start": 4.649,
-          "end": 5.651,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.777,
-          "highlightGroup": 2,
-          "highlightStart": 4.619,
-          "highlightEnd": 7.939,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.657,
+          "end": 5.918,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.852
         },
         {
           "text": "प्रजापतिः",
-          "start": 5.891,
-          "end": 7.314,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.82,
-          "highlightGroup": 2,
-          "highlightStart": 4.619,
-          "highlightEnd": 7.939,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.318,
+          "end": 7.319,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.78
         },
         {
           "text": "अनेन",
-          "start": 8.756,
-          "end": 9.418,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.92,
-          "highlightGroup": 3,
-          "highlightStart": 7.759,
-          "highlightEnd": 15.733,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.749,
+          "end": 9.41,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.912
         },
         {
           "text": "प्रसविष्यध्वमेष",
-          "start": 9.838,
-          "end": 13.064,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.651,
-          "highlightGroup": 3,
-          "highlightStart": 7.759,
-          "highlightEnd": 15.733,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.83,
+          "end": 13.051,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.638
         },
         {
           "text": "वोऽस्त्विष्टकामधुक्",
-          "start": 13.184,
-          "end": 15.548,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.659,
-          "highlightGroup": 3,
-          "highlightStart": 7.759,
-          "highlightEnd": 15.733,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 13.171,
+          "end": 15.432,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.642
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 11,
@@ -1127,103 +777,72 @@
       "sourceStart": 179.974,
       "sourceEnd": 196.747,
       "duration": 16.773,
+      "highlightMode": "word",
       "words": [
         {
           "text": "देवान्भावयतानेन",
-          "start": 0.026,
-          "end": 4.086,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.026,
-          "highlightEnd": 4.086,
-          "highlightMethod": "groq-word"
+          "start": 1.079,
+          "end": 4.44,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.834
         },
         {
           "text": "ते",
-          "start": 5.145,
-          "end": 5.206,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.954,
-          "highlightGroup": 1,
-          "highlightStart": 4.086,
-          "highlightEnd": 8.206,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.141,
+          "end": 5.401,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.864
         },
         {
           "text": "देवा",
-          "start": 5.523,
-          "end": 6.106,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.763,
-          "highlightGroup": 1,
-          "highlightStart": 4.086,
-          "highlightEnd": 8.206,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.521,
+          "end": 6.001,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.939
         },
         {
           "text": "भावयन्तु",
-          "start": 6.427,
-          "end": 7.713,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.812,
-          "highlightGroup": 1,
-          "highlightStart": 4.086,
-          "highlightEnd": 8.206,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.421,
+          "end": 7.702,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.775
         },
         {
           "text": "वः",
-          "start": 7.814,
-          "end": 7.874,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.833,
-          "highlightGroup": 1,
-          "highlightStart": 4.086,
-          "highlightEnd": 8.206,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.802,
+          "end": 8.002,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.69
         },
         {
           "text": "परस्परं",
-          "start": 8.218,
-          "end": 10.518,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 8.218,
-          "highlightEnd": 10.518,
-          "highlightMethod": "groq-word"
+          "start": 9.482,
+          "end": 10.563,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.73
         },
         {
           "text": "भावयन्तः",
-          "start": 10.518,
-          "end": 12.098,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 10.518,
-          "highlightEnd": 12.098,
-          "highlightMethod": "groq-word"
+          "start": 10.783,
+          "end": 11.823,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.681
         },
         {
           "text": "श्रेयः",
-          "start": 12.098,
-          "end": 13.398,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 12.098,
-          "highlightEnd": 13.398,
-          "highlightMethod": "groq-word"
+          "start": 12.043,
+          "end": 13.263,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.736
         },
         {
           "text": "परमवाप्स्यथ",
-          "start": 13.398,
-          "end": 16.158,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 13.398,
-          "highlightEnd": 16.158,
-          "highlightMethod": "groq-word"
+          "start": 13.924,
+          "end": 15.504,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.814
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 12,
@@ -1231,127 +850,86 @@
       "sourceStart": 196.747,
       "sourceEnd": 214.706,
       "duration": 17.959,
+      "highlightMode": "word",
       "words": [
         {
           "text": "इष्टान्भोगान्हि",
-          "start": 0.279,
-          "end": 2.492,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.82,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.865,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.28,
+          "end": 2.481,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.792
         },
         {
           "text": "वो",
-          "start": 2.565,
-          "end": 2.745,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.944,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.865,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 2.581,
+          "end": 2.781,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.989
         },
         {
           "text": "देवा",
-          "start": 2.865,
-          "end": 3.865,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.865,
-          "highlightEnd": 3.865,
-          "highlightMethod": "groq-word"
+          "start": 3.061,
+          "end": 3.922,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.664
         },
         {
           "text": "दास्यन्ते",
-          "start": 4.73,
-          "end": 5.313,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.462,
-          "highlightGroup": 2,
-          "highlightStart": 4.73,
-          "highlightEnd": 5.313,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 4.722,
+          "end": 6.163,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.872
         },
         {
           "text": "यज्ञभाविताः",
-          "start": 6.35,
-          "end": 7.732,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.842,
-          "highlightGroup": 3,
-          "highlightStart": 6.35,
-          "highlightEnd": 7.732,
-          "highlightMethod": "prior-acoustic-in-stt-window"
+          "start": 6.363,
+          "end": 8.364,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.789
         },
         {
           "text": "तैर्दत्तानप्रदायैभ्यो",
-          "start": 8.525,
-          "end": 13.025,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 8.525,
-          "highlightEnd": 13.025,
-          "highlightMethod": "groq-word"
+          "start": 9.665,
+          "end": 13.067,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.708
         },
         {
           "text": "यो",
-          "start": 13.025,
-          "end": 14.165,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 13.025,
-          "highlightEnd": 14.165,
-          "highlightMethod": "groq-word"
+          "start": 13.908,
+          "end": 14.348,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.964
         },
         {
           "text": "भुङ्क्ते",
-          "start": 14.299,
-          "end": 14.909,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.689,
-          "highlightGroup": 6,
-          "highlightStart": 14.299,
-          "highlightEnd": 14.909,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 14.368,
+          "end": 15.188,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.612
         },
         {
           "text": "स्तेन",
-          "start": 15.369,
-          "end": 15.955,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.926,
-          "highlightGroup": 7,
-          "highlightStart": 15.369,
-          "highlightEnd": 15.955,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 15.388,
+          "end": 16.069,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.894
         },
         {
           "text": "एव",
-          "start": 15.996,
-          "end": 16.083,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.334,
-          "highlightGroup": 8,
-          "highlightStart": 16.045,
-          "highlightEnd": 17.165,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 16.209,
+          "end": 16.489,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.497
         },
         {
           "text": "सः",
-          "start": 16.169,
-          "end": 16.234,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.746,
-          "highlightGroup": 8,
-          "highlightStart": 16.045,
-          "highlightEnd": 17.165,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 16.809,
+          "end": 17.009,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.834
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 13,
@@ -1359,111 +937,79 @@
       "sourceStart": 214.706,
       "sourceEnd": 231.532,
       "duration": 16.826,
+      "highlightMode": "word",
       "words": [
         {
           "text": "यज्ञशिष्टाशिनः",
-          "start": 1.086,
-          "end": 2.266,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 1.086,
-          "highlightEnd": 2.266,
-          "highlightMethod": "groq-word"
+          "start": 0.542,
+          "end": 2.183,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.642
         },
         {
           "text": "सन्तो",
-          "start": 2.266,
-          "end": 3.326,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.266,
-          "highlightEnd": 3.326,
-          "highlightMethod": "groq-word"
+          "start": 2.603,
+          "end": 3.443,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.859
         },
         {
           "text": "मुच्यन्ते",
-          "start": 3.326,
-          "end": 5.366,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 3.326,
-          "highlightEnd": 5.366,
-          "highlightMethod": "groq-word"
+          "start": 4.144,
+          "end": 5.464,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.757
         },
         {
           "text": "सर्वकिल्बिषैः",
-          "start": 5.366,
-          "end": 8.386,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 5.366,
-          "highlightEnd": 8.386,
-          "highlightMethod": "groq-word"
+          "start": 5.704,
+          "end": 7.485,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.826
         },
         {
           "text": "भुञ्जते",
-          "start": 8.466,
-          "end": 10.266,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 8.466,
-          "highlightEnd": 10.266,
-          "highlightMethod": "groq-word"
+          "start": 7.646,
+          "end": 10.287,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.845
         },
         {
           "text": "ते",
-          "start": 10.501,
-          "end": 10.703,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.438,
-          "highlightGroup": 5,
-          "highlightStart": 10.266,
-          "highlightEnd": 11.506,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.507,
+          "end": 10.707,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.781
         },
         {
           "text": "त्वघं",
-          "start": 10.94,
-          "end": 11.461,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.552,
-          "highlightGroup": 5,
-          "highlightStart": 10.266,
-          "highlightEnd": 11.506,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.947,
+          "end": 11.548,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.603
         },
         {
           "text": "पापा",
-          "start": 11.506,
-          "end": 12.526,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 11.506,
-          "highlightEnd": 12.526,
-          "highlightMethod": "groq-word"
+          "start": 11.748,
+          "end": 12.608,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.947
         },
         {
           "text": "ये",
-          "start": 12.526,
-          "end": 13.686,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 12.526,
-          "highlightEnd": 13.686,
-          "highlightMethod": "groq-word"
+          "start": 13.429,
+          "end": 13.749,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.638
         },
         {
           "text": "पचन्त्यात्मकारणात्",
-          "start": 13.686,
-          "end": 16.826,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 13.686,
-          "highlightEnd": 16.826,
-          "highlightMethod": "groq-word"
+          "start": 13.949,
+          "end": 16.711,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.622
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 14,
@@ -1471,82 +1017,58 @@
       "sourceStart": 231.532,
       "sourceEnd": 249.147,
       "duration": 17.615,
+      "highlightMode": "word",
       "words": [
         {
           "text": "अन्नाद्भवन्ति",
-          "start": 0.0,
-          "end": 3.2,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 3.2,
-          "highlightMethod": "groq-word"
+          "start": 1.316,
+          "end": 3.157,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.755
         },
         {
           "text": "भूतानि",
-          "start": 3.2,
-          "end": 4.56,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 3.2,
-          "highlightEnd": 4.56,
-          "highlightMethod": "groq-word"
+          "start": 3.277,
+          "end": 4.518,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.76
         },
         {
           "text": "पर्जन्यादन्नसम्भवः",
-          "start": 4.56,
-          "end": 8.56,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 4.56,
-          "highlightEnd": 8.56,
-          "highlightMethod": "groq-word"
+          "start": 5.358,
+          "end": 8.26,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.79
         },
         {
           "text": "यज्ञाद्भवति",
-          "start": 9.779,
+          "start": 9.781,
           "end": 11.522,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.762,
-          "highlightGroup": 3,
-          "highlightStart": 9.779,
-          "highlightEnd": 11.522,
-          "highlightMethod": "prior-acoustic-in-stt-window"
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.693
         },
         {
           "text": "पर्जन्यो",
-          "start": 11.641,
-          "end": 12.63,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.924,
-          "highlightGroup": 4,
-          "highlightStart": 11.641,
-          "highlightEnd": 12.63,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 11.642,
+          "end": 13.063,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.787
         },
         {
           "text": "यज्ञः",
-          "start": 13.76,
-          "end": 13.881,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.621,
-          "highlightGroup": 5,
-          "highlightStart": 13.76,
-          "highlightEnd": 13.881,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 13.743,
+          "end": 14.263,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.795
         },
         {
           "text": "कर्मसमुद्भवः",
-          "start": 14.44,
-          "end": 16.72,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 14.44,
-          "highlightEnd": 16.72,
-          "highlightMethod": "groq-word"
+          "start": 14.924,
+          "end": 16.565,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.809
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 15,
@@ -1554,106 +1076,72 @@
       "sourceStart": 249.147,
       "sourceEnd": 263.747,
       "duration": 14.6,
+      "highlightMode": "word",
       "words": [
         {
           "text": "कर्म",
-          "start": 0.484,
-          "end": 0.825,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.795,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.405,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.481,
+          "end": 0.921,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.825
         },
         {
           "text": "ब्रह्मोद्भवं",
-          "start": 1.006,
-          "end": 2.313,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.688,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.405,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.002,
+          "end": 2.402,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.654
         },
         {
           "text": "विद्धि",
-          "start": 2.576,
-          "end": 3.118,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.644,
-          "highlightGroup": 1,
-          "highlightStart": 2.405,
-          "highlightEnd": 7.245,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 2.583,
+          "end": 3.103,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.48
         },
         {
           "text": "ब्रह्माक्षरसमुद्भवम्",
-          "start": 3.459,
-          "end": 6.07,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.695,
-          "highlightGroup": 1,
-          "highlightStart": 2.405,
-          "highlightEnd": 7.245,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.463,
+          "end": 6.065,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.71
         },
         {
           "text": "तस्मात्सर्वगतं",
-          "start": 7.245,
-          "end": 9.385,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 7.245,
-          "highlightEnd": 9.385,
-          "highlightMethod": "groq-word"
+          "start": 7.486,
+          "end": 9.327,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.811
         },
         {
           "text": "ब्रह्म",
-          "start": 9.586,
-          "end": 9.827,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.209,
-          "highlightGroup": 3,
-          "highlightStart": 9.586,
-          "highlightEnd": 9.827,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 9.347,
+          "end": 10.428,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.578
         },
         {
           "text": "नित्यं",
-          "start": 9.847,
-          "end": 10.088,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.213,
-          "highlightGroup": 4,
-          "highlightStart": 9.847,
-          "highlightEnd": 10.088,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 11.008,
+          "end": 11.688,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.784
         },
         {
           "text": "यज्ञे",
-          "start": 10.41,
-          "end": 11.077,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.573,
-          "highlightGroup": 5,
-          "highlightStart": 10.41,
-          "highlightEnd": 11.077,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 11.869,
+          "end": 12.449,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.87
         },
         {
           "text": "प्रतिष्ठितम्",
-          "start": 12.445,
-          "end": 14.345,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 12.445,
-          "highlightEnd": 14.345,
-          "highlightMethod": "groq-word"
+          "start": 12.729,
+          "end": 13.75,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.637
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 16,
@@ -1661,437 +1149,298 @@
       "sourceStart": 263.747,
       "sourceEnd": 278.957,
       "duration": 15.21,
+      "highlightMode": "word",
       "words": [
         {
           "text": "एवं",
-          "start": 0.665,
-          "end": 1.365,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.665,
-          "highlightEnd": 1.365,
-          "highlightMethod": "groq-word"
+          "start": 0.76,
+          "end": 1.461,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.719
         },
         {
           "text": "प्रवर्तितं",
-          "start": 1.365,
-          "end": 2.685,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.365,
-          "highlightEnd": 2.685,
-          "highlightMethod": "groq-word"
+          "start": 1.661,
+          "end": 2.681,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.676
         },
         {
           "text": "चक्रं",
-          "start": 2.685,
-          "end": 3.705,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 2.685,
-          "highlightEnd": 3.705,
-          "highlightMethod": "groq-word"
+          "start": 2.882,
+          "end": 3.762,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.826
         },
         {
           "text": "नानुवर्तयतीह",
-          "start": 3.705,
-          "end": 5.925,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 3.705,
-          "highlightEnd": 5.925,
-          "highlightMethod": "groq-word"
+          "start": 3.922,
+          "end": 5.804,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.807
         },
         {
           "text": "यः",
-          "start": 5.925,
-          "end": 6.465,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 5.925,
-          "highlightEnd": 6.465,
-          "highlightMethod": "groq-word"
+          "start": 6.104,
+          "end": 6.324,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.875
         },
         {
           "text": "अघायुरिन्द्रियारामो",
-          "start": 6.465,
-          "end": 10.685,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 6.465,
-          "highlightEnd": 10.685,
-          "highlightMethod": "groq-word"
+          "start": 7.845,
+          "end": 10.787,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.812
         },
         {
           "text": "मोघं",
-          "start": 10.685,
-          "end": 12.105,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 10.685,
-          "highlightEnd": 12.105,
-          "highlightMethod": "groq-word"
+          "start": 11.447,
+          "end": 12.168,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.749
         },
         {
           "text": "पार्थ",
-          "start": 12.361,
-          "end": 13.01,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.778,
-          "highlightGroup": 7,
-          "highlightStart": 12.105,
-          "highlightEnd": 13.165,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 12.368,
+          "end": 13.008,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.765
         },
         {
           "text": "स",
           "start": 13.112,
           "end": 13.132,
           "timingMethod": "groq-constrained-acoustic",
-          "score": 0.955,
-          "highlightGroup": 7,
-          "highlightStart": 12.105,
-          "highlightEnd": 13.165,
-          "highlightMethod": "groq-constrained-acoustic"
+          "score": 0.955
         },
         {
           "text": "जीवति",
-          "start": 13.165,
-          "end": 14.365,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 13.165,
-          "highlightEnd": 14.365,
-          "highlightMethod": "groq-word"
+          "start": 13.368,
+          "end": 14.269,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.798
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 17,
       "audio": "audio/17.mp3",
       "sourceStart": 278.957,
-      "sourceEnd": 294.114,
-      "duration": 15.157,
+      "sourceEnd": 295.263,
+      "duration": 16.306,
+      "highlightMode": "word",
       "words": [
         {
           "text": "यस्त्वात्मरतिरेव",
-          "start": 0.627,
-          "end": 3.194,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.823,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 7.595,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.631,
+          "end": 3.252,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.857
         },
         {
           "text": "स्यादात्मतृप्तश्च",
-          "start": 3.414,
-          "end": 6.462,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.636,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 7.595,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.413,
+          "end": 6.434,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.711
         },
         {
           "text": "मानवः",
-          "start": 6.522,
-          "end": 7.123,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.955,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 7.595,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.514,
+          "end": 7.235,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.808
         },
         {
           "text": "आत्मन्येव",
-          "start": 8.828,
-          "end": 10.112,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.556,
-          "highlightGroup": 1,
-          "highlightStart": 7.595,
-          "highlightEnd": 15.155,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.836,
+          "end": 10.117,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.554
         },
         {
           "text": "च",
-          "start": 10.232,
-          "end": 10.432,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.9,
-          "highlightGroup": 1,
-          "highlightStart": 7.595,
-          "highlightEnd": 15.155,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.237,
+          "end": 10.437,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.899
         },
         {
           "text": "सन्तुष्टस्तस्य",
-          "start": 10.653,
+          "start": 10.657,
           "end": 12.698,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.665,
-          "highlightGroup": 1,
-          "highlightStart": 7.595,
-          "highlightEnd": 15.155,
-          "highlightMethod": "groq-constrained-acoustic"
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.634
         },
         {
           "text": "कार्यं",
           "start": 12.818,
-          "end": 13.46,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.755,
-          "highlightGroup": 1,
-          "highlightStart": 7.595,
-          "highlightEnd": 15.155,
-          "highlightMethod": "groq-constrained-acoustic"
+          "end": 13.459,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.802
         },
         {
           "text": "न",
-          "start": 13.721,
-          "end": 13.741,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.977,
-          "highlightGroup": 1,
-          "highlightStart": 7.595,
-          "highlightEnd": 15.155,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 13.719,
+          "end": 13.859,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.791
         },
         {
           "text": "विद्यते",
-          "start": 13.821,
-          "end": 14.122,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.248,
-          "highlightGroup": 1,
-          "highlightStart": 7.595,
-          "highlightEnd": 15.155,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 13.979,
+          "end": 16.301,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.451
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 18,
       "audio": "audio/18.mp3",
-      "sourceStart": 294.114,
-      "sourceEnd": 311.097,
-      "duration": 16.983,
+      "sourceStart": 295.263,
+      "sourceEnd": 310.547,
+      "duration": 15.284,
+      "highlightMode": "word",
       "words": [
         {
           "text": "नैव",
-          "start": 1.153,
-          "end": 1.696,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.858,
-          "highlightGroup": 0,
-          "highlightStart": 0.058,
-          "highlightEnd": 4.158,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.005,
+          "end": 0.705,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.904
         },
         {
           "text": "तस्य",
-          "start": 2.016,
-          "end": 2.457,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.582,
-          "highlightGroup": 0,
-          "highlightStart": 0.058,
-          "highlightEnd": 4.158,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.885,
+          "end": 1.385,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.732
         },
         {
           "text": "कृतेनार्थो",
-          "start": 2.62,
-          "end": 3.886,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.794,
-          "highlightGroup": 0,
-          "highlightStart": 0.058,
-          "highlightEnd": 4.158,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.466,
+          "end": 3.047,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.807
         },
         {
           "text": "नाकृतेनेह",
-          "start": 4.993,
-          "end": 5.717,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.604,
-          "highlightGroup": 1,
-          "highlightStart": 4.158,
-          "highlightEnd": 7.638,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.847,
+          "end": 5.488,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.771
         },
         {
           "text": "कश्चन",
-          "start": 6.76,
-          "end": 7.341,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.858,
-          "highlightGroup": 1,
-          "highlightStart": 4.158,
-          "highlightEnd": 7.638,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.628,
+          "end": 6.249,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.812
         },
         {
           "text": "न",
-          "start": 9.014,
-          "end": 9.034,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.94,
-          "highlightGroup": 2,
-          "highlightStart": 7.638,
-          "highlightEnd": 12.198,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.87,
+          "end": 7.89,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.997
         },
         {
           "text": "चास्य",
-          "start": 9.255,
-          "end": 10.099,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.637,
-          "highlightGroup": 2,
-          "highlightStart": 7.638,
-          "highlightEnd": 12.198,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.11,
+          "end": 8.95,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.677
         },
         {
           "text": "सर्वभूतेषु",
-          "start": 10.219,
-          "end": 11.765,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.7,
-          "highlightGroup": 2,
-          "highlightStart": 7.638,
-          "highlightEnd": 12.198,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.07,
+          "end": 10.972,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.782
         },
         {
           "text": "कश्चिदर्थव्यपाश्रयः",
-          "start": 12.198,
-          "end": 16.058,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 12.198,
-          "highlightEnd": 16.058,
-          "highlightMethod": "groq-word"
+          "start": 11.772,
+          "end": 14.494,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.647
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 19,
       "audio": "audio/19.mp3",
-      "sourceStart": 311.097,
+      "sourceStart": 310.547,
       "sourceEnd": 325.945,
-      "duration": 14.848,
+      "duration": 15.398,
+      "highlightMode": "word",
       "words": [
         {
           "text": "तस्मादसक्तः",
-          "start": 0.068,
-          "end": 1.733,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.868,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 5.815,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.621,
+          "end": 2.282,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.887
         },
         {
           "text": "सततं",
-          "start": 1.913,
-          "end": 2.716,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.84,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 5.815,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 2.462,
+          "end": 3.263,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.804
         },
         {
           "text": "कार्यं",
-          "start": 2.956,
-          "end": 3.839,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.711,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 5.815,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.503,
+          "end": 4.383,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.874
         },
         {
           "text": "कर्म",
-          "start": 4.079,
-          "end": 4.581,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.946,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 5.815,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.624,
+          "end": 5.124,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.943
         },
         {
           "text": "समाचर",
-          "start": 4.701,
-          "end": 5.503,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.834,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 5.815,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.244,
+          "end": 6.044,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.86
         },
         {
           "text": "असक्तो",
-          "start": 7.08,
-          "end": 7.944,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.922,
-          "highlightGroup": 1,
-          "highlightStart": 7.08,
-          "highlightEnd": 7.944,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 7.665,
+          "end": 8.506,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.9
         },
         {
           "text": "ह्याचरन्कर्म",
-          "start": 7.964,
-          "end": 9.59,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.747,
-          "highlightGroup": 2,
-          "highlightStart": 8.055,
-          "highlightEnd": 13.615,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.526,
+          "end": 10.547,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.756
         },
         {
           "text": "परमाप्नोति",
-          "start": 10.634,
-          "end": 12.28,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.819,
-          "highlightGroup": 2,
-          "highlightStart": 8.055,
-          "highlightEnd": 13.615,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 11.188,
+          "end": 12.829,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.903
         },
         {
           "text": "पूरुषः",
-          "start": 12.4,
-          "end": 13.203,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.782,
-          "highlightGroup": 2,
-          "highlightStart": 8.055,
-          "highlightEnd": 13.615,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 12.949,
+          "end": 13.869,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.72
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 20,
@@ -2099,426 +1448,291 @@
       "sourceStart": 325.945,
       "sourceEnd": 341.257,
       "duration": 15.312,
+      "highlightMode": "word",
       "words": [
         {
           "text": "कर्मणैव",
-          "start": 0.097,
-          "end": 1.161,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.766,
-          "highlightGroup": 0,
-          "highlightStart": 0.007,
-          "highlightEnd": 6.547,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.103,
+          "end": 1.183,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.827
         },
         {
           "text": "हि",
-          "start": 1.261,
-          "end": 1.361,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.498,
-          "highlightGroup": 0,
-          "highlightStart": 0.007,
-          "highlightEnd": 6.547,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.263,
+          "end": 1.363,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.445
         },
         {
           "text": "संसिद्धिमास्थिता",
-          "start": 1.502,
-          "end": 4.831,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.63,
-          "highlightGroup": 0,
-          "highlightStart": 0.007,
-          "highlightEnd": 6.547,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.503,
+          "end": 4.826,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.715
         },
         {
           "text": "जनकादयः",
-          "start": 4.992,
-          "end": 6.095,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.855,
-          "highlightGroup": 0,
-          "highlightStart": 0.007,
-          "highlightEnd": 6.547,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.986,
+          "end": 6.286,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.834
         },
         {
           "text": "लोकसंग्रहमेवापि",
-          "start": 7.227,
-          "end": 10.727,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 7.227,
-          "highlightEnd": 10.727,
-          "highlightMethod": "groq-word"
+          "start": 7.897,
+          "end": 10.699,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.819
         },
         {
           "text": "सम्पश्यन्कर्तुमर्हसि",
-          "start": 10.727,
-          "end": 15.047,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 10.727,
-          "highlightEnd": 15.047,
-          "highlightMethod": "groq-word"
+          "start": 11.62,
+          "end": 14.442,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.798
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 21,
       "audio": "audio/21.mp3",
       "sourceStart": 341.257,
-      "sourceEnd": 357.257,
-      "duration": 16.0,
+      "sourceEnd": 357.802,
+      "duration": 16.545,
+      "highlightMode": "word",
       "words": [
         {
           "text": "यद्यदाचरति",
-          "start": 0.668,
+          "start": 0.65,
           "end": 2.312,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.765,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 7.415,
-          "highlightMethod": "groq-constrained-acoustic"
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.754
         },
         {
           "text": "श्रेष्ठस्तत्तदेवेतरो",
-          "start": 2.653,
-          "end": 6.622,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.777,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 7.415,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 2.672,
+          "end": 6.594,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.777
         },
         {
           "text": "जनः",
-          "start": 6.743,
-          "end": 6.963,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.924,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 7.415,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.734,
+          "end": 7.115,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.875
         },
         {
           "text": "स",
-          "start": 8.794,
-          "end": 8.975,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.855,
-          "highlightGroup": 1,
-          "highlightStart": 7.415,
-          "highlightEnd": 10.515,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.796,
+          "end": 8.836,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.95
         },
         {
           "text": "यत्प्रमाणं",
-          "start": 8.995,
-          "end": 10.423,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.72,
-          "highlightGroup": 1,
-          "highlightStart": 7.415,
-          "highlightEnd": 10.515,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.976,
+          "end": 10.657,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.789
         },
         {
           "text": "कुरुते",
-          "start": 10.515,
-          "end": 11.635,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 10.515,
-          "highlightEnd": 11.635,
-          "highlightMethod": "groq-word"
+          "start": 10.937,
+          "end": 11.738,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.732
         },
         {
           "text": "लोकस्तदनुवर्तते",
-          "start": 11.635,
-          "end": 15.915,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 11.635,
-          "highlightEnd": 15.915,
-          "highlightMethod": "groq-word"
+          "start": 12.458,
+          "end": 16.541,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.81
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 22,
       "audio": "audio/22.mp3",
-      "sourceStart": 357.257,
-      "sourceEnd": 372.174,
-      "duration": 14.917,
+      "sourceStart": 357.802,
+      "sourceEnd": 373.098,
+      "duration": 15.296,
+      "highlightMode": "word",
       "words": [
         {
           "text": "न",
-          "start": 0.553,
-          "end": 0.655,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.999,
-          "highlightGroup": 0,
-          "highlightStart": 0.355,
-          "highlightEnd": 0.915,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.003,
+          "end": 0.143,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.999
         },
         {
           "text": "मे",
-          "start": 0.695,
-          "end": 0.956,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.924,
-          "highlightGroup": 0,
-          "highlightStart": 0.355,
-          "highlightEnd": 0.915,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.163,
+          "end": 0.403,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.904
         },
         {
           "text": "पार्थास्ति",
-          "start": 1.087,
-          "end": 2.335,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.811,
-          "highlightGroup": 1,
-          "highlightStart": 0.915,
-          "highlightEnd": 3.735,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.544,
+          "end": 1.784,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.799
         },
         {
           "text": "कर्तव्यं",
-          "start": 2.436,
-          "end": 3.442,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.6,
-          "highlightGroup": 1,
-          "highlightStart": 0.915,
-          "highlightEnd": 3.735,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.884,
+          "end": 3.104,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.631
         },
         {
           "text": "त्रिषु",
-          "start": 4.027,
-          "end": 4.41,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.529,
-          "highlightGroup": 2,
-          "highlightStart": 3.735,
-          "highlightEnd": 6.895,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.485,
+          "end": 3.865,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.531
         },
         {
           "text": "लोकेषु",
-          "start": 4.49,
-          "end": 5.395,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.636,
-          "highlightGroup": 2,
-          "highlightStart": 3.735,
-          "highlightEnd": 6.895,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.945,
+          "end": 5.085,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.736
         },
         {
           "text": "किञ्चन",
-          "start": 5.536,
-          "end": 5.979,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.644,
-          "highlightGroup": 2,
-          "highlightStart": 3.735,
-          "highlightEnd": 6.895,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.205,
+          "end": 5.865,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.863
         },
         {
           "text": "नानवाप्तमवाप्तव्यं",
-          "start": 6.895,
-          "end": 11.615,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 6.895,
-          "highlightEnd": 11.615,
-          "highlightMethod": "groq-word"
+          "start": 7.606,
+          "end": 10.907,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.742
         },
         {
           "text": "वर्त",
-          "start": 11.928,
-          "end": 12.431,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.865,
-          "highlightGroup": 4,
-          "highlightStart": 11.615,
-          "highlightEnd": 14.415,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 11.388,
+          "end": 11.868,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.888
         },
         {
           "text": "एव",
-          "start": 12.612,
-          "end": 13.115,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.733,
-          "highlightGroup": 4,
-          "highlightStart": 11.615,
-          "highlightEnd": 14.415,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 12.068,
+          "end": 12.588,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.9
         },
         {
           "text": "च",
-          "start": 13.281,
-          "end": 13.361,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.819,
-          "highlightGroup": 4,
-          "highlightStart": 11.615,
-          "highlightEnd": 14.415,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 12.728,
+          "end": 12.828,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.801
         },
         {
           "text": "कर्मणि",
-          "start": 13.498,
-          "end": 14.082,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.569,
-          "highlightGroup": 4,
-          "highlightStart": 11.615,
-          "highlightEnd": 14.415,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 12.948,
+          "end": 15.289,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.731
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 23,
       "audio": "audio/23.mp3",
-      "sourceStart": 372.174,
+      "sourceStart": 373.098,
       "sourceEnd": 386.824,
-      "duration": 14.65,
+      "duration": 13.726,
+      "highlightMode": "word",
       "words": [
         {
           "text": "यदि",
-          "start": 0.958,
-          "end": 1.26,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.821,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.418,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.007,
+          "end": 0.307,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.713
         },
         {
           "text": "ह्यहं",
-          "start": 1.441,
-          "end": 1.944,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.727,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.418,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.507,
+          "end": 1.208,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.715
         },
         {
           "text": "न",
-          "start": 2.065,
-          "end": 2.085,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.958,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.418,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.468,
+          "end": 1.488,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.998
         },
         {
           "text": "वर्तेयं",
-          "start": 2.418,
-          "end": 4.218,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.418,
-          "highlightEnd": 4.218,
-          "highlightMethod": "groq-word"
+          "start": 1.688,
+          "end": 2.968,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.804
         },
         {
           "text": "जातु",
-          "start": 4.309,
-          "end": 4.83,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.686,
-          "highlightGroup": 2,
-          "highlightStart": 4.218,
-          "highlightEnd": 7.49,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.389,
+          "end": 3.889,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.768
         },
         {
           "text": "कर्मण्यतन्द्रितः",
-          "start": 4.951,
-          "end": 6.656,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.709,
-          "highlightGroup": 2,
-          "highlightStart": 4.218,
-          "highlightEnd": 7.49,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.029,
+          "end": 5.869,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.648
         },
         {
           "text": "मम",
-          "start": 8.305,
-          "end": 8.506,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.75,
-          "highlightGroup": 3,
-          "highlightStart": 7.49,
-          "highlightEnd": 10.93,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.37,
+          "end": 7.57,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.928
         },
         {
           "text": "वर्त्मानुवर्तन्ते",
-          "start": 8.667,
-          "end": 10.657,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.861,
-          "highlightGroup": 3,
-          "highlightStart": 7.49,
-          "highlightEnd": 10.93,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.75,
+          "end": 10.091,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.882
         },
         {
           "text": "मनुष्याः",
-          "start": 10.93,
-          "end": 12.79,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 10.93,
-          "highlightEnd": 12.79,
-          "highlightMethod": "groq-word"
+          "start": 10.751,
+          "end": 11.672,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.799
         },
         {
           "text": "पार्थ",
-          "start": 12.79,
-          "end": 13.51,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 12.79,
-          "highlightEnd": 13.51,
-          "highlightMethod": "groq-word"
+          "start": 12.112,
+          "end": 12.692,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.911
         },
         {
           "text": "सर्वशः",
-          "start": 13.51,
-          "end": 14.65,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 13.51,
-          "highlightEnd": 14.65,
-          "highlightMethod": "groq-word"
+          "start": 12.812,
+          "end": 13.552,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.741
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 24,
@@ -2526,123 +1740,86 @@
       "sourceStart": 386.824,
       "sourceEnd": 402.864,
       "duration": 16.04,
+      "highlightMode": "word",
       "words": [
         {
           "text": "उत्सीदेयुरिमे",
-          "start": 0.0,
-          "end": 3.2,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 3.2,
-          "highlightMethod": "groq-word"
+          "start": 1.375,
+          "end": 3.096,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.774
         },
         {
           "text": "लोका",
-          "start": 3.2,
-          "end": 4.14,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 3.2,
-          "highlightEnd": 4.14,
-          "highlightMethod": "groq-word"
+          "start": 3.376,
+          "end": 4.277,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.912
         },
         {
           "text": "न",
-          "start": 4.14,
-          "end": 5.06,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 4.14,
-          "highlightEnd": 5.06,
-          "highlightMethod": "groq-word"
+          "start": 4.977,
+          "end": 5.057,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.999
         },
         {
           "text": "कुर्यां",
-          "start": 5.06,
-          "end": 6.08,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 5.06,
-          "highlightEnd": 6.08,
-          "highlightMethod": "groq-word"
+          "start": 5.197,
+          "end": 6.038,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.798
         },
         {
           "text": "कर्म",
-          "start": 6.291,
-          "end": 6.894,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.942,
-          "highlightGroup": 4,
-          "highlightStart": 6.08,
-          "highlightEnd": 7.92,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.298,
+          "end": 6.658,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.888
         },
         {
           "text": "चेदहम्",
-          "start": 6.994,
-          "end": 7.677,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.608,
-          "highlightGroup": 4,
-          "highlightStart": 6.08,
-          "highlightEnd": 7.92,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.898,
+          "end": 7.659,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.716
         },
         {
           "text": "सङ्करस्य",
-          "start": 9.304,
-          "end": 10.127,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.748,
-          "highlightGroup": 5,
-          "highlightStart": 7.52,
-          "highlightEnd": 10.54,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.3,
+          "end": 10.381,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.806
         },
         {
           "text": "च",
-          "start": 10.147,
-          "end": 10.167,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.0,
-          "highlightGroup": 5,
-          "highlightStart": 7.52,
-          "highlightEnd": 10.54,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.481,
+          "end": 10.561,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.827
         },
         {
           "text": "कर्ता",
-          "start": 10.54,
-          "end": 11.32,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 10.54,
-          "highlightEnd": 11.32,
-          "highlightMethod": "groq-word"
+          "start": 10.701,
+          "end": 11.421,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.909
         },
         {
           "text": "स्यामुपहन्यामिमाः",
-          "start": 11.32,
-          "end": 14.68,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 11.32,
-          "highlightEnd": 14.68,
-          "highlightMethod": "groq-word"
+          "start": 11.581,
+          "end": 14.543,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.8
         },
         {
           "text": "प्रजाः",
-          "start": 14.68,
-          "end": 16.04,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 14.68,
-          "highlightEnd": 16.04,
-          "highlightMethod": "groq-word"
+          "start": 14.843,
+          "end": 15.844,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.729
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 25,
@@ -2650,71 +1827,51 @@
       "sourceStart": 402.864,
       "sourceEnd": 420.226,
       "duration": 17.362,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सक्ताः",
-          "start": 0.0,
-          "end": 2.26,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.26,
-          "highlightMethod": "groq-word"
+          "start": 1.416,
+          "end": 2.076,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.942
         },
         {
           "text": "कर्मण्यविद्वांसो",
-          "start": 2.26,
-          "end": 5.2,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.26,
-          "highlightEnd": 5.2,
-          "highlightMethod": "groq-word"
+          "start": 2.756,
+          "end": 5.318,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.678
         },
         {
           "text": "यथा",
-          "start": 5.2,
-          "end": 6.54,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 5.2,
-          "highlightEnd": 6.54,
-          "highlightMethod": "groq-word"
+          "start": 6.038,
+          "end": 6.579,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.942
         },
         {
           "text": "कुर्वन्ति",
-          "start": 6.54,
-          "end": 7.66,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 6.54,
-          "highlightEnd": 7.66,
-          "highlightMethod": "groq-word"
+          "start": 6.779,
+          "end": 7.659,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.785
         },
         {
           "text": "भारत",
-          "start": 7.77,
-          "end": 8.411,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.69,
-          "highlightGroup": 4,
-          "highlightStart": 7.77,
-          "highlightEnd": 8.411,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 7.779,
+          "end": 8.42,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.836
         },
         {
           "text": "कुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम्",
-          "start": 10.054,
-          "end": 16.567,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.759,
-          "highlightGroup": 5,
-          "highlightStart": 10.054,
-          "highlightEnd": 16.567,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 10.061,
+          "end": 16.565,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.741
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 26,
@@ -2722,449 +1879,322 @@
       "sourceStart": 420.226,
       "sourceEnd": 435.384,
       "duration": 15.158,
+      "highlightMode": "word",
       "words": [
         {
           "text": "न",
-          "start": 0.873,
-          "end": 0.994,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.798,
-          "highlightGroup": 0,
-          "highlightStart": 0.398,
-          "highlightEnd": 2.378,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.874,
+          "end": 0.894,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.997
         },
         {
           "text": "बुद्धिभेदं",
-          "start": 1.075,
-          "end": 2.023,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.723,
-          "highlightGroup": 0,
-          "highlightStart": 0.398,
-          "highlightEnd": 2.378,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.074,
+          "end": 2.475,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.66
         },
         {
           "text": "जनयेदज्ञानां",
-          "start": 2.378,
-          "end": 5.298,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.378,
-          "highlightEnd": 5.298,
-          "highlightMethod": "groq-word"
+          "start": 2.715,
+          "end": 5.277,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.807
         },
         {
           "text": "कर्मसङ्गिनाम्",
-          "start": 5.529,
-          "end": 7.154,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.764,
-          "highlightGroup": 2,
-          "highlightStart": 5.529,
-          "highlightEnd": 7.154,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 5.537,
+          "end": 7.158,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.836
         },
         {
           "text": "जोषयेत्सर्वकर्माणि",
-          "start": 8.438,
-          "end": 11.147,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.741,
-          "highlightGroup": 3,
-          "highlightStart": 8.438,
-          "highlightEnd": 11.147,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 8.439,
+          "end": 11.22,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.764
         },
         {
           "text": "विद्वान्युक्तः",
-          "start": 11.278,
-          "end": 13.858,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 11.278,
-          "highlightEnd": 13.858,
-          "highlightMethod": "groq-word"
+          "start": 12.041,
+          "end": 13.662,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.689
         },
         {
           "text": "समाचरन्",
-          "start": 13.858,
-          "end": 15.158,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 13.858,
-          "highlightEnd": 15.158,
-          "highlightMethod": "groq-word"
+          "start": 13.922,
+          "end": 14.863,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.699
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 27,
       "audio": "audio/27.mp3",
       "sourceStart": 435.384,
-      "sourceEnd": 450.164,
-      "duration": 14.78,
+      "sourceEnd": 449.568,
+      "duration": 14.184,
+      "highlightMode": "word",
       "words": [
         {
           "text": "प्रकृतेः",
-          "start": 0.0,
-          "end": 1.86,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 1.86,
-          "highlightMethod": "groq-word"
+          "start": 1.176,
+          "end": 1.816,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.781
         },
         {
           "text": "क्रियमाणानि",
-          "start": 1.86,
-          "end": 4.42,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.86,
-          "highlightEnd": 4.42,
-          "highlightMethod": "groq-word"
+          "start": 2.437,
+          "end": 3.897,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.777
         },
         {
           "text": "गुणैः",
-          "start": 4.42,
-          "end": 5.1,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 4.42,
-          "highlightEnd": 5.1,
-          "highlightMethod": "groq-word"
+          "start": 4.738,
+          "end": 5.058,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.673
         },
         {
           "text": "कर्माणि",
-          "start": 5.1,
-          "end": 6.46,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 5.1,
-          "highlightEnd": 6.46,
-          "highlightMethod": "groq-word"
+          "start": 5.478,
+          "end": 6.419,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.743
         },
         {
           "text": "सर्वशः",
-          "start": 6.571,
-          "end": 7.293,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.79,
-          "highlightGroup": 4,
-          "highlightStart": 6.571,
-          "highlightEnd": 7.293,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 6.579,
+          "end": 7.3,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.723
         },
         {
           "text": "अहङ्कारविमूढात्मा",
-          "start": 8.679,
-          "end": 11.128,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.776,
-          "highlightGroup": 5,
-          "highlightStart": 8.679,
-          "highlightEnd": 11.128,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 8.681,
+          "end": 11.502,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.76
         },
         {
           "text": "कर्ताहमिति",
-          "start": 11.38,
-          "end": 13.54,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 11.38,
-          "highlightEnd": 13.54,
-          "highlightMethod": "groq-word"
+          "start": 12.143,
+          "end": 13.484,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.758
         },
         {
           "text": "मन्यते",
-          "start": 13.54,
-          "end": 14.78,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 13.54,
-          "highlightEnd": 14.78,
-          "highlightMethod": "groq-word"
+          "start": 13.604,
+          "end": 14.124,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.451
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 28,
       "audio": "audio/28.mp3",
-      "sourceStart": 450.164,
+      "sourceStart": 449.568,
       "sourceEnd": 465.704,
-      "duration": 15.54,
+      "duration": 16.136,
+      "highlightMode": "word",
       "words": [
         {
           "text": "तत्त्ववित्तु",
-          "start": 0.0,
-          "end": 2.2,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 2.2,
-          "highlightMethod": "groq-word"
+          "start": 0.051,
+          "end": 2.732,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.704
         },
         {
           "text": "महाबाहो",
-          "start": 2.2,
-          "end": 3.74,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.2,
-          "highlightEnd": 3.74,
-          "highlightMethod": "groq-word"
+          "start": 2.832,
+          "end": 4.393,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.75
         },
         {
           "text": "गुणकर्मविभागयोः",
-          "start": 3.74,
-          "end": 7.64,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 3.74,
-          "highlightEnd": 7.64,
-          "highlightMethod": "groq-word"
+          "start": 5.214,
+          "end": 7.635,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.852
         },
         {
           "text": "गुणा",
-          "start": 8.5,
-          "end": 9.2,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 8.5,
-          "highlightEnd": 9.2,
-          "highlightMethod": "groq-word"
+          "start": 9.257,
+          "end": 9.757,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.727
         },
         {
           "text": "गुणेषु",
-          "start": 9.2,
-          "end": 10.2,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 9.2,
-          "highlightEnd": 10.2,
-          "highlightMethod": "groq-word"
+          "start": 9.897,
+          "end": 10.698,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.723
         },
         {
           "text": "वर्तन्त",
-          "start": 10.2,
-          "end": 11.12,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 10.2,
-          "highlightEnd": 11.12,
-          "highlightMethod": "groq-word"
+          "start": 10.838,
+          "end": 11.958,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.781
         },
         {
           "text": "इति",
-          "start": 11.12,
-          "end": 12.46,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 11.12,
-          "highlightEnd": 12.46,
-          "highlightMethod": "groq-word"
+          "start": 12.759,
+          "end": 12.999,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.847
         },
         {
           "text": "मत्वा",
-          "start": 12.512,
-          "end": 13.425,
+          "start": 13.108,
+          "end": 14.021,
           "timingMethod": "groq-constrained-acoustic",
-          "score": 0.933,
-          "highlightGroup": 7,
-          "highlightStart": 12.46,
-          "highlightEnd": 13.6,
-          "highlightMethod": "groq-constrained-acoustic"
+          "score": 0.933
         },
         {
           "text": "न",
-          "start": 13.527,
-          "end": 13.547,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.997,
-          "highlightGroup": 7,
-          "highlightStart": 12.46,
-          "highlightEnd": 13.6,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 14.12,
+          "end": 14.24,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.976
         },
         {
           "text": "सज्जते",
-          "start": 13.6,
-          "end": 15.54,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 13.6,
-          "highlightEnd": 15.54,
-          "highlightMethod": "groq-word"
+          "start": 14.38,
+          "end": 15.281,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.881
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 29,
       "audio": "audio/29.mp3",
       "sourceStart": 465.704,
-      "sourceEnd": 479.598,
-      "duration": 13.894,
+      "sourceEnd": 480.198,
+      "duration": 14.494,
+      "highlightMode": "word",
       "words": [
         {
           "text": "प्रकृतेर्गुणसम्मूढाः",
-          "start": 0.0,
-          "end": 3.24,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 3.24,
-          "highlightMethod": "groq-word"
+          "start": 0.555,
+          "end": 3.597,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.818
         },
         {
           "text": "सज्जन्ते",
-          "start": 3.24,
-          "end": 5.0,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 3.24,
-          "highlightEnd": 5.0,
-          "highlightMethod": "groq-word"
+          "start": 3.877,
+          "end": 4.918,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.78
         },
         {
           "text": "गुणकर्मसु",
-          "start": 5.0,
-          "end": 6.58,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 5.0,
-          "highlightEnd": 6.58,
-          "highlightMethod": "groq-word"
+          "start": 5.338,
+          "end": 6.399,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.755
         },
         {
           "text": "तानकृत्स्नविदो",
-          "start": 6.64,
-          "end": 9.48,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 6.64,
-          "highlightEnd": 9.48,
-          "highlightMethod": "groq-word"
+          "start": 7.68,
+          "end": 9.561,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.626
         },
         {
           "text": "मन्दान्कृत्स्नविन्न",
-          "start": 9.731,
-          "end": 12.242,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.674,
-          "highlightGroup": 4,
-          "highlightStart": 9.48,
-          "highlightEnd": 13.894,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.741,
+          "end": 12.503,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.75
         },
         {
           "text": "विचालयेत्",
-          "start": 12.443,
-          "end": 13.869,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.57,
-          "highlightGroup": 4,
-          "highlightStart": 9.48,
-          "highlightEnd": 13.894,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 12.523,
+          "end": 13.864,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.657
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 30,
       "audio": "audio/30.mp3",
-      "sourceStart": 479.598,
+      "sourceStart": 480.198,
       "sourceEnd": 496.024,
-      "duration": 16.426,
+      "duration": 15.826,
+      "highlightMode": "word",
       "words": [
         {
           "text": "मयि",
-          "start": 0.026,
-          "end": 1.666,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.026,
-          "highlightEnd": 1.666,
-          "highlightMethod": "groq-word"
+          "start": 0.701,
+          "end": 1.001,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.609
         },
         {
           "text": "सर्वाणि",
-          "start": 1.666,
-          "end": 2.766,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.666,
-          "highlightEnd": 2.766,
-          "highlightMethod": "groq-word"
+          "start": 1.161,
+          "end": 2.102,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.744
         },
         {
           "text": "कर्माणि",
-          "start": 2.766,
-          "end": 3.946,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 2.766,
-          "highlightEnd": 3.946,
-          "highlightMethod": "groq-word"
+          "start": 2.282,
+          "end": 3.303,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.659
         },
         {
           "text": "संन्यस्याध्यात्मचेतसा",
-          "start": 3.946,
-          "end": 8.626,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 3.946,
-          "highlightEnd": 8.626,
-          "highlightMethod": "groq-word"
+          "start": 4.183,
+          "end": 9.226,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.758
         },
         {
           "text": "निराशीर्निर्ममो",
-          "start": 8.746,
-          "end": 11.906,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 8.746,
-          "highlightEnd": 11.906,
-          "highlightMethod": "groq-word"
+          "start": 9.246,
+          "end": 11.428,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.816
         },
         {
           "text": "भूत्वा",
-          "start": 11.906,
-          "end": 13.286,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 11.906,
-          "highlightEnd": 13.286,
-          "highlightMethod": "groq-word"
+          "start": 11.668,
+          "end": 12.768,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.615
         },
         {
           "text": "युध्यस्व",
-          "start": 13.286,
-          "end": 14.966,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 13.286,
-          "highlightEnd": 14.966,
-          "highlightMethod": "groq-word"
+          "start": 13.369,
+          "end": 14.41,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.764
         },
         {
           "text": "विगतज्वरः",
-          "start": 14.966,
-          "end": 16.426,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 14.966,
-          "highlightEnd": 16.426,
-          "highlightMethod": "groq-word"
+          "start": 14.51,
+          "end": 15.65,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.795
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 31,
@@ -3172,101 +2202,72 @@
       "sourceStart": 496.024,
       "sourceEnd": 514.079,
       "duration": 18.055,
+      "highlightMode": "word",
       "words": [
         {
           "text": "ये",
-          "start": 0.0,
-          "end": 1.62,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 1.62,
-          "highlightMethod": "groq-word"
+          "start": 1.275,
+          "end": 1.535,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.664
         },
         {
           "text": "मे",
-          "start": 1.672,
-          "end": 1.976,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.864,
-          "highlightGroup": 1,
-          "highlightStart": 1.62,
-          "highlightEnd": 3.0,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.675,
+          "end": 1.975,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.849
         },
         {
           "text": "मतमिदं",
-          "start": 2.117,
-          "end": 2.725,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.74,
-          "highlightGroup": 1,
-          "highlightStart": 1.62,
-          "highlightEnd": 3.0,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 2.116,
+          "end": 2.996,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.763
         },
         {
           "text": "नित्यमनुतिष्ठन्ति",
-          "start": 3.0,
-          "end": 6.42,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 3.0,
-          "highlightEnd": 6.42,
-          "highlightMethod": "groq-word"
+          "start": 3.176,
+          "end": 6.358,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.831
         },
         {
           "text": "मानवाः",
-          "start": 6.42,
-          "end": 8.1,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 6.42,
-          "highlightEnd": 8.1,
-          "highlightMethod": "groq-word"
+          "start": 6.478,
+          "end": 7.919,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.911
         },
         {
           "text": "श्रद्धावन्तोऽनसूयन्तो",
-          "start": 8.32,
-          "end": 12.94,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 8.32,
-          "highlightEnd": 12.94,
-          "highlightMethod": "groq-word"
+          "start": 9.28,
+          "end": 13.002,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.792
         },
         {
           "text": "मुच्यन्ते",
-          "start": 12.94,
-          "end": 15.0,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 12.94,
-          "highlightEnd": 15.0,
-          "highlightMethod": "groq-word"
+          "start": 13.702,
+          "end": 15.043,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.781
         },
         {
           "text": "तेऽपि",
-          "start": 15.0,
-          "end": 15.98,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 15.0,
-          "highlightEnd": 15.98,
-          "highlightMethod": "groq-word"
+          "start": 15.303,
+          "end": 15.944,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.963
         },
         {
           "text": "कर्मभिः",
-          "start": 15.98,
-          "end": 17.76,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 15.98,
-          "highlightEnd": 17.76,
-          "highlightMethod": "groq-word"
+          "start": 16.084,
+          "end": 16.884,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.776
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 32,
@@ -3274,377 +2275,263 @@
       "sourceStart": 514.079,
       "sourceEnd": 530.187,
       "duration": 16.108,
+      "highlightMode": "word",
       "words": [
         {
           "text": "ये",
-          "start": 0.338,
-          "end": 0.6,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.605,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 3.625,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.34,
+          "end": 0.621,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.705
         },
         {
           "text": "त्वेतदभ्यसूयन्तो",
           "start": 0.841,
-          "end": 3.312,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.754,
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 3.625,
-          "highlightMethod": "groq-constrained-acoustic"
+          "end": 3.602,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.813
         },
         {
           "text": "नानुतिष्ठन्ति",
-          "start": 3.625,
-          "end": 6.125,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 3.625,
-          "highlightEnd": 6.125,
-          "highlightMethod": "groq-word"
+          "start": 4.383,
+          "end": 6.064,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.726
         },
         {
           "text": "मे",
-          "start": 6.175,
-          "end": 6.436,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.877,
-          "highlightGroup": 2,
-          "highlightStart": 6.125,
-          "highlightEnd": 7.285,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.184,
+          "end": 6.444,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.806
         },
         {
           "text": "मतम्",
-          "start": 6.556,
-          "end": 6.977,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.887,
-          "highlightGroup": 2,
-          "highlightStart": 6.125,
-          "highlightEnd": 7.285,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 6.564,
+          "end": 6.944,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.716
         },
         {
           "text": "सर्वज्ञानविमूढांस्तान्विद्धि",
-          "start": 8.42,
-          "end": 13.229,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.766,
-          "highlightGroup": 3,
-          "highlightStart": 7.265,
-          "highlightEnd": 15.785,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.425,
+          "end": 13.208,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.716
         },
         {
           "text": "नष्टानचेतसः",
-          "start": 13.309,
-          "end": 15.113,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.822,
-          "highlightGroup": 3,
-          "highlightStart": 7.265,
-          "highlightEnd": 15.785,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 13.308,
+          "end": 15.109,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.816
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 33,
       "audio": "audio/33.mp3",
       "sourceStart": 530.187,
-      "sourceEnd": 546.084,
-      "duration": 15.897,
+      "sourceEnd": 547.113,
+      "duration": 16.926,
+      "highlightMode": "word",
       "words": [
         {
           "text": "सदृशं",
-          "start": 0.577,
-          "end": 0.819,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.203,
-          "highlightGroup": 0,
-          "highlightStart": 0.577,
-          "highlightEnd": 0.819,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 0.572,
+          "end": 1.653,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.829
         },
         {
           "text": "चेष्टते",
-          "start": 1.477,
-          "end": 2.957,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.477,
-          "highlightEnd": 2.957,
-          "highlightMethod": "groq-word"
+          "start": 1.813,
+          "end": 2.994,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.763
         },
         {
           "text": "स्वस्याः",
-          "start": 2.957,
-          "end": 4.537,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 2.957,
-          "highlightEnd": 4.537,
-          "highlightMethod": "groq-word"
+          "start": 3.374,
+          "end": 4.335,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.736
         },
         {
           "text": "प्रकृतेर्ज्ञानवानपि",
-          "start": 5.069,
-          "end": 7.638,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.739,
-          "highlightGroup": 3,
-          "highlightStart": 5.069,
-          "highlightEnd": 7.638,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 5.095,
+          "end": 7.737,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.782
         },
         {
           "text": "प्रकृतिं",
-          "start": 9.035,
-          "end": 9.556,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.506,
-          "highlightGroup": 4,
-          "highlightStart": 9.035,
-          "highlightEnd": 9.556,
-          "highlightMethod": "prior-acoustic-in-stt-window"
+          "start": 9.037,
+          "end": 9.578,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.551
         },
         {
           "text": "यान्ति",
-          "start": 9.937,
-          "end": 10.837,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 9.937,
-          "highlightEnd": 10.837,
-          "highlightMethod": "groq-word"
+          "start": 10.038,
+          "end": 10.778,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.658
         },
         {
           "text": "भूतानि",
-          "start": 10.837,
-          "end": 12.177,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 10.837,
-          "highlightEnd": 12.177,
-          "highlightMethod": "groq-word"
+          "start": 10.939,
+          "end": 12.159,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.773
         },
         {
           "text": "निग्रहः",
-          "start": 12.177,
-          "end": 13.577,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 12.177,
-          "highlightEnd": 13.577,
-          "highlightMethod": "groq-word"
+          "start": 12.94,
+          "end": 13.66,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.775
         },
         {
           "text": "किं",
-          "start": 14.172,
-          "end": 14.353,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.643,
-          "highlightGroup": 8,
-          "highlightStart": 13.577,
-          "highlightEnd": 15.897,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 14.18,
+          "end": 14.361,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.911
         },
         {
           "text": "करिष्यति",
-          "start": 14.756,
-          "end": 15.622,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.563,
-          "highlightGroup": 8,
-          "highlightStart": 13.577,
-          "highlightEnd": 15.897,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 14.761,
+          "end": 16.922,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.768
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 34,
       "audio": "audio/34.mp3",
-      "sourceStart": 546.084,
-      "sourceEnd": 561.493,
-      "duration": 15.409,
+      "sourceStart": 547.113,
+      "sourceEnd": 562.368,
+      "duration": 15.255,
+      "highlightMode": "word",
       "words": [
         {
           "text": "इन्द्रियस्येन्द्रियस्यार्थे",
-          "start": 0.2,
-          "end": 4.2,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.2,
-          "highlightEnd": 4.2,
-          "highlightMethod": "groq-word"
+          "start": 0.004,
+          "end": 3.305,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.646
         },
         {
           "text": "रागद्वेषौ",
-          "start": 4.954,
-          "end": 6.702,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.78,
-          "highlightGroup": 1,
-          "highlightStart": 4.2,
-          "highlightEnd": 8.22,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.926,
+          "end": 5.686,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.794
         },
         {
           "text": "व्यवस्थितौ",
-          "start": 6.983,
-          "end": 7.686,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.552,
-          "highlightGroup": 1,
-          "highlightStart": 4.2,
-          "highlightEnd": 8.22,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.946,
+          "end": 8.227,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.684
         },
         {
           "text": "तयोर्न",
-          "start": 9.273,
-          "end": 9.855,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.628,
-          "highlightGroup": 2,
-          "highlightStart": 8.22,
-          "highlightEnd": 15.12,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.241,
+          "end": 8.821,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.642
         },
         {
           "text": "वशमागच्छेत्तौ",
-          "start": 10.115,
-          "end": 12.542,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.771,
-          "highlightGroup": 2,
-          "highlightStart": 8.22,
-          "highlightEnd": 15.12,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.082,
+          "end": 11.843,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.751
         },
         {
           "text": "ह्यस्य",
-          "start": 12.863,
-          "end": 13.144,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.361,
-          "highlightGroup": 2,
-          "highlightStart": 8.22,
-          "highlightEnd": 15.12,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 11.863,
+          "end": 12.423,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.341
         },
         {
           "text": "परिपन्थिनौ",
-          "start": 13.621,
-          "end": 14.804,
-          "timingMethod": "prior-acoustic-in-stt-window",
-          "score": 0.703,
-          "highlightGroup": 2,
-          "highlightStart": 8.22,
-          "highlightEnd": 15.12,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 12.563,
+          "end": 15.245,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.796
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 35,
       "audio": "audio/35.mp3",
-      "sourceStart": 561.493,
+      "sourceStart": 562.368,
       "sourceEnd": 576.368,
-      "duration": 14.875,
+      "duration": 14.0,
+      "highlightMode": "word",
       "words": [
         {
           "text": "श्रेयान्स्वधर्मो",
-          "start": 0.722,
-          "end": 3.022,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.722,
-          "highlightEnd": 3.022,
-          "highlightMethod": "groq-word"
+          "start": 0.01,
+          "end": 2.05,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.794
         },
         {
           "text": "विगुणः",
-          "start": 3.022,
-          "end": 3.682,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 3.022,
-          "highlightEnd": 3.682,
-          "highlightMethod": "groq-word"
+          "start": 2.231,
+          "end": 2.671,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.742
         },
         {
           "text": "परधर्मात्स्वनुष्ठितात्",
-          "start": 3.682,
-          "end": 7.142,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 3.682,
-          "highlightEnd": 7.142,
-          "highlightMethod": "groq-word"
+          "start": 3.451,
+          "end": 6.212,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.69
         },
         {
           "text": "स्वधर्मे",
-          "start": 8.022,
-          "end": 9.042,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 8.022,
-          "highlightEnd": 9.042,
-          "highlightMethod": "groq-word"
+          "start": 7.273,
+          "end": 8.133,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.818
         },
         {
           "text": "निधनं",
-          "start": 9.042,
-          "end": 9.882,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 9.042,
-          "highlightEnd": 9.882,
-          "highlightMethod": "groq-word"
+          "start": 8.333,
+          "end": 8.914,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.651
         },
         {
           "text": "श्रेयः",
-          "start": 9.882,
-          "end": 10.722,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 9.882,
-          "highlightEnd": 10.722,
-          "highlightMethod": "groq-word"
+          "start": 8.934,
+          "end": 9.934,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.72
         },
         {
           "text": "परधर्मो",
-          "start": 10.722,
-          "end": 13.002,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 10.722,
-          "highlightEnd": 13.002,
-          "highlightMethod": "groq-word"
+          "start": 10.915,
+          "end": 12.015,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.936
         },
         {
           "text": "भयावहः",
-          "start": 13.003,
-          "end": 14.11,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.814,
-          "highlightGroup": 7,
-          "highlightStart": 13.003,
-          "highlightEnd": 14.11,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 12.135,
+          "end": 13.196,
+          "timingMethod": "joint-context-acoustic",
+          "score": 0.832
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 36,
@@ -3652,336 +2539,232 @@
       "sourceStart": 576.368,
       "sourceEnd": 592.668,
       "duration": 16.3,
+      "highlightMode": "word",
       "words": [
         {
           "text": "अर्जुन",
-          "start": 0.583,
-          "end": 1.006,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.692,
-          "highlightGroup": 0,
-          "highlightStart": 0.583,
-          "highlightEnd": 1.006,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 0.563,
+          "end": 1.184,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.722
         },
         {
           "text": "उवाच",
-          "start": 1.127,
-          "end": 2.387,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.127,
-          "highlightEnd": 2.387,
-          "highlightMethod": "groq-word"
+          "start": 1.304,
+          "end": 1.944,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.727
         },
         {
           "text": "अथ",
-          "start": 3.408,
-          "end": 3.772,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.904,
-          "highlightGroup": 2,
-          "highlightStart": 2.387,
-          "highlightEnd": 4.227,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.405,
+          "end": 3.665,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.904
         },
         {
           "text": "केन",
-          "start": 3.792,
-          "end": 4.155,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.964,
-          "highlightGroup": 2,
-          "highlightStart": 2.387,
-          "highlightEnd": 4.227,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.785,
+          "end": 4.146,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.972
         },
         {
           "text": "प्रयुक्तोऽयं",
-          "start": 4.227,
-          "end": 5.927,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 4.227,
-          "highlightEnd": 5.927,
-          "highlightMethod": "groq-word"
+          "start": 4.566,
+          "end": 6.067,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.69
         },
         {
           "text": "पापं",
           "start": 6.524,
           "end": 7.27,
           "timingMethod": "groq-constrained-acoustic",
-          "score": 0.881,
-          "highlightGroup": 4,
-          "highlightStart": 5.927,
-          "highlightEnd": 7.987,
-          "highlightMethod": "groq-constrained-acoustic"
+          "score": 0.881
         },
         {
           "text": "चरति",
-          "start": 7.532,
-          "end": 7.916,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.707,
-          "highlightGroup": 4,
-          "highlightStart": 5.927,
-          "highlightEnd": 7.987,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 7.528,
+          "end": 7.949,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.801
         },
         {
           "text": "पूरुषः",
-          "start": 7.987,
-          "end": 9.107,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 7.987,
-          "highlightEnd": 9.107,
-          "highlightMethod": "groq-word"
+          "start": 8.089,
+          "end": 8.969,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.626
         },
         {
           "text": "अनिच्छन्नपि",
-          "start": 10.284,
-          "end": 11.51,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.741,
-          "highlightGroup": 6,
-          "highlightStart": 9.107,
-          "highlightEnd": 12.727,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.989,
+          "end": 11.491,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.851
         },
         {
           "text": "वार्ष्णेय",
           "start": 11.611,
-          "end": 12.335,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.54,
-          "highlightGroup": 6,
-          "highlightStart": 9.107,
-          "highlightEnd": 12.727,
-          "highlightMethod": "groq-constrained-acoustic"
+          "end": 12.992,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.669
         },
         {
           "text": "बलादिव",
-          "start": 13.724,
-          "end": 14.609,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.862,
-          "highlightGroup": 7,
-          "highlightStart": 12.727,
-          "highlightEnd": 15.867,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 13.733,
+          "end": 14.614,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.866
         },
         {
           "text": "नियोजितः",
-          "start": 14.71,
-          "end": 15.595,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.754,
-          "highlightGroup": 7,
-          "highlightStart": 12.727,
-          "highlightEnd": 15.867,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 14.714,
+          "end": 15.774,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.657
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 37,
       "audio": "audio/37.mp3",
       "sourceStart": 592.668,
-      "sourceEnd": 610.89,
-      "duration": 18.222,
+      "sourceEnd": 611.386,
+      "duration": 18.718,
+      "highlightMode": "word",
       "words": [
         {
           "text": "श्रीभगवानुवाच",
           "start": 0.842,
-          "end": 2.669,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.829,
-          "highlightGroup": 0,
-          "highlightStart": 0.842,
-          "highlightEnd": 2.669,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "end": 2.664,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.764
         },
         {
           "text": "काम",
-          "start": 4.635,
-          "end": 5.017,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.887,
-          "highlightGroup": 1,
-          "highlightStart": 4.635,
-          "highlightEnd": 5.017,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 4.625,
+          "end": 5.105,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.96
         },
         {
           "text": "एष",
-          "start": 5.241,
-          "end": 5.544,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.448,
-          "highlightGroup": 2,
-          "highlightStart": 5.087,
-          "highlightEnd": 6.527,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.245,
+          "end": 5.525,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.486
         },
         {
           "text": "क्रोध",
-          "start": 6.112,
-          "end": 6.517,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.749,
-          "highlightGroup": 2,
-          "highlightStart": 5.087,
-          "highlightEnd": 6.527,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.685,
+          "end": 6.586,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.792
         },
         {
           "text": "एष",
-          "start": 6.78,
-          "end": 7.246,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.498,
-          "highlightGroup": 3,
-          "highlightStart": 6.78,
-          "highlightEnd": 7.246,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 6.786,
+          "end": 7.527,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.873
         },
         {
           "text": "रजोगुणसमुद्भवः",
-          "start": 7.267,
-          "end": 11.067,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 7.267,
-          "highlightEnd": 11.067,
-          "highlightMethod": "groq-word"
+          "start": 8.227,
+          "end": 10.288,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.872
         },
         {
           "text": "महाशनो",
-          "start": 11.067,
-          "end": 12.707,
-          "timingMethod": "groq-word",
-          "highlightGroup": 5,
-          "highlightStart": 11.067,
-          "highlightEnd": 12.707,
-          "highlightMethod": "groq-word"
+          "start": 11.709,
+          "end": 12.73,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.882
         },
         {
           "text": "महापाप्मा",
-          "start": 12.707,
-          "end": 14.447,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 12.707,
-          "highlightEnd": 14.447,
-          "highlightMethod": "groq-word"
+          "start": 12.83,
+          "end": 14.471,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.777
         },
         {
           "text": "विद्ध्येनमिह",
-          "start": 14.447,
-          "end": 16.567,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 14.447,
-          "highlightEnd": 16.567,
-          "highlightMethod": "groq-word"
+          "start": 15.151,
+          "end": 16.412,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.555
         },
         {
           "text": "वैरिणम्",
-          "start": 16.567,
-          "end": 17.707,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 16.567,
-          "highlightEnd": 17.707,
-          "highlightMethod": "groq-word"
+          "start": 16.692,
+          "end": 18.713,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.92
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 38,
       "audio": "audio/38.mp3",
-      "sourceStart": 610.89,
+      "sourceStart": 611.386,
       "sourceEnd": 625.39,
-      "duration": 14.5,
+      "duration": 14.004,
+      "highlightMode": "word",
       "words": [
         {
           "text": "धूमेनाव्रियते",
-          "start": 0.445,
-          "end": 2.445,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.445,
-          "highlightEnd": 2.445,
-          "highlightMethod": "groq-word"
+          "start": 0.005,
+          "end": 2.026,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.75
         },
         {
           "text": "वह्निर्यथादर्शो",
-          "start": 2.445,
-          "end": 5.485,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.445,
-          "highlightEnd": 5.485,
-          "highlightMethod": "groq-word"
+          "start": 2.166,
+          "end": 5.028,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.675
         },
         {
           "text": "मलेन",
-          "start": 5.639,
-          "end": 6.247,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.801,
-          "highlightGroup": 2,
-          "highlightStart": 5.485,
-          "highlightEnd": 6.705,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.148,
+          "end": 5.909,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.927
         },
         {
           "text": "च",
-          "start": 6.43,
-          "end": 6.45,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.548,
-          "highlightGroup": 2,
-          "highlightStart": 5.485,
-          "highlightEnd": 6.705,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.929,
+          "end": 7.29,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.969
         },
         {
           "text": "यथोल्बेनावृतो",
-          "start": 6.705,
-          "end": 9.845,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 6.705,
-          "highlightEnd": 9.845,
-          "highlightMethod": "groq-word"
+          "start": 7.31,
+          "end": 9.311,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.87
         },
         {
           "text": "गर्भस्तथा",
-          "start": 9.845,
-          "end": 11.685,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 9.845,
-          "highlightEnd": 11.685,
-          "highlightMethod": "groq-word"
+          "start": 9.611,
+          "end": 11.172,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.768
         },
         {
           "text": "तेनेदमावृतम्",
-          "start": 11.867,
-          "end": 13.715,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.682,
-          "highlightGroup": 5,
-          "highlightStart": 11.867,
-          "highlightEnd": 13.715,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 11.372,
+          "end": 13.234,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.768
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 39,
@@ -3989,95 +2772,65 @@
       "sourceStart": 625.39,
       "sourceEnd": 640.619,
       "duration": 15.229,
+      "highlightMode": "word",
       "words": [
         {
           "text": "आवृतं",
-          "start": 0.643,
-          "end": 1.107,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.407,
-          "highlightGroup": 0,
-          "highlightStart": 0.643,
-          "highlightEnd": 1.107,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 0.641,
+          "end": 1.562,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.8
         },
         {
           "text": "ज्ञानमेतेन",
-          "start": 1.127,
-          "end": 1.551,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.272,
-          "highlightGroup": 1,
-          "highlightStart": 1.505,
-          "highlightEnd": 4.825,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 1.582,
+          "end": 3.603,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.759
         },
         {
           "text": "ज्ञानिनो",
-          "start": 1.835,
-          "end": 2.38,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.548,
-          "highlightGroup": 1,
-          "highlightStart": 1.505,
-          "highlightEnd": 4.825,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 3.623,
+          "end": 4.704,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.607
         },
         {
           "text": "नित्यवैरिणा",
-          "start": 4.825,
-          "end": 7.305,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 4.825,
-          "highlightEnd": 7.305,
-          "highlightMethod": "groq-word"
+          "start": 5.104,
+          "end": 6.425,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.754
         },
         {
           "text": "कामरूपेण",
-          "start": 7.305,
-          "end": 9.305,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 7.305,
-          "highlightEnd": 9.305,
-          "highlightMethod": "groq-word"
+          "start": 7.926,
+          "end": 9.387,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.88
         },
         {
           "text": "कौन्तेय",
-          "start": 9.537,
-          "end": 10.681,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.719,
-          "highlightGroup": 4,
-          "highlightStart": 9.305,
-          "highlightEnd": 14.125,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.547,
+          "end": 10.788,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.887
         },
         {
           "text": "दुष्पूरेणानलेन",
-          "start": 11.103,
-          "end": 13.653,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.885,
-          "highlightGroup": 4,
-          "highlightStart": 9.305,
-          "highlightEnd": 14.125,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 11.108,
+          "end": 13.649,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.833
         },
         {
           "text": "च",
           "start": 13.773,
           "end": 13.794,
           "timingMethod": "groq-constrained-acoustic",
-          "score": 0.911,
-          "highlightGroup": 4,
-          "highlightStart": 9.305,
-          "highlightEnd": 14.125,
-          "highlightMethod": "groq-constrained-acoustic"
+          "score": 0.911
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 40,
@@ -4085,268 +2838,190 @@
       "sourceStart": 640.619,
       "sourceEnd": 654.489,
       "duration": 13.87,
+      "highlightMode": "word",
       "words": [
         {
           "text": "इन्द्रियाणि",
-          "start": 0.056,
-          "end": 1.256,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.056,
-          "highlightEnd": 1.256,
-          "highlightMethod": "groq-word"
+          "start": 0.132,
+          "end": 1.173,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.631
         },
         {
           "text": "मनो",
-          "start": 1.256,
-          "end": 1.716,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.256,
-          "highlightEnd": 1.716,
-          "highlightMethod": "groq-word"
+          "start": 1.253,
+          "end": 1.593,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.842
         },
         {
           "text": "बुद्धिरस्याधिष्ठानमुच्यते",
-          "start": 1.716,
-          "end": 7.296,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 1.716,
-          "highlightEnd": 7.296,
-          "highlightMethod": "groq-word"
+          "start": 1.913,
+          "end": 7.477,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.744
         },
         {
           "text": "एतैर्विमोहयत्येष",
-          "start": 7.296,
-          "end": 10.156,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 7.296,
-          "highlightEnd": 10.156,
-          "highlightMethod": "groq-word"
+          "start": 7.517,
+          "end": 10.459,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.82
         },
         {
           "text": "ज्ञानमावृत्य",
-          "start": 11.212,
+          "start": 11.219,
           "end": 12.841,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.703,
-          "highlightGroup": 4,
-          "highlightStart": 10.156,
-          "highlightEnd": 13.836,
-          "highlightMethod": "groq-constrained-acoustic"
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.701
         },
         {
           "text": "देहिनम्",
           "start": 12.941,
-          "end": 13.645,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.821,
-          "highlightGroup": 4,
-          "highlightStart": 10.156,
-          "highlightEnd": 13.836,
-          "highlightMethod": "groq-constrained-acoustic"
+          "end": 13.641,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.768
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 41,
       "audio": "audio/41.mp3",
       "sourceStart": 654.489,
-      "sourceEnd": 669.66,
-      "duration": 15.171,
+      "sourceEnd": 670.526,
+      "duration": 16.037,
+      "highlightMode": "word",
       "words": [
         {
           "text": "तस्मात्त्वमिन्द्रियाण्यादौ",
-          "start": 0.026,
-          "end": 4.326,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.026,
-          "highlightEnd": 4.326,
-          "highlightMethod": "groq-word"
+          "start": 1.282,
+          "end": 4.324,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.663
         },
         {
           "text": "नियम्य",
-          "start": 4.941,
-          "end": 5.404,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.667,
-          "highlightGroup": 1,
-          "highlightStart": 4.326,
-          "highlightEnd": 7.226,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 4.944,
+          "end": 5.425,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.644
         },
         {
           "text": "भरतर्षभ",
-          "start": 5.545,
-          "end": 5.807,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.242,
-          "highlightGroup": 1,
-          "highlightStart": 4.326,
-          "highlightEnd": 7.226,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 5.785,
+          "end": 6.805,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.656
         },
         {
           "text": "पाप्मानं",
-          "start": 8.393,
-          "end": 9.599,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.834,
-          "highlightGroup": 2,
-          "highlightStart": 8.393,
-          "highlightEnd": 9.599,
-          "highlightMethod": "joint-boundary-acoustic"
+          "start": 8.407,
+          "end": 9.607,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.75
         },
         {
           "text": "प्रजहि",
-          "start": 9.821,
-          "end": 10.323,
-          "timingMethod": "joint-boundary-acoustic",
-          "score": 0.608,
-          "highlightGroup": 3,
-          "highlightStart": 9.526,
-          "highlightEnd": 11.826,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.827,
+          "end": 10.408,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.749
         },
         {
           "text": "ह्येनं",
-          "start": 10.727,
-          "end": 11.432,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.506,
-          "highlightGroup": 3,
-          "highlightStart": 9.526,
-          "highlightEnd": 11.826,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 10.428,
+          "end": 11.649,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.767
         },
         {
           "text": "ज्ञानविज्ञाननाशनम्",
-          "start": 11.826,
-          "end": 14.826,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 11.826,
-          "highlightEnd": 14.826,
-          "highlightMethod": "groq-word"
+          "start": 11.969,
+          "end": 16.032,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.722
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 42,
       "audio": "audio/42.mp3",
-      "sourceStart": 669.66,
+      "sourceStart": 670.526,
       "sourceEnd": 685.915,
-      "duration": 16.255,
+      "duration": 15.389,
+      "highlightMode": "word",
       "words": [
         {
           "text": "इन्द्रियाणि",
-          "start": 0.335,
-          "end": 2.055,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.335,
-          "highlightEnd": 2.055,
-          "highlightMethod": "groq-word"
+          "start": 0.005,
+          "end": 1.146,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.582
         },
         {
           "text": "पराण्याहुरिन्द्रियेभ्यः",
-          "start": 2.055,
-          "end": 6.155,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 2.055,
-          "highlightEnd": 6.155,
-          "highlightMethod": "groq-word"
+          "start": 1.286,
+          "end": 5.108,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.717
         },
         {
           "text": "परं",
-          "start": 6.155,
-          "end": 6.875,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 6.155,
-          "highlightEnd": 6.875,
-          "highlightMethod": "groq-word"
+          "start": 5.608,
+          "end": 6.049,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.793
         },
         {
           "text": "मनः",
-          "start": 6.875,
-          "end": 7.655,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 6.875,
-          "highlightEnd": 7.655,
-          "highlightMethod": "groq-word"
+          "start": 6.249,
+          "end": 8.01,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.999
         },
         {
           "text": "मनसस्तु",
-          "start": 8.775,
-          "end": 9.815,
-          "timingMethod": "groq-word",
-          "highlightGroup": 4,
-          "highlightStart": 8.775,
-          "highlightEnd": 9.815,
-          "highlightMethod": "groq-word"
+          "start": 8.03,
+          "end": 8.97,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.779
         },
         {
           "text": "परा",
-          "start": 9.947,
-          "end": 10.531,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.948,
-          "highlightGroup": 5,
-          "highlightStart": 9.815,
-          "highlightEnd": 12.695,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.091,
+          "end": 9.671,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.961
         },
         {
           "text": "बुद्धिर्यो",
-          "start": 10.712,
-          "end": 12.463,
-          "timingMethod": "groq-constrained-acoustic",
-          "score": 0.764,
-          "highlightGroup": 5,
-          "highlightStart": 9.815,
-          "highlightEnd": 12.695,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.851,
+          "end": 11.872,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.803
         },
         {
           "text": "बुद्धेः",
-          "start": 12.695,
-          "end": 13.855,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 12.695,
-          "highlightEnd": 13.855,
-          "highlightMethod": "groq-word"
+          "start": 12.032,
+          "end": 12.833,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.882
         },
         {
           "text": "परतस्तु",
-          "start": 13.855,
-          "end": 15.455,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 13.855,
-          "highlightEnd": 15.455,
-          "highlightMethod": "groq-word"
+          "start": 13.553,
+          "end": 14.534,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.81
         },
         {
           "text": "सः",
-          "start": 15.455,
-          "end": 16.255,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 15.455,
-          "highlightEnd": 16.255,
-          "highlightMethod": "groq-word"
+          "start": 14.694,
+          "end": 14.914,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.919
         }
-      ],
-      "highlightMode": "word"
+      ]
     },
     {
       "verse": 43,
@@ -4354,112 +3029,79 @@
       "sourceStart": 685.915,
       "sourceEnd": 701.295,
       "duration": 15.38,
+      "highlightMode": "word",
       "words": [
         {
           "text": "एवं",
-          "start": 0.0,
-          "end": 1.24,
-          "timingMethod": "groq-word",
-          "highlightGroup": 0,
-          "highlightStart": 0.0,
-          "highlightEnd": 1.24,
-          "highlightMethod": "groq-word"
+          "start": 0.698,
+          "end": 1.278,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.751
         },
         {
           "text": "बुद्धेः",
-          "start": 1.24,
-          "end": 2.32,
-          "timingMethod": "groq-word",
-          "highlightGroup": 1,
-          "highlightStart": 1.24,
-          "highlightEnd": 2.32,
-          "highlightMethod": "groq-word"
+          "start": 1.438,
+          "end": 2.139,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.928
         },
         {
           "text": "परं",
-          "start": 2.32,
-          "end": 2.82,
-          "timingMethod": "groq-word",
-          "highlightGroup": 2,
-          "highlightStart": 2.32,
-          "highlightEnd": 2.82,
-          "highlightMethod": "groq-word"
+          "start": 2.499,
+          "end": 2.799,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.654
         },
         {
           "text": "बुद्ध्वा",
-          "start": 2.82,
-          "end": 3.92,
-          "timingMethod": "groq-word",
-          "highlightGroup": 3,
-          "highlightStart": 2.82,
-          "highlightEnd": 3.92,
-          "highlightMethod": "groq-word"
+          "start": 3.04,
+          "end": 3.84,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.705
         },
         {
           "text": "संस्तभ्यात्मानमात्मना",
-          "start": 4.533,
-          "end": 7.241,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.775,
-          "highlightGroup": 4,
-          "highlightStart": 4.533,
-          "highlightEnd": 7.241,
-          "highlightMethod": "shared-stt-span-acoustic"
+          "start": 4.541,
+          "end": 7.243,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.785
         },
         {
           "text": "जहि",
-          "start": 8.986,
-          "end": 9.247,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.713,
-          "highlightGroup": 5,
-          "highlightStart": 7.48,
-          "highlightEnd": 10.28,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 8.985,
+          "end": 9.245,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.855
         },
         {
           "text": "शत्रुं",
-          "start": 9.367,
-          "end": 9.909,
-          "timingMethod": "shared-stt-span-acoustic",
-          "score": 0.543,
-          "highlightGroup": 5,
-          "highlightStart": 7.48,
-          "highlightEnd": 10.28,
-          "highlightMethod": "groq-constrained-acoustic"
+          "start": 9.365,
+          "end": 10.006,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.668
         },
         {
           "text": "महाबाहो",
-          "start": 10.28,
-          "end": 11.78,
-          "timingMethod": "groq-word",
-          "highlightGroup": 6,
-          "highlightStart": 10.28,
-          "highlightEnd": 11.78,
-          "highlightMethod": "groq-word"
+          "start": 10.146,
+          "end": 11.827,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.803
         },
         {
           "text": "कामरूपं",
-          "start": 11.78,
-          "end": 13.8,
-          "timingMethod": "groq-word",
-          "highlightGroup": 7,
-          "highlightStart": 11.78,
-          "highlightEnd": 13.8,
-          "highlightMethod": "groq-word"
+          "start": 12.388,
+          "end": 13.629,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.787
         },
         {
           "text": "दुरासदम्",
-          "start": 13.8,
-          "end": 15.1,
-          "timingMethod": "groq-word",
-          "highlightGroup": 8,
-          "highlightStart": 13.8,
-          "highlightEnd": 15.1,
-          "highlightMethod": "groq-word"
+          "start": 13.829,
+          "end": 14.77,
+          "timingMethod": "neighbor-context-acoustic",
+          "score": 0.802
         }
-      ],
-      "highlightMode": "word"
+      ]
     }
   ]
 }

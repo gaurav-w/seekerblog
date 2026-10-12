@@ -854,7 +854,7 @@ window.GITA_CHAPTER_9 = [
   {
     "sanskrit": "ते तं भुक्त्वा स्वर्गलोकं विशालं\nक्षीणे पुण्ये मर्त्यलोकं विशन्ति ।\nएवं त्रयीधर्ममनुप्रपन्ना\nगतागतं कामकामा लभन्ते ॥",
     "hi": "वे उस विशाल स्वर्गलोकके भोगोंको भोगकर पुण्य क्षीण होनेपर मृत्युलोकमें आ जाते हैं। इस प्रकार तीनों वेदोंमें कहे हुए सकाम धर्मका आश्रय लिये हुए भोगोंकी कामना करनेवाले मनुष्य आवागमनको प्राप्त होते हैं।",
-    "en": "9.21 They, having enjoyed the vast heaven, enter the world of mortals when their merit is exhausted; thus abiding by the injunctions of the ï1threeï1 (Vedas) and desiring (objects of) desires, they attain to the state of going and returning.",
+    "en": "9.21 They, having enjoyed the vast heaven, enter the world of mortals when their merit is exhausted; thus abiding by the injunctions of the three (Vedas) and desiring (objects of) desires, they attain to the state of going and returning.",
     "wordMeanings": {
       "ते": {
         "hi": "वे",

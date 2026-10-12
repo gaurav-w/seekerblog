@@ -139,6 +139,22 @@ function addInlineReader(relative, work, url) {
   }));
 }
 
+function addExternalReader(dataRelative, work, url) {
+  const sandbox = { window: {} };
+  vm.runInNewContext(read(dataRelative), sandbox, { timeout: 1000 });
+  const reader = sandbox.window.STOTRA_READER;
+  if (!reader || !Array.isArray(reader.verses)) throw new Error(`Stotra reader data not found in ${dataRelative}`);
+  const readerWork = reader.title ? `${work} (${reader.title})` : work;
+  reader.verses.forEach((verse, index) => addRecord({
+    work: readerWork,
+    location: `Stanza ${index + 1}`,
+    url: `${url}#${reader.id}-${index + 1}`,
+    source: [verse.sanskrit, transliterateDevanagari(verse.sanskrit)].join(' '),
+    hindi: verse.hi,
+    english: verse.en,
+  }));
+}
+
 function addNameCards(relative, work, url) {
   const html = read(relative);
   const articlePattern = /<article\b([^>]*)>([\s\S]*?)<\/article>/gi;
@@ -188,7 +204,9 @@ const stotras = catalog.sections.flatMap(section => section.works)
   .filter(work => work.url.startsWith('/stotra/') && work.id !== 'divine-names');
 for (const stotra of stotras) {
   const relative = `stotra/${stotra.id}/index.html`;
-  addInlineReader(relative, pageTitle(read(relative)), `stotra/${stotra.id}/`);
+  const readerData = `stotra/${stotra.id}/data.js`;
+  if (fs.existsSync(path.join(root, readerData))) addExternalReader(readerData, pageTitle(read(relative)), `stotra/${stotra.id}/`);
+  else addInlineReader(relative, pageTitle(read(relative)), `stotra/${stotra.id}/`);
 }
 
 const sahasranamaHtml = read('vishnu-sahasranama/index.html');

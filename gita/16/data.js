@@ -673,7 +673,7 @@ window.GITA_CHAPTER_16 = [
       },
       "मामात्मपरदेहेषु": {
         "hi": "मुझको · अपने और दूसरों के शरीरों में",
-        "en": "Me (the Supreme Lord) · in their own and others&rsquo; bodies"
+        "en": "Me (the Supreme Lord) · in their own and others’ bodies"
       },
       "प्रद्विषन्तोऽभ्यसूयकाः": {
         "hi": "द्वेष करने वाले · दूसरों के गुणों में दोष निकालने वाले (ईर्ष्यालु)",

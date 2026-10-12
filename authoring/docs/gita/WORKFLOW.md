@@ -254,4 +254,70 @@ switch is initially available, hides every inline gloss when off, and restores a
 meaning directly beneath every displayed Sanskrit token when on. Check at least
 the first, a middle, and the final verse in both Hindi and English.
 
+## 10. Audit and repair word markings across all chapters
+
+Run these commands from the repository root. The audit defaults to all 18
+chapters and checks all 700 verses / 6,545 canonical word occurrences. Supply a
+working FFmpeg path for full MP3 decoding:
+
+```powershell
+python authoring/scripts/audit-gita-timings.py --decode 'E:\Vishnu Sahasranama\bin\ffmpeg.exe' --output .gita-work/timing-audit.json
+node authoring/scripts/test-gita-highlights.cjs
+python authoring/scripts/test-repair-gita-timings.py
+python authoring/scripts/test-gita-context.py
+```
+
+The JSON report includes source hashes, zero-duration cues, short cues, low
+acoustic scores, long gaps, and transcript evidence extending beyond a cut.
+`transcriptSeamsChecked` records actual evidence coverage; zero suspect cuts with
+zero coverage is not a verified result. Flags are listening candidates: short
+particles and pauses can be correct, and acoustic scores are not probabilities.
+
+For a source with compatible cached evidence and installed local models,
+`repair-gita-context.py` aligns canonical Sanskrit with the previous and next
+spoken lines. This addresses truncated compounds such as 18.68, where aligning
+the ending without the next verse could place the next verse's first word too
+early. Raw acoustic results are cached by recording, text/window, and model.
+Derived output fingerprints also include the repair scripts. The script never
+calls a cloud API, changes the master, or publishes the website.
+
+```powershell
+$alignmentPython = 'E:\Vishnu Sahasranama\.venv-align\Scripts\python.exe'
+& $alignmentPython authoring/scripts/repair-gita-context.py --ffmpeg 'E:\Vishnu Sahasranama\bin\ffmpeg.exe'
+python authoring/scripts/audit-gita-timings.py --candidate context-repair --decode 'E:\Vishnu Sahasranama\bin\ffmpeg.exe' --output .gita-work/context-audit.json
+```
+
+Candidates are staged under `.gita-work/chapter-N/context-repair/`. Disputed
+cuts stop that chapter's promotion; inspect its `report.json` and cached acoustic
+results before changing a window. Zero-score boundary alignments and collapsed
+compounds cannot justify moving a cut. Established source-supported overrides
+are preserved. If local ASR omits a chanted line, the script may retain its rough
+search window from the current source-hashed manifest; those lines remain
+explicitly flagged and do not count as independent transcript verification.
+After the acoustic pass completes and before promotion, `--cached-only` rebuilds from the saved
+results without loading an alignment model and refuses any missing evidence.
+
+Preview staged candidates and review flagged passages against the master. Once
+the complete candidate audit and the appropriate reader checks pass, promote
+the selected chapters locally:
+
+```powershell
+& $alignmentPython authoring/scripts/repair-gita-context.py --promote --audit .gita-work/context-audit.json
+python authoring/scripts/version-gita-reader-assets.py
+python authoring/scripts/version-gita-reader-assets.py --check
+```
+
+Promotion checks every candidate, original manifest, source recording, and
+decoded MP3 hash before replacing any live asset. Original changed files remain
+under `.gita-work/pre-context-repair/`. Keep this ignored backup and the audit
+with the local authoring workspace. Use `--chapters` on the repair and audit
+commands to restrict a later repair to specific chapters. Manifests remain
+`machine-aligned` until a documented human listening review supports a stronger
+status. Publication remains a separate action.
+
+Refresh asset versions after changing shared reader CSS/JavaScript or chapter
+timings. Chapter HTML uses content hashes for those files; the player versions
+audio URLs with the alignment fingerprint. This prevents a browser's older
+clips or highlight code from being mixed with newly repaired timings.
+
 Finish by opening the local preview, writing the chapter report, and reporting the completed files, tests, source decisions, and remaining listening-review limitations. Publishing/deployment is a separate action unless the user requested it.

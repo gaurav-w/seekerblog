@@ -1217,7 +1217,7 @@ window.GITA_CHAPTER_11 = [
       },
       "सूतपुत्रस्तथासौ": {
         "hi": "सूतपुत्र (कर्ण) · तथा · वह",
-        "en": "the charioteer&rsquo;s son (Karna) · and · that"
+        "en": "the charioteer’s son (Karna) · and · that"
       },
       "सहास्मदीयैरपि": {
         "hi": "साथ · हमारे · भी",

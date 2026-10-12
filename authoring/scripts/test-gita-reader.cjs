@@ -34,7 +34,7 @@ const url = process.argv[2] || 'http://127.0.0.1:43128/gita/3/';
     assert.equal(await page.locator('.word-meaning').first().textContent(), 'Arjuna');
     await page.locator('#playVerse').click();
     await page.waitForFunction(() => !document.getElementById('gitaAudio').paused && document.getElementById('gitaAudio').currentTime > .4);
-    assert(mediaRequests.every(path => path.endsWith('/01.mp3')), 'Only the current shloka should download');
+    assert(mediaRequests.every(url => new URL(url).pathname.endsWith('/01.mp3')), 'Only the current shloka should download');
     await page.locator('#playVerse').click();
     const pausedAt = await page.locator('audio').evaluate(a => a.currentTime);
     await page.waitForTimeout(250);
