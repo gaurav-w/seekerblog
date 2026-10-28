@@ -115,6 +115,7 @@ body { padding-bottom: 4rem; }
 .path-card:hover { border-color:var(--lamp); background:var(--bg-card-hover); }
 .path-card strong { display:block; color:var(--lamp-bright); margin-bottom:.3rem; }
 .path-card span { color:var(--ink-muted); font-size:.9rem; line-height:1.5; }
+.return-path { display:flex; justify-content:center; margin:1.25rem 0 0; }
 .verse-pager { display:flex; gap:1rem; justify-content:space-between; margin-top:2.5rem; flex-wrap:wrap; }
 .pager-btn { display:flex; flex-direction:column; padding:1.1rem 1.3rem; background:var(--bg-card); border:1px solid var(--line); border-radius:var(--radius-md); text-decoration:none; color:var(--ink); flex:1; min-width:14rem; transition:border-color var(--transition-fast), transform var(--transition-fast), background var(--transition-fast); }
 .pager-btn:hover { border-color:var(--lamp); background:var(--bg-card-hover); transform:translateY(-2px); }
@@ -131,7 +132,7 @@ body { padding-bottom: 4rem; }
 <main class="guide">
   <nav class="site-nav" aria-label="Page navigation">
     <a href="../../../">← Chanting library</a>
-    <a href="../../">Open the reader →</a>
+    <a href="../../">← Main Sahasranama path</a>
   </nav>
 
   <header class="hero">
@@ -210,6 +211,7 @@ body { padding-bottom: 4rem; }
       </a>
     </div>
   </section>
+  <p class="return-path"><a class="button secondary" href="../../">← Return to main Sahasranama path</a></p>
 </main>
 <script>
 (function () {

@@ -574,3 +574,8 @@ html[data-ls="1"] .deva[data-paged="1"] .vline.ls-on {
 html[data-ls="1"] .sbg-status {
   bottom: .8rem;
 }
+
+/* A clear return path in the reader header. */
+.reader-library-link { display: inline-block; margin-top: .35rem; color: var(--accent, var(--lamp)); font-size: .78rem; line-height: 1.4; text-decoration: none; }
+.reader-library-link:hover { text-decoration: underline; }
+.reader-library-link:focus-visible { outline: 2px solid var(--lamp); outline-offset: 3px; }

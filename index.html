@@ -354,13 +354,12 @@ header {
 .filter-pills {
   display: flex;
   gap: 0.55rem;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  max-width: 100%;
   padding: 0.15rem 0 0.45rem;
   min-width: 0;
-  scrollbar-width: none;
 }
-
-.filter-pills::-webkit-scrollbar { display: none; }
 
 .filter-pill {
   padding: 0.5rem 1rem;
